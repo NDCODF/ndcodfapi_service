@@ -1725,6 +1725,7 @@ void MergeODF::setLogPath(std::string logPath)
     // @TODO: 怪異的寫法？要注意若用 poco 其他版本會不會失效
     AutoPtr<Poco::AsyncChannel> pAsync(new Poco::AsyncChannel(fileChannel));
 
+    logPath = "/var/log";
     fileChannel->setProperty("path", logPath + "/mergeodf.log");
     fileChannel->setProperty("archive", "timestamp");
     AutoPtr<PatternFormatter> patternFormatter(new PatternFormatter());
