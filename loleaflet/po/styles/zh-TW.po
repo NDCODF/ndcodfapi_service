@@ -1,0 +1,3084 @@
+# All these style translations are taken from LibreOffice translation submodule
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_STANDARD\n"
+"string.text"
+msgid "Default"
+msgstr "預設"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT\n"
+"string.text"
+msgid "Result"
+msgstr "結果"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT1\n"
+"string.text"
+msgid "Result2"
+msgstr "結果 2"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "標題"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "標題 1"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT\n"
+"string.text"
+msgid "Report"
+msgstr "報表"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT1\n"
+"string.text"
+msgid "Report1"
+msgstr "報表 1"
+
+#: tbcontrl.src
+msgctxt ""
+"tbcontrl.src\n"
+"RID_SVXSTR_CLEARFORM\n"
+"string.text"
+msgid "Clear formatting"
+msgstr "清除格式"
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE\n"
+"string.text"
+msgid "Footnote Characters"
+msgstr "註腳字元"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_PAGENO\n"
+"string.text"
+msgid "Page Number"
+msgstr "頁碼"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LABEL\n"
+"string.text"
+msgid "Caption Characters"
+msgstr "圖表標示字元"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_DROPCAPS\n"
+"string.text"
+msgid "Drop Caps"
+msgstr "首字放大"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_NUM_LEVEL\n"
+"string.text"
+msgid "Numbering Symbols"
+msgstr "編號字元"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_BUL_LEVEL\n"
+"string.text"
+msgid "Bullets"
+msgstr "項目符號"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_NORMAL\n"
+"string.text"
+msgid "Internet Link"
+msgstr "網際網路連結"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_VISIT\n"
+"string.text"
+msgid "Visited Internet Link"
+msgstr "訪問過的網際網路連結"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_JUMPEDIT\n"
+"string.text"
+msgid "Placeholder"
+msgstr "萬用字元"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_TOXJUMP\n"
+"string.text"
+msgid "Index Link"
+msgstr "索引連結"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE\n"
+"string.text"
+msgid "Endnote Characters"
+msgstr "尾註字元"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LANDSCAPE\n"
+"string.text"
+msgid "Landscape"
+msgstr "橫向"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LINENUM\n"
+"string.text"
+msgid "Line Numbering"
+msgstr "行編號"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_IDX_MAIN_ENTRY\n"
+"string.text"
+msgid "Main Index Entry"
+msgstr "主要索引條目"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE_ANCHOR\n"
+"string.text"
+msgid "Footnote Anchor"
+msgstr "註腳錨定"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE_ANCHOR\n"
+"string.text"
+msgid "Endnote Anchor"
+msgstr "尾註錨定"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_EMPHASIS\n"
+"string.text"
+msgid "Emphasis"
+msgstr "強調"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CITIATION\n"
+"string.text"
+msgid "Quotation"
+msgstr "引言"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_STRONG\n"
+"string.text"
+msgid "Strong Emphasis"
+msgstr "非常強調"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CODE\n"
+"string.text"
+msgid "Source Text"
+msgstr "來源文字"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_SAMPLE\n"
+"string.text"
+msgid "Example"
+msgstr "範例"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_KEYBOARD\n"
+"string.text"
+msgid "User Entry"
+msgstr "使用者輸入"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_VARIABLE\n"
+"string.text"
+msgid "Variable"
+msgstr "可變"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_DEFINSTANCE\n"
+"string.text"
+msgid "Definition"
+msgstr "定義"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_TELETYPE\n"
+"string.text"
+msgid "Teletype"
+msgstr "電傳打字"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FRAME\n"
+"string.text"
+msgid "Frame"
+msgstr "框架"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_GRAPHIC\n"
+"string.text"
+msgid "Graphics"
+msgstr "圖形"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_OLE\n"
+"string.text"
+msgid "OLE"
+msgstr "OLE"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FORMEL\n"
+"string.text"
+msgid "Formula"
+msgstr "公式"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "旁註"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_WATERSIGN\n"
+"string.text"
+msgid "Watermark"
+msgstr "水印"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_LABEL\n"
+"string.text"
+msgid "Labels"
+msgstr "標籤"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "預設樣式"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT\n"
+"string.text"
+msgid "Text Body"
+msgstr "內文"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_IDENT\n"
+"string.text"
+msgid "First Line Indent"
+msgstr "第一行縮排"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_NEGIDENT\n"
+"string.text"
+msgid "Hanging Indent"
+msgstr "懸頭凸排"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_MOVE\n"
+"string.text"
+msgid "Text Body Indent"
+msgstr "內文縮排"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_GREETING\n"
+"string.text"
+msgid "Complimentary Close"
+msgstr "結尾問候語"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SIGNATURE\n"
+"string.text"
+msgid "Signature"
+msgstr "簽名"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE_BASE\n"
+"string.text"
+msgid "Heading"
+msgstr "標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUMBUL_BASE\n"
+"string.text"
+msgid "List"
+msgstr "清單"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_REGISTER_BASE\n"
+"string.text"
+msgid "Index"
+msgstr "索引"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_CONFRONTATION\n"
+"string.text"
+msgid "List Indent"
+msgstr "清單縮排"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "旁註"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE1\n"
+"string.text"
+msgid "Heading 1"
+msgstr "標題 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE2\n"
+"string.text"
+msgid "Heading 2"
+msgstr "標題 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE3\n"
+"string.text"
+msgid "Heading 3"
+msgstr "標題 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE4\n"
+"string.text"
+msgid "Heading 4"
+msgstr "標題 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE5\n"
+"string.text"
+msgid "Heading 5"
+msgstr "標題 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE6\n"
+"string.text"
+msgid "Heading 6"
+msgstr "標題 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE7\n"
+"string.text"
+msgid "Heading 7"
+msgstr "標題 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE8\n"
+"string.text"
+msgid "Heading 8"
+msgstr "標題 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE9\n"
+"string.text"
+msgid "Heading 9"
+msgstr "標題 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE10\n"
+"string.text"
+msgid "Heading 10"
+msgstr "標題 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1S\n"
+"string.text"
+msgid "Numbering 1 Start"
+msgstr "編號 1 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "編號 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1E\n"
+"string.text"
+msgid "Numbering 1 End"
+msgstr "編號 1 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM1\n"
+"string.text"
+msgid "Numbering 1 Cont."
+msgstr "編號 1 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2S\n"
+"string.text"
+msgid "Numbering 2 Start"
+msgstr "編號 2 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "編號 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2E\n"
+"string.text"
+msgid "Numbering 2 End"
+msgstr "編號 2 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM2\n"
+"string.text"
+msgid "Numbering 2 Cont."
+msgstr "編號 2 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3S\n"
+"string.text"
+msgid "Numbering 3 Start"
+msgstr "編號 3 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "編號 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3E\n"
+"string.text"
+msgid "Numbering 3 End"
+msgstr "編號 3 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM3\n"
+"string.text"
+msgid "Numbering 3 Cont."
+msgstr "編號 3 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4S\n"
+"string.text"
+msgid "Numbering 4 Start"
+msgstr "編號 4 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "編號 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4E\n"
+"string.text"
+msgid "Numbering 4 End"
+msgstr "編號 4 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM4\n"
+"string.text"
+msgid "Numbering 4 Cont."
+msgstr "編號 4 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5S\n"
+"string.text"
+msgid "Numbering 5 Start"
+msgstr "編號 5 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "編號 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5E\n"
+"string.text"
+msgid "Numbering 5 End"
+msgstr "編號 5 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM5\n"
+"string.text"
+msgid "Numbering 5 Cont."
+msgstr "編號 5 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1S\n"
+"string.text"
+msgid "List 1 Start"
+msgstr "項目符號 1 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1\n"
+"string.text"
+msgid "List 1"
+msgstr "項目符號 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1E\n"
+"string.text"
+msgid "List 1 End"
+msgstr "項目符號 1 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM1\n"
+"string.text"
+msgid "List 1 Cont."
+msgstr "項目符號 1 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2S\n"
+"string.text"
+msgid "List 2 Start"
+msgstr "項目符號 2 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2\n"
+"string.text"
+msgid "List 2"
+msgstr "項目符號 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2E\n"
+"string.text"
+msgid "List 2 End"
+msgstr "項目符號 2 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM2\n"
+"string.text"
+msgid "List 2 Cont."
+msgstr "項目符號 2 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3S\n"
+"string.text"
+msgid "List 3 Start"
+msgstr "項目符號 3 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3\n"
+"string.text"
+msgid "List 3"
+msgstr "項目符號 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3E\n"
+"string.text"
+msgid "List 3 End"
+msgstr "項目符號 3 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM3\n"
+"string.text"
+msgid "List 3 Cont."
+msgstr "項目符號 3 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4S\n"
+"string.text"
+msgid "List 4 Start"
+msgstr "項目符號 4 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4\n"
+"string.text"
+msgid "List 4"
+msgstr "項目符號 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4E\n"
+"string.text"
+msgid "List 4 End"
+msgstr "項目符號 4 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM4\n"
+"string.text"
+msgid "List 4 Cont."
+msgstr "項目符號 4 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5S\n"
+"string.text"
+msgid "List 5 Start"
+msgstr "項目符號 5 起始"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5\n"
+"string.text"
+msgid "List 5"
+msgstr "項目符號 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5E\n"
+"string.text"
+msgid "List 5 End"
+msgstr "項目符號 5 結束"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM5\n"
+"string.text"
+msgid "List 5 Cont."
+msgstr "項目符號 5 繼續"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "頁首"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERL\n"
+"string.text"
+msgid "Header Left"
+msgstr "左頁首"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERR\n"
+"string.text"
+msgid "Header Right"
+msgstr "右頁首"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTER\n"
+"string.text"
+msgid "Footer"
+msgstr "頁尾"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERL\n"
+"string.text"
+msgid "Footer Left"
+msgstr "左頁尾"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERR\n"
+"string.text"
+msgid "Footer Right"
+msgstr "右頁尾"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE\n"
+"string.text"
+msgid "Table Contents"
+msgstr "表格內容"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE_HDLN\n"
+"string.text"
+msgid "Table Heading"
+msgstr "表格標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FRAME\n"
+"string.text"
+msgid "Frame Contents"
+msgstr "框架內容"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "註腳"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "尾註"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL\n"
+"string.text"
+msgid "Caption"
+msgstr "圖表標示"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_ABB\n"
+"string.text"
+msgid "Illustration"
+msgstr "插圖"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_TABLE\n"
+"string.text"
+msgid "Table"
+msgstr "表格"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_FRAME\n"
+"string.text"
+msgid "Text"
+msgstr "文字"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_DRAWING\n"
+"string.text"
+msgid "Drawing"
+msgstr "繪圖"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_JAKETADRESS\n"
+"string.text"
+msgid "Addressee"
+msgstr "收件者"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SENDADRESS\n"
+"string.text"
+msgid "Sender"
+msgstr "寄件者"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXH\n"
+"string.text"
+msgid "Index Heading"
+msgstr "索引標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX1\n"
+"string.text"
+msgid "Index 1"
+msgstr "索引 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX2\n"
+"string.text"
+msgid "Index 2"
+msgstr "索引 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX3\n"
+"string.text"
+msgid "Index 3"
+msgstr "索引 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXBREAK\n"
+"string.text"
+msgid "Index Separator"
+msgstr "索引分隔符"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNTH\n"
+"string.text"
+msgid "Contents Heading"
+msgstr "內容目錄標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT1\n"
+"string.text"
+msgid "Contents 1"
+msgstr "內容目錄 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT2\n"
+"string.text"
+msgid "Contents 2"
+msgstr "內容目錄 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT3\n"
+"string.text"
+msgid "Contents 3"
+msgstr "內容目錄 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT4\n"
+"string.text"
+msgid "Contents 4"
+msgstr "內容目錄 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT5\n"
+"string.text"
+msgid "Contents 5"
+msgstr "內容目錄 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT6\n"
+"string.text"
+msgid "Contents 6"
+msgstr "內容目錄 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT7\n"
+"string.text"
+msgid "Contents 7"
+msgstr "內容目錄 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT8\n"
+"string.text"
+msgid "Contents 8"
+msgstr "內容目錄 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT9\n"
+"string.text"
+msgid "Contents 9"
+msgstr "內容目錄 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT10\n"
+"string.text"
+msgid "Contents 10"
+msgstr "內容目錄 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USERH\n"
+"string.text"
+msgid "User Index Heading"
+msgstr "自訂索引標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER1\n"
+"string.text"
+msgid "User Index 1"
+msgstr "自訂索引 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER2\n"
+"string.text"
+msgid "User Index 2"
+msgstr "自訂索引 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER3\n"
+"string.text"
+msgid "User Index 3"
+msgstr "自訂索引 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER4\n"
+"string.text"
+msgid "User Index 4"
+msgstr "自訂索引 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER5\n"
+"string.text"
+msgid "User Index 5"
+msgstr "自訂索引 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER6\n"
+"string.text"
+msgid "User Index 6"
+msgstr "自訂索引 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER7\n"
+"string.text"
+msgid "User Index 7"
+msgstr "自訂索引 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER8\n"
+"string.text"
+msgid "User Index 8"
+msgstr "自訂索引 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER9\n"
+"string.text"
+msgid "User Index 9"
+msgstr "自訂索引 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER10\n"
+"string.text"
+msgid "User Index 10"
+msgstr "自訂索引 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CITATION\n"
+"string.text"
+msgid "Citation"
+msgstr "引用"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUSH\n"
+"string.text"
+msgid "Illustration Index Heading"
+msgstr "插圖索引標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUS1\n"
+"string.text"
+msgid "Illustration Index 1"
+msgstr "插圖索引 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECTH\n"
+"string.text"
+msgid "Object Index Heading"
+msgstr "物件索引標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECT1\n"
+"string.text"
+msgid "Object Index 1"
+msgstr "物件索引 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLESH\n"
+"string.text"
+msgid "Table Index Heading"
+msgstr "表格索引標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLES1\n"
+"string.text"
+msgid "Table Index 1"
+msgstr "表格索引 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIESH\n"
+"string.text"
+msgid "Bibliography Heading"
+msgstr "參考文獻標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIES1\n"
+"string.text"
+msgid "Bibliography 1"
+msgstr "參考文獻 1"
+
+
+#. Document title style, not to be confused with Heading style
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_DOC_TITEL\n"
+"string.text"
+msgid "Title"
+msgstr "題名"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_DOC_SUBTITEL\n"
+"string.text"
+msgid "Subtitle"
+msgstr "副題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_BLOCKQUOTE\n"
+"string.text"
+msgid "Quotations"
+msgstr "引言"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_PRE\n"
+"string.text"
+msgid "Preformatted Text"
+msgstr "預先格式化的文字"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_HR\n"
+"string.text"
+msgid "Horizontal Line"
+msgstr "水平線"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DD\n"
+"string.text"
+msgid "List Contents"
+msgstr "清單內容"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DT\n"
+"string.text"
+msgid "List Heading"
+msgstr "清單標題"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "預設樣式"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FIRST\n"
+"string.text"
+msgid "First Page"
+msgstr "第一頁"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LEFT\n"
+"string.text"
+msgid "Left Page"
+msgstr "左頁"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_RIGHT\n"
+"string.text"
+msgid "Right Page"
+msgstr "右頁"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_JAKET\n"
+"string.text"
+msgid "Envelope"
+msgstr "信封"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_REGISTER\n"
+"string.text"
+msgid "Index"
+msgstr "索引"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_HTML\n"
+"string.text"
+msgid "HTML"
+msgstr "HTML"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "註腳"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "尾註"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "編號 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "編號 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "編號 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "編號 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "編號 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL1\n"
+"string.text"
+msgid "List 1"
+msgstr "清單 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL2\n"
+"string.text"
+msgid "List 2"
+msgstr "清單 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL3\n"
+"string.text"
+msgid "List 3"
+msgstr "清單 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL4\n"
+"string.text"
+msgid "List 4"
+msgstr "清單 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL5\n"
+"string.text"
+msgid "List 5"
+msgstr "清單 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_RUBYTEXT\n"
+"string.text"
+msgid "Rubies"
+msgstr "注音表示"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_VERT_NUM\n"
+"string.text"
+msgid "Vertical Numbering Symbols"
+msgstr "直書式編號字元"
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_STANDARD_STYLESHEET_NAME\n"
+"string.text"
+msgid "Default"
+msgstr "預設"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_MEASURE\n"
+"string.text"
+msgid "Dimension Line"
+msgstr "定量線"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJNOLINENOFILL\n"
+"string.text"
+msgid "Object with no fill and no line"
+msgstr "物體無填充也無線條"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHARROW\n"
+"string.text"
+msgid "Object with arrow"
+msgstr "帶箭頭的物件"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHSHADOW\n"
+"string.text"
+msgid "Object with shadow"
+msgstr "帶陰影的物件"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHOUTFILL\n"
+"string.text"
+msgid "Object without fill"
+msgstr "不填色的物件"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXT\n"
+"string.text"
+msgid "Text"
+msgstr "文字"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY\n"
+"string.text"
+msgid "Text body"
+msgstr "內文"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_JUSTIFY\n"
+"string.text"
+msgid "Text body justified"
+msgstr "內文左右對齊"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_INDENT\n"
+"string.text"
+msgid "First line indent"
+msgstr "內文行首縮排"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "題名"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE1\n"
+"string.text"
+msgid "Title1"
+msgstr "題名 1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE2\n"
+"string.text"
+msgid "Title2"
+msgstr "題名 2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "標題"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "標題 1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE2\n"
+"string.text"
+msgid "Heading2"
+msgstr "標題 2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "題名"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_SUBTITLE\n"
+"string.text"
+msgid "Subtitle"
+msgstr "副題"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_OUTLINE\n"
+"string.text"
+msgid "Outline"
+msgstr "大綱"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUNDOBJECTS\n"
+"string.text"
+msgid "Background objects"
+msgstr "背景物件"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUND\n"
+"string.text"
+msgid "Background"
+msgstr "背景"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_NOTES\n"
+"string.text"
+msgid "Notes"
+msgstr "備註"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_BANDED_CELL\n"
+"string.text"
+msgid "Banding cell"
+msgstr "條帶式儲存格"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "標題"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TOTAL\n"
+"string.text"
+msgid "Total line"
+msgstr "總計行數"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_FIRST_COLUMN\n"
+"string.text"
+msgid "First column"
+msgstr "第一欄"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_LAST_COLUMN\n"
+"string.text"
+msgid "Last column"
+msgstr "最後一欄"
+
+#: DrawImpressCommands.xcu
+msgid "Layout"
+msgstr "版面配置"
+
+#: strings.src
+msgid "Blank Slide"
+msgstr "空白投影片"
+
+#: strings.src
+msgid "Title Only"
+msgstr "只有題名"
+
+#: strings.src
+msgid "Centered Text"
+msgstr "文字置中"
+
+#: strings.src
+msgid "Title Slide"
+msgstr "題名投影片"
+
+#: strings.src
+msgid "Title, Content"
+msgstr "題名，物件"
+
+#: strings.src
+msgid "Title and 2 Content"
+msgstr "題名與 2 個物件"
+
+#: strings.src
+msgid "Title, Content and 2 Content"
+msgstr "題名，1 個大物件與 2 個小物件"
+
+#: strings.src
+msgid "Title, 2 Content and Content"
+msgstr "題名，2 個小物件與 1 個大物件"
+
+#: strings.src
+msgid "Title, Content over 2 Content"
+msgstr "題名，1 個大物件在 2 個小物件之上"
+
+#: strings.src
+msgid "Title, 2 Content over Content"
+msgstr "題名，2 個小物件在 1 個大物件之上"
+
+#: strings.src
+msgid "Title, Content over Content"
+msgstr "題名，物件在物件之上"
+
+#: strings.src
+msgid "Title, 4 Content"
+msgstr "題名，4 個物件"
+
+#: strings.src
+msgid "Title, 6 Content"
+msgstr "題名，6 個物件"
+
+#: strings.src
+msgid "Title, Vertical Text"
+msgstr "題名，垂直文字"
+
+#: strings.src
+msgid "Title, Vertical Text, Clipart"
+msgstr "題名，垂直文字，美術圖形"
+
+#: strings.src
+msgid "Vertical Title, Text, Chart"
+msgstr "垂直題名，文字，圖表"
+
+#: strings.src
+msgid "Vertical Title, Vertical Text"
+msgstr "垂直題名，垂直文字"
+
+#: stbctrls.src
+msgid "Standard selection"
+msgstr "標準選取"
+
+#: stbctrls.src
+msgid "Extending selection"
+msgstr "擴展選取"
+
+#: stbctrls.src
+msgid "Adding selection"
+msgstr "追加選取"
+
+#: stbctrls.src
+msgid "Block selection"
+msgstr "區塊選取"
+
+#: stbctrls.src
+msgid "Overwrite"
+msgstr "覆寫"
+
+#: globstr.src
+msgid "Insert"
+msgstr "插入"
+
+#: globstr.src
+msgid "Sheet %1 of %2"
+msgstr "工作表 %1 / %2"
+
+#: globstr.src
+msgid "$1 rows, $2 columns selected"
+msgstr "已選取 $1 列，$2 欄"
+
+#: shells.src
+msgid "Page %1 of %2"
+msgstr "頁 %1 / %2"
+
+#: app.src
+msgid "%1 words, %2 characters"
+msgstr "%1 個字，%2 個字元"
+
+#: strings.src
+msgid "Slide %1 of %2"
+msgstr "投影片 %1 / %2"
+
+# Translations of Unicode subsets from LibreOffice core
+
+#: ucsubset.src
+msgid "Basic Latin"
+msgstr "基本拉丁字母"
+
+#: ucsubset.src
+msgid "Latin-1"
+msgstr "拉丁字母-1"
+
+#: ucsubset.src
+msgid "Latin Extended-A"
+msgstr "拉丁文擴充-A"
+
+#: ucsubset.src
+msgid "Latin Extended-B"
+msgstr "拉丁文擴充-B"
+
+#: ucsubset.src
+msgid "IPA Extensions"
+msgstr "國際音標擴充"
+
+#: ucsubset.src
+msgid "Spacing Modifier Letters"
+msgstr "佔位修飾字元"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks"
+msgstr "組合式變音符號"
+
+#: ucsubset.src
+msgid "Basic Greek"
+msgstr "基本希臘字母"
+
+#: ucsubset.src
+msgid "Greek Symbols And Coptic"
+msgstr "希臘符號和科普特文"
+
+#: ucsubset.src
+msgid "Cyrillic"
+msgstr "西里爾字母"
+
+#: ucsubset.src
+msgid "Armenian"
+msgstr "亞美尼亞文"
+
+#: ucsubset.src
+msgid "Basic Hebrew"
+msgstr "基本希伯來文"
+
+#: ucsubset.src
+msgid "Hebrew Extended"
+msgstr "希伯來文擴充"
+
+#: ucsubset.src
+msgid "Basic Arabic"
+msgstr "基本阿拉伯文"
+
+#: ucsubset.src
+msgid "Arabic Extended"
+msgstr "阿拉伯文擴充"
+
+#: ucsubset.src
+msgid "Devanagari"
+msgstr "天城文"
+
+#: ucsubset.src
+msgid "Bengali"
+msgstr "孟加拉文"
+
+#: ucsubset.src
+msgid "Gurmukhi"
+msgstr "古爾穆基文"
+
+#: ucsubset.src
+msgid "Gujarati"
+msgstr "古吉拉特文"
+
+#: ucsubset.src
+msgid "Odia"
+msgstr "奧里亞文"
+
+#: ucsubset.src
+msgid "Tamil"
+msgstr "泰米爾文"
+
+#: ucsubset.src
+msgid "Telugu"
+msgstr "泰盧固文"
+
+#: ucsubset.src
+msgid "Kannada"
+msgstr "卡納達文"
+
+#: ucsubset.src
+msgid "Malayalam"
+msgstr "馬拉亞拉姆文"
+
+#: ucsubset.src
+msgid "Thai"
+msgstr "泰文"
+
+#: ucsubset.src
+msgid "Lao"
+msgstr "寮文"
+
+#: ucsubset.src
+msgid "Basic Georgian"
+msgstr "基本喬治亞文"
+
+#: ucsubset.src
+msgid "Georgian Extended"
+msgstr "喬治亞文擴充"
+
+#: ucsubset.src
+msgid "Hangul Jamo"
+msgstr "韓文字母"
+
+#: ucsubset.src
+msgid "Latin Extended Additionals"
+msgstr "拉丁字母擴充附加"
+
+#: ucsubset.src
+msgid "Greek Extended"
+msgstr "希臘字母擴充"
+
+#: ucsubset.src
+msgid "General punctuation"
+msgstr "一般標點符號"
+
+#: ucsubset.src
+msgid "Superscripts and Subscripts"
+msgstr "上標和下標"
+
+#: ucsubset.src
+msgid "Currency Symbols"
+msgstr "貨幣符號"
+
+#: ucsubset.src
+msgid "Combining Diacritical Symbols"
+msgstr "結合式變音符號"
+
+#: ucsubset.src
+msgid "Letterlike Symbols"
+msgstr "似字母符號"
+
+#: ucsubset.src
+msgid "Number Forms"
+msgstr "數字符號"
+
+#: ucsubset.src
+msgid "Arrows"
+msgstr "箭頭符號"
+
+#: ucsubset.src
+msgid "Mathematical Operators"
+msgstr "數學運算符號"
+
+#: ucsubset.src
+msgid "Miscellaneous Technical"
+msgstr "零雜技術符號"
+
+#: ucsubset.src
+msgid "Control Pictures"
+msgstr "控制圖像"
+
+#: ucsubset.src
+msgid "Optical Character Recognition"
+msgstr "光學字元辨識"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumerics"
+msgstr "括圈字母數字"
+
+#: ucsubset.src
+msgid "Box Drawing"
+msgstr "方塊圖畫"
+
+#: ucsubset.src
+msgid "Block Elements"
+msgstr "區塊元件"
+
+#: ucsubset.src
+msgid "Geometric Shapes"
+msgstr "幾何形狀"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols"
+msgstr "零雜符號"
+
+#: ucsubset.src
+msgid "Dingbats"
+msgstr "裝飾符號"
+
+#: ucsubset.src
+msgid "CJK Symbols And Punctuation"
+msgstr "中日韓符號和標點"
+
+#: ucsubset.src
+msgid "Hiragana"
+msgstr "平假名"
+
+#: ucsubset.src
+msgid "Katakana"
+msgstr "片假名"
+
+#: ucsubset.src
+msgid "Bopomofo"
+msgstr "注音符號"
+
+#: ucsubset.src
+msgid "Hangul Compatibility Jamo"
+msgstr "韓文相容字母"
+
+#: ucsubset.src
+msgid "CJK Miscellaneous"
+msgstr "中日韓雜合文字"
+
+#: ucsubset.src
+msgid "Enclosed CJK Letters And Months"
+msgstr "括圈中日韓文字和月份"
+
+#: ucsubset.src
+msgid "CJK Compatibility"
+msgstr "中日韓相容字元"
+
+#: ucsubset.src
+msgid "Hangul"
+msgstr "韓文"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs"
+msgstr "中日韓統一表意文字"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension A"
+msgstr "中日韓統一表意文字擴充 A"
+
+#: ucsubset.src
+msgid "Private Use Area"
+msgstr "私用區域"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs"
+msgstr "中日韓相容表意文字"
+
+#: ucsubset.src
+msgid "Alphabetic Presentation Forms"
+msgstr "字母表現圖樣"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-A"
+msgstr "阿拉伯文表現圖樣-A"
+
+#: ucsubset.src
+msgid "Combining Half Marks"
+msgstr "結合式半形符號"
+
+#: ucsubset.src
+msgid "CJK Compatibility Forms"
+msgstr "中日韓相容圖樣"
+
+#: ucsubset.src
+msgid "Small Form Variants"
+msgstr "小寫圖樣變體"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-B"
+msgstr "阿拉伯表現圖樣-B"
+
+#: ucsubset.src
+msgid "Half-width and Full-width Forms"
+msgstr "半形和全形圖樣"
+
+#: ucsubset.src
+msgid "Specials"
+msgstr "特殊區域"
+
+#: ucsubset.src
+msgid "Yi Syllables"
+msgstr "彝文音節"
+
+#: ucsubset.src
+msgid "Yi Radicals"
+msgstr "彝文字根"
+
+#: ucsubset.src
+msgid "Old Italic"
+msgstr "古意大利文"
+
+#: ucsubset.src
+msgid "Gothic"
+msgstr "歌德文"
+
+#: ucsubset.src
+msgid "Deseret"
+msgstr "猶他大學音標"
+
+#: ucsubset.src
+msgid "Byzantine Musical Symbols"
+msgstr "拜占庭音樂符號"
+
+#: ucsubset.src
+msgid "Musical Symbols"
+msgstr "音樂符號"
+
+#: ucsubset.src
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "數學用字母數字符號"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension B"
+msgstr "中日韓統一表意文字擴充 B"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension C"
+msgstr "中日韓統一表意文字擴充 C"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension D"
+msgstr "中日韓統一表意文字擴充 D"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "中日韓相容表意文字補充"
+
+#: ucsubset.src
+msgid "Tags"
+msgstr "語言代碼標籤"
+
+#: ucsubset.src
+msgid "Cyrillic Supplement"
+msgstr "西里爾字母補充"
+
+#: ucsubset.src
+msgid "Variation Selectors"
+msgstr "字形變體選取器"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-A"
+msgstr "補充私用區-A"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-B"
+msgstr "補充私用區-B"
+
+#: ucsubset.src
+msgid "Limbu"
+msgstr "林布文"
+
+#: ucsubset.src
+msgid "Tai Le"
+msgstr "傣哪文"
+
+#: ucsubset.src
+msgid "Khmer Symbols"
+msgstr "高棉符號"
+
+#: ucsubset.src
+msgid "Phonetic Extensions"
+msgstr "音標擴充"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Arrows"
+msgstr "零雜符號與箭號"
+
+#: ucsubset.src
+msgid "Yijing Hexagram Symbols"
+msgstr "易經六十四卦象符號"
+
+#: ucsubset.src
+msgid "Linear B Syllabary"
+msgstr "線形 B 音節文字"
+
+#: ucsubset.src
+msgid "Linear B Ideograms"
+msgstr "線形 B 表意文字"
+
+#: ucsubset.src
+msgid "Aegean Numbers"
+msgstr "愛琴海數字"
+
+#: ucsubset.src
+msgid "Ugaritic"
+msgstr "烏加里特楔形文字"
+
+#: ucsubset.src
+msgid "Shavian"
+msgstr "肅伯納字母"
+
+#: ucsubset.src
+msgid "Osmanya"
+msgstr "奥斯曼亞字母"
+
+#: ucsubset.src
+msgid "Sinhala"
+msgstr "僧伽羅文"
+
+#: ucsubset.src
+msgid "Tibetan"
+msgstr "藏文"
+
+#: ucsubset.src
+msgid "Myanmar"
+msgstr "緬甸文"
+
+#: ucsubset.src
+msgid "Khmer"
+msgstr "高棉文"
+
+#: ucsubset.src
+msgid "Ogham"
+msgstr "歐甘文"
+
+#: ucsubset.src
+msgid "Runic"
+msgstr "盧恩文字"
+
+#: ucsubset.src
+msgid "Syriac"
+msgstr "敘利亞文"
+
+#: ucsubset.src
+msgid "Thaana"
+msgstr "塔納文"
+
+#: ucsubset.src
+msgid "Ethiopic"
+msgstr "衣索比亞文"
+
+#: ucsubset.src
+msgid "Cherokee"
+msgstr "切羅基文"
+
+#: ucsubset.src
+msgid "Canadan Aboriginal Syllables"
+msgstr "加拿大土著音節文字"
+
+#: ucsubset.src
+msgid "Mongolian"
+msgstr "蒙古文"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "雜合數學用符號-A"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-A"
+msgstr "補充箭號-A"
+
+#: ucsubset.src
+msgid "Braille Patterns"
+msgstr "盲人點字樣式"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-B"
+msgstr "補充箭號-B"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "雜合數學用符號-B"
+
+#: ucsubset.src
+msgid "CJK Radical Supplement"
+msgstr "中日韓部首補充"
+
+#: ucsubset.src
+msgid "Kangxi Radicals"
+msgstr "康熙部首"
+
+#: ucsubset.src
+msgid "Ideographic Description Characters"
+msgstr "表意文字描述字元"
+
+#: ucsubset.src
+msgid "Tagalog"
+msgstr "他加祿文"
+
+#: ucsubset.src
+msgid "Hanunoo"
+msgstr "哈努諾文"
+
+#: ucsubset.src
+msgid "Tagbanwa"
+msgstr "塔格巴努亞文"
+
+#: ucsubset.src
+msgid "Buhid"
+msgstr "布希德文"
+
+#: ucsubset.src
+msgid "Kanbun"
+msgstr "日本漢文訓點號"
+
+#: ucsubset.src
+msgid "Bopomofo Extended"
+msgstr "注音符號擴充"
+
+#: ucsubset.src
+msgid "Katakana Phonetics"
+msgstr "片假名音標擴充"
+
+#: ucsubset.src
+msgid "CJK Strokes"
+msgstr "中日韓筆劃部件"
+
+#: ucsubset.src
+msgid "Cypriot Syllabary"
+msgstr "塞浦路斯音節文字"
+
+#: ucsubset.src
+msgid "Tai Xuan Jing Symbols"
+msgstr "太玄經符號"
+
+#: ucsubset.src
+msgid "Variation Selectors Supplement"
+msgstr "字形變體選取器補充"
+
+#: ucsubset.src
+msgid "Ancient Greek Musical Notation"
+msgstr "古希臘音樂譜記號"
+
+#: ucsubset.src
+msgid "Ancient Greek Numbers"
+msgstr "古希臘數字"
+
+#: ucsubset.src
+msgid "Arabic Supplement"
+msgstr "阿拉伯文補充"
+
+#: ucsubset.src
+msgid "Buginese"
+msgstr "布吉文"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks Supplement"
+msgstr "結合式變音符號補充"
+
+#: ucsubset.src
+msgid "Coptic"
+msgstr "科普特文"
+
+#: ucsubset.src
+msgid "Ethiopic Extended"
+msgstr "衣索比亞文擴充"
+
+#: ucsubset.src
+msgid "Ethiopic Supplement"
+msgstr "衣索比亞文補充"
+
+#: ucsubset.src
+msgid "Georgian Supplement"
+msgstr "喬治亞文補充"
+
+#: ucsubset.src
+msgid "Glagolitic"
+msgstr "格拉哥里字母"
+
+#: ucsubset.src
+msgid "Kharoshthi"
+msgstr "佉盧字母"
+
+#: ucsubset.src
+msgid "Modifier Tone Letters"
+msgstr "聲調修飾符號"
+
+#: ucsubset.src
+msgid "New Tai Lue"
+msgstr "新傣仂文"
+
+#: ucsubset.src
+msgid "Old Persian"
+msgstr "古波斯文"
+
+#: ucsubset.src
+msgid "Phonetic Extensions Supplement"
+msgstr "音標擴充補充"
+
+#: ucsubset.src
+msgid "Supplemental Punctuation"
+msgstr "補充標點符號"
+
+#: ucsubset.src
+msgid "Syloti Nagri"
+msgstr "錫爾赫特文"
+
+#: ucsubset.src
+msgid "Tifinagh"
+msgstr "提非納格字母"
+
+#: ucsubset.src
+msgid "Vertical Forms"
+msgstr "豎式標點"
+
+#: ucsubset.src
+msgid "Nko"
+msgstr "Nko 西非書面文"
+
+#: ucsubset.src
+msgid "Balinese"
+msgstr "巴厘文"
+
+#: ucsubset.src
+msgid "Latin Extended-C"
+msgstr "拉丁字母擴充-C"
+
+#: ucsubset.src
+msgid "Latin Extended-D"
+msgstr "拉丁字母擴充-D"
+
+#: ucsubset.src
+msgid "Phags-Pa"
+msgstr "八思巴字母"
+
+#: ucsubset.src
+msgid "Phoenician"
+msgstr "腓尼基字母"
+
+#: ucsubset.src
+msgid "Cuneiform"
+msgstr "楔形文字"
+
+#: ucsubset.src
+msgid "Cuneiform Numbers And Punctuation"
+msgstr "楔形文字數字及標點"
+
+#: ucsubset.src
+msgid "Counting Rod Numerals"
+msgstr "算籌記數式"
+
+#: ucsubset.src
+msgid "Sundanese"
+msgstr "巽他文"
+
+#: ucsubset.src
+msgid "Lepcha"
+msgstr "雷布查文"
+
+#: ucsubset.src
+msgid "Ol Chiki"
+msgstr "桑塔利文"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-A"
+msgstr "西里爾字母擴充-A"
+
+#: ucsubset.src
+msgid "Vai"
+msgstr "瓦伊文"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-B"
+msgstr "西里爾字母擴充-B"
+
+#: ucsubset.src
+msgid "Saurashtra"
+msgstr "索拉什特拉文"
+
+#: ucsubset.src
+msgid "Kayah Li"
+msgstr "克耶文"
+
+#: ucsubset.src
+msgid "Rejang"
+msgstr "勒姜文"
+
+#: ucsubset.src
+msgid "Cham"
+msgstr "占文"
+
+#: ucsubset.src
+msgid "Ancient Symbols"
+msgstr "古代符號"
+
+#: ucsubset.src
+msgid "Phaistos Disc"
+msgstr "費斯托斯泥圓盤文字"
+
+#: ucsubset.src
+msgid "Lycian"
+msgstr "呂基亞文"
+
+#: ucsubset.src
+msgid "Carian"
+msgstr "卡里亞文"
+
+#: ucsubset.src
+msgid "Lydian"
+msgstr "呂底亞文"
+
+#: ucsubset.src
+msgid "Mahjong Tiles"
+msgstr "麻將牌面"
+
+#: ucsubset.src
+msgid "Domino Tiles"
+msgstr "西洋骨牌牌面"
+
+#: ucsubset.src
+msgid "Samaritan"
+msgstr "撒馬利亞字母"
+
+#: ucsubset.src
+msgid "Canadian Aboriginal Syllabics Extended"
+msgstr "加拿大土著音節文字擴充"
+
+#: ucsubset.src
+msgid "Tai Tham"
+msgstr "老傣文"
+
+#: ucsubset.src
+msgid "Vedic Extensions"
+msgstr "吠陀梵文擴充"
+
+#: ucsubset.src
+msgid "Lisu"
+msgstr "老傈僳文"
+
+#: ucsubset.src
+msgid "Bamum"
+msgstr "巴蒙文"
+
+#: ucsubset.src
+msgid "Common Indic Number Forms"
+msgstr "常用印度數字圖樣"
+
+#: ucsubset.src
+msgid "Devanagari Extended"
+msgstr "天城文擴充"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-A"
+msgstr "韓文字母擴充-A"
+
+#: ucsubset.src
+msgid "Javanese"
+msgstr "爪哇文"
+
+#: ucsubset.src
+msgid "Myanmar Extended-A"
+msgstr "緬甸文擴充-A"
+
+#: ucsubset.src
+msgid "Tai Viet"
+msgstr "傣端文"
+
+#: ucsubset.src
+msgid "Meetei Mayek"
+msgstr "曼尼普爾文"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-B"
+msgstr "韓文字母擴充-B"
+
+#: ucsubset.src
+msgid "Imperial Aramaic"
+msgstr "規範阿拉米文"
+
+#: ucsubset.src
+msgid "Old South Arabian"
+msgstr "古南阿拉伯文"
+
+#: ucsubset.src
+msgid "Avestan"
+msgstr "阿維斯陀文"
+
+#: ucsubset.src
+msgid "Inscriptional Parthian"
+msgstr "帕提亞文碑銘體"
+
+#: ucsubset.src
+msgid "Inscriptional Pahlavi"
+msgstr "巴列維文碑銘體"
+
+#: ucsubset.src
+msgid "Old Turkic"
+msgstr "古突厥文"
+
+#: ucsubset.src
+msgid "Rumi Numeral Symbols"
+msgstr "魯米數字符號"
+
+#: ucsubset.src
+msgid "Kaithi"
+msgstr "凱提字母"
+
+#: ucsubset.src
+msgid "Egyptian Hieroglyphs"
+msgstr "古埃及聖書字碑銘體"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumeric Supplement"
+msgstr "括圈字母數字補充"
+
+#: ucsubset.src
+msgid "Enclosed Ideographic Supplement"
+msgstr "括圈表意文字補充"
+
+#: ucsubset.src
+msgid "Mandaic"
+msgstr "曼達文"
+
+#: ucsubset.src
+msgid "Batak"
+msgstr "巴塔克文"
+
+#: ucsubset.src
+msgid "Ethiopic Extended-A"
+msgstr "衣索比亞文擴充-A"
+
+#: ucsubset.src
+msgid "Brahmi"
+msgstr "婆羅米字母"
+
+#: ucsubset.src
+msgid "Bamum Supplement"
+msgstr "巴蒙文補充"
+
+#: ucsubset.src
+msgid "Kana Supplement"
+msgstr "假名補充"
+
+#: ucsubset.src
+msgid "Playing Cards"
+msgstr "撲克牌牌面"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Pictographs"
+msgstr "雜合符號和象形圖示"
+
+#: ucsubset.src
+msgid "Emoticons"
+msgstr "表情圖示"
+
+#: ucsubset.src
+msgid "Transport And Map Symbols"
+msgstr "運輸和地圖符號"
+
+#: ucsubset.src
+msgid "Alchemical Symbols"
+msgstr "煉金術符號"
+
+#: ucsubset.src
+msgid "Arabic Extended-A"
+msgstr "阿拉伯文擴充-A"
+
+#: ucsubset.src
+msgid "Arabic Mathematical Alphabetic Symbols"
+msgstr "阿拉伯文數學用字母符號"
+
+#: ucsubset.src
+msgid "Chakma"
+msgstr "查克馬文"
+
+#: ucsubset.src
+msgid "Meetei Mayek Extensions"
+msgstr "曼尼普爾文擴充"
+
+#: ucsubset.src
+msgid "Meroitic Cursive"
+msgstr "麥羅埃文通俗體"
+
+#: ucsubset.src
+msgid "Meroitic Hieroglyphs"
+msgstr "麥羅埃文碑銘體"
+
+#: ucsubset.src
+msgid "Miao"
+msgstr "柏格理苗文"
+
+#: ucsubset.src
+msgid "Sharada"
+msgstr "夏拉達文"
+
+#: ucsubset.src
+msgid "Sora Sompeng"
+msgstr "索朗桑朋文"
+
+#: ucsubset.src
+msgid "Sundanese Supplement"
+msgstr "巽他文補充"
+
+#: ucsubset.src
+msgid "Takri"
+msgstr "塔克里文"
+
+#: ucsubset.src
+msgid "Bassa Vah"
+msgstr "巴撒符文"
+
+#: ucsubset.src
+msgid "Caucasian Albanian"
+msgstr "高加索阿爾巴尼亞文"
+
+#: ucsubset.src
+msgid "Coptic Epact Numbers"
+msgstr "科普特潤餘數字"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks Extended"
+msgstr "組合變音標記擴充"
+
+#: ucsubset.src
+msgid "Duployan"
+msgstr "杜普雷速記"
+
+#: ucsubset.src
+msgid "Elbasan"
+msgstr "艾爾巴桑文"
+
+#: ucsubset.src
+msgid "Geometric Shapes Extended"
+msgstr "幾何圖形擴充"
+
+#: ucsubset.src
+msgid "Grantha"
+msgstr "帕拉瓦文"
+
+#: ucsubset.src
+msgid "Khojki"
+msgstr "可吉文"
+
+#: ucsubset.src
+msgid "Khudawadi"
+msgstr "庫達瓦迪文"
+
+#: ucsubset.src
+msgid "Latin Extended-E"
+msgstr "拉丁文擴充-E"
+
+#: ucsubset.src
+msgid "Linear A"
+msgstr "線形文字A"
+
+#: ucsubset.src
+msgid "Mahajani"
+msgstr "馬哈佳尼文"
+
+#: ucsubset.src
+msgid "Manichaean"
+msgstr "摩尼教文"
+
+#: ucsubset.src
+msgid "Mende Kikakui"
+msgstr "門德語奇卡奎文"
+
+#: ucsubset.src
+msgid "Modi"
+msgstr "莫迪文"
+
+#: ucsubset.src
+msgid "Mro"
+msgstr "蒙羅文"
+
+#: ucsubset.src
+msgid "Myanmar Extended-B"
+msgstr "緬甸文擴充-B"
+
+#: ucsubset.src
+msgid "Nabataean"
+msgstr "納巴泰文"
+
+#: ucsubset.src
+msgid "Old North Arabian"
+msgstr "古北阿拉伯文"
+
+#: ucsubset.src
+msgid "Old Permic"
+msgstr "古彼爾姆文"
+
+#: ucsubset.src
+msgid "Ornamental Dingbats"
+msgstr "裝飾符號"
+
+#: ucsubset.src
+msgid "Pahawh Hmong"
+msgstr "救世苗文"
+
+#: ucsubset.src
+msgid "Palmyrene"
+msgstr "帕爾邁拉文"
+
+#: ucsubset.src
+msgid "Pau Cin Hau"
+msgstr "包欽浩文"
+
+#: ucsubset.src
+msgid "Psalter Pahlavi"
+msgstr "詩篇巴列維文"
+
+#: ucsubset.src
+msgid "Shorthand Format Controls"
+msgstr "速記格式控制符"
+
+#: ucsubset.src
+msgid "Siddham"
+msgstr "悉曇文"
+
+#: ucsubset.src
+msgid "Sinhala Archaic Numbers"
+msgstr "古僧伽羅文數字"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-C"
+msgstr "追加箭頭-C"
+
+#: ucsubset.src
+msgid "Tirhuta"
+msgstr "特忽塔文"
+
+#: ucsubset.src
+msgid "Warang Citi"
+msgstr "瓦蘭齊地文"
+
+#: ucsubset.src
+msgid "Ahom"
+msgstr "阿洪姆文"
+
+#: ucsubset.src
+msgid "Anatolian Hieroglyphs"
+msgstr "安那托利亞文碑銘體"
+
+#: ucsubset.src
+msgid "Cherokee Supplement"
+msgstr "切羅基文補充"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension E"
+msgstr "中日韓統一表意文字擴充 E"
+
+#: ucsubset.src
+msgid "Early Dynastic Cuneiform"
+msgstr "古王國時期楔形文字"
+
+#: ucsubset.src
+msgid "Old Hungarian"
+msgstr "古匈牙利文"
+
+#: ucsubset.src
+msgid "Supplemental Symbols And Pictographs"
+msgstr "補充符號和象形圖示"
+
+#: ucsubset.src
+msgid "Sutton Signwriting"
+msgstr "薩頓手語符號"
+
+# Translation of Special Characters dialog from LibreOffice core
+
+#: GenericCommands.xcu
+msgid "Font Name:"
+msgstr "字型名稱:"
+
+#: specialcharacters.ui
+msgid "Special Characters"
+msgstr "特殊字元"
+
+#: specialcharacters.ui
+msgid "Hexadecimal:"
+msgstr "十六進制："
+
+#: asianphoneticguidedialog.ui
+msgid "Preview:"
+msgstr "預覽："

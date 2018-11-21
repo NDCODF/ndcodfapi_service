@@ -1,0 +1,2874 @@
+# All these style translations are taken from LibreOffice translation submodule
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_STANDARD\n"
+"string.text"
+msgid "Default"
+msgstr "అప్రమేయం"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT\n"
+"string.text"
+msgid "Result"
+msgstr "ఫలితం"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT1\n"
+"string.text"
+msgid "Result2"
+msgstr "ఫలితం2"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "శీర్షిక"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "శీర్షిక1"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT\n"
+"string.text"
+msgid "Report"
+msgstr "నివేదన"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT1\n"
+"string.text"
+msgid "Report1"
+msgstr "నివేదన 1"
+
+#: tbcontrl.src
+msgctxt ""
+"tbcontrl.src\n"
+"RID_SVXSTR_CLEARFORM\n"
+"string.text"
+msgid "Clear formatting"
+msgstr "ఆకృతీకరణ తొలగించు"
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE\n"
+"string.text"
+msgid "Footnote Characters"
+msgstr "పాదపు గమనిక అక్షరములు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_PAGENO\n"
+"string.text"
+msgid "Page Number"
+msgstr "పుట సంఖ్య"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LABEL\n"
+"string.text"
+msgid "Caption Characters"
+msgstr "శీర్షిక అక్షరములు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_DROPCAPS\n"
+"string.text"
+msgid "Drop Caps"
+msgstr "టోపీలను జరవిడుచుము"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_NUM_LEVEL\n"
+"string.text"
+msgid "Numbering Symbols"
+msgstr "చిహ్నములకు సంఖ్యనివ్వడం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_BUL_LEVEL\n"
+"string.text"
+msgid "Bullets"
+msgstr "బుల్లెట్లు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_NORMAL\n"
+"string.text"
+msgid "Internet Link"
+msgstr "ఇంటర్ నెట్ లింకు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_VISIT\n"
+"string.text"
+msgid "Visited Internet Link"
+msgstr "దర్శించిన ఇంటర్ నెట్ జోడించు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_JUMPEDIT\n"
+"string.text"
+msgid "Placeholder"
+msgstr "స్థల అధినేతలు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_TOXJUMP\n"
+"string.text"
+msgid "Index Link"
+msgstr "సూచి లింకు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE\n"
+"string.text"
+msgid "Endnote Characters"
+msgstr "చీటి చివర అక్షరముల"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LANDSCAPE\n"
+"string.text"
+msgid "Landscape"
+msgstr "చిత్రపటం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LINENUM\n"
+"string.text"
+msgid "Line Numbering"
+msgstr "వరుస సంఖ్యలు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_IDX_MAIN_ENTRY\n"
+"string.text"
+msgid "Main Index Entry"
+msgstr "ప్రధాన సూచి  ప్రవేశం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE_ANCHOR\n"
+"string.text"
+msgid "Footnote Anchor"
+msgstr "దిగువసూచి లంగరు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE_ANCHOR\n"
+"string.text"
+msgid "Endnote Anchor"
+msgstr "చీటి చివర లంగరు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_EMPHASIS\n"
+"string.text"
+msgid "Emphasis"
+msgstr "ప్రాముఖ్యత"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CITIATION\n"
+"string.text"
+msgid "Quotation"
+msgstr "ఉదహరణ వాక్యం "
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_STRONG\n"
+"string.text"
+msgid "Strong Emphasis"
+msgstr "బలంగా నొక్కి చెప్పుట"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CODE\n"
+"string.text"
+msgid "Source Text"
+msgstr "వనరు పాఠము"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_SAMPLE\n"
+"string.text"
+msgid "Example"
+msgstr "ఉదాహరణ"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_KEYBOARD\n"
+"string.text"
+msgid "User Entry"
+msgstr "వాడుకరి ప్రవేశము"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_VARIABLE\n"
+"string.text"
+msgid "Variable"
+msgstr "చరరాశి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_DEFINSTANCE\n"
+"string.text"
+msgid "Definition"
+msgstr "నిర్వచనము"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_TELETYPE\n"
+"string.text"
+msgid "Teletype"
+msgstr "దూరవాని రకం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FRAME\n"
+"string.text"
+msgid "Frame"
+msgstr "చట్రం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_GRAPHIC\n"
+"string.text"
+msgid "Graphics"
+msgstr "చిత్రరూపాలు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_OLE\n"
+"string.text"
+msgid "OLE"
+msgstr "OLE"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FORMEL\n"
+"string.text"
+msgid "Formula"
+msgstr "సూత్రం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "మార్జినాలియా"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_WATERSIGN\n"
+"string.text"
+msgid "Watermark"
+msgstr "నీటిగుర్తు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_LABEL\n"
+"string.text"
+msgid "Labels"
+msgstr "లేబుల్ లను"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "అప్రమేయ శైలి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT\n"
+"string.text"
+msgid "Text Body"
+msgstr "పాఠ్య భాగం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_IDENT\n"
+"string.text"
+msgid "First Line Indent"
+msgstr "మొదటి వరుస గంటుపెట్టు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_NEGIDENT\n"
+"string.text"
+msgid "Hanging Indent"
+msgstr "గంటుపెట్టు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_MOVE\n"
+"string.text"
+msgid "Text Body Indent"
+msgstr "మొదటి పాఠం ముఖ్యభాగం గంటుపెట్టుల"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_GREETING\n"
+"string.text"
+msgid "Complimentary Close"
+msgstr "కాంప్లిమెంటరీ మూసివేత"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SIGNATURE\n"
+"string.text"
+msgid "Signature"
+msgstr "సంతకము"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE_BASE\n"
+"string.text"
+msgid "Heading"
+msgstr "శీర్షిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUMBUL_BASE\n"
+"string.text"
+msgid "List"
+msgstr "జాబిత"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_REGISTER_BASE\n"
+"string.text"
+msgid "Index"
+msgstr "సూచిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_CONFRONTATION\n"
+"string.text"
+msgid "List Indent"
+msgstr "జాబితాకు గంటుపెట్టు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "మార్జినాలియా"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE1\n"
+"string.text"
+msgid "Heading 1"
+msgstr "పీఠిక 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE2\n"
+"string.text"
+msgid "Heading 2"
+msgstr "పీఠిక 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE3\n"
+"string.text"
+msgid "Heading 3"
+msgstr "పీఠిక 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE4\n"
+"string.text"
+msgid "Heading 4"
+msgstr "పీఠిక 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE5\n"
+"string.text"
+msgid "Heading 5"
+msgstr "పీఠిక 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE6\n"
+"string.text"
+msgid "Heading 6"
+msgstr "పీఠిక 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE7\n"
+"string.text"
+msgid "Heading 7"
+msgstr "పీఠిక  7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE8\n"
+"string.text"
+msgid "Heading 8"
+msgstr "పీఠిక 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE9\n"
+"string.text"
+msgid "Heading 9"
+msgstr "పీఠిక 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE10\n"
+"string.text"
+msgid "Heading 10"
+msgstr "పీఠిక 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1S\n"
+"string.text"
+msgid "Numbering 1 Start"
+msgstr "సంఖ్యీకరణ1 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "సంఖ్యీకరణ 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1E\n"
+"string.text"
+msgid "Numbering 1 End"
+msgstr "సంఖ్యీకరణ1 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM1\n"
+"string.text"
+msgid "Numbering 1 Cont."
+msgstr "సంఖ్యీకరణ1 కాంట్."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2S\n"
+"string.text"
+msgid "Numbering 2 Start"
+msgstr "సంఖ్యీకరణ2 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "సంఖ్యీకరణ 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2E\n"
+"string.text"
+msgid "Numbering 2 End"
+msgstr "సంఖ్యీకరణ2 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM2\n"
+"string.text"
+msgid "Numbering 2 Cont."
+msgstr "సంఖ్యీకరణ2 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3S\n"
+"string.text"
+msgid "Numbering 3 Start"
+msgstr "సంఖ్యీకరణ3 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "సంఖ్యీకరణ 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3E\n"
+"string.text"
+msgid "Numbering 3 End"
+msgstr "సంఖ్యీకరణ 3 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM3\n"
+"string.text"
+msgid "Numbering 3 Cont."
+msgstr "సంఖ్యీకరణ3 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4S\n"
+"string.text"
+msgid "Numbering 4 Start"
+msgstr "సంఖ్యీకరణ 4 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "సంఖ్యీకరణ 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4E\n"
+"string.text"
+msgid "Numbering 4 End"
+msgstr "సంఖ్యీకరణ4 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM4\n"
+"string.text"
+msgid "Numbering 4 Cont."
+msgstr "సంఖ్యీకరణ4 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5S\n"
+"string.text"
+msgid "Numbering 5 Start"
+msgstr "సంఖ్యీకరణ5 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "సంఖ్యీకరణ 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5E\n"
+"string.text"
+msgid "Numbering 5 End"
+msgstr "సంఖ్యీకరణ5 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM5\n"
+"string.text"
+msgid "Numbering 5 Cont."
+msgstr "సంఖ్యీకరణ5 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1S\n"
+"string.text"
+msgid "List 1 Start"
+msgstr "జాబితా 1 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1\n"
+"string.text"
+msgid "List 1"
+msgstr "జాబితా 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1E\n"
+"string.text"
+msgid "List 1 End"
+msgstr "జాబితా 1 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM1\n"
+"string.text"
+msgid "List 1 Cont."
+msgstr "జాబితా 1 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2S\n"
+"string.text"
+msgid "List 2 Start"
+msgstr "జాబితా 2 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2\n"
+"string.text"
+msgid "List 2"
+msgstr "జాబితా 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2E\n"
+"string.text"
+msgid "List 2 End"
+msgstr "జాబితా 2 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM2\n"
+"string.text"
+msgid "List 2 Cont."
+msgstr "జాబితా 2 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3S\n"
+"string.text"
+msgid "List 3 Start"
+msgstr "జాబితా 3 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3\n"
+"string.text"
+msgid "List 3"
+msgstr "జాబితా 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3E\n"
+"string.text"
+msgid "List 3 End"
+msgstr "జాబితా 3 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM3\n"
+"string.text"
+msgid "List 3 Cont."
+msgstr "జాబితా 3 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4S\n"
+"string.text"
+msgid "List 4 Start"
+msgstr "జాబితా 4 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4\n"
+"string.text"
+msgid "List 4"
+msgstr "జాబితా 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4E\n"
+"string.text"
+msgid "List 4 End"
+msgstr "జాబితా 4 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM4\n"
+"string.text"
+msgid "List 4 Cont."
+msgstr "జాబితా  4 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5S\n"
+"string.text"
+msgid "List 5 Start"
+msgstr "జాబితా 5 ప్రారంభం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5\n"
+"string.text"
+msgid "List 5"
+msgstr "జాబితా 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5E\n"
+"string.text"
+msgid "List 5 End"
+msgstr "జాబితా 5 చివరి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM5\n"
+"string.text"
+msgid "List 5 Cont."
+msgstr "జాబితా 5 కాంట్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "ఎగువసూచి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERL\n"
+"string.text"
+msgid "Header Left"
+msgstr "ఎగువసూచి ఎడమ"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERR\n"
+"string.text"
+msgid "Header Right"
+msgstr "ఎగువసూచి కుడి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTER\n"
+"string.text"
+msgid "Footer"
+msgstr "దిగువసూచి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERL\n"
+"string.text"
+msgid "Footer Left"
+msgstr "దిగువసూచి ఎడమ"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERR\n"
+"string.text"
+msgid "Footer Right"
+msgstr "దిగువసూచి కుడి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE\n"
+"string.text"
+msgid "Table Contents"
+msgstr "పట్టిక నిక్షిప్తాలు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE_HDLN\n"
+"string.text"
+msgid "Table Heading"
+msgstr "పట్టిక  శీర్షిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FRAME\n"
+"string.text"
+msgid "Frame Contents"
+msgstr "చట్రపు నిక్షిప్తం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "క్రింద"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "ముగింపుచీటి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL\n"
+"string.text"
+msgid "Caption"
+msgstr "క్లుప్తవివరణ"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_ABB\n"
+"string.text"
+msgid "Illustration"
+msgstr "వివరణాత్మకమైన"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_TABLE\n"
+"string.text"
+msgid "Table"
+msgstr "పట్టిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_FRAME\n"
+"string.text"
+msgid "Text"
+msgstr "పాఠం"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_DRAWING\n"
+"string.text"
+msgid "Drawing"
+msgstr "చిత్రలేఖనము"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_JAKETADRESS\n"
+"string.text"
+msgid "Addressee"
+msgstr "చిరునామాదారుడు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SENDADRESS\n"
+"string.text"
+msgid "Sender"
+msgstr "పంపేవాడు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXH\n"
+"string.text"
+msgid "Index Heading"
+msgstr "సూచి పీఠిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX1\n"
+"string.text"
+msgid "Index 1"
+msgstr "సూచి 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX2\n"
+"string.text"
+msgid "Index 2"
+msgstr "సూచి 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX3\n"
+"string.text"
+msgid "Index 3"
+msgstr "సూచి 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXBREAK\n"
+"string.text"
+msgid "Index Separator"
+msgstr "సూచి వేరుచేయునది"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNTH\n"
+"string.text"
+msgid "Contents Heading"
+msgstr "నిక్షిప్తాలు శీర్షిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT1\n"
+"string.text"
+msgid "Contents 1"
+msgstr "నిక్షిప్తాలు 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT2\n"
+"string.text"
+msgid "Contents 2"
+msgstr "నిక్షిప్తాలు 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT3\n"
+"string.text"
+msgid "Contents 3"
+msgstr "నిక్షిప్తాలు 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT4\n"
+"string.text"
+msgid "Contents 4"
+msgstr "నిక్షిప్తాలు 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT5\n"
+"string.text"
+msgid "Contents 5"
+msgstr "నిక్షిప్తాలు 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT6\n"
+"string.text"
+msgid "Contents 6"
+msgstr "నిక్షిప్తాలు 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT7\n"
+"string.text"
+msgid "Contents 7"
+msgstr "నిక్షిప్తాలు 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT8\n"
+"string.text"
+msgid "Contents 8"
+msgstr "నిక్షిప్తాలు 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT9\n"
+"string.text"
+msgid "Contents 9"
+msgstr "నిక్షిప్తాలు 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT10\n"
+"string.text"
+msgid "Contents 10"
+msgstr "నిక్షిప్తాలు 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USERH\n"
+"string.text"
+msgid "User Index Heading"
+msgstr "వాడుకరి సూచి శీర్షిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER1\n"
+"string.text"
+msgid "User Index 1"
+msgstr "వాడుకరి సూచి 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER2\n"
+"string.text"
+msgid "User Index 2"
+msgstr "వాడుకరి సూచి 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER3\n"
+"string.text"
+msgid "User Index 3"
+msgstr "వాడుకరి సూచి 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER4\n"
+"string.text"
+msgid "User Index 4"
+msgstr "వాడుకరి సూచి 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER5\n"
+"string.text"
+msgid "User Index 5"
+msgstr "వాడుకరి సూచి 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER6\n"
+"string.text"
+msgid "User Index 6"
+msgstr "వాడుకరి సూచి 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER7\n"
+"string.text"
+msgid "User Index 7"
+msgstr "వాడుకరి సూచి 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER8\n"
+"string.text"
+msgid "User Index 8"
+msgstr "వాడుకరి సూచి 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER9\n"
+"string.text"
+msgid "User Index 9"
+msgstr "వాడుకరి సూచి 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER10\n"
+"string.text"
+msgid "User Index 10"
+msgstr "వాడుకరి సూచి 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CITATION\n"
+"string.text"
+msgid "Citation"
+msgstr ""
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUSH\n"
+"string.text"
+msgid "Illustration Index Heading"
+msgstr "వాడుకరి సూచి శీర్షిక "
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUS1\n"
+"string.text"
+msgid "Illustration Index 1"
+msgstr "వివరణాత్మకమైన సూచి 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECTH\n"
+"string.text"
+msgid "Object Index Heading"
+msgstr "వివరణాత్మకమైన సూచి శీర్షిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECT1\n"
+"string.text"
+msgid "Object Index 1"
+msgstr "ఆబ్జక్ట్  సూచి 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLESH\n"
+"string.text"
+msgid "Table Index Heading"
+msgstr "పట్టిక సూచి శీర్షిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLES1\n"
+"string.text"
+msgid "Table Index 1"
+msgstr "పట్టిక సూచి1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIESH\n"
+"string.text"
+msgid "Bibliography Heading"
+msgstr "గ్రంథ వివరణ పట్టి శీర్షిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIES1\n"
+"string.text"
+msgid "Bibliography 1"
+msgstr "గ్రంథ వివరణ పట్టి 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_DOC_SUBTITEL\n"
+"string.text"
+msgid "Subtitle"
+msgstr "ఉపశీర్షిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_BLOCKQUOTE\n"
+"string.text"
+msgid "Quotations"
+msgstr "ఉదహరణ వాక్యలు "
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_PRE\n"
+"string.text"
+msgid "Preformatted Text"
+msgstr "బాహ్యరూపమైన పాఠము"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_HR\n"
+"string.text"
+msgid "Horizontal Line"
+msgstr "అడ్డు వరుస"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DD\n"
+"string.text"
+msgid "List Contents"
+msgstr "నిక్షిప్తాల జాబితా"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DT\n"
+"string.text"
+msgid "List Heading"
+msgstr "శీర్షిక జాబితా"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "అప్రమేయ శైలి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FIRST\n"
+"string.text"
+msgid "First Page"
+msgstr "మొదటి పుట"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LEFT\n"
+"string.text"
+msgid "Left Page"
+msgstr "ఎడమ పుట"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_RIGHT\n"
+"string.text"
+msgid "Right Page"
+msgstr "కుడి పుట"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_JAKET\n"
+"string.text"
+msgid "Envelope"
+msgstr "కవరు"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_REGISTER\n"
+"string.text"
+msgid "Index"
+msgstr "సూచిక"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_HTML\n"
+"string.text"
+msgid "HTML"
+msgstr "HTML"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "క్రింద"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "ముగింపుచీటి"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "సంఖ్యీకరణ 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "సంఖ్యీకరణ 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "సంఖ్యీకరణ 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "సంఖ్యీకరణ 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "సంఖ్యీకరణ 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL1\n"
+"string.text"
+msgid "List 1"
+msgstr "జాబితా 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL2\n"
+"string.text"
+msgid "List 2"
+msgstr "జాబితా 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL3\n"
+"string.text"
+msgid "List 3"
+msgstr "జాబితా 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL4\n"
+"string.text"
+msgid "List 4"
+msgstr "జాబితా 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL5\n"
+"string.text"
+msgid "List 5"
+msgstr "జాబితా 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_RUBYTEXT\n"
+"string.text"
+msgid "Rubies"
+msgstr "రూబీస్"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_VERT_NUM\n"
+"string.text"
+msgid "Vertical Numbering Symbols"
+msgstr "నిలువు సంఖ్యీకరణ చిహ్నములు"
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_STANDARD_STYLESHEET_NAME\n"
+"string.text"
+msgid "Default"
+msgstr "అప్రమేయం"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_MEASURE\n"
+"string.text"
+msgid "Dimension Line"
+msgstr "వరుస తలం"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJNOLINENOFILL\n"
+"string.text"
+msgid "Object with no fill and no line"
+msgstr "ఫిల్ లేకుండా వరుస లేకుండా ఆబ్జక్టు"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHARROW\n"
+"string.text"
+msgid "Object with arrow"
+msgstr "ఆబ్జక్ట్తో బాణము"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHSHADOW\n"
+"string.text"
+msgid "Object with shadow"
+msgstr "ఆబ్జక్ట్తో ఛాయ "
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHOUTFILL\n"
+"string.text"
+msgid "Object without fill"
+msgstr "ఆబ్జక్టు భర్తీచేయకుండా"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXT\n"
+"string.text"
+msgid "Text"
+msgstr "పాఠం"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY\n"
+"string.text"
+msgid "Text body"
+msgstr "పాఠ్య భాగం"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_JUSTIFY\n"
+"string.text"
+msgid "Text body justified"
+msgstr "పాఠ్య భాగం ను నిర్దేషించుట"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_INDENT\n"
+"string.text"
+msgid "First line indent"
+msgstr "మొదటి వరుస గంటుపెట్టు"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "శీర్షిక"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE1\n"
+"string.text"
+msgid "Title1"
+msgstr "శీర్షిక1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE2\n"
+"string.text"
+msgid "Title2"
+msgstr "శీర్షిక2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "శీర్షిక"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "శీర్షిక1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE2\n"
+"string.text"
+msgid "Heading2"
+msgstr "శీర్షిక2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "శీర్షిక"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_SUBTITLE\n"
+"string.text"
+msgid "Subtitle"
+msgstr "ఉపశీర్షిక"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_OUTLINE\n"
+"string.text"
+msgid "Outline"
+msgstr "బాహ్యరేఖ"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUNDOBJECTS\n"
+"string.text"
+msgid "Background objects"
+msgstr "బ్యాక్‌గ్రౌండు ఆబ్జక్టులు"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUND\n"
+"string.text"
+msgid "Background"
+msgstr "పూర్వరంగం"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_NOTES\n"
+"string.text"
+msgid "Notes"
+msgstr "గమనికలు"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_BANDED_CELL\n"
+"string.text"
+msgid "Banding cell"
+msgstr "అర బాండింగ్"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "ఎగువసూచి"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TOTAL\n"
+"string.text"
+msgid "Total line"
+msgstr "మొత్తము లైను"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_FIRST_COLUMN\n"
+"string.text"
+msgid "First column"
+msgstr "మొదటి నిలువు వరుస"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_LAST_COLUMN\n"
+"string.text"
+msgid "Last column"
+msgstr "చివరి నిలువువరుస"
+
+#: DrawImpressCommands.xcu
+msgid "Layout"
+msgstr "కూర్పు"
+
+#: strings.src
+msgid "Blank Slide"
+msgstr "ఖాళీ జారు"
+
+#: strings.src
+msgid "Title Only"
+msgstr "శీర్షిక మాత్రమే"
+
+#: strings.src
+msgid "Centered Text"
+msgstr "కేంద్రముచేసిన పాఠ్యము"
+
+#: strings.src
+msgid "Title Slide"
+msgstr "శీర్షిక స్లైడ్ "
+
+#: strings.src
+msgid "Title, Content"
+msgstr "శీర్షిక, నిక్షిప్తము"
+
+#: strings.src
+msgid "Title and 2 Content"
+msgstr "శీర్షిక మరియు 2 నిక్షిప్తము"
+
+#: strings.src
+msgid "Title, Content and 2 Content"
+msgstr "శీర్షిక, నిక్షిప్తము మరియు 2 సారము"
+
+#: strings.src
+msgid "Title, 2 Content and Content"
+msgstr "శీర్షిక, 2 నిక్షిప్తము మరియు నిక్షిప్తము"
+
+#: strings.src
+msgid "Title, Content over 2 Content"
+msgstr "శీర్షిక, నిక్షిప్తము పైన 2 నిక్షిప్తము"
+
+#: strings.src
+msgid "Title, 2 Content over Content"
+msgstr "శీర్షిక, 2 నిక్షిప్తము పైన నిక్షిప్తము"
+
+#: strings.src
+msgid "Title, Content over Content"
+msgstr "శీర్షిక, నిక్షిప్తము పైన నిక్షిప్తము"
+
+#: strings.src
+msgid "Title, 4 Content"
+msgstr "శీర్షి, 4 నిక్షిప్తము"
+
+#: strings.src
+msgid "Title, 6 Content"
+msgstr "శీర్షిక, 6 నిక్షిప్తము"
+
+#: strings.src
+msgid "Title, Vertical Text"
+msgstr "శీర్షిక, నిలువు పాఠ"
+
+#: strings.src
+msgid "Title, Vertical Text, Clipart"
+msgstr "శీర్షిక, నిలువు పాఠ, క్లిప్ ఆర్టు"
+
+#: strings.src
+msgid "Vertical Title, Text, Chart"
+msgstr "నిలువు శీర్షిక, పాఠం, పత్రము"
+
+#: strings.src
+msgid "Vertical Title, Vertical Text"
+msgstr "నిలువు శీర్షిక,నిలువు పాఠం"
+
+#: stbctrls.src
+msgid "Standard selection"
+msgstr "ప్రామాణిక యెంపిక"
+
+#: stbctrls.src
+msgid "Extending selection"
+msgstr "ఎంపికను విస్తరించుట"
+
+#: stbctrls.src
+msgid "Adding selection"
+msgstr "ఎంపికను జతచేయుట"
+
+#: stbctrls.src
+msgid "Block selection"
+msgstr "బ్లాక్ యెంపిక"
+
+#: stbctrls.src
+msgid "Overwrite"
+msgstr "వోవర్‌రైట్"
+
+#: globstr.src
+msgid "Insert"
+msgstr "ప్రవేశపెట్టు"
+
+# Translations of Unicode subsets from LibreOffice core
+
+#: ucsubset.src
+msgid "Basic Latin"
+msgstr "బేసిక్ ల్యాటిన్"
+
+#: ucsubset.src
+msgid "Latin-1"
+msgstr "ల్యాటిన్-1"
+
+#: ucsubset.src
+msgid "Latin Extended-A"
+msgstr "ల్యాటిన్ విస్తరింపు-A"
+
+#: ucsubset.src
+msgid "Latin Extended-B"
+msgstr "ల్యాటిన్ విస్తరింపు-B"
+
+#: ucsubset.src
+msgid "IPA Extensions"
+msgstr "ఐపిఎ విస్తరింపులు"
+
+#: ucsubset.src
+msgid "Spacing Modifier Letters"
+msgstr "ఖాళీ మార్చు పదములు"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks"
+msgstr "ద్వివిషమ గుర్తులను కలుపుట"
+
+#: ucsubset.src
+msgid "Basic Greek"
+msgstr "బేసిక్ గ్రీకు"
+
+#: ucsubset.src
+msgid "Greek Symbols And Coptic"
+msgstr "గ్రీకు చిహ్నము మరియు కాప్ టిక్"
+
+#: ucsubset.src
+msgid "Cyrillic"
+msgstr "సైరిల్లిక్"
+
+#: ucsubset.src
+msgid "Armenian"
+msgstr "అర్మేనియన్"
+
+#: ucsubset.src
+msgid "Basic Hebrew"
+msgstr "బేసిక్ హెబ్రెవ్"
+
+#: ucsubset.src
+msgid "Hebrew Extended"
+msgstr "హిబ్రీవ్ విస్త్రరించబడ్డ"
+
+#: ucsubset.src
+msgid "Basic Arabic"
+msgstr "బేసిక్ అరబిక్"
+
+#: ucsubset.src
+msgid "Arabic Extended"
+msgstr "అరబిక్ విస్తరణ"
+
+#: ucsubset.src
+msgid "Devanagari"
+msgstr "దేవనాగరి"
+
+#: ucsubset.src
+msgid "Bengali"
+msgstr "బెంగాలి"
+
+#: ucsubset.src
+msgid "Gurmukhi"
+msgstr "గుర్ముఖి"
+
+#: ucsubset.src
+msgid "Gujarati"
+msgstr "గుజరాతీ"
+
+#: ucsubset.src
+msgid "Tamil"
+msgstr "తమిళం"
+
+#: ucsubset.src
+msgid "Telugu"
+msgstr "తెలుగు"
+
+#: ucsubset.src
+msgid "Kannada"
+msgstr "కన్నడ"
+
+#: ucsubset.src
+msgid "Malayalam"
+msgstr "మళయాళం"
+
+#: ucsubset.src
+msgid "Thai"
+msgstr "థాయ్"
+
+#: ucsubset.src
+msgid "Lao"
+msgstr "లావో"
+
+#: ucsubset.src
+msgid "Basic Georgian"
+msgstr "బేసిక్ జోర్జియన్"
+
+#: ucsubset.src
+msgid "Georgian Extended"
+msgstr "జార్జియన్ విస్తరింపబడ్డ"
+
+#: ucsubset.src
+msgid "Hangul Jamo"
+msgstr "హంగుల్ జామొ"
+
+#: ucsubset.src
+msgid "Latin Extended Additionals"
+msgstr "లాటిన్ విస్తరింపు అదనపు"
+
+#: ucsubset.src
+msgid "Greek Extended"
+msgstr "విస్తరించబడ్డ గ్రీక్ "
+
+#: ucsubset.src
+msgid "General punctuation"
+msgstr "సర్వసామన్యమైన విరామచిహ్నములు"
+
+#: ucsubset.src
+msgid "Superscripts and Subscripts"
+msgstr "అధిలిపులు మరియు ఉపలిపులు"
+
+#: ucsubset.src
+msgid "Currency Symbols"
+msgstr "ద్రవ్య చిహ్నములు"
+
+#: ucsubset.src
+msgid "Combining Diacritical Symbols"
+msgstr "ద్వివిషమ చిహ్నాలను కలుపుట"
+
+#: ucsubset.src
+msgid "Letterlike Symbols"
+msgstr "అక్షరము వంటి చిహ్నములు"
+
+#: ucsubset.src
+msgid "Number Forms"
+msgstr "ఫారమ్ల సంఖ్య"
+
+#: ucsubset.src
+msgid "Arrows"
+msgstr "బాణములు"
+
+#: ucsubset.src
+msgid "Mathematical Operators"
+msgstr "గణిత నిర్వాహకులు"
+
+#: ucsubset.src
+msgid "Miscellaneous Technical"
+msgstr "వివిధములైన సాంకేతికత"
+
+#: ucsubset.src
+msgid "Control Pictures"
+msgstr "నియంత్రపు పటములు"
+
+#: ucsubset.src
+msgid "Optical Character Recognition"
+msgstr "అనుకూలమైన అక్షరములు గుర్తింపు"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumerics"
+msgstr "ఎన్ క్లోడ్స అల్ఫన్యూమరిక్స"
+
+#: ucsubset.src
+msgid "Box Drawing"
+msgstr "పేటిక చిత్రలేఖనం"
+
+#: ucsubset.src
+msgid "Block Elements"
+msgstr "బ్లాక్ మూలకాలు"
+
+#: ucsubset.src
+msgid "Geometric Shapes"
+msgstr "క్షేత్రగణిత రూపాలు"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols"
+msgstr "పెక్కు రకములైన  చిహ్నములు"
+
+#: ucsubset.src
+msgid "Dingbats"
+msgstr "డింగ్ బ్యాట్స్"
+
+#: ucsubset.src
+msgid "CJK Symbols And Punctuation"
+msgstr "CJK చిహ్నములు మరియు విరామచిహ్నములు"
+
+#: ucsubset.src
+msgid "Hiragana"
+msgstr "హిరగణ"
+
+#: ucsubset.src
+msgid "Katakana"
+msgstr "కటకణ"
+
+#: ucsubset.src
+msgid "Bopomofo"
+msgstr "బోపోమోఫో"
+
+#: ucsubset.src
+msgid "Hangul Compatibility Jamo"
+msgstr "హంగుల్  జామోతో సరిపోలిన"
+
+#: ucsubset.src
+msgid "CJK Miscellaneous"
+msgstr "CJKపెక్కు రకములైన"
+
+#: ucsubset.src
+msgid "Enclosed CJK Letters And Months"
+msgstr "బంధించబడిన CJKపదములు మరియు నెలలు"
+
+#: ucsubset.src
+msgid "CJK Compatibility"
+msgstr "CJK అనుసంధానం మాత్రమే"
+
+#: ucsubset.src
+msgid "Hangul"
+msgstr "హంగుల్"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs"
+msgstr "CJKఏకీకృత ఐడియోగ్రాఫ్స్ "
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension A"
+msgstr "CJK ఏకీకృత ఐడియోగ్రాఫ్స్ విస్తరింపు A"
+
+#: ucsubset.src
+msgid "Private Use Area"
+msgstr "స్వంత ఉపయోగానికి  స్థలము"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs"
+msgstr "CJKఅనుసంధానం ఐడియోగ్రాఫ్స్ "
+
+#: ucsubset.src
+msgid "Alphabetic Presentation Forms"
+msgstr "ఆల్ఫాబిటిక్ ప్రజంటేషన్  ఫామ్స్"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-A"
+msgstr "అరబిక్ ప్రజంటేషన్  ఫామ్స్-A"
+
+#: ucsubset.src
+msgid "Combining Half Marks"
+msgstr "సగం గుర్తులను కలుపుతున్నది"
+
+#: ucsubset.src
+msgid "CJK Compatibility Forms"
+msgstr "CJKఅనుసంధాన ఫారములు"
+
+#: ucsubset.src
+msgid "Small Form Variants"
+msgstr "చిన్న ఫారమ్ మార్పులు"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-B"
+msgstr "అరబిక్ ప్రజంటేషన్  ఫామ్స్-B"
+
+#: ucsubset.src
+msgid "Half-width and Full-width Forms"
+msgstr "సగం వెడల్పు మరియు మొత్తం వెడల్పు"
+
+#: ucsubset.src
+msgid "Specials"
+msgstr "ప్రత్యేకమైన"
+
+#: ucsubset.src
+msgid "Yi Syllables"
+msgstr "Yi సిలబల్స్"
+
+#: ucsubset.src
+msgid "Yi Radicals"
+msgstr "Yi రాడికల్స్"
+
+#: ucsubset.src
+msgid "Old Italic"
+msgstr "పాత యిటాలిక్"
+
+#: ucsubset.src
+msgid "Gothic"
+msgstr "గోతిక్"
+
+#: ucsubset.src
+msgid "Deseret"
+msgstr "ఎడారి"
+
+#: ucsubset.src
+msgid "Byzantine Musical Symbols"
+msgstr "బైజంటైన్ సంగీత చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Musical Symbols"
+msgstr "సంగీత చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "గణిత అక్షరసంఖ్య చిహ్నాలు"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension B"
+msgstr "CJK ఏకీకృత ఐడియోగ్రాఫ్స్ విస్తరింపు B"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension C"
+msgstr "CJK ఏకీకృత ఐడియోగ్రాఫ్స్ విస్తరింపు C"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension D"
+msgstr "CJK ఏకీకృత ఐడియోగ్రాఫ్స్ విస్తరింపు D"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "CJK సారూప్య ఐడియోగ్రాఫ్స్ వుపభాగం"
+
+#: ucsubset.src
+msgid "Tags"
+msgstr "టాగ్స్"
+
+#: ucsubset.src
+msgid "Cyrillic Supplement"
+msgstr "సిరిల్లిక్ వుపభాగం"
+
+#: ucsubset.src
+msgid "Variation Selectors"
+msgstr "వైరుధ్యం యెంపికకారిలు"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-A"
+msgstr "సప్లిమెంటరీ ప్రవేట్ యూజ్ ఏరియా-A"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-B"
+msgstr "సప్లిమెంటరీ ప్రవేట్ యూజ్ ఏరియా-B"
+
+#: ucsubset.src
+msgid "Limbu"
+msgstr "లింబు"
+
+#: ucsubset.src
+msgid "Tai Le"
+msgstr "థాయ్ లి"
+
+#: ucsubset.src
+msgid "Khmer Symbols"
+msgstr "ఖ్మెర్ చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Phonetic Extensions"
+msgstr "ఫొనెటిక్ విస్తరింపులు"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Arrows"
+msgstr "నానావిధ చిహ్నాలు మరియు బాణాలు"
+
+#: ucsubset.src
+msgid "Yijing Hexagram Symbols"
+msgstr "వైజింగ్ హెక్సాగ్రామ్ చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Linear B Syllabary"
+msgstr "రేఖీయ B సిల్లబరీ"
+
+#: ucsubset.src
+msgid "Linear B Ideograms"
+msgstr "రేఖీయ B ఐడియోగ్రామ్స్"
+
+#: ucsubset.src
+msgid "Aegean Numbers"
+msgstr "ఆగియన్ సంఖ్యలు"
+
+#: ucsubset.src
+msgid "Ugaritic"
+msgstr "ఉగార్టిక్"
+
+#: ucsubset.src
+msgid "Shavian"
+msgstr "షావియన్"
+
+#: ucsubset.src
+msgid "Osmanya"
+msgstr "ఓస్మాన్యా"
+
+#: ucsubset.src
+msgid "Sinhala"
+msgstr "సింహాళ"
+
+#: ucsubset.src
+msgid "Tibetan"
+msgstr "టిబెటన్"
+
+#: ucsubset.src
+msgid "Myanmar"
+msgstr "మయన్మార్"
+
+#: ucsubset.src
+msgid "Khmer"
+msgstr "ఖ్మేర్"
+
+#: ucsubset.src
+msgid "Ogham"
+msgstr "ఓఘమ్"
+
+#: ucsubset.src
+msgid "Runic"
+msgstr "రూనిక్"
+
+#: ucsubset.src
+msgid "Syriac"
+msgstr "సిరియాక్ "
+
+#: ucsubset.src
+msgid "Thaana"
+msgstr "తానా"
+
+#: ucsubset.src
+msgid "Ethiopic"
+msgstr "ఎథియోపిక్"
+
+#: ucsubset.src
+msgid "Cherokee"
+msgstr "ఛెరొకి"
+
+#: ucsubset.src
+msgid "Canadan Aboriginal Syllables"
+msgstr "కెనడా ఆదిమజాతుల  సిలబల్స్ "
+
+#: ucsubset.src
+msgid "Mongolian"
+msgstr "మంగోలియన్"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "పెక్కు రకములైన    గణిత  చిహ్నములు-A"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-A"
+msgstr "అదనపు బాణములు-A"
+
+#: ucsubset.src
+msgid "Braille Patterns"
+msgstr "బ్రెయిల్లె మాదిరులు"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-B"
+msgstr "అదనపు బాణములు-B"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "పెక్కు రకములైన    గణిత  చిహ్నములు-B"
+
+#: ucsubset.src
+msgid "CJK Radical Supplement"
+msgstr "CJKరాడికల్ సప్లమెంట్"
+
+#: ucsubset.src
+msgid "Ideographic Description Characters"
+msgstr "ఐడియోగ్రఫిక్ వ్యవహరణ అక్షరాలు"
+
+#: ucsubset.src
+msgid "Tagalog"
+msgstr "టాగలాగ్"
+
+#: ucsubset.src
+msgid "Hanunoo"
+msgstr "హనునూ"
+
+#: ucsubset.src
+msgid "Tagbanwa"
+msgstr "తగ్బన్వ"
+
+#: ucsubset.src
+msgid "Buhid"
+msgstr "బుహిడ్"
+
+#: ucsubset.src
+msgid "Kanbun"
+msgstr "కాన్బన్"
+
+#: ucsubset.src
+msgid "Bopomofo Extended"
+msgstr "బోపోమోఫో  విస్తరించిన"
+
+#: ucsubset.src
+msgid "Katakana Phonetics"
+msgstr "కటకణ ఫోనెటిక్స్"
+
+#: ucsubset.src
+msgid "CJK Strokes"
+msgstr "CJK స్ట్రోక్స్"
+
+#: ucsubset.src
+msgid "Cypriot Syllabary"
+msgstr "సిప్రియాట్ సిలబరి"
+
+#: ucsubset.src
+msgid "Tai Xuan Jing Symbols"
+msgstr "థాయ్ హుహాన్ జింగ్ చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Variation Selectors Supplement"
+msgstr "వేరియేషన్ సెలక్టార్స్ ఉపభాగము"
+
+#: ucsubset.src
+msgid "Ancient Greek Musical Notation"
+msgstr "పురాతన గ్రీక్ సంగీత నొటేషన్"
+
+#: ucsubset.src
+msgid "Ancient Greek Numbers"
+msgstr "పురాతన గ్రీక్ సంఖ్యలు"
+
+#: ucsubset.src
+msgid "Arabic Supplement"
+msgstr "అరబిక్ ఉపభాగము"
+
+#: ucsubset.src
+msgid "Buginese"
+msgstr "బుగినీస్"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks Supplement"
+msgstr "డయాక్రిటికల్ మార్క్స్ వుపభాగం మిళితం చేస్తోంది"
+
+#: ucsubset.src
+msgid "Coptic"
+msgstr "కోప్టిక్"
+
+#: ucsubset.src
+msgid "Ethiopic Extended"
+msgstr "ఇథియోపిక్ విస్తరిత"
+
+#: ucsubset.src
+msgid "Ethiopic Supplement"
+msgstr "ఇథియోపిక్ వుపభాగం"
+
+#: ucsubset.src
+msgid "Georgian Supplement"
+msgstr "జార్జియన్ వుపభాగం"
+
+#: ucsubset.src
+msgid "Glagolitic"
+msgstr "గాల్గోలిటిక్"
+
+#: ucsubset.src
+msgid "Kharoshthi"
+msgstr "ఖరోష్తి"
+
+#: ucsubset.src
+msgid "Modifier Tone Letters"
+msgstr "సవరణి టోన్ అక్షరాలు"
+
+#: ucsubset.src
+msgid "New Tai Lue"
+msgstr "కొత్త థాయ్ లుయ్"
+
+#: ucsubset.src
+msgid "Old Persian"
+msgstr "పాత పర్షియన్"
+
+#: ucsubset.src
+msgid "Phonetic Extensions Supplement"
+msgstr "ఫొనిటిక్ విస్తరింపుల వుపభాగం"
+
+#: ucsubset.src
+msgid "Supplemental Punctuation"
+msgstr "సప్లిమెంటల్ పంక్చుయేషన్"
+
+#: ucsubset.src
+msgid "Syloti Nagri"
+msgstr "సిలోతి నాగ్రి"
+
+#: ucsubset.src
+msgid "Tifinagh"
+msgstr "టిఫినాగ్"
+
+#: ucsubset.src
+msgid "Vertical Forms"
+msgstr "నిలువు ఫాంలు"
+
+#: ucsubset.src
+msgid "Balinese"
+msgstr "బాలినీస్"
+
+#: ucsubset.src
+msgid "Latin Extended-C"
+msgstr "లాటిన్ విస్తరింపు-C"
+
+#: ucsubset.src
+msgid "Latin Extended-D"
+msgstr "లాటిన్ విస్తరింపు-D"
+
+#: ucsubset.src
+msgid "Phags-Pa"
+msgstr "ఫాగ్స్-Pa"
+
+#: ucsubset.src
+msgid "Phoenician"
+msgstr "ఫొయెనిసియన్"
+
+#: ucsubset.src
+msgid "Cuneiform"
+msgstr "క్యునైఫాం"
+
+#: ucsubset.src
+msgid "Cuneiform Numbers And Punctuation"
+msgstr "క్యునైఫాం సంఖ్యలు మరియు పంక్చుయేషన్"
+
+#: ucsubset.src
+msgid "Counting Rod Numerals"
+msgstr "లెక్కింపు రాడ్ సంఖ్యలు"
+
+#: ucsubset.src
+msgid "Sundanese"
+msgstr "సుడానీస్"
+
+#: ucsubset.src
+msgid "Lepcha"
+msgstr "లెప్చా"
+
+#: ucsubset.src
+msgid "Ol Chiki"
+msgstr "ఓల్ చికి"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-A"
+msgstr "సిరిల్లిక్ విస్తరింపు-A"
+
+#: ucsubset.src
+msgid "Vai"
+msgstr "వయా"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-B"
+msgstr "సిరిల్లిక్ విస్తరింపు-B"
+
+#: ucsubset.src
+msgid "Saurashtra"
+msgstr "సౌరాష్ట్ర"
+
+#: ucsubset.src
+msgid "Kayah Li"
+msgstr "కయా లి"
+
+#: ucsubset.src
+msgid "Rejang"
+msgstr "రెజాంగ్"
+
+#: ucsubset.src
+msgid "Cham"
+msgstr "చామ్"
+
+#: ucsubset.src
+msgid "Ancient Symbols"
+msgstr "పురాతన చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Phaistos Disc"
+msgstr "ఫైస్టోస్ డిస్కు"
+
+#: ucsubset.src
+msgid "Lycian"
+msgstr "లిసియన్"
+
+#: ucsubset.src
+msgid "Carian"
+msgstr "కరియన్"
+
+#: ucsubset.src
+msgid "Lydian"
+msgstr "లిడియన్"
+
+#: ucsubset.src
+msgid "Mahjong Tiles"
+msgstr "మెజోంగ్ పలకలు"
+
+#: ucsubset.src
+msgid "Domino Tiles"
+msgstr "డొమిలో పలకలు"
+
+#: ucsubset.src
+msgid "Samaritan"
+msgstr "సమరిటన్"
+
+#: ucsubset.src
+msgid "Canadian Aboriginal Syllabics Extended"
+msgstr "కెనడియన్ అబ్‌వొరిజినల్ సిల్లబిక్స్ విస్తరిత"
+
+#: ucsubset.src
+msgid "Tai Tham"
+msgstr "థాయ్ థమ్"
+
+#: ucsubset.src
+msgid "Vedic Extensions"
+msgstr "వేదిక్ విస్తరింపులు"
+
+#: ucsubset.src
+msgid "Lisu"
+msgstr "లిసు"
+
+#: ucsubset.src
+msgid "Bamum"
+msgstr "బమమ్"
+
+#: ucsubset.src
+msgid "Common Indic Number Forms"
+msgstr "ఉమ్మడి భారతీయ సంఖ్యా రూపాలు"
+
+#: ucsubset.src
+msgid "Devanagari Extended"
+msgstr "దేవనాగరి విస్తరిత"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-A"
+msgstr "హంగుల్ జమొ విస్తరిత-A"
+
+#: ucsubset.src
+msgid "Javanese"
+msgstr "జావానీస్"
+
+#: ucsubset.src
+msgid "Myanmar Extended-A"
+msgstr "మయన్మార్ విస్తరిత-A"
+
+#: ucsubset.src
+msgid "Tai Viet"
+msgstr "థాయ్ వియత్"
+
+#: ucsubset.src
+msgid "Meetei Mayek"
+msgstr "మీథై మయక్"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-B"
+msgstr "హంగుల్ జమొ విస్తరిత-B"
+
+#: ucsubset.src
+msgid "Imperial Aramaic"
+msgstr "ఇంపీరియల్ అర్మైక్"
+
+#: ucsubset.src
+msgid "Old South Arabian"
+msgstr "పాత సౌత్ అరేబియన్"
+
+#: ucsubset.src
+msgid "Avestan"
+msgstr "అవెస్టన్"
+
+#: ucsubset.src
+msgid "Inscriptional Parthian"
+msgstr "శాసన పార్థియన్"
+
+#: ucsubset.src
+msgid "Inscriptional Pahlavi"
+msgstr "శాసన పాళ్వి"
+
+#: ucsubset.src
+msgid "Old Turkic"
+msgstr "పాత టర్కిక్"
+
+#: ucsubset.src
+msgid "Rumi Numeral Symbols"
+msgstr "రుమి సంఖ్య చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Kaithi"
+msgstr "కైతి"
+
+#: ucsubset.src
+msgid "Egyptian Hieroglyphs"
+msgstr "ఈజిప్షియన్ హైరోగ్లిఫ్స్"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumeric Supplement"
+msgstr "ఎన్‌క్లోజ్‌డ్ ఆల్ఫాన్యూమరిక్ వుపభాగం"
+
+#: ucsubset.src
+msgid "Enclosed Ideographic Supplement"
+msgstr "ఎన్‌క్లోజ్డ్ ఐడియోగ్రాఫిక్ వుపభాగం"
+
+#: ucsubset.src
+msgid "Mandaic"
+msgstr "మాండయిక్"
+
+#: ucsubset.src
+msgid "Batak"
+msgstr "బటక్"
+
+#: ucsubset.src
+msgid "Ethiopic Extended-A"
+msgstr "ఇథియోపిక్ విస్తరిత-A"
+
+#: ucsubset.src
+msgid "Brahmi"
+msgstr "బ్రహ్మి"
+
+#: ucsubset.src
+msgid "Bamum Supplement"
+msgstr "బమమ్ వుపభాగం"
+
+#: ucsubset.src
+msgid "Kana Supplement"
+msgstr "కన వుపభాగం"
+
+#: ucsubset.src
+msgid "Playing Cards"
+msgstr "ప్లేయింగ్ కార్డ్స్"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Pictographs"
+msgstr "నానావిధ చిహ్నాలు మరియు చిత్రాలు"
+
+#: ucsubset.src
+msgid "Emoticons"
+msgstr "ఉద్వేగస్థితి రూపాలు"
+
+#: ucsubset.src
+msgid "Transport And Map Symbols"
+msgstr "బదిలి మరియు మాప్ చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Alchemical Symbols"
+msgstr "అల్కెమికల్ చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Arabic Extended-A"
+msgstr "అరబిక్ విస్తరిత-A"
+
+#: ucsubset.src
+msgid "Arabic Mathematical Alphabetic Symbols"
+msgstr "అరబిక్ గణిత అక్షర చిహ్నాలు"
+
+#: ucsubset.src
+msgid "Chakma"
+msgstr "చక్మా"
+
+#: ucsubset.src
+msgid "Meetei Mayek Extensions"
+msgstr "మీథై మయక్ విస్తరింపులు"
+
+#: ucsubset.src
+msgid "Meroitic Cursive"
+msgstr "మెరోయిటిక్ కర్సివ్"
+
+#: ucsubset.src
+msgid "Meroitic Hieroglyphs"
+msgstr "మెరోయిటిక్ హైరోగ్లిఫ్స్"
+
+#: ucsubset.src
+msgid "Miao"
+msgstr "మయో"
+
+#: ucsubset.src
+msgid "Sharada"
+msgstr "షరద"
+
+#: ucsubset.src
+msgid "Sora Sompeng"
+msgstr "సొరా సాంపెంగ్"
+
+#: ucsubset.src
+msgid "Sundanese Supplement"
+msgstr "సుడానీస్ వుపభాగం"
+
+#: ucsubset.src
+msgid "Takri"
+msgstr "టక్రి"
+
+# Translation of Special Characters dialog from LibreOffice core
+
+#: GenericCommands.xcu
+msgid "Font Name:"
+msgstr "అక్షరశైలి పేరు:"
+
+#: specialcharacters.ui
+msgid "Special Characters"
+msgstr "ప్రత్యేకమైన అక్షరములు"

@@ -1,0 +1,3088 @@
+# All these style translations are taken from LibreOffice translation submodule
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_STANDARD\n"
+"string.text"
+msgid "Default"
+msgstr "Προεπιλογή"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT\n"
+"string.text"
+msgid "Result"
+msgstr "Αποτέλεσμα"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT1\n"
+"string.text"
+msgid "Result2"
+msgstr "Αποτέλεσμα2"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "Επικεφαλίδα"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "Επικεφαλίδα1"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT\n"
+"string.text"
+msgid "Report"
+msgstr "Αναφορά"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT1\n"
+"string.text"
+msgid "Report1"
+msgstr "Αναφορά1"
+
+#: tbcontrl.src
+msgctxt ""
+"tbcontrl.src\n"
+"RID_SVXSTR_CLEARFORM\n"
+"string.text"
+msgid "Clear formatting"
+msgstr "Εκκαθάριση μορφοποίησης"
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE\n"
+"string.text"
+msgid "Footnote Characters"
+msgstr "Χαρακτήρες υποσημείωσης"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_PAGENO\n"
+"string.text"
+msgid "Page Number"
+msgstr "Αριθμός σελίδας"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LABEL\n"
+"string.text"
+msgid "Caption Characters"
+msgstr "Χαρακτήρες υπομνήματος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_DROPCAPS\n"
+"string.text"
+msgid "Drop Caps"
+msgstr "Αρχιγράμματα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_NUM_LEVEL\n"
+"string.text"
+msgid "Numbering Symbols"
+msgstr "Χαρακτήρες αρίθμησης"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_BUL_LEVEL\n"
+"string.text"
+msgid "Bullets"
+msgstr "Κουκκίδες"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_NORMAL\n"
+"string.text"
+msgid "Internet Link"
+msgstr "Σύνδεσμος διαδικτύου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_VISIT\n"
+"string.text"
+msgid "Visited Internet Link"
+msgstr "Αναγνωσμένος δεσμός διαδικτύου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_JUMPEDIT\n"
+"string.text"
+msgid "Placeholder"
+msgstr "Δεσμευτικά θέσης"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_TOXJUMP\n"
+"string.text"
+msgid "Index Link"
+msgstr "Σύνδεση ευρετηρίου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE\n"
+"string.text"
+msgid "Endnote Characters"
+msgstr "Χαρακτήρες σημείωσης τέλους"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LANDSCAPE\n"
+"string.text"
+msgid "Landscape"
+msgstr "Οριζόντια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LINENUM\n"
+"string.text"
+msgid "Line Numbering"
+msgstr "Αρίθμηση γραμμών"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_IDX_MAIN_ENTRY\n"
+"string.text"
+msgid "Main Index Entry"
+msgstr "Κύρια καταχώριση ευρετηρίου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE_ANCHOR\n"
+"string.text"
+msgid "Footnote Anchor"
+msgstr "Αγκίστρωση υποσημείωσης"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE_ANCHOR\n"
+"string.text"
+msgid "Endnote Anchor"
+msgstr "Αγκίστρωση σημειώσεων τέλους"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_EMPHASIS\n"
+"string.text"
+msgid "Emphasis"
+msgstr "Έμφαση"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CITIATION\n"
+"string.text"
+msgid "Quotation"
+msgstr "Παράθεση"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_STRONG\n"
+"string.text"
+msgid "Strong Emphasis"
+msgstr "Έντονη έμφαση"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CODE\n"
+"string.text"
+msgid "Source Text"
+msgstr "Κείμενο πηγής"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_SAMPLE\n"
+"string.text"
+msgid "Example"
+msgstr "Παράδειγμα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_KEYBOARD\n"
+"string.text"
+msgid "User Entry"
+msgstr "Καταχώριση χρήστη"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_VARIABLE\n"
+"string.text"
+msgid "Variable"
+msgstr "Μεταβλητή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_DEFINSTANCE\n"
+"string.text"
+msgid "Definition"
+msgstr "Ορισμός"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_TELETYPE\n"
+"string.text"
+msgid "Teletype"
+msgstr "Τηλέτυπο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FRAME\n"
+"string.text"
+msgid "Frame"
+msgstr "Πλαίσιο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_GRAPHIC\n"
+"string.text"
+msgid "Graphics"
+msgstr "Γραφικά"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_OLE\n"
+"string.text"
+msgid "OLE"
+msgstr "ΣΕΑ"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FORMEL\n"
+"string.text"
+msgid "Formula"
+msgstr "Τύπος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "Σημειώσεις στο περιθώριο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_WATERSIGN\n"
+"string.text"
+msgid "Watermark"
+msgstr "Υδατογράφημα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_LABEL\n"
+"string.text"
+msgid "Labels"
+msgstr "Ετικέτες"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "Προεπιλεγμένη τεχνοτροπία"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT\n"
+"string.text"
+msgid "Text Body"
+msgstr "Σώμα κειμένου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_IDENT\n"
+"string.text"
+msgid "First Line Indent"
+msgstr "Εσοχή πρώτης γραμμής"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_NEGIDENT\n"
+"string.text"
+msgid "Hanging Indent"
+msgstr "Προεξοχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_MOVE\n"
+"string.text"
+msgid "Text Body Indent"
+msgstr "Εσοχή σώματος κειμένου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_GREETING\n"
+"string.text"
+msgid "Complimentary Close"
+msgstr "Προσφώνηση τέλους"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SIGNATURE\n"
+"string.text"
+msgid "Signature"
+msgstr "Υπογραφή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE_BASE\n"
+"string.text"
+msgid "Heading"
+msgstr "Επικεφαλίδα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUMBUL_BASE\n"
+"string.text"
+msgid "List"
+msgstr "Λίστα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_REGISTER_BASE\n"
+"string.text"
+msgid "Index"
+msgstr "Ευρετήριο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_CONFRONTATION\n"
+"string.text"
+msgid "List Indent"
+msgstr "Εσοχή λίστας"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "Σημειώσεις στο περιθώριο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE1\n"
+"string.text"
+msgid "Heading 1"
+msgstr "Επικεφαλίδα 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE2\n"
+"string.text"
+msgid "Heading 2"
+msgstr "Επικεφαλίδα 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE3\n"
+"string.text"
+msgid "Heading 3"
+msgstr "Επικεφαλίδα 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE4\n"
+"string.text"
+msgid "Heading 4"
+msgstr "Επικεφαλίδα 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE5\n"
+"string.text"
+msgid "Heading 5"
+msgstr "Επικεφαλίδα 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE6\n"
+"string.text"
+msgid "Heading 6"
+msgstr "Επικεφαλίδα 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE7\n"
+"string.text"
+msgid "Heading 7"
+msgstr "Επικεφαλίδα 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE8\n"
+"string.text"
+msgid "Heading 8"
+msgstr "Επικεφαλίδα 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE9\n"
+"string.text"
+msgid "Heading 9"
+msgstr "Επικεφαλίδα 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE10\n"
+"string.text"
+msgid "Heading 10"
+msgstr "Επικεφαλίδα 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1S\n"
+"string.text"
+msgid "Numbering 1 Start"
+msgstr "Αρίθμηση 1 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "Αρίθμηση 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1E\n"
+"string.text"
+msgid "Numbering 1 End"
+msgstr "Αρίθμηση 1 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM1\n"
+"string.text"
+msgid "Numbering 1 Cont."
+msgstr "Αρίθμηση 1 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2S\n"
+"string.text"
+msgid "Numbering 2 Start"
+msgstr "Αρίθμηση 2 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "Αρίθμηση 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2E\n"
+"string.text"
+msgid "Numbering 2 End"
+msgstr "Αρίθμηση 2 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM2\n"
+"string.text"
+msgid "Numbering 2 Cont."
+msgstr "Αρίθμηση 2 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3S\n"
+"string.text"
+msgid "Numbering 3 Start"
+msgstr "Αρίθμηση 3 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "Αρίθμηση 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3E\n"
+"string.text"
+msgid "Numbering 3 End"
+msgstr "Αρίθμηση 3 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM3\n"
+"string.text"
+msgid "Numbering 3 Cont."
+msgstr "Αρίθμηση 3 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4S\n"
+"string.text"
+msgid "Numbering 4 Start"
+msgstr "Αρίθμηση 4 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "Αρίθμηση 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4E\n"
+"string.text"
+msgid "Numbering 4 End"
+msgstr "Αρίθμηση 4 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM4\n"
+"string.text"
+msgid "Numbering 4 Cont."
+msgstr "Αρίθμηση 4 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5S\n"
+"string.text"
+msgid "Numbering 5 Start"
+msgstr "Αρίθμηση 5 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "Αρίθμηση 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5E\n"
+"string.text"
+msgid "Numbering 5 End"
+msgstr "Αρίθμηση 5 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM5\n"
+"string.text"
+msgid "Numbering 5 Cont."
+msgstr "Αρίθμηση 5 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1S\n"
+"string.text"
+msgid "List 1 Start"
+msgstr "Κατάλογος 1 Αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1\n"
+"string.text"
+msgid "List 1"
+msgstr "Λίστα 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1E\n"
+"string.text"
+msgid "List 1 End"
+msgstr "Λίστα 1 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM1\n"
+"string.text"
+msgid "List 1 Cont."
+msgstr "Λίστα 1 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2S\n"
+"string.text"
+msgid "List 2 Start"
+msgstr "Λίστα 2 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2\n"
+"string.text"
+msgid "List 2"
+msgstr "Λίστα 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2E\n"
+"string.text"
+msgid "List 2 End"
+msgstr "Λίστα 2 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM2\n"
+"string.text"
+msgid "List 2 Cont."
+msgstr "Λίστα 2 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3S\n"
+"string.text"
+msgid "List 3 Start"
+msgstr "Λίστα 3 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3\n"
+"string.text"
+msgid "List 3"
+msgstr "Λίστα 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3E\n"
+"string.text"
+msgid "List 3 End"
+msgstr "Λίστα 3 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM3\n"
+"string.text"
+msgid "List 3 Cont."
+msgstr "Λίστα 3 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4S\n"
+"string.text"
+msgid "List 4 Start"
+msgstr "Λίστα 4 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4\n"
+"string.text"
+msgid "List 4"
+msgstr "Λίστα 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4E\n"
+"string.text"
+msgid "List 4 End"
+msgstr "Λίστα 4 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM4\n"
+"string.text"
+msgid "List 4 Cont."
+msgstr "Λίστα 4 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5S\n"
+"string.text"
+msgid "List 5 Start"
+msgstr "Λίστα 5 αρχή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5\n"
+"string.text"
+msgid "List 5"
+msgstr "Λίστα 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5E\n"
+"string.text"
+msgid "List 5 End"
+msgstr "Λίστα 5 τέλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM5\n"
+"string.text"
+msgid "List 5 Cont."
+msgstr "Λίστα 5 συνέχεια"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERL\n"
+"string.text"
+msgid "Header Left"
+msgstr "Κεφαλίδα αριστερά"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERR\n"
+"string.text"
+msgid "Header Right"
+msgstr "Κεφαλίδα δεξιά"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTER\n"
+"string.text"
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERL\n"
+"string.text"
+msgid "Footer Left"
+msgstr "Υποσέλιδο αριστερά"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERR\n"
+"string.text"
+msgid "Footer Right"
+msgstr "Υποσέλιδο δεξιά"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE\n"
+"string.text"
+msgid "Table Contents"
+msgstr "Περιεχόμενα πίνακα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE_HDLN\n"
+"string.text"
+msgid "Table Heading"
+msgstr "Επικεφαλίδα πίνακα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FRAME\n"
+"string.text"
+msgid "Frame Contents"
+msgstr "Περιεχόμενα πλαισίου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "Υποσημείωση"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "Σημείωση τέλους"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL\n"
+"string.text"
+msgid "Caption"
+msgstr "Υπόμνημα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_ABB\n"
+"string.text"
+msgid "Illustration"
+msgstr "Εικόνα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_TABLE\n"
+"string.text"
+msgid "Table"
+msgstr "Πίνακας"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_FRAME\n"
+"string.text"
+msgid "Text"
+msgstr "Κείμενο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_DRAWING\n"
+"string.text"
+msgid "Drawing"
+msgstr "Σχεδίαση"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_JAKETADRESS\n"
+"string.text"
+msgid "Addressee"
+msgstr "Παραλήπτης"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SENDADRESS\n"
+"string.text"
+msgid "Sender"
+msgstr "Αποστολέας"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXH\n"
+"string.text"
+msgid "Index Heading"
+msgstr "Επικεφαλίδα ευρετηρίου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX1\n"
+"string.text"
+msgid "Index 1"
+msgstr "Ευρετήριο 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX2\n"
+"string.text"
+msgid "Index 2"
+msgstr "Ευρετήριο 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX3\n"
+"string.text"
+msgid "Index 3"
+msgstr "Ευρετήριο 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXBREAK\n"
+"string.text"
+msgid "Index Separator"
+msgstr "Διαχωριστικό ευρετηρίου"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNTH\n"
+"string.text"
+msgid "Contents Heading"
+msgstr "Επικεφαλίδα περιεχομένων"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT1\n"
+"string.text"
+msgid "Contents 1"
+msgstr "Περιεχόμενα 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT2\n"
+"string.text"
+msgid "Contents 2"
+msgstr "Περιεχόμενα 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT3\n"
+"string.text"
+msgid "Contents 3"
+msgstr "Περιεχόμενα 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT4\n"
+"string.text"
+msgid "Contents 4"
+msgstr "Περιεχόμενα 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT5\n"
+"string.text"
+msgid "Contents 5"
+msgstr "Περιεχόμενα 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT6\n"
+"string.text"
+msgid "Contents 6"
+msgstr "Περιεχόμενα 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT7\n"
+"string.text"
+msgid "Contents 7"
+msgstr "Περιεχόμενα 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT8\n"
+"string.text"
+msgid "Contents 8"
+msgstr "Περιεχόμενα 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT9\n"
+"string.text"
+msgid "Contents 9"
+msgstr "Περιεχόμενα 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT10\n"
+"string.text"
+msgid "Contents 10"
+msgstr "Περιεχόμενα 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USERH\n"
+"string.text"
+msgid "User Index Heading"
+msgstr "Επικεφαλίδα ευρετηρίου χρηστών"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER1\n"
+"string.text"
+msgid "User Index 1"
+msgstr "Ευρετήριο χρηστών 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER2\n"
+"string.text"
+msgid "User Index 2"
+msgstr "Ευρετήριο χρηστών 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER3\n"
+"string.text"
+msgid "User Index 3"
+msgstr "Ευρετήριο χρηστών 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER4\n"
+"string.text"
+msgid "User Index 4"
+msgstr "Ευρετήριο χρηστών 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER5\n"
+"string.text"
+msgid "User Index 5"
+msgstr "Ευρετήριο χρηστών 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER6\n"
+"string.text"
+msgid "User Index 6"
+msgstr "Ευρετήριο χρηστών 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER7\n"
+"string.text"
+msgid "User Index 7"
+msgstr "Ευρετήριο χρηστών 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER8\n"
+"string.text"
+msgid "User Index 8"
+msgstr "Ευρετήριο χρηστών 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER9\n"
+"string.text"
+msgid "User Index 9"
+msgstr "Ευρετήριο χρηστών 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER10\n"
+"string.text"
+msgid "User Index 10"
+msgstr "Ευρετήριο χρηστών 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CITATION\n"
+"string.text"
+msgid "Citation"
+msgstr "Παραπομπή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUSH\n"
+"string.text"
+msgid "Illustration Index Heading"
+msgstr "Επικεφαλίδα καταλόγου εικόνων"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUS1\n"
+"string.text"
+msgid "Illustration Index 1"
+msgstr "Ευρετήριο εικόνων 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECTH\n"
+"string.text"
+msgid "Object Index Heading"
+msgstr "Επικεφαλίδα ευρετηρίου αντικειμένων"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECT1\n"
+"string.text"
+msgid "Object Index 1"
+msgstr "Ευρετήριο αντικειμένων 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLESH\n"
+"string.text"
+msgid "Table Index Heading"
+msgstr "Επικεφαλίδα ευρετηρίου πίνακα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLES1\n"
+"string.text"
+msgid "Table Index 1"
+msgstr "Ευρετήριο πίνακα 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIESH\n"
+"string.text"
+msgid "Bibliography Heading"
+msgstr "Επικεφαλίδα βιβλιογραφίας"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIES1\n"
+"string.text"
+msgid "Bibliography 1"
+msgstr "Βιβλιογραφία 1"
+
+
+#. Document title style, not to be confused with Heading style
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_DOC_TITEL\n"
+"string.text"
+msgid "Title"
+msgstr "Τίτλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_DOC_SUBTITEL\n"
+"string.text"
+msgid "Subtitle"
+msgstr "Υπότιτλος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_BLOCKQUOTE\n"
+"string.text"
+msgid "Quotations"
+msgstr "Παραθέσεις"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_PRE\n"
+"string.text"
+msgid "Preformatted Text"
+msgstr "Προμορφοποιημένο κείμενο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_HR\n"
+"string.text"
+msgid "Horizontal Line"
+msgstr "Οριζόντια γραμμή"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DD\n"
+"string.text"
+msgid "List Contents"
+msgstr "Περιεχόμενα λίστας"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DT\n"
+"string.text"
+msgid "List Heading"
+msgstr "Επικεφαλίδα λίστας"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "Προεπιλεγμένη τεχνοτροπία"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FIRST\n"
+"string.text"
+msgid "First Page"
+msgstr "Πρώτη σελίδα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LEFT\n"
+"string.text"
+msgid "Left Page"
+msgstr "Αριστερή σελίδα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_RIGHT\n"
+"string.text"
+msgid "Right Page"
+msgstr "Δεξιά σελίδα"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_JAKET\n"
+"string.text"
+msgid "Envelope"
+msgstr "Φάκελος"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_REGISTER\n"
+"string.text"
+msgid "Index"
+msgstr "Ευρετήριο"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_HTML\n"
+"string.text"
+msgid "HTML"
+msgstr "HTML"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "Υποσημείωση"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "Σημείωση τέλους"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "Αρίθμηση 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "Αρίθμηση 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "Αρίθμηση 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "Αρίθμηση 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "Αρίθμηση 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL1\n"
+"string.text"
+msgid "List 1"
+msgstr "Λίστα 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL2\n"
+"string.text"
+msgid "List 2"
+msgstr "Λίστα 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL3\n"
+"string.text"
+msgid "List 3"
+msgstr "Λίστα 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL4\n"
+"string.text"
+msgid "List 4"
+msgstr "Λίστα 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL5\n"
+"string.text"
+msgid "List 5"
+msgstr "Λίστα 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_RUBYTEXT\n"
+"string.text"
+msgid "Rubies"
+msgstr "Χαρακτήρες φωνητικής γραφής"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_VERT_NUM\n"
+"string.text"
+msgid "Vertical Numbering Symbols"
+msgstr "Σύμβολα κάθετης αρίθμησης"
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_STANDARD_STYLESHEET_NAME\n"
+"string.text"
+msgid "Default"
+msgstr "Προεπιλογή"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_MEASURE\n"
+"string.text"
+msgid "Dimension Line"
+msgstr "Γραμμή διαστάσεων"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJNOLINENOFILL\n"
+"string.text"
+msgid "Object with no fill and no line"
+msgstr "Αντικείμενο χωρίς γέμισμα και χωρίς γραμμή"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHARROW\n"
+"string.text"
+msgid "Object with arrow"
+msgstr "Αντικείμενο με βέλος"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHSHADOW\n"
+"string.text"
+msgid "Object with shadow"
+msgstr "Αντικείμενο με σκιά"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHOUTFILL\n"
+"string.text"
+msgid "Object without fill"
+msgstr "Αντικείμενο χωρίς γέμισμα"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXT\n"
+"string.text"
+msgid "Text"
+msgstr "Κείμενο"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY\n"
+"string.text"
+msgid "Text body"
+msgstr "Σώμα κειμένου"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_JUSTIFY\n"
+"string.text"
+msgid "Text body justified"
+msgstr "Πλήρης στοίχιση σώματος κειμένου"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_INDENT\n"
+"string.text"
+msgid "First line indent"
+msgstr "Εσοχή πρώτης γραμμής"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "Τίτλος"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE1\n"
+"string.text"
+msgid "Title1"
+msgstr "Τίτλος1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE2\n"
+"string.text"
+msgid "Title2"
+msgstr "Τίτλος2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "Κεφαλίδα"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "Κεφαλίδα1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE2\n"
+"string.text"
+msgid "Heading2"
+msgstr "Κεφαλίδα2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "Τίτλος"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_SUBTITLE\n"
+"string.text"
+msgid "Subtitle"
+msgstr "Υπότιτλος"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_OUTLINE\n"
+"string.text"
+msgid "Outline"
+msgstr "Διάρθρωση"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUNDOBJECTS\n"
+"string.text"
+msgid "Background objects"
+msgstr "Αντικείμενα παρασκηνίου"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUND\n"
+"string.text"
+msgid "Background"
+msgstr "Παρασκήνιο"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_NOTES\n"
+"string.text"
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_BANDED_CELL\n"
+"string.text"
+msgid "Banding cell"
+msgstr "Ζώνες κελιού"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TOTAL\n"
+"string.text"
+msgid "Total line"
+msgstr "Συνολική γραμμή"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_FIRST_COLUMN\n"
+"string.text"
+msgid "First column"
+msgstr "Πρώτη στήλη"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_LAST_COLUMN\n"
+"string.text"
+msgid "Last column"
+msgstr "Τελευταία στήλη"
+
+#: DrawImpressCommands.xcu
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: strings.src
+msgid "Blank Slide"
+msgstr "Κενή διαφάνεια"
+
+#: strings.src
+msgid "Title Only"
+msgstr "Μόνο τίτλος"
+
+#: strings.src
+msgid "Centered Text"
+msgstr "Κεντραρισμένο κείμενο"
+
+#: strings.src
+msgid "Title Slide"
+msgstr "Διαφάνεια τίτλου"
+
+#: strings.src
+msgid "Title, Content"
+msgstr "Τίτλος, περιεχόμενο"
+
+#: strings.src
+msgid "Title and 2 Content"
+msgstr "Τίτλος και περιεχόμενο 2"
+
+#: strings.src
+msgid "Title, Content and 2 Content"
+msgstr "Τίτλος, περιεχόμενο και περιεχόμενο 2"
+
+#: strings.src
+msgid "Title, 2 Content and Content"
+msgstr "Τίτλος, περιεχόμενο 2 και περιεχόμενο"
+
+#: strings.src
+msgid "Title, Content over 2 Content"
+msgstr "Τίτλος, περιεχόμενο πάνω από το περιεχόμενο 2"
+
+#: strings.src
+msgid "Title, 2 Content over Content"
+msgstr "Τίτλος, περιεχόμενο 2 πάνω από το περιεχόμενο"
+
+#: strings.src
+msgid "Title, Content over Content"
+msgstr "Τίτλος, περιεχόμενο πάνω από το περιεχόμενο"
+
+#: strings.src
+msgid "Title, 4 Content"
+msgstr "Τίτλος, περιεχόμενο 4"
+
+#: strings.src
+msgid "Title, 6 Content"
+msgstr "Τίτλος, περιεχόμενο 6"
+
+#: strings.src
+msgid "Title, Vertical Text"
+msgstr "Τίτλος, κάθετο κείμενο"
+
+#: strings.src
+msgid "Title, Vertical Text, Clipart"
+msgstr "Τίτλος, κάθετο κείμενο, Clipart"
+
+#: strings.src
+msgid "Vertical Title, Text, Chart"
+msgstr "Kάθετος τίτλος, κείμενο, διάγραμμα"
+
+#: strings.src
+msgid "Vertical Title, Vertical Text"
+msgstr "Κάθετος τίτλος, κάθετο κείμενο"
+
+#: stbctrls.src
+msgid "Standard selection"
+msgstr "Τυπική επιλογή"
+
+#: stbctrls.src
+msgid "Extending selection"
+msgstr "Επεκταμένη επιλογή"
+
+#: stbctrls.src
+msgid "Adding selection"
+msgstr "Προσθήκη επιλογής"
+
+#: stbctrls.src
+msgid "Block selection"
+msgstr "Επιλογή ομάδας"
+
+#: stbctrls.src
+msgid "Overwrite"
+msgstr "Αντικατάσταση"
+
+#: globstr.src
+msgid "Insert"
+msgstr "Εισαγωγή"
+
+#: globstr.src
+msgid "Sheet %1 of %2"
+msgstr "Φύλλο %1 από %2"
+
+#: globstr.src
+msgid "$1 rows, $2 columns selected"
+msgstr "επιλέχτηκε $1 γραμμή, $2 στήλη"
+
+#: shells.src
+msgid "Page %1 of %2"
+msgstr "Σελίδα %1 από %2"
+
+#: app.src
+msgid "%1 words, %2 characters"
+msgstr "%1 λέξεις, %2 χαρακτήρες"
+
+#: strings.src
+msgid "Slide %1 of %2"
+msgstr "Διαφάνεια %1 από %2"
+
+# Translations of Unicode subsets from LibreOffice core
+
+#: ucsubset.src
+msgid "Basic Latin"
+msgstr "Βασικά λατινικά"
+
+#: ucsubset.src
+msgid "Latin-1"
+msgstr "Λατινικά-1"
+
+#: ucsubset.src
+msgid "Latin Extended-A"
+msgstr "Λατινικά εκτεταμένα-A"
+
+#: ucsubset.src
+msgid "Latin Extended-B"
+msgstr "Λατινικά εκτεταμένα-B"
+
+#: ucsubset.src
+msgid "IPA Extensions"
+msgstr "Επεκτάσεις διεθνούς φωνητικού αλφάβητου"
+
+#: ucsubset.src
+msgid "Spacing Modifier Letters"
+msgstr "Χαρακτήρες μεταβολής διαστήματος"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks"
+msgstr "Συνδυαζόμενα διακριτικά σημάδια"
+
+#: ucsubset.src
+msgid "Basic Greek"
+msgstr "Βασικά ελληνικά"
+
+#: ucsubset.src
+msgid "Greek Symbols And Coptic"
+msgstr "Ελληνικά σύμβολα και κοπτικά"
+
+#: ucsubset.src
+msgid "Cyrillic"
+msgstr "Κυριλλικά"
+
+#: ucsubset.src
+msgid "Armenian"
+msgstr "Αρμένικα"
+
+#: ucsubset.src
+msgid "Basic Hebrew"
+msgstr "Βασικά εβραϊκά"
+
+#: ucsubset.src
+msgid "Hebrew Extended"
+msgstr "Εκτεταμένα εβραϊκά "
+
+#: ucsubset.src
+msgid "Basic Arabic"
+msgstr "Βασικά αραβικά"
+
+#: ucsubset.src
+msgid "Arabic Extended"
+msgstr "Εκτεταμένα αραβικά "
+
+#: ucsubset.src
+msgid "Devanagari"
+msgstr "Ντεβαναγκάρι"
+
+#: ucsubset.src
+msgid "Bengali"
+msgstr "Μπενγκάλι"
+
+#: ucsubset.src
+msgid "Gurmukhi"
+msgstr "Γκουρμούκι"
+
+#: ucsubset.src
+msgid "Gujarati"
+msgstr "Γκουτζαράτι"
+
+#: ucsubset.src
+msgid "Odia"
+msgstr "Όντια"
+
+#: ucsubset.src
+msgid "Tamil"
+msgstr "Ταμίλ"
+
+#: ucsubset.src
+msgid "Telugu"
+msgstr "Τελούγκου"
+
+#: ucsubset.src
+msgid "Kannada"
+msgstr "Κανάντα"
+
+#: ucsubset.src
+msgid "Malayalam"
+msgstr "Μαλαισιανά"
+
+#: ucsubset.src
+msgid "Thai"
+msgstr "Ταϊλανδικά"
+
+#: ucsubset.src
+msgid "Lao"
+msgstr "Λαοτινά"
+
+#: ucsubset.src
+msgid "Basic Georgian"
+msgstr "Βασικά γεωργιανά"
+
+#: ucsubset.src
+msgid "Georgian Extended"
+msgstr "Εκτεταμένα γεωργιανά "
+
+#: ucsubset.src
+msgid "Hangul Jamo"
+msgstr "Χανγκούλ γιάμο"
+
+#: ucsubset.src
+msgid "Latin Extended Additionals"
+msgstr "Πρόσθετα εκτεταμένα λατινικά"
+
+#: ucsubset.src
+msgid "Greek Extended"
+msgstr "Εκτεταμένα ελληνικά"
+
+#: ucsubset.src
+msgid "General punctuation"
+msgstr "Γενική στίξη"
+
+#: ucsubset.src
+msgid "Superscripts and Subscripts"
+msgstr "Εκθέτες και Δείκτες"
+
+#: ucsubset.src
+msgid "Currency Symbols"
+msgstr "Νομισματικά σύμβολα"
+
+#: ucsubset.src
+msgid "Combining Diacritical Symbols"
+msgstr "Συνδυαζόμενα διακριτικά σύμβολα"
+
+#: ucsubset.src
+msgid "Letterlike Symbols"
+msgstr "Γραμματοειδή σύμβολα "
+
+#: ucsubset.src
+msgid "Number Forms"
+msgstr "Φόρμες αριθμών"
+
+#: ucsubset.src
+msgid "Arrows"
+msgstr "Βέλη"
+
+#: ucsubset.src
+msgid "Mathematical Operators"
+msgstr "Μαθηματικοί τελεστές"
+
+#: ucsubset.src
+msgid "Miscellaneous Technical"
+msgstr "Διάφορα τεχνικά"
+
+#: ucsubset.src
+msgid "Control Pictures"
+msgstr "Εικόνες ελέγχου"
+
+#: ucsubset.src
+msgid "Optical Character Recognition"
+msgstr "Οπτική αναγνώριση χαρακτήρων"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumerics"
+msgstr "Περικλειόμενα αλφαριθμητικά"
+
+#: ucsubset.src
+msgid "Box Drawing"
+msgstr "Σχεδιασμός πλαισίου"
+
+#: ucsubset.src
+msgid "Block Elements"
+msgstr "Στοιχεία ομάδας"
+
+#: ucsubset.src
+msgid "Geometric Shapes"
+msgstr "Γεωμετρικά σχήματα"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols"
+msgstr "Διάφορα σύμβολα"
+
+#: ucsubset.src
+msgid "Dingbats"
+msgstr "Διακοσμήσεις"
+
+#: ucsubset.src
+msgid "CJK Symbols And Punctuation"
+msgstr "Σύμβολα CJK και στίξη"
+
+#: ucsubset.src
+msgid "Hiragana"
+msgstr "Χιραγκάνα"
+
+#: ucsubset.src
+msgid "Katakana"
+msgstr "Κατακάνα"
+
+#: ucsubset.src
+msgid "Bopomofo"
+msgstr "Μποπομόφο"
+
+#: ucsubset.src
+msgid "Hangul Compatibility Jamo"
+msgstr "Τζάμο συμβατό με το Χανγκούλ"
+
+#: ucsubset.src
+msgid "CJK Miscellaneous"
+msgstr "Διάφορα CJK"
+
+#: ucsubset.src
+msgid "Enclosed CJK Letters And Months"
+msgstr "Περικλειόμενα γράμματα CJK και μήνες"
+
+#: ucsubset.src
+msgid "CJK Compatibility"
+msgstr "Συμβατότητα CJK"
+
+#: ucsubset.src
+msgid "Hangul"
+msgstr "Χανγκούλ"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs"
+msgstr "Ενοποιημένα ιδεογράμματα CJK"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension A"
+msgstr "Επέκταση Α ενοποιημένων ιδεογραμμάτων CJK"
+
+#: ucsubset.src
+msgid "Private Use Area"
+msgstr "Προσωπική περιοχή χρήσης"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs"
+msgstr "Ιδεογράμματα συμβατότητας CJK"
+
+#: ucsubset.src
+msgid "Alphabetic Presentation Forms"
+msgstr "Αλφαβητικές φόρμες παρουσίασης"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-A"
+msgstr "Αραβικές φόρμες παρουσίασης-A"
+
+#: ucsubset.src
+msgid "Combining Half Marks"
+msgstr "Συνδυαζόμενα ημι-σημάδια"
+
+#: ucsubset.src
+msgid "CJK Compatibility Forms"
+msgstr "Φόρμες συμβατότητας CJK"
+
+#: ucsubset.src
+msgid "Small Form Variants"
+msgstr "Μικρές παραλλαγές φόρμας"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-B"
+msgstr "Αραβικές φόρμες παρουσίασης-B"
+
+#: ucsubset.src
+msgid "Half-width and Full-width Forms"
+msgstr "Φόρμες μισού και πλήρους πλάτους"
+
+#: ucsubset.src
+msgid "Specials"
+msgstr "Ειδικά σύμβολα"
+
+#: ucsubset.src
+msgid "Yi Syllables"
+msgstr "Συλλαβές Yi "
+
+#: ucsubset.src
+msgid "Yi Radicals"
+msgstr "Ρίζες Yi"
+
+#: ucsubset.src
+msgid "Old Italic"
+msgstr "Παλιά πλάγια"
+
+#: ucsubset.src
+msgid "Gothic"
+msgstr "Γοτθικά"
+
+#: ucsubset.src
+msgid "Deseret"
+msgstr "Ντέζερετ"
+
+#: ucsubset.src
+msgid "Byzantine Musical Symbols"
+msgstr "Βυζαντινά μουσικά σύμβολα"
+
+#: ucsubset.src
+msgid "Musical Symbols"
+msgstr "Μουσικά σύμβολα"
+
+#: ucsubset.src
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "Μαθηματικά αλφαριθμητικά σύμβολα"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension B"
+msgstr "Επέκταση Β ενοποιημένων ιδεογραμμάτων CJK"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension C"
+msgstr "Επέκταση C ενοποιημένων ιδεογραμμάτων CJK"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension D"
+msgstr "Επέκταση D ενοποιημένων ιδεογραμμάτων CJK"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "Συμπλήρωμα ιδεογραμμάτων συμβατών με CJK"
+
+#: ucsubset.src
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: ucsubset.src
+msgid "Cyrillic Supplement"
+msgstr "Συμπλήρωμα κυριλικών"
+
+#: ucsubset.src
+msgid "Variation Selectors"
+msgstr "Επιλογείς παραλλαγών"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-A"
+msgstr "Συμπληρωματική ιδιωτική περιοχή χρήσης Α"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-B"
+msgstr "Συμπληρωματική ιδιωτική περιοχή χρήσης Β"
+
+#: ucsubset.src
+msgid "Limbu"
+msgstr "Λίμπου"
+
+#: ucsubset.src
+msgid "Tai Le"
+msgstr "Τάι λε"
+
+#: ucsubset.src
+msgid "Khmer Symbols"
+msgstr "Σύμβολα Κμερ"
+
+#: ucsubset.src
+msgid "Phonetic Extensions"
+msgstr "Φωνητικές επεκτάσεις"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Arrows"
+msgstr "Διάφορα σύμβολα και βέλη"
+
+#: ucsubset.src
+msgid "Yijing Hexagram Symbols"
+msgstr "Σύμβολα εξάγραμμων Yijing"
+
+#: ucsubset.src
+msgid "Linear B Syllabary"
+msgstr "Συλλαβές γραμμικής Β"
+
+#: ucsubset.src
+msgid "Linear B Ideograms"
+msgstr "Ιδεογράμματα γραμμικής Β"
+
+#: ucsubset.src
+msgid "Aegean Numbers"
+msgstr "Αριθμοί Αιγαίου"
+
+#: ucsubset.src
+msgid "Ugaritic"
+msgstr "Ουγαριτικά"
+
+#: ucsubset.src
+msgid "Shavian"
+msgstr "Σάβιαν"
+
+#: ucsubset.src
+msgid "Osmanya"
+msgstr "Οσμάνια"
+
+#: ucsubset.src
+msgid "Sinhala"
+msgstr "Σινχάλα"
+
+#: ucsubset.src
+msgid "Tibetan"
+msgstr "Θιβετιανά"
+
+#: ucsubset.src
+msgid "Myanmar"
+msgstr "Μιανμάρ"
+
+#: ucsubset.src
+msgid "Khmer"
+msgstr "Κμερ"
+
+#: ucsubset.src
+msgid "Ogham"
+msgstr "Όγκχαμ"
+
+#: ucsubset.src
+msgid "Runic"
+msgstr "Ρουνικά"
+
+#: ucsubset.src
+msgid "Syriac"
+msgstr "Συριακά"
+
+#: ucsubset.src
+msgid "Thaana"
+msgstr "Θαάνα"
+
+#: ucsubset.src
+msgid "Ethiopic"
+msgstr "Αιθιοπικά"
+
+#: ucsubset.src
+msgid "Cherokee"
+msgstr "Τσερόκι"
+
+#: ucsubset.src
+msgid "Canadan Aboriginal Syllables"
+msgstr "Καναδικές συλλαβές Αβοριγίνων"
+
+#: ucsubset.src
+msgid "Mongolian"
+msgstr "Μογγολικά"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "Διάφορα μαθηματικά σύμβολα-A"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-A"
+msgstr "Συμπληρωματικά βέλη-A"
+
+#: ucsubset.src
+msgid "Braille Patterns"
+msgstr "Μοτίβα Μπράϊγ"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-B"
+msgstr "Συμπληρωματικά βέλη-B"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "Διάφορα μαθηματικά σύμβολα-B"
+
+#: ucsubset.src
+msgid "CJK Radical Supplement"
+msgstr "Συμπλήρωμα ριζικών CJK"
+
+#: ucsubset.src
+msgid "Kangxi Radicals"
+msgstr "Ριζικά κάντζι"
+
+#: ucsubset.src
+msgid "Ideographic Description Characters"
+msgstr "Χαρακτήρες περιγραφής ιδεογραφημάτων"
+
+#: ucsubset.src
+msgid "Tagalog"
+msgstr "Ταγκαλόγκ"
+
+#: ucsubset.src
+msgid "Hanunoo"
+msgstr "Χανούνου"
+
+#: ucsubset.src
+msgid "Tagbanwa"
+msgstr "Ταγκμπάνβα"
+
+#: ucsubset.src
+msgid "Buhid"
+msgstr "Μπούχιντ"
+
+#: ucsubset.src
+msgid "Kanbun"
+msgstr "Κανμπούν"
+
+#: ucsubset.src
+msgid "Bopomofo Extended"
+msgstr "Εκτεταμένη Μποπόμοφο"
+
+#: ucsubset.src
+msgid "Katakana Phonetics"
+msgstr "Φωνητικά κατανάκα"
+
+#: ucsubset.src
+msgid "CJK Strokes"
+msgstr "Πληκτρολογήσεις CJK"
+
+#: ucsubset.src
+msgid "Cypriot Syllabary"
+msgstr "Κυπριακές συλλαβές"
+
+#: ucsubset.src
+msgid "Tai Xuan Jing Symbols"
+msgstr "Σύμβολα τάι ξουάν τζινγκ"
+
+#: ucsubset.src
+msgid "Variation Selectors Supplement"
+msgstr "Συμπλήρωμα επιλογέων παραλλαγής"
+
+#: ucsubset.src
+msgid "Ancient Greek Musical Notation"
+msgstr "Αρχαία ελληνική μουσική σημειογραφία"
+
+#: ucsubset.src
+msgid "Ancient Greek Numbers"
+msgstr "Αρχαίοι ελληνικοί αριθμοί"
+
+#: ucsubset.src
+msgid "Arabic Supplement"
+msgstr "Συμπλήρωμα αραβικών"
+
+#: ucsubset.src
+msgid "Buginese"
+msgstr "Μπουγκινέζε"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks Supplement"
+msgstr "Συμπλήρωμα συνδυασμού διακριτικών συμβόλων"
+
+#: ucsubset.src
+msgid "Coptic"
+msgstr "Κοπτικά"
+
+#: ucsubset.src
+msgid "Ethiopic Extended"
+msgstr "Επεκταμένα αιθιοπικά"
+
+#: ucsubset.src
+msgid "Ethiopic Supplement"
+msgstr "Συμπλήρωμα αιθιοπικών"
+
+#: ucsubset.src
+msgid "Georgian Supplement"
+msgstr "Συμπλήρωμα γεωργιανών"
+
+#: ucsubset.src
+msgid "Glagolitic"
+msgstr "Γκλαγκολίτικ"
+
+#: ucsubset.src
+msgid "Kharoshthi"
+msgstr "Καρόστι"
+
+#: ucsubset.src
+msgid "Modifier Tone Letters"
+msgstr "Τροποποιητές γραμμάτων τόνου"
+
+#: ucsubset.src
+msgid "New Tai Lue"
+msgstr "Νέα τάι λούε"
+
+#: ucsubset.src
+msgid "Old Persian"
+msgstr "Παλιά περσικά"
+
+#: ucsubset.src
+msgid "Phonetic Extensions Supplement"
+msgstr "Συμπλήρωμα φωνητικών επεκτάσεων"
+
+#: ucsubset.src
+msgid "Supplemental Punctuation"
+msgstr "Συμπληρωματικά σημεία στίξης"
+
+#: ucsubset.src
+msgid "Syloti Nagri"
+msgstr "Σιλότι νάγκρι"
+
+#: ucsubset.src
+msgid "Tifinagh"
+msgstr "Τιφινάγκ"
+
+#: ucsubset.src
+msgid "Vertical Forms"
+msgstr "Κάθετες μορφές"
+
+#: ucsubset.src
+msgid "Nko"
+msgstr "Νκο"
+
+#: ucsubset.src
+msgid "Balinese"
+msgstr "Μπαλί"
+
+#: ucsubset.src
+msgid "Latin Extended-C"
+msgstr "Επεκταμένα λατινικά C"
+
+#: ucsubset.src
+msgid "Latin Extended-D"
+msgstr "Επεκταμένα λατινικά D"
+
+#: ucsubset.src
+msgid "Phags-Pa"
+msgstr "Φάγκσπα"
+
+#: ucsubset.src
+msgid "Phoenician"
+msgstr "Φοινικικά"
+
+#: ucsubset.src
+msgid "Cuneiform"
+msgstr "Κούνεϊφόρμ"
+
+#: ucsubset.src
+msgid "Cuneiform Numbers And Punctuation"
+msgstr "Αριθμοί και σημεία στίξης κούνεϊφόρμ"
+
+#: ucsubset.src
+msgid "Counting Rod Numerals"
+msgstr "Απαρίθμηση αριθμητικών ράβδων"
+
+#: ucsubset.src
+msgid "Sundanese"
+msgstr "Σουδανικά"
+
+#: ucsubset.src
+msgid "Lepcha"
+msgstr "Λέπσα"
+
+#: ucsubset.src
+msgid "Ol Chiki"
+msgstr "Ολ τσίκι"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-A"
+msgstr "Επεκταμένα κυριλλικά Α "
+
+#: ucsubset.src
+msgid "Vai"
+msgstr "Βάι"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-B"
+msgstr "Επεκταμένα κυριλλικά Β"
+
+#: ucsubset.src
+msgid "Saurashtra"
+msgstr "Σαουράστρα"
+
+#: ucsubset.src
+msgid "Kayah Li"
+msgstr "κάγια λι"
+
+#: ucsubset.src
+msgid "Rejang"
+msgstr "Ρετζάνγκ"
+
+#: ucsubset.src
+msgid "Cham"
+msgstr "Τσάμ"
+
+#: ucsubset.src
+msgid "Ancient Symbols"
+msgstr "Αρχαία σύμβολα"
+
+#: ucsubset.src
+msgid "Phaistos Disc"
+msgstr "Δίσκος Φαιστού"
+
+#: ucsubset.src
+msgid "Lycian"
+msgstr "Λυκιανά"
+
+#: ucsubset.src
+msgid "Carian"
+msgstr "Καρικά"
+
+#: ucsubset.src
+msgid "Lydian"
+msgstr "Λυδικά"
+
+#: ucsubset.src
+msgid "Mahjong Tiles"
+msgstr "Παραθέματα Mahjong"
+
+#: ucsubset.src
+msgid "Domino Tiles"
+msgstr "Πλακάκια ντόμινο"
+
+#: ucsubset.src
+msgid "Samaritan"
+msgstr "Σαμάριταν"
+
+#: ucsubset.src
+msgid "Canadian Aboriginal Syllabics Extended"
+msgstr "Καναδικές ιθαγενείς επεκταμένες συλλαβές "
+
+#: ucsubset.src
+msgid "Tai Tham"
+msgstr "Τάι θάμ"
+
+#: ucsubset.src
+msgid "Vedic Extensions"
+msgstr "Βεδικές επεκτάσεις"
+
+#: ucsubset.src
+msgid "Lisu"
+msgstr "Λίζου"
+
+#: ucsubset.src
+msgid "Bamum"
+msgstr "Μπάμουμ"
+
+#: ucsubset.src
+msgid "Common Indic Number Forms"
+msgstr "Κοινές ινδικές μορφές αριθμών"
+
+#: ucsubset.src
+msgid "Devanagari Extended"
+msgstr "Επεκταμένα ντεβαναγκάρι"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-A"
+msgstr "Επεκταμένα Α Χαγκούλ τζάμο"
+
+#: ucsubset.src
+msgid "Javanese"
+msgstr "Ιάβας"
+
+#: ucsubset.src
+msgid "Myanmar Extended-A"
+msgstr "Επεκταμένα Α Μιανμάρ"
+
+#: ucsubset.src
+msgid "Tai Viet"
+msgstr "Τάι βιέτ"
+
+#: ucsubset.src
+msgid "Meetei Mayek"
+msgstr "Μεετέι μάγιεκ"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-B"
+msgstr "Επέκταση Β Χανγκούλ τζάμο"
+
+#: ucsubset.src
+msgid "Imperial Aramaic"
+msgstr "Αυτοκρατορική αραμαϊκή"
+
+#: ucsubset.src
+msgid "Old South Arabian"
+msgstr "Παλιά νοτιοαραβικά"
+
+#: ucsubset.src
+msgid "Avestan"
+msgstr "Αβεστάν"
+
+#: ucsubset.src
+msgid "Inscriptional Parthian"
+msgstr "Επιγραφικά παρθικά"
+
+#: ucsubset.src
+msgid "Inscriptional Pahlavi"
+msgstr "Επιγραφικά παχλαβί"
+
+#: ucsubset.src
+msgid "Old Turkic"
+msgstr "Παλιά τούρκικα"
+
+#: ucsubset.src
+msgid "Rumi Numeral Symbols"
+msgstr "Αριθμητικά σύμβολα ρούμι"
+
+#: ucsubset.src
+msgid "Kaithi"
+msgstr "Καίτι"
+
+#: ucsubset.src
+msgid "Egyptian Hieroglyphs"
+msgstr "Αιγυπτιακά ιερογλυφικά"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumeric Supplement"
+msgstr "Συμπλήρωμα εσώκλειστων αλφαριθμητικών"
+
+#: ucsubset.src
+msgid "Enclosed Ideographic Supplement"
+msgstr "Συμπλήρωμα εσώκλειστων ιδεογραφικών"
+
+#: ucsubset.src
+msgid "Mandaic"
+msgstr "Μαντάικ"
+
+#: ucsubset.src
+msgid "Batak"
+msgstr "Μπατάκ"
+
+#: ucsubset.src
+msgid "Ethiopic Extended-A"
+msgstr "Επεκταμένα αιθιοπικά Α"
+
+#: ucsubset.src
+msgid "Brahmi"
+msgstr "Βράχμι"
+
+#: ucsubset.src
+msgid "Bamum Supplement"
+msgstr "Συμπλήρωμα μπάμουμ"
+
+#: ucsubset.src
+msgid "Kana Supplement"
+msgstr "Συμπλήρωμα κάνα"
+
+#: ucsubset.src
+msgid "Playing Cards"
+msgstr "Τραπουλόχαρτα"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Pictographs"
+msgstr "Διάφορα σύμβολα και εικονογράμματα"
+
+#: ucsubset.src
+msgid "Emoticons"
+msgstr "Εικονίδια emoticon"
+
+#: ucsubset.src
+msgid "Transport And Map Symbols"
+msgstr "Σύμβολα μεταφοράς και χάρτη"
+
+#: ucsubset.src
+msgid "Alchemical Symbols"
+msgstr "Αλχημικά σύμβολα"
+
+#: ucsubset.src
+msgid "Arabic Extended-A"
+msgstr "Επεκταμένα Α αραβικά"
+
+#: ucsubset.src
+msgid "Arabic Mathematical Alphabetic Symbols"
+msgstr "Αραβικά μαθηματικά αλφαβητικά σύμβολα"
+
+#: ucsubset.src
+msgid "Chakma"
+msgstr "Τσάκμα"
+
+#: ucsubset.src
+msgid "Meetei Mayek Extensions"
+msgstr "Επεκτάσεις μεετέι μάγιεκ"
+
+#: ucsubset.src
+msgid "Meroitic Cursive"
+msgstr "Μεροίτικ ενωμένα"
+
+#: ucsubset.src
+msgid "Meroitic Hieroglyphs"
+msgstr "Ιερογλυφικά μεροίτικ"
+
+#: ucsubset.src
+msgid "Miao"
+msgstr "Μιάο"
+
+#: ucsubset.src
+msgid "Sharada"
+msgstr "Σαράντα"
+
+#: ucsubset.src
+msgid "Sora Sompeng"
+msgstr "Σόρα σόμπενγκ"
+
+#: ucsubset.src
+msgid "Sundanese Supplement"
+msgstr "Συμπλήρωμα σουδανικής"
+
+#: ucsubset.src
+msgid "Takri"
+msgstr "Τάκρι"
+
+#: ucsubset.src
+msgid "Bassa Vah"
+msgstr "Μπάσα βα"
+
+#: ucsubset.src
+msgid "Caucasian Albanian"
+msgstr "Αλβανικά καυκάσου"
+
+#: ucsubset.src
+msgid "Coptic Epact Numbers"
+msgstr "Αριθμοί κοπτικής διόρθωσης ημερομηνιών"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks Extended"
+msgstr "Συμπλήρωμα συνδυασμού διακριτικών συμβόλων"
+
+#: ucsubset.src
+msgid "Duployan"
+msgstr "Γραφή Ντιπλουαγιέ"
+
+#: ucsubset.src
+msgid "Elbasan"
+msgstr "Ελμπασάν"
+
+#: ucsubset.src
+msgid "Geometric Shapes Extended"
+msgstr "Επέκταση γεωμετρικών σχημάτων"
+
+#: ucsubset.src
+msgid "Grantha"
+msgstr "Γκράνθα"
+
+#: ucsubset.src
+msgid "Khudawadi"
+msgstr "Κουνταουάντι"
+
+#: ucsubset.src
+msgid "Latin Extended-E"
+msgstr "Λατινικά εκτεταμένα-Ε"
+
+#: ucsubset.src
+msgid "Linear A"
+msgstr "Γραμμική Α"
+
+#: ucsubset.src
+msgid "Mahajani"
+msgstr "Μαχαγιάνι"
+
+#: ucsubset.src
+msgid "Manichaean"
+msgstr "Μανιχαϊκά"
+
+#: ucsubset.src
+msgid "Mende Kikakui"
+msgstr "Μέντε κικαούι"
+
+#: ucsubset.src
+msgid "Modi"
+msgstr "Μόντι"
+
+#: ucsubset.src
+msgid "Mro"
+msgstr "Μρο"
+
+#: ucsubset.src
+msgid "Myanmar Extended-B"
+msgstr "Επεκταμένα-Β Μιανμάρ"
+
+#: ucsubset.src
+msgid "Nabataean"
+msgstr "Ναβατικά"
+
+#: ucsubset.src
+msgid "Old North Arabian"
+msgstr "Παλιά βορειοαραβικά"
+
+#: ucsubset.src
+msgid "Old Permic"
+msgstr "Παλιά περμικά"
+
+#: ucsubset.src
+msgid "Ornamental Dingbats"
+msgstr "Διακοσμητικά τυπογραφικά"
+
+#: ucsubset.src
+msgid "Pahawh Hmong"
+msgstr "Παχάου χμόνγκ"
+
+#: ucsubset.src
+msgid "Palmyrene"
+msgstr "Παλμυρικά"
+
+#: ucsubset.src
+msgid "Pau Cin Hau"
+msgstr "Πάου τσιν χάου"
+
+#: ucsubset.src
+msgid "Psalter Pahlavi"
+msgstr "Ψάλτερ παχλαβί"
+
+#: ucsubset.src
+msgid "Shorthand Format Controls"
+msgstr "Στοιχεία ελέγχου στενογραφίας"
+
+#: ucsubset.src
+msgid "Siddham"
+msgstr "Σίντχαμ"
+
+#: ucsubset.src
+msgid "Sinhala Archaic Numbers"
+msgstr "Αρχαϊκοί αριθμοί σινχάλα"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-C"
+msgstr "Συμπληρωματικά βέλη-C"
+
+#: ucsubset.src
+msgid "Tirhuta"
+msgstr "Τιρχούτα"
+
+#: ucsubset.src
+msgid "Warang Citi"
+msgstr "Ουαράνγκ σίτι"
+
+#: ucsubset.src
+msgid "Ahom"
+msgstr "Άχομ"
+
+#: ucsubset.src
+msgid "Anatolian Hieroglyphs"
+msgstr "Ανατολικά ιερογλυφικά"
+
+#: ucsubset.src
+msgid "Cherokee Supplement"
+msgstr "Συμπλήρωμα τσερόκι"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension E"
+msgstr "Επέκταση Ε ενοποιημένων ιδεογραμμάτων CJK"
+
+#: ucsubset.src
+msgid "Early Dynastic Cuneiform"
+msgstr "Πρώιμα δυναστικά Κουνεΐφορμ"
+
+#: ucsubset.src
+msgid "Hatran"
+msgstr "Χάτραν"
+
+#: ucsubset.src
+msgid "Multani"
+msgstr "Μουλτάνι"
+
+#: ucsubset.src
+msgid "Old Hungarian"
+msgstr "Παλιά ουγγρικά"
+
+#: ucsubset.src
+msgid "Supplemental Symbols And Pictographs"
+msgstr "Συμπλήρωμα συμβόλων και εικονογραμμάτων"
+
+#: ucsubset.src
+msgid "Sutton Signwriting"
+msgstr "Γραφή συμβόλων Σάτον"
+
+# Translation of Special Characters dialog from LibreOffice core
+
+#: GenericCommands.xcu
+msgid "Font Name:"
+msgstr "Όνομα γραμματοσειράς:"
+
+#: specialcharacters.ui
+msgid "Special Characters"
+msgstr "Ειδικοί χαρακτήρες"
+
+#: specialcharacters.ui
+msgid "Hexadecimal:"
+msgstr "Δεκαεξαδικό:"
+
+#: asianphoneticguidedialog.ui
+msgid "Preview:"
+msgstr "Προεπισκόπηση:"

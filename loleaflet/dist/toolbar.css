@@ -1,0 +1,411 @@
+#toolbar-up.w2ui-toolbar {
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+    overflow: visible !important;
+}
+
+/* test */
+#toolbar-top {
+    right: 105px;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    z-index: 5000;
+    margin: 2px;
+    width:65px;
+
+    /* test */
+    /* background-color: red; */
+}
+
+#toolbar-down {
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+
+#toolbar-up-more,w2ui-toolbar {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    border: 1px solid darkgrey;
+    z-index: 1000;
+    display: none;
+    overflow: visible !important;
+}
+
+#spreadsheet-toolbar {
+    left: 0;
+    text-align: center;
+    bottom: 33px;
+    padding: 0;
+    position: absolute;
+}
+
+#presentation-toolbar {
+    background-color: #dfdfdf;
+    text-align: center;
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+}
+
+/* For MS Edge 40, the select2 combo boxes need to have higher z-index than #map
+ * Ideal would be to add the class to select2-container <span>, but
+ * https://github.com/select2/select2/issues/285
+ * So, for now just define the z-index here separately for the same class that select2 uses
+ * as a container
+ */
+.select2-container {
+    z-index: 11;
+}
+
+/* center the toolbar */
+#tb_presentation-toolbar_item_left {
+    width: 50%;
+}
+/* leave space for branding logo */
+#tb_toolbar-up_item_left {
+    width: 0;
+    padding-left: 72px;
+}
+
+#addressInput {
+    height: 29px;
+    width: 100px;
+}
+
+#formulaInput {
+    height: 29px;
+    width: 700px;
+}
+
+#closebuttonwrapper {
+    position: fixed;
+    z-index: 1050;
+    right: 4px;
+    top: 0;
+    width: 31px;
+    height: 31px;
+}
+#closebutton {
+    width: 31px;
+    height: 31px;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 5px;
+}
+#closebutton:hover {
+    border-color: #ccc;
+    background-color: #eee;
+}
+.closebuttonimage{ background: url('../images/lc_closedoc.svg') no-repeat center !important; }
+
+#tb_toolbar-up_item_right {
+    width: 100%;
+}
+
+#tb_toolbar-down_item_left {
+    width: 45%;
+}
+#tb_toolbar-down_item_right {
+    width: 100%;
+}
+
+.w2ui-button{
+    margin:0 !important;
+}
+
+.w2ui-tb-image {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.w2ui-break {
+	margin:0 4px !important;
+}
+
+.leaflet-bar a {
+    float: left;
+}
+
+div .leaflet-bar a:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.leaflet-control-zoom.leaflet-bar {
+    margin-left: 0.5em;
+}
+
+div.leaflet-control-zoom leaflet-bar {
+    width: 53px;
+}
+
+div .leaflet-bar a:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+div .leaflet-bar a:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+label.leaflet-control-editviewswitch {
+    padding: 0.2em 0.4em 0.2em 0em;
+}
+
+input.leaflet-control-search-bar {
+    padding: 0.3em;
+	max-width: 100px;
+}
+
+.leaflet-control-fonts-container {
+	display: inline;
+}
+
+select {
+	padding: 0.2em 0.4em 0.4em 0em;
+	background-color: white;
+}
+
+button.leaflet-control-search-prev {
+    margin-left: 0.2em;
+}
+
+button.leaflet-control-search-next
+, leaflet-control-search-cancel {
+    margin-right: 0.2em;
+}
+
+#toolbar label
+, .leaflet-control-search {
+    background-color: #fff;
+}
+
+.search-not-found {
+    background-color: red !important;
+    -webkit-transition: background-color 0.8s linear;
+       -moz-transition: background-color 0.8s linear;
+         -o-transition: background-color 0.8s linear;
+            transition: background-color 0.8s linear;
+
+}
+
+#zoomlevel {
+    min-width: 36px;
+    font-size: 12px;
+}
+
+/* select box */
+.select2-results__option {
+    padding: 5px;
+    font-family: "Segoe UI", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.select2-selection__rendered {
+    font-family: "Segoe UI", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.styles-select {
+    width: 180px;
+}
+.fonts-select {
+    width: 150px;
+}
+.fontsizes-select {
+    width: 70px;
+}
+.evo-cp-wrap {
+    /* hide the color pick div */
+    width: 1px !important;
+}
+
+.font-color-indicator,
+.back-color-indicator {
+    width: 24px;
+    height: 6px;
+    margin-top: -7px !important;
+    margin-left: 5px !important;
+    position: fixed;
+    background: transparent;
+}
+
+.back-color-indicator {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.w2ui-icon.accepttrackedchanges{ background: url('../images/lc_accepttrackedchanges.svg') no-repeat center !important; }
+.w2ui-icon.alignblock{ background: url('../images/lc_alignblock.svg') no-repeat center !important; }
+.w2ui-icon.alignhorizontal{ background: url('../images/lc_alignhorizontalcenter.svg') no-repeat center !important; }
+.w2ui-icon.alignleft{ background: url('../images/lc_alignleft.svg') no-repeat center !important; }
+.w2ui-icon.alignright{ background: url('../images/lc_alignright.svg') no-repeat center !important; }
+.w2ui-icon.autosum{ background: url('../images/lc_autosum.svg') no-repeat center !important; }
+.w2ui-icon.backcolor{ background: url('../images/lc_backcolor.svg') no-repeat center !important; }
+.w2ui-icon.bold{ background: url('../images/lc_bold.svg') no-repeat center !important; }
+.w2ui-icon.annotation{ background: url('../images/lc_showannotations.svg') no-repeat center !important; }
+.w2ui-icon.bullet{ background: url('../images/lc_defaultbullet.svg') no-repeat center !important; }
+.w2ui-icon.cancel{ background: url('../images/lc_cancel.svg') no-repeat center !important; }
+.w2ui-icon.color{ background: url('../images/lc_color.svg') no-repeat center !important; }
+.w2ui-icon.decrementindent{ background: url('../images/lc_decrementindent.svg') no-repeat center !important; }
+.w2ui-icon.deletepage{ background: url('../images/lc_deletepage.svg') no-repeat center !important; }
+.w2ui-icon.duplicatepage{ background: url('../images/lc_duplicatepage.svg') no-repeat center !important; }
+.w2ui-icon.edit{ background: url('../images/lc_editdoc.svg') no-repeat center !important; }
+.w2ui-icon.equal{ background: url('../images/lc26049.svg') no-repeat center !important; }
+.w2ui-icon.help{ background: url('../images/lc_helpindex.svg') no-repeat center !important; }
+.w2ui-icon.incrementindent{ background: url('../images/lc_decrementlevel.svg') no-repeat center !important; }
+.w2ui-icon.insertpage{ background: url('../images/lc_insertpage.svg') no-repeat center !important; }
+.w2ui-icon.italic{ background: url('../images/lc_italic.svg') no-repeat center !important; }
+.w2ui-icon.insertgraphic{ background: url('../images/lc_gallery.svg') no-repeat center !important; }
+.w2ui-icon.inserttable{ background: url('../images/lc_inserttable.svg') no-repeat center !important; }
+.w2ui-icon.next{ background: url('../images/lc_downsearch.svg') no-repeat center !important; }
+.w2ui-icon.numbering{ background: url('../images/lc_defaultnumbering.svg') no-repeat center !important; }
+.w2ui-icon.presentation{ background: url('../images/lc_dia.svg') no-repeat center !important; }
+.w2ui-icon.prev{ background: url('../images/lc_upsearch.svg') no-repeat center !important; }
+.w2ui-icon.print{ background: url('../images/lc_print.svg') no-repeat center !important; }
+.w2ui-icon.redo{ background: url('../images/lc_redo.svg') no-repeat center !important; }
+.w2ui-icon.save{ background: url('../images/lc_save.svg') no-repeat center !important; }
+.w2ui-icon.saveas{ background: url('../images/lc_saveas.svg') no-repeat center !important; }
+.w2ui-icon.strikeout{ background: url('../images/lc_strikeout.svg') no-repeat center !important; }
+.w2ui-icon.insertfootnote{ background: url('../images/lc_insertfootnote.svg') no-repeat center !important; }
+.w2ui-icon.underline{ background: url('../images/lc_underline.svg') no-repeat center !important; }
+.w2ui-icon.undo{ background: url('../images/lc_undo.svg') no-repeat center !important; }
+.w2ui-icon.zoomin{ background: url('../images/plus.svg') no-repeat center !important; }
+.w2ui-icon.zoomout{ background: url('../images/minus.svg') no-repeat center !important; }
+.w2ui-icon.zoomreset{ background: url('../images/lc_view100.svg') no-repeat center !important; }
+.w2ui-icon.more{ background: url('../images/lc_downsearch.svg') no-repeat center !important; }
+.w2ui-icon.firstrecord{ background: url('../images/lc_firstrecord.svg') no-repeat center !important; }
+.w2ui-icon.nextrecord{ background: url('../images/lc_nextrecord.svg') no-repeat center !important; }
+.w2ui-icon.prevrecord{ background: url('../images/lc_prevrecord.svg') no-repeat center !important; }
+.w2ui-icon.lastrecord{ background: url('../images/lc_lastrecord.svg') no-repeat center !important; }
+.w2ui-icon.wraptext{ background: url('../images/lc_wraptext.svg') no-repeat center !important; }
+.w2ui-icon.togglemergecells{ background: url('../images/lc_togglemergecells.svg') no-repeat center !important; }
+.w2ui-icon.numberformatcurrency{ background: url('../images/lc_currencyfield.svg') no-repeat center !important; }
+.w2ui-icon.numberformatpercent{ background: url('../images/lc_numberformatpercent.svg') no-repeat center !important; }
+.w2ui-icon.numberformatdecimal{ background: url('../images/lc_numberformatdecimal.svg') no-repeat center !important; }
+.w2ui-icon.numberformatdate{ background: url('../images/lc_datefield.svg') no-repeat center !important; }
+.w2ui-icon.numberformatincdecimals{ background: url('../images/lc_numberformatincdecimals.svg') no-repeat center !important; }
+.w2ui-icon.numberformatdecdecimals{ background: url('../images/lc_numberformatdecdecimals.svg') no-repeat center !important; }
+.w2ui-icon.sortascending{ background: url('../images/lc_sortascending.svg') no-repeat center !important; }
+.w2ui-icon.sortdescending{ background: url('../images/lc_sortdescending.svg') no-repeat center !important; }
+.w2ui-icon.selected{ background: url('../images/lc_ok.svg') no-repeat center !important; }
+.w2ui-icon.repair{ background: url('../images/lc_backward.svg') no-repeat center !important; }
+.w2ui-icon.specialcharacter{ background: url('../images/lc_insertsymbol.svg') no-repeat center !important; }
+
+#inserttable-wrapper {
+    position: relative;
+    right: 230px; /* insertable popup has ~230px width, place it to open from its right edge to the left */
+}
+
+.inserttable-pop {
+    z-index: 1000;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#fontcolor-wrapper {
+    position: relative;
+    right: 200px; /* fontcolor popup has 200px width, place it to the left from its right edge */
+}
+
+#backcolor-wrapper {
+    position: relative;
+    right: 200px; /* backcolor popup has 200px width, place it to the left from its right edge */
+}
+
+#backcolor-wrapper .evo-pop {
+    z-index: 1000; /* Override default value of 10000 of evo-pop class */
+}
+
+#fontcolor-wrapper .evo-pop {
+    z-index: 1000; /* Override default value of 10000 of evo-pop class */
+}
+
+/* test */
+#sidebar-left {
+    position: fixed;
+    background-color: #bdb6ae;
+    width: 100px;
+    height: 73%;
+    top: 76px;
+    z-index: 500;
+    border-radius: 5px;
+    margin: 0 0 0 -10px;
+    opacity: 0.7;
+    box-shadow: 6px 5px 10px #888888;
+    border: 0.3px solid #b6b6b6;
+}
+#sidebar_left ul {
+
+}
+#sidebar_left ul li {
+    font-size: 12px;
+    /* font-family:....; */
+    margin:3px;
+}
+
+/* for 10x10 grid 10x20+10*.col.margin */
+.inserttable-grid {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+    padding: 2px;
+    display: block;
+    width: 232px;
+    height: 232px;
+
+    /* test */
+    background: red;
+}
+
+.inserttable-grid .row {
+    height: 20px;
+}
+
+.inserttable-grid .col {
+    height: 100%;
+    float: left;
+    padding: 2px;
+    width: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(120, 120, 120, 0.5);
+    background: rgba(255, 255, 255, 1);
+    margin: 3px 0 0 3px;
+}
+
+.inserttable-grid .col.bright {
+    border: 0px;
+    background: rgba(66, 151, 215, 1);
+}
+
+tr.useritem:hover {
+    cursor: default;
+    background-color: rgba(67, 172, 232, 0.25);
+}
+
+tr.useritem > td {
+    padding: 7px;
+}
+
+tr.useritem > td.usercolor {
+    display: inline-block;
+    top: 5px;
+    left: 3px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    #toolbar-top{
+        display: none;
+
+        /* test */
+        background-color: red;
+    }
+}
