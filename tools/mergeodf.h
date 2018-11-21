@@ -273,6 +273,10 @@ private:
     "paths": {
         %s
     },
+    "schemes": [
+        "http",
+        "https"
+    ],
     "parameters": {
         "outputPDF": {
             "in": "query",
@@ -293,6 +297,7 @@ info:
   description: ''
 host: %s
 paths:%s
+schemes: ["http", "https"]
 parameters:
   outputPDF:
     in: query
