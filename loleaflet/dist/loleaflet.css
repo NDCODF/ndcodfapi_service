@@ -1,0 +1,391 @@
+#document-container {
+	border-top: 1px solid #B6B6B6;
+	background: #DFDFDF;
+	position: absolute;
+	top: 70px;
+	bottom: 33px;
+	right: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+#document-container.readonly {
+    top: 30px;
+    z-index: 10;
+}
+
+#toolbar-wrapper.readonly {
+    display: none;
+    z-index: -9999;
+}
+
+/* test */
+#logo{
+    position: relative;
+    min-height: 40px;
+    width: 40px;
+    z-index: 99999;
+    top: 14px;
+}
+
+#logo.readonly {
+    background-size: 50%;
+    top: -5px;
+}
+
+#map {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 10;
+}
+
+.scroll-container .mCSB_scrollTools.mCSB_1_scrollbar {
+	position: absolute;
+	z-index: 1000;
+}
+
+body {
+    margin: 0;
+}
+
+#presentation-controls-wrapper {
+    background: #dfdfdf;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    bottom: 66px;
+    max-width: 214px;
+    border-top: 1px solid #b6b6b6;
+    display: block;
+}
+
+#presentation-controls-wrapper.drawing {
+    bottom: 34px; /* Hide the presentation toolbar (insert slide etc.) for doctype = drawing */
+}
+
+#presentation-controls-wrapper.readonly {
+    top: 30px;
+    z-index: 8;
+}
+
+@media (max-width: 767px) {
+    /* Show slidesorter beyond 768px only */
+    #logo_wrap {
+    position: fixed;
+    min-height: 40px;
+    width:40px;
+    z-index: 5;
+    top:0px;
+    left:0px;
+}
+    #presentation-controls-wrapper {
+	display: none;
+    }
+
+    #document-container.parts-preview-document {
+	left: 0px !important;
+	z-index: 10;
+    }
+    #document-container.spreadsheet-document {
+	top: 93px !important;
+	z-index: 10;
+    }
+    #document-container.spreadsheet-document.readonly {
+	top: 50px !important;
+	z-index: 10;
+    }
+    #document-container {
+	top: 40px;
+	z-index: 10;
+    }
+    #spreadsheet-row-column-frame {
+	top: 73px !important;
+	z-index: 10;
+    }
+    #spreadsheet-row-column-frame.readonly {
+	top: 30px !important;
+	z-index: 10;
+    }
+    /* There seems to be some bug in w2ui library -
+     * when we are in very low screen width, the toolbar-up-more
+     * toolbar's width doesn't adjust according to its children toolbar
+     * items and truncate all items but one. Lets override the width in
+     * mobile mode to prevent that.
+     */
+    #toolbar-up-more {
+	width: auto !important;
+    }
+    /* We need to give space for options menu */
+    #tb_toolbar-up_item_rightmenupadding {
+	padding-right: 40px;
+    }
+    #closebutton {
+	display: none;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 599px){
+    #logo{
+        top: 17px;
+    }
+
+     .logo_odt, .logo_ods, .logo_odp{
+        min-height: 40px;
+        width:40px;
+        display: true;
+        margin-top: -18px;
+        margin-left: -2px;
+
+    }
+    .logo_odt{background: url('../images/lc_logo_odt_scale1.svg') no-repeat center }
+    .logo_ods{background: url('../images/lc_logo_ods_scale1.svg') no-repeat center }
+    .logo_odp{background: url('../images/lc_logo_odp_scale1.svg') no-repeat center }
+    #document-container {
+	z-index: 10;
+    }
+}
+
+.loleaflet-font {
+    font-family: "Segoe UI", Tahoma, Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+.loleaflet-character {
+	table-layout: fixed;
+	font: 17px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.loleaflet-character td {
+	width: 20px;
+}
+
+.loleaflet-controls {
+	margin-right: 10px;
+}
+
+.loleaflet-scrolled {
+	overflow: auto;
+}
+
+/* Important to override context-menu-icon's font-family here otherwise, jquery-contextmenu.css
+ * will try to load its own font file which is not available in dist/ */
+.context-menu-icon::before {
+	font-family: "Segoe UI", Tahoma, Arial, Helvetica, sans-serif !important;
+}
+.context-menu-icon-lo-checkmark:before {
+	content: '\2713';
+}
+
+.loleaflet-annotation {
+	position: absolute;
+	text-align: center;
+}
+
+.loleaflet-annotation-content-wrapper, .loleaflet-annotation-redline-content-wrapper {
+	padding: 8px;
+	font-family: "Segoe UI", Tahoma, Arial, Helvetica, sans-serif !important;
+	font-size: 13px;
+	text-align: left;
+	border-radius: 5px;
+	background-color: #efefef;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+	color: #222;
+	border: none;
+	border-radius: 2px;
+	width: 240px;
+}
+
+.loleaflet-annotation-content {
+	margin: 3px 3px;
+	line-height: 1.4;
+}
+
+.loleaflet-dont-break {
+        /* These are technically the same, but use both */
+        overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	/* Don't eat new lines  */
+	white-space: pre-wrap;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+.loleaflet-annotation-content-author {
+	margin: 0;
+	margin-top: 2px;
+	height: 18px;
+}
+
+.loleaflet-annotation-edit {
+	margin: 3px 3px;
+	line-height: 1.4;
+}
+
+.loleaflet-annotation-textarea {
+	font-family: "Segoe UI", Tahoma, Arial, Helvetica, sans-serif !important;
+	font-size: 13px;
+	border: 1px solid #c8c8c8;
+	resize: none;
+	background-color: white;
+	overflow-x: hidden;
+	height: 50px;
+	width: 95%;
+}
+
+.loleaflet-div-layer {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.loleaflet-annotation-table {
+	border-spacing: 0;
+	border-collapse: separate;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.loleaflet-annotation-img {
+	max-width: 32px;
+	display: inline-block;
+}
+
+.loleaflet-annotation-author {
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: top;
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	max-width: 110px;
+}
+
+.loleaflet-annotation-menu, .loleaflet-annotation-menu-redline, .loleaflet-redline-accept-button, .loleaflet-redline-reject-button {
+	margin: 0;
+        padding: 0;
+        width: 24px;
+        height: 24px;
+	vertical-align: top;
+	border: 1px solid transparent;
+	display: inline-block;
+}
+
+.loleaflet-redline-accept-button {
+        background: url('../images/lc_accepttrackedchanges.svg') no-repeat center !important;
+}
+
+.loleaflet-redline-reject-button {
+        background: url('../images/lc_rejecttrackedchange.svg') no-repeat center !important;
+}
+
+.loleaflet-annotation-menu, .loleaflet-annotation-menu-redline {
+	background: url(../images/submenu.svg) no-repeat center !important;
+}
+
+.loleaflet-annotation-menu:hover, .loleaflet-annotation-menu-redline:hover, .loleaflet-redline-accept-button:hover, .loleaflet-redline-reject-button:hover {
+	border: 1px solid darkgrey;
+}
+
+.loleaflet-annotation-date {
+	font-size: 11px;
+}
+
+.loleaflet-annotation-userline {
+	background-color: darkblue;
+	width: 32px;
+	height: 6px;
+}
+
+.loleaflet-annotation-menubar {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.loleaflet-annotation-caption {
+        font-weight: bold;
+}
+
+.loleaflet-bar {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+	border-radius: 4px;
+	display: inline-block;
+	margin: 3px;
+	vertical-align: middle;
+}
+
+.loleaflet-bar a,
+.loleaflet-bar a:hover {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.loleaflet-bar a {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.loleaflet-bar a:hover {
+	background-color: #f4f4f4;
+}
+
+.loleaflet-bar a:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.loleaflet-bar a:last-child {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom: none;
+}
+
+.loleaflet-bar a.leaflet-disabled {
+	cursor: default;
+	background-color: #f4f4f4;
+	color: #bbb;
+}
+
+.loleaflet-bar a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.loleaflet-control-scroll-up,
+.loleaflet-control-scroll-down {
+	font: bold 18px 'Lucida Console', Monaco, monospace;
+	text-indent: 1px;
+}
+
+.vex-content {
+	word-wrap: break-word;
+	width: 465px !important;
+}
+
+:-ms-fullscreen {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

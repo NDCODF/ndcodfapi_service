@@ -1,0 +1,233 @@
+<permission>
+    <text>
+        <showfor edit="true" view="false" readonly="false">save</showfor>
+        <showfor edit="true" view="false" readonly="false">print</showfor>
+        <showfor edit="true" view="false" readonly="false">rev-history</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-pdf</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-txt</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-html</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-odt</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-doc</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-docx</showfor>
+        <showfor edit="true" view="false" readonly="false">repair</showfor>
+        <showfor edit="true" view="false" readonly="false">Undo</showfor>
+        <showfor edit="true" view="false" readonly="false">Redo</showfor>
+        <showfor edit="true" view="false" readonly="false">Cut</showfor>
+        <showfor edit="true" view="false" readonly="false">Copy</showfor>
+        <showfor edit="true" view="false" readonly="false">Paste</showfor>
+        <showfor edit="true" view="false" readonly="false">SelectAll</showfor>
+        <showfor edit="true" view="false" readonly="false">TrackChanges</showfor>
+        <showfor edit="true" view="false" readonly="false">ShowTrackedChanges</showfor>
+        <showfor edit="true" view="false" readonly="false">PreviousTrackedChange</showfor>
+        <showfor edit="true" view="false" readonly="false">NextTrackedChange</showfor>
+        <showfor edit="true" view="true" readonly="false">fullscreen</showfor>
+        <showfor edit="true" view="true" readonly="false">zoomin</showfor>
+        <showfor edit="true" view="true" readonly="false">zoomout</showfor>
+        <showfor edit="true" view="true" readonly="false">zoomreset</showfor>
+        <showfor edit="true" view="false" readonly="false">ControlCodes</showfor>
+        <showfor edit="true" view="false" readonly="false">insertgraphic</showfor>
+        <showfor edit="true" view="false" readonly="false">insertcomment</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertFootnote</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertEndnote</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertPageBreak</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertColumnBreak</showfor>
+        <showfor edit="true" view="false" readonly="false">specialcharacter</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertNonBreakingSpace</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertHardHyphen</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertSoftHyphen</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertZWSP</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertZWNBSP</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertLRM</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertRLM</showfor>
+        <showfor edit="true" view="false" readonly="false">Bold</showfor>
+        <showfor edit="true" view="false" readonly="false">Italic</showfor>
+        <showfor edit="true" view="false" readonly="false">Underline</showfor>
+        <showfor edit="true" view="false" readonly="false">UnderlineDouble</showfor>
+        <showfor edit="true" view="false" readonly="false">Strikeout</showfor>
+        <showfor edit="true" view="false" readonly="false">Overline</showfor>
+        <showfor edit="true" view="false" readonly="false">SuperScript</showfor>
+        <showfor edit="true" view="false" readonly="false">SubScript</showfor>
+        <showfor edit="true" view="false" readonly="false">SmallCaps</showfor>
+        <showfor edit="true" view="false" readonly="false">Shadowed</showfor>
+        <showfor edit="true" view="false" readonly="false">OutlineFont</showfor>
+        <showfor edit="true" view="false" readonly="false">Grow</showfor>
+        <showfor edit="true" view="false" readonly="false">Shrink</showfor>
+        <showfor edit="true" view="false" readonly="false">ChangeCaseToUpper</showfor>
+        <showfor edit="true" view="false" readonly="false">ChangeCaseToLower</showfor>
+        <showfor edit="true" view="false" readonly="false">ChangeCaseRotateCase</showfor>
+        <showfor edit="true" view="false" readonly="false">ChangeCaseToSentenceCase</showfor>
+        <showfor edit="true" view="false" readonly="false">ChangeCaseToTitleCase</showfor>
+        <showfor edit="true" view="false" readonly="false">ChangeCaseToToggleCase</showfor>
+        <showfor edit="true" view="false" readonly="false">ParaLeftToRight</showfor>
+        <showfor edit="true" view="false" readonly="false">ParaRightToLeft</showfor>
+        <showfor edit="true" view="false" readonly="false">SpacePara1</showfor>
+        <showfor edit="true" view="false" readonly="false">SpacePara15</showfor>
+        <showfor edit="true" view="false" readonly="false">SpacePara2</showfor>
+        <showfor edit="true" view="false" readonly="false">ParaspaceIncrease</showfor>
+        <showfor edit="true" view="false" readonly="false">ParaspaceDecrease</showfor>
+        <showfor edit="true" view="false" readonly="false">IncrementIndent</showfor>
+        <showfor edit="true" view="false" readonly="false">DecrementIndent</showfor>
+        <showfor edit="true" view="false" readonly="false">CommonAlignLeft</showfor>
+        <showfor edit="true" view="false" readonly="false">CommonAlignHorizontalCenter</showfor>
+        <showfor edit="true" view="false" readonly="false">CommonAlignRight</showfor>
+        <showfor edit="true" view="false" readonly="false">CommonAlignJustified</showfor>
+        <showfor edit="true" view="false" readonly="false">CommonAlignTop</showfor>
+        <showfor edit="true" view="false" readonly="false">CommonAlignVerticalcenter</showfor>
+        <showfor edit="true" view="false" readonly="false">CommonAlignBottom</showfor>
+        <showfor edit="true" view="false" readonly="false">DefaultBullet</showfor>
+        <showfor edit="true" view="false" readonly="false">DefaultNumbering</showfor>
+        <showfor edit="true" view="false" readonly="false">DecrementLevel</showfor>
+        <showfor edit="true" view="false" readonly="false">IncrementLevel</showfor>
+        <showfor edit="true" view="false" readonly="false">DecrementSublevels</showfor>
+        <showfor edit="true" view="false" readonly="false">IncrementSubLevels</showfor>
+        <showfor edit="true" view="false" readonly="false">MoveDown</showfor>
+        <showfor edit="true" view="false" readonly="false">MoveUp</showfor>
+        <showfor edit="true" view="false" readonly="false">MoveDownSubItems</showfor>
+        <showfor edit="true" view="false" readonly="false">MoveUpSubItems</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertNeutralParagraph</showfor>
+        <showfor edit="true" view="false" readonly="false">NumberingStart</showfor>
+        <showfor edit="true" view="false" readonly="false">JumpDownThisLevel</showfor>
+        <showfor edit="true" view="false" readonly="false">JumpUpThisLevel</showfor>
+        <showfor edit="true" view="false" readonly="false">ContinueNumbering</showfor>
+        <showfor edit="true" view="false" readonly="false">ResetAttributes</showfor>
+        <showfor edit="true" view="false" readonly="false">a4portrait</showfor>
+        <showfor edit="true" view="false" readonly="false">a4landscape</showfor>
+        <showfor edit="true" view="false" readonly="false">a5portrait</showfor>
+        <showfor edit="true" view="false" readonly="false">a5landscape</showfor>
+        <showfor edit="true" view="false" readonly="false">letterportrait</showfor>
+        <showfor edit="true" view="false" readonly="false">letterlandscape</showfor>
+        <showfor edit="true" view="false" readonly="false">legalportrait</showfor>
+        <showfor edit="true" view="false" readonly="false">legallandscape</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertRowsBefore</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertRowsAfter</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertColumnsBefore</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertColumnsAfter</showfor>
+        <showfor edit="true" view="false" readonly="false">DeleteRows</showfor>
+        <showfor edit="true" view="false" readonly="false">DeleteColumns</showfor>
+        <showfor edit="true" view="false" readonly="false">DeleteTable</showfor>
+        <showfor edit="true" view="false" readonly="false">SelectTable</showfor>
+        <showfor edit="true" view="false" readonly="false">EntireRow</showfor>
+        <showfor edit="true" view="false" readonly="false">EntireColumn</showfor>
+        <showfor edit="true" view="false" readonly="false">EntireCell</showfor>
+        <showfor edit="true" view="false" readonly="false">MergeCells</showfor>
+        <showfor edit="true" view="true" readonly="true">keyboard-shortcuts</showfor>
+        <showfor edit="true" view="true" readonly="true">about</showfor>
+        <showfor edit="true" view="false" readonly="false">closedocument</showfor>
+    </text>
+    <spreadsheet>
+        <showfor edit="true" view="false" readonly="false">save</showfor>
+        <showfor edit="true" view="false" readonly="false">print</showfor>
+        <showfor edit="true" view="false" readonly="false">rev-history</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-pdf</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-html</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-ods</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-csv</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-xls</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-xlsx</showfor>
+        <showfor edit="true" view="false" readonly="false">Undo</showfor>
+        <showfor edit="true" view="false" readonly="false">Redo</showfor>
+        <showfor edit="true" view="false" readonly="false">Cut</showfor>
+        <showfor edit="true" view="false" readonly="false">Copy</showfor>
+        <showfor edit="true" view="false" readonly="false">Paste</showfor>
+        <showfor edit="true" view="false" readonly="false">SelectAll</showfor>
+        <showfor edit="true" view="true" readonly="false">fullscreen</showfor>
+        <showfor edit="true" view="false" readonly="false">insertgraphic</showfor>
+        <showfor edit="true" view="false" readonly="false">insertcomment</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertRows</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertColumns</showfor>
+        <showfor edit="true" view="false" readonly="false">specialcharacter</showfor>
+        <showfor edit="true" view="false" readonly="false">DeleteRows</showfor>
+        <showfor edit="true" view="false" readonly="false">DeleteColumns</showfor>
+        <showfor edit="true" view="true" readonly="true">keyboard-shortcuts</showfor>
+        <showfor edit="true" view="true" readonly="true">about</showfor>
+        <showfor edit="true" view="flase" readonly="false">closedocument</showfor>
+    </spreadsheet>
+    <presentation>
+        <showfor edit="true" view="false" readonly="false">save</showfor>
+        <showfor edit="true" view="false" readonly="false">print</showfor>
+        <showfor edit="true" view="false" readonly="false">rev-history</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-pdf</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-html</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-odp</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-ppt</showfor>
+        <showfor edit="true" view="true" readonly="false">downloadas-pptx</showfor>
+        <showfor edit="true" view="false" readonly="false">Undo</showfor>
+        <showfor edit="true" view="false" readonly="false">Redo</showfor>
+        <showfor edit="true" view="false" readonly="false">Cut</showfor>
+        <showfor edit="true" view="false" readonly="false">Copy</showfor>
+        <showfor edit="true" view="false" readonly="false">Paste</showfor>
+        <showfor edit="true" view="false" readonly="false">SelectAll</showfor>
+        <showfor edit="true" view="true" readonly="false">fullscreen</showfor>
+        <showfor edit="true" view="false" readonly="false">zoomin</showfor>
+        <showfor edit="true" view="false" readonly="false">zoomout</showfor>
+        <showfor edit="true" view="false" readonly="false">zoomreset</showfor>
+        <showfor edit="true" view="false" readonly="false">insertgraphic</showfor>
+        <showfor edit="true" view="false" readonly="false">insertcomment</showfor>
+        <showfor edit="true" view="false" readonly="false">specialcharacter</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertRowsBefore</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertRowsAfter</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertColumnsBefore</showfor>
+        <showfor edit="true" view="false" readonly="false">InsertColumnsAfter</showfor>
+        <showfor edit="true" view="false" readonly="false">DeleteRows</showfor>
+        <showfor edit="true" view="false" readonly="false">DeleteColumns</showfor>
+        <showfor edit="true" view="false" readonly="false">MergeCells</showfor>
+        <showfor edit="true" view="false" readonly="false">insertpage</showfor>
+        <showfor edit="true" view="false" readonly="false">duplicatepage</showfor>
+        <showfor edit="true" view="false" readonly="false">deletepage</showfor>
+        <showfor edit="true" view="true" readonly="true">fullscreen-presentation</showfor>
+        <showfor edit="true" view="true" readonly="true">keyboard-shortcuts</showfor>
+        <showfor edit="true" view="true" readonly="true">about</showfor>
+        <showfor edit="true" view="false" readonly="false">closedocument</showfor>
+    </presentation>
+    <toolbar>
+        <showfor edit="true">save</showfor>
+        <showfor edit="true">savebreak</showfor>
+        <showfor edit="true">undo</showfor>
+        <showfor edit="true">redo</showfor>
+        <showfor edit="true">repair</showfor>
+        <showfor edit="true">undobreak</showfor>
+        <showfor edit="true">styles</showfor>
+        <showfor edit="true">fonts</showfor>
+        <showfor edit="true">fontsizes</showfor>
+        <showfor edit="true">stylesbreak</showfor>
+        <showfor edit="true">bold</showfor>
+        <showfor edit="true">italic</showfor>
+        <showfor edit="true">underline</showfor>
+        <showfor edit="true">strikeout</showfor>
+        <showfor edit="true">formatbreak</showfor>
+        <showfor edit="true">insertfootnote</showfor>
+        <showfor edit="true">footnotebreak</showfor>
+        <showfor edit="true">fontcolor</showfor>
+        <showfor edit="true">backcolor</showfor>
+        <showfor edit="true">notebreak</showfor>
+        <showfor edit="true">leftpara</showfor>
+        <showfor edit="true">centerpara</showfor>
+        <showfor edit="true">rightpara</showfor>
+        <showfor edit="true">justifypara</showfor>
+        <showfor edit="true">wraptextseparator</showfor>
+        <showfor edit="true">wraptext</showfor>
+        <showfor edit="true">togglemergecells</showfor>
+        <showfor edit="true">break-toggle</showfor>
+        <showfor edit="true">numberformatcurrency</showfor>
+        <showfor edit="true">numberformatpercent</showfor>
+        <showfor edit="true">numberformatdecimal</showfor>
+        <showfor edit="true">numberformatdate</showfor>
+        <showfor edit="true">numberformatincdecimals</showfor>
+        <showfor edit="true">numberformatdecdecimals</showfor>
+        <showfor edit="true">break-number</showfor>
+        <showfor edit="true">sortascending</showfor>
+        <showfor edit="true">sortdescending</showfor>
+        <showfor edit="true">break-align</showfor>
+        <showfor edit="true">defaultbullet</showfor>
+        <showfor edit="true">defaultnumbering</showfor>
+        <showfor edit="true">break-numbering</showfor>
+        <showfor edit="true">incrementindent</showfor>
+        <showfor edit="true">decrementindent</showfor>
+        <showfor edit="true">incdecindent</showfor>
+        <showfor edit="true">inserttable</showfor>
+        <showfor edit="true">insertannotation</showfor>
+        <showfor edit="true">insertgraphic</showfor>
+        <showfor edit="true">specialcharacter</showfor>
+        <showfor edit="true">formulabar</showfor>
+    </toolbar>
+</permission>

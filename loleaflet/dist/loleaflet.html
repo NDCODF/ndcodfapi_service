@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://leafletjs.com/examples/quick-start-example.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Online Editor</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  // Start listening for Host_PostmessageReady message and save the
+  // result for future
+  window.WOPIpostMessageReady = false;
+  var PostMessageReadyListener = function(e) {
+    var msg = JSON.parse(e.data);
+    if (msg.MessageId === 'Host_PostmessageReady') {
+      window.WOPIPostmessageReady = true;
+      window.removeEventListener('message', PostMessageReadyListener, false);
+    }
+  };
+  window.addEventListener('message', PostMessageReadyListener, false);
+</script>
+<link rel="stylesheet" href="/loleaflet/%VERSION%/branding.css"> <!-- add your logo here -->
+<link rel="localizations" href="/loleaflet/%VERSION%/l10n/localizations.json" type="application/vnd.oftn.l10n+json"/>
+<link rel="localizations" href="/loleaflet/%VERSION%/l10n/styles-localizations.json" type="application/vnd.oftn.l10n+json" />
+<link rel="localizations" href="/loleaflet/%VERSION%/l10n/uno-localizations.json" type="application/vnd.oftn.l10n+json" />
+<link rel="localizations" href="/loleaflet/%VERSION%/l10n/help-localizations.json" type="application/vnd.oftn.l10n+json"/>
+  <!-- test -->
+  <link rel="stylesheet" href="/loleaflet/%VERSION%/fonts/font-awesome.min.css"/>
+  <!-- End test -->
+ <style type="text/css"></style></head>
+  <body>
+    <!--The "controls" div holds map controls such as the Zoom button and
+        it's separated from the map in order to have the controls on the top
+        of the page all the time.
+
+        The "document-container" div is the actual display of the document, is
+        what the user sees and it should be no larger than the screen size.
+
+        The "map" div is the actual document and it has the document's size
+        and width, this being inside the smaller "document-container" will
+        cause the content to overflow, creating scrollbars -->
+
+    <div class="header-wrapper">
+      <div id="logo_wrap">
+          <div id="logo"></div>
+      </div>
+      <div id="toolbar-top"></div>
+      <nav class="main-nav" role="navigation">
+	<!-- Mobile menu toggle button (hamburger/x icon) -->
+	<label class="main-menu-btn" for="main-menu-state">
+	  <span class="main-menu-btn-icon"></span>
+	</label>
+	<ul id="main-menu" class="sm sm-simple lo-menu"></ul>
+      </nav>
+      <div id="toolbar-wrapper">
+	<div id="toolbar-up"></div>
+	<div id="formulabar"></div>
+	<div id="toolbar-up-more"></div>
+      </div>
+      <input id="insertgraphic" type="file" style="position: fixed; top: -100em">
+    </div>
+
+    <div id="closebuttonwrapper">
+      <div class="closebuttonimage" id="closebutton"></div>
+    </div>
+
+    <div id="spreadsheet-row-column-frame">
+    </div>
+
+    <div id="document-container">
+      <div id="map"></div>
+    </div>
+    <div id="spreadsheet-toolbar"></div>
+
+    <div id="presentation-controls-wrapper">
+      <div id="slide-sorter"></div>
+      <div id="presentation-toolbar"></div>
+    </div>
+
+    <div id="toolbar-down"></div>
+
+    <div id="about-dialog" style="display:none; text-align: center;">
+      <h1 id="product-name">LibreOffice Online</h1>
+      <hr/>
+      <h3 id="product-string"></h3>
+      <p>
+        <h3>LOOLWSD</h3>
+        <div id="loolwsd-version"></div>
+      </p>
+      <p>
+        <h3>LOKit</h3>
+        <div id="lokit-version"></div>
+      </p>
+    </div>
+
+    <div id="pinfo" name="/loleaflet/%VERSION%"></div>
+    <script>
+      window.host = '%HOST%';
+      window.access_token = '%ACCESS_TOKEN%';
+      window.access_token_ttl = '%ACCESS_TOKEN_TTL%';
+      window.loleaflet_logging = '%LOLEAFLET_LOGGING%';
+      window.outOfFocusTimeoutSecs = %OUT_OF_FOCUS_TIMEOUT_SECS%;
+      window.idleTimeoutSecs = %IDLE_TIMEOUT_SECS%;
+    </script>
+    <script src="/loleaflet/%VERSION%/branding.js"></script> <!-- logo onclick handler -->
+    <script src="/loleaflet/%VERSION%/bundle.js"></script>
+    <script src="/loleaflet/%VERSION%/toolbar/w2ui.min.js"></script>
+    <script src="/loleaflet/%VERSION%/toolbar/toolbar.js"></script>
+</body></html>

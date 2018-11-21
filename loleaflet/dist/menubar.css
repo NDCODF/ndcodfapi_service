@@ -1,0 +1,497 @@
+#main-menu {
+    top: 39px;
+    height: 25px;
+    padding-left: 65px;
+    z-index: 1000;
+    outline: none;
+    background-color: transparent;
+}
+
+#main-menu.readonly {
+    top: 30px;
+}
+
+.menu-usermenu {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size:12px;
+    font-family:"Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Arial, sans
+serif;
+}
+
+.menu-usermenu:hover {
+
+    background-color: #FFFFFF;
+}
+
+.usermenusbg_odt{
+    background: url('../images/lc_usermenu_odt.png') no-repeat center !important;
+}
+.usermenusbg_ods{
+    background: url('../images/lc_usermenu_ods.png') no-repeat center !important;
+}
+.usermenusbg_odp{
+    background: url('../images/lc_usermenu_odp.png') no-repeat center !important;
+}
+
+.usermenusbg_odt:hover, .usermenusbg_ods:hover, .usermenusbg_odp:hover {
+    border-width: 0px !important;
+}
+.usermenusbg_odt::selection, .usermenusbg_ods::selection, .usermenusbg_odp::selection {
+    border-width: 0px !important;
+}
+.usermenusbg_odt:hover { background: url('../images/lc_usermenu_odt_hover.png') no-repeat center !important; }
+.usermenusbg_ods:hover { background: url('../images/lc_usermenu_ods_hover.png') no-repeat center !important; }
+.usermenusbg_odp:hover { background: url('../images/lc_usermenu_odp_hover.png') no-repeat center !important; }
+
+.menu-usermenu > a {
+    width:110px;
+    /*background: url('../images/lc_p_co_edit.png') no-repeat center !important;*/
+    height: 30px;
+}
+.menu-usermenu > a:hover {
+
+    background-color: #FFFFFF;
+}
+.menu-usermenu > ul {
+    min-width: 110px !important;
+}
+.menu-usermenu > ul > li {
+    margin-right: 10px;
+    display: block;
+    overflow: hidden;
+    width: auto !important;
+    min-width: auto !important;
+    max-width: auto !important;
+    height: 30px;
+    position: relative;
+    white-space:nowrap;
+}
+.menu-usermenu > ul > li > div.usercolor {
+    /*
+    background-color: blue;
+    width: 15px;
+    float: left;
+    padding: 5px;
+    position: absolute;
+    */
+    margin: 5px;
+    /* background-color: red; */
+    /*
+    height: 27px;
+    width: 27px;
+    */
+    height: 20px;
+    width: 20px;
+    float: left;
+
+}
+
+.menu-usermenu > ul > li > a.username {
+    white-space:nowrap;
+    /*
+    float:right;
+    width:90;
+    padding-top:5px;
+    */
+}
+
+.menu-usermenu > ul > li > span {
+
+}
+
+.header-wrapper {
+    background: #efefef; /* Fill up white areas with grey */
+    min-height: 70px; /* Map starts from 70px onwards in case of writer, calc */
+}
+.main-nav {
+    height: 30px; /* on mouseover menubar items, border emerges */
+    position: absolute;
+    width: 100%;
+}
+
+/* Customizations to sm-simple theme to make it look like LO menu, lo-menu class */
+.lo-menu {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.sm-simple li.docname {
+    float: right;
+}
+
+.sm-simple li.docname a:hover {
+    background: #efefef;
+    border-width: 0px;
+}
+
+/* test */
+.sm-simple li.usermenu {
+    float: right;
+    background-color: red;
+}
+
+/* hotkey */
+.hotkey, .hotkey:hover {
+
+    color: black;
+    font-size:12px;
+    font-family:"Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Arial, sans-serif;
+    /*left:150px;*/
+    position: absolute;
+    z-index: 1000px;
+    position: absolute;
+    top: 9px;
+    text-align: right;
+
+    right: 13px;
+    /*font: normal normal normal 12px/1 FontAwesome;*/
+    /* background-color: red; */
+}
+/* item */
+.sm-nowrap .item {
+/*    min-width: 260px;
+    max-width: 260px;*/
+    min-width: 12.5em;
+    max-width: 20em;
+}
+/* en's menu: for Insert->Column break */
+.item_long { /* items */
+    width: 250px;
+    max-width: 250px;
+}
+.ul_long { /* Insert's <ul> */
+    max-width: 260px !important;
+    width: auto !important;
+}
+
+/* item > a */
+.lo-menu a, .lo-menu a:hover, .lo-menu a:focus, .lo-menu a:active {
+    font-family: "Segoe UI", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/* test */
+.lo-menu a.enabled{
+    height:30px;
+    /* background-color: green; */
+}
+
+.lo-menu a.enabled:hover{
+    background-color: efefef;
+    color:#000;
+}
+
+/* test */
+.lo-menu a.has-submenu{
+    height:30px;
+    /* background-color: purple; */
+}
+
+/* item > i */
+.lo-menu i, .lo-menu i:hover{
+
+    color: black;
+    float: left;
+    z-index: 1000;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    /*
+    float:left;
+    width:50px;
+    background-color:red;
+    */
+}
+
+/* .lo-menu .hotkey */
+.lo-menu > ul > li span .hotkey{
+    font: normal normal normal 14px/1 FontAwesome;
+    float:right;
+    z-index:1000;
+    position: absolute;
+    top: 6px;
+    margin: 0px auto;
+    *margin: 0px auto;
+    _margin: 0px auto;
+
+    /*
+    background-color:yellow;
+    width:50px;
+    float:left;
+    */
+}
+
+.lo-menu ul a, .lo-menu ul a:hover, .lo-menu ul a:focus, .lo-menu ul a:active {
+    font-size: 12px;
+
+    /* test */
+    line-height: 19px;
+}
+
+.lo-menu ul a:hover {
+    background-color:transparent;
+}
+
+.lo-menu a.disabled {
+    cursor: default;
+
+    /* test */
+    height:30px;
+    /* background-color: red;*/
+}
+.lo-menu > li > a.has-submenu {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    z-index: 500;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+}
+
+.lo-menu {
+    /*background: #efefef;*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+    cursor: default;
+    /* test */
+    background: #3250ba;
+}
+.lo-menu a, .lo-menu a:hover, .lo-menu a:focus, .lo-menu a:active, .lo-menu a.highlighted {
+    /*padding: 5px 22px;*/
+    color: #000;
+    /* test */
+    padding: 5px 35px;
+}
+.lo-menu li:hover, a:hover, .lo-menu a:focus, .lo-menu a:active, .lo-menu a.highlighted {
+    color: #000;
+    background: #efefef;
+}
+
+.lo-menu > li, .lo-menu > li > a.disabled {
+    background: #efefef; /* top-level menus remain greyish */
+}
+.lo-menu > li > a:hover, .lo-menu > li > a:focus, .lo-menu > li > a:active, .lo-menu > li > a.highlighted {
+    background: #fff;
+    color: #000;
+    border-color: #bbbbbb;
+    border-bottom: 1px solid #bbb;
+}
+.lo-menu > li > a.highlighted {
+    border-bottom-color: #fff;
+}
+.lo-menu > li > ul {
+    margin-top: -1px !important;
+    z-index: 400;
+}
+.lo-menu > li > a span.sub-arrow {
+    display: none;
+}
+.lo-menu ul {
+    border: 1px solid #bbbbbb;
+    background: white;
+}
+.lo-menu ul a span.sub-arrow {
+    right: 0;
+    margin-right: 5px;
+    background: transparent; /* we want them to be transparent always whether mobile or desktop */
+}
+.lo-menu ul > li {
+    border-left: 0;
+    border-top: none;
+}
+.lo-menu a.separator {
+    height: 1px;
+    margin: 4px 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #efefef;
+}
+.lo-menu a.separator:parent {
+    height: 1px;
+    background-color: red;
+}
+
+/* space1 */
+.lo-menu a.space1 {
+    height: 0px;
+    width:250px;
+    background-color: #FFFFFF;
+    visibility:hidden
+}
+/* space1 */
+.lo-menu a.space1:hover {
+    background-color: #FFFFFF;
+}
+/* space2 */
+.lo-menu a.space2 {
+    height: 0px;
+    width:230px;
+    background-color: #FFFFFF;
+    visibility:hidden
+}
+/* space2 */
+.lo-menu a.space2:hover {
+    background-color: #FFFFFF;
+}
+
+/* space3 */
+.lo-menu a.space3 {
+    height: 0px;
+    width:230px;
+    background-color: #FFFFFF;
+    visibility:hidden
+}
+/* space3 */
+.lo-menu a.space3:hover {
+    background-color: #FFFFFF;
+}
+
+/* lo-menu customizations end */
+
+/* 上方下拉選單 */
+.main-nav:after {
+    clear: both;
+    content: "\00a0";
+    display: block;
+    height: 0;
+    font: 0px/0 serif;
+    overflow: hidden;
+}
+
+/* Mobile menu toggle button */
+
+.main-menu-btn {
+    z-index: 2000;
+    float: right;
+    top: 5px;
+    margin: 2px 10px;
+    position: relative;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    text-indent: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* hamburger icon */
+
+.main-menu-btn-icon,
+.main-menu-btn-icon:before,
+.main-menu-btn-icon:after {
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    height: 2px;
+    width: 20px;
+    background: #555;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.main-menu-btn-icon:before {
+    content: '';
+    top: -7px;
+    left: 0;
+}
+
+.main-menu-btn-icon:after {
+    content: '';
+    top: 7px;
+    left: 0;
+}
+
+/* hide menu state checkbox (keep it visible to screen readers) */
+
+#main-menu-state {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+/* hide the menu in mobile view */
+
+#main-menu-state:not(:checked) ~ #main-menu {
+    display: none;
+}
+
+#main-menu-state:checked ~ #main-menu {
+    display: block;
+}
+
+#toolbar-wrapper {
+    position: relative;
+    z-index: 5;
+}
+
+/* desktop mode */
+@media (min-width: 768px) {
+    /* hide the button in desktop view */
+    .main-menu-btn {
+	position: absolute;
+	top: -99999px;
+    }
+    /* always show the menu in desktop view */
+    #main-menu-state:not(:checked) ~ #main-menu {
+	display: block;
+    }
+    #main-menu {
+	top: 0 !important;
+    }
+    .main-nav {
+	position: static;
+	width: auto;
+    }
+    /*
+     * In desktop mode, we already have the close button from the toolbar
+     */
+    #menu-closedocument {
+	display: none;
+    }
+
+    .readonly {
+	top: 3px;
+    }
+    .sm-simple li.docname{
+        display: block;
+    }
+
+    /* test */
+    .sm-simple li.usermenu{
+        display: block;
+        background-color:red;
+    }
+}
+
+/* Some more lo-menu specific customizations */
+
+/* The smartmenus plugin doesn't seem to have support for icons, so implement our own pseudo-elements */
+.lo-menu-item-checked::before {
+    position: absolute;
+    content: '\2713';
+    left: 5px;
+    top: 5px;
+}
+
+.lo-menu-item-checked:hover::before {
+    color: #fff;
+}

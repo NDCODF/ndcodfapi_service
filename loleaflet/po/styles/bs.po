@@ -1,0 +1,2766 @@
+# All these style translations are taken from LibreOffice translation submodule
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_STANDARD\n"
+"string.text"
+msgid "Default"
+msgstr "Uobičajeno"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT\n"
+"string.text"
+msgid "Result"
+msgstr "Rezultat"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT1\n"
+"string.text"
+msgid "Result2"
+msgstr "Rezultat2"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "Zaglavlje"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "Zaglavlje1"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT\n"
+"string.text"
+msgid "Report"
+msgstr "Izvještaj"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT1\n"
+"string.text"
+msgid "Report1"
+msgstr "Izvještaj1"
+
+#: tbcontrl.src
+msgctxt ""
+"tbcontrl.src\n"
+"RID_SVXSTR_CLEARFORM\n"
+"string.text"
+msgid "Clear formatting"
+msgstr "Očisti formatiranje"
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE\n"
+"string.text"
+msgid "Footnote Characters"
+msgstr "Znakovi fusnota"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_PAGENO\n"
+"string.text"
+msgid "Page Number"
+msgstr "Broj stranice"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LABEL\n"
+"string.text"
+msgid "Caption Characters"
+msgstr "Znakovi natpisa"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_DROPCAPS\n"
+"string.text"
+msgid "Drop Caps"
+msgstr "Ukrasna početna slova"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_NUM_LEVEL\n"
+"string.text"
+msgid "Numbering Symbols"
+msgstr "Simboli za numerisanje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_BUL_LEVEL\n"
+"string.text"
+msgid "Bullets"
+msgstr "Tačke"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_NORMAL\n"
+"string.text"
+msgid "Internet Link"
+msgstr "Internet link"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_VISIT\n"
+"string.text"
+msgid "Visited Internet Link"
+msgstr "Posjećeni Internet link"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_JUMPEDIT\n"
+"string.text"
+msgid "Placeholder"
+msgstr "Držač"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_TOXJUMP\n"
+"string.text"
+msgid "Index Link"
+msgstr "Indeksni link"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE\n"
+"string.text"
+msgid "Endnote Characters"
+msgstr "Znakovi završne bilješke"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LANDSCAPE\n"
+"string.text"
+msgid "Landscape"
+msgstr "Pejzaž"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LINENUM\n"
+"string.text"
+msgid "Line Numbering"
+msgstr "Numerisanje linija"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_IDX_MAIN_ENTRY\n"
+"string.text"
+msgid "Main Index Entry"
+msgstr "Stavka glavnog indeksa"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE_ANCHOR\n"
+"string.text"
+msgid "Footnote Anchor"
+msgstr "Sidrište fusnote"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE_ANCHOR\n"
+"string.text"
+msgid "Endnote Anchor"
+msgstr "Sidrište završnih zabilješki"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_EMPHASIS\n"
+"string.text"
+msgid "Emphasis"
+msgstr "Naglasak"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CITIATION\n"
+"string.text"
+msgid "Quotation"
+msgstr "Citat"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_STRONG\n"
+"string.text"
+msgid "Strong Emphasis"
+msgstr "Jak naglasak"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CODE\n"
+"string.text"
+msgid "Source Text"
+msgstr "Izvorni tekst"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_SAMPLE\n"
+"string.text"
+msgid "Example"
+msgstr "Primjer"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_KEYBOARD\n"
+"string.text"
+msgid "User Entry"
+msgstr "Korisnički unos"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_VARIABLE\n"
+"string.text"
+msgid "Variable"
+msgstr "Promjenljivo"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_DEFINSTANCE\n"
+"string.text"
+msgid "Definition"
+msgstr "Definicija"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_TELETYPE\n"
+"string.text"
+msgid "Teletype"
+msgstr "Telegrafski"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FRAME\n"
+"string.text"
+msgid "Frame"
+msgstr "Okvir"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_GRAPHIC\n"
+"string.text"
+msgid "Graphics"
+msgstr "Ilustracija"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_OLE\n"
+"string.text"
+msgid "OLE"
+msgstr "OLE"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FORMEL\n"
+"string.text"
+msgid "Formula"
+msgstr "Formula"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "Bilješke na margini"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_WATERSIGN\n"
+"string.text"
+msgid "Watermark"
+msgstr "Vodeni pečat"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_LABEL\n"
+"string.text"
+msgid "Labels"
+msgstr "Oznake"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "Uobičajeni stil"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT\n"
+"string.text"
+msgid "Text Body"
+msgstr "Tijelo teksta"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_IDENT\n"
+"string.text"
+msgid "First Line Indent"
+msgstr "Uvlačenje prve linije"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_NEGIDENT\n"
+"string.text"
+msgid "Hanging Indent"
+msgstr "Viseće uvlačenje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_MOVE\n"
+"string.text"
+msgid "Text Body Indent"
+msgstr "Uvlačenje tijela teksta"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_GREETING\n"
+"string.text"
+msgid "Complimentary Close"
+msgstr "Pozdravno zatvaranje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SIGNATURE\n"
+"string.text"
+msgid "Signature"
+msgstr "Potpis"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE_BASE\n"
+"string.text"
+msgid "Heading"
+msgstr "Naslov"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUMBUL_BASE\n"
+"string.text"
+msgid "List"
+msgstr "Lista"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_REGISTER_BASE\n"
+"string.text"
+msgid "Index"
+msgstr "Indeks"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_CONFRONTATION\n"
+"string.text"
+msgid "List Indent"
+msgstr "Uvlačenje liste"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "Bilješke na margini"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE1\n"
+"string.text"
+msgid "Heading 1"
+msgstr "Zaglavlje 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE2\n"
+"string.text"
+msgid "Heading 2"
+msgstr "Naslov 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE3\n"
+"string.text"
+msgid "Heading 3"
+msgstr "Naslov 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE4\n"
+"string.text"
+msgid "Heading 4"
+msgstr "Naslov 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE5\n"
+"string.text"
+msgid "Heading 5"
+msgstr "Naslov 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE6\n"
+"string.text"
+msgid "Heading 6"
+msgstr "Naslov 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE7\n"
+"string.text"
+msgid "Heading 7"
+msgstr "Naslov 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE8\n"
+"string.text"
+msgid "Heading 8"
+msgstr "Naslov 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE9\n"
+"string.text"
+msgid "Heading 9"
+msgstr "Naslov 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE10\n"
+"string.text"
+msgid "Heading 10"
+msgstr "Naslov 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1S\n"
+"string.text"
+msgid "Numbering 1 Start"
+msgstr "Početak numerisanja 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "Numerisanje 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1E\n"
+"string.text"
+msgid "Numbering 1 End"
+msgstr "Kraj numerisanja 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM1\n"
+"string.text"
+msgid "Numbering 1 Cont."
+msgstr "Nastavak numerisanja 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2S\n"
+"string.text"
+msgid "Numbering 2 Start"
+msgstr "Početak numerisanja 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "Numerisanje 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2E\n"
+"string.text"
+msgid "Numbering 2 End"
+msgstr "Kraj numerisanja 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM2\n"
+"string.text"
+msgid "Numbering 2 Cont."
+msgstr "Nastavak numerisanja 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3S\n"
+"string.text"
+msgid "Numbering 3 Start"
+msgstr "Početak numerisanja 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "Numerisanje 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3E\n"
+"string.text"
+msgid "Numbering 3 End"
+msgstr "Kraj numerisanja 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM3\n"
+"string.text"
+msgid "Numbering 3 Cont."
+msgstr "Nastavak numerisanja 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4S\n"
+"string.text"
+msgid "Numbering 4 Start"
+msgstr "Početak numerisanja 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "Numerisanje 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4E\n"
+"string.text"
+msgid "Numbering 4 End"
+msgstr "Kraj numerisanja 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM4\n"
+"string.text"
+msgid "Numbering 4 Cont."
+msgstr "Nastavak numerisanja 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5S\n"
+"string.text"
+msgid "Numbering 5 Start"
+msgstr "Početak numerisanja 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "Numerisanje 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5E\n"
+"string.text"
+msgid "Numbering 5 End"
+msgstr "Kraj numerisanja 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM5\n"
+"string.text"
+msgid "Numbering 5 Cont."
+msgstr "Nastavak numerisanja 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1S\n"
+"string.text"
+msgid "List 1 Start"
+msgstr "Početak liste 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1\n"
+"string.text"
+msgid "List 1"
+msgstr "Lista 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1E\n"
+"string.text"
+msgid "List 1 End"
+msgstr "Kraj liste 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM1\n"
+"string.text"
+msgid "List 1 Cont."
+msgstr "Nastavak liste 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2S\n"
+"string.text"
+msgid "List 2 Start"
+msgstr "Početak liste 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2\n"
+"string.text"
+msgid "List 2"
+msgstr "Lista 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2E\n"
+"string.text"
+msgid "List 2 End"
+msgstr "Kraj liste 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM2\n"
+"string.text"
+msgid "List 2 Cont."
+msgstr "Nastavak liste 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3S\n"
+"string.text"
+msgid "List 3 Start"
+msgstr "Početak liste 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3\n"
+"string.text"
+msgid "List 3"
+msgstr "Lista 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3E\n"
+"string.text"
+msgid "List 3 End"
+msgstr "Kraj liste 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM3\n"
+"string.text"
+msgid "List 3 Cont."
+msgstr "Nastavak liste 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4S\n"
+"string.text"
+msgid "List 4 Start"
+msgstr "Početak liste 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4\n"
+"string.text"
+msgid "List 4"
+msgstr "Lista 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4E\n"
+"string.text"
+msgid "List 4 End"
+msgstr "Kraj liste 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM4\n"
+"string.text"
+msgid "List 4 Cont."
+msgstr "Nastavak liste 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5S\n"
+"string.text"
+msgid "List 5 Start"
+msgstr "Početak liste 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5\n"
+"string.text"
+msgid "List 5"
+msgstr "Lista 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5E\n"
+"string.text"
+msgid "List 5 End"
+msgstr "Kraj liste 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM5\n"
+"string.text"
+msgid "List 5 Cont."
+msgstr "Nastavak liste 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "Zaglavlje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERL\n"
+"string.text"
+msgid "Header Left"
+msgstr "Lijevo Zaglavlje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERR\n"
+"string.text"
+msgid "Header Right"
+msgstr "Desno Zaglavlje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTER\n"
+"string.text"
+msgid "Footer"
+msgstr "Podnožje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERL\n"
+"string.text"
+msgid "Footer Left"
+msgstr "Lijevo podnožje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERR\n"
+"string.text"
+msgid "Footer Right"
+msgstr "Desno podnožje"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE\n"
+"string.text"
+msgid "Table Contents"
+msgstr "Sadržaj tabele"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE_HDLN\n"
+"string.text"
+msgid "Table Heading"
+msgstr "Naslov tabele"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FRAME\n"
+"string.text"
+msgid "Frame Contents"
+msgstr "Sadržaj okvira"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "Fusnota"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "Endnota"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL\n"
+"string.text"
+msgid "Caption"
+msgstr "Natpis"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_ABB\n"
+"string.text"
+msgid "Illustration"
+msgstr "Ilustracija"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_TABLE\n"
+"string.text"
+msgid "Table"
+msgstr "Tabela"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_FRAME\n"
+"string.text"
+msgid "Text"
+msgstr "Tekst"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_DRAWING\n"
+"string.text"
+msgid "Drawing"
+msgstr "Crtež"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_JAKETADRESS\n"
+"string.text"
+msgid "Addressee"
+msgstr "Adresant"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SENDADRESS\n"
+"string.text"
+msgid "Sender"
+msgstr "Pošiljalac"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXH\n"
+"string.text"
+msgid "Index Heading"
+msgstr "Naslov indeksa"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX1\n"
+"string.text"
+msgid "Index 1"
+msgstr "Indeks 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX2\n"
+"string.text"
+msgid "Index 2"
+msgstr "Indeks 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX3\n"
+"string.text"
+msgid "Index 3"
+msgstr "Indeks 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXBREAK\n"
+"string.text"
+msgid "Index Separator"
+msgstr "Indeks separator"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNTH\n"
+"string.text"
+msgid "Contents Heading"
+msgstr "Naslov sadržaja"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT1\n"
+"string.text"
+msgid "Contents 1"
+msgstr "Sadržaj 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT2\n"
+"string.text"
+msgid "Contents 2"
+msgstr "Sadržaj 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT3\n"
+"string.text"
+msgid "Contents 3"
+msgstr "Sadržaj 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT4\n"
+"string.text"
+msgid "Contents 4"
+msgstr "Sadržaj 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT5\n"
+"string.text"
+msgid "Contents 5"
+msgstr "Sadržaj 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT6\n"
+"string.text"
+msgid "Contents 6"
+msgstr "Sadržaj 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT7\n"
+"string.text"
+msgid "Contents 7"
+msgstr "Sadržaj 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT8\n"
+"string.text"
+msgid "Contents 8"
+msgstr "Sadržaj 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT9\n"
+"string.text"
+msgid "Contents 9"
+msgstr "Sadržaj 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT10\n"
+"string.text"
+msgid "Contents 10"
+msgstr "Sadržaj 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USERH\n"
+"string.text"
+msgid "User Index Heading"
+msgstr "Naslov korisničkog indeksa"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER1\n"
+"string.text"
+msgid "User Index 1"
+msgstr "Korisnički indeks 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER2\n"
+"string.text"
+msgid "User Index 2"
+msgstr "Korisnički indeks 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER3\n"
+"string.text"
+msgid "User Index 3"
+msgstr "Korisnički indeks 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER4\n"
+"string.text"
+msgid "User Index 4"
+msgstr "Korisnički indeks 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER5\n"
+"string.text"
+msgid "User Index 5"
+msgstr "Korisnički indeks 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER6\n"
+"string.text"
+msgid "User Index 6"
+msgstr "Korisnički indeks 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER7\n"
+"string.text"
+msgid "User Index 7"
+msgstr "Korisnički indeks 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER8\n"
+"string.text"
+msgid "User Index 8"
+msgstr "Korisnički indeks 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER9\n"
+"string.text"
+msgid "User Index 9"
+msgstr "Korisnički indeks 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER10\n"
+"string.text"
+msgid "User Index 10"
+msgstr "Korisnički indeks 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CITATION\n"
+"string.text"
+msgid "Citation"
+msgstr ""
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUSH\n"
+"string.text"
+msgid "Illustration Index Heading"
+msgstr "Naslov indeksa ilustracija"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUS1\n"
+"string.text"
+msgid "Illustration Index 1"
+msgstr "Indeks ilustracija 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECTH\n"
+"string.text"
+msgid "Object Index Heading"
+msgstr "Zaglavlje indeksa objekta"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECT1\n"
+"string.text"
+msgid "Object Index 1"
+msgstr "Indeks objekta 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLESH\n"
+"string.text"
+msgid "Table Index Heading"
+msgstr "Naslov indeksa tabela"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLES1\n"
+"string.text"
+msgid "Table Index 1"
+msgstr "Indeks Tabele 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIESH\n"
+"string.text"
+msgid "Bibliography Heading"
+msgstr "Naslov bibliografije"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIES1\n"
+"string.text"
+msgid "Bibliography 1"
+msgstr "Bibliografija 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_DOC_SUBTITEL\n"
+"string.text"
+msgid "Subtitle"
+msgstr "Podnaslov"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_BLOCKQUOTE\n"
+"string.text"
+msgid "Quotations"
+msgstr "Citati"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_PRE\n"
+"string.text"
+msgid "Preformatted Text"
+msgstr "Preformatirani tekst"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_HR\n"
+"string.text"
+msgid "Horizontal Line"
+msgstr "Vodoravna linija"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DD\n"
+"string.text"
+msgid "List Contents"
+msgstr "Sadržaj liste"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DT\n"
+"string.text"
+msgid "List Heading"
+msgstr "Naslov liste"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "Uobičajeni stil"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FIRST\n"
+"string.text"
+msgid "First Page"
+msgstr "Prva strana"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LEFT\n"
+"string.text"
+msgid "Left Page"
+msgstr "Lijeva strana"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_RIGHT\n"
+"string.text"
+msgid "Right Page"
+msgstr "Desna strana"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_JAKET\n"
+"string.text"
+msgid "Envelope"
+msgstr "Koverta"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_REGISTER\n"
+"string.text"
+msgid "Index"
+msgstr "Indeks"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_HTML\n"
+"string.text"
+msgid "HTML"
+msgstr "HTML"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "Fusnota"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "Endnota"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "Numerisanje 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "Numerisanje 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "Numerisanje 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "Numerisanje 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "Numerisanje 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL1\n"
+"string.text"
+msgid "List 1"
+msgstr "Lista 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL2\n"
+"string.text"
+msgid "List 2"
+msgstr "Lista 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL3\n"
+"string.text"
+msgid "List 3"
+msgstr "Lista 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL4\n"
+"string.text"
+msgid "List 4"
+msgstr "Lista 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL5\n"
+"string.text"
+msgid "List 5"
+msgstr "Lista 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_RUBYTEXT\n"
+"string.text"
+msgid "Rubies"
+msgstr "Zvučni zapisi"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_VERT_NUM\n"
+"string.text"
+msgid "Vertical Numbering Symbols"
+msgstr "Simboli za uspravnu numeraciju"
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_STANDARD_STYLESHEET_NAME\n"
+"string.text"
+msgid "Default"
+msgstr "Uobičajeno"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_MEASURE\n"
+"string.text"
+msgid "Dimension Line"
+msgstr "Dimenziona linija"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJNOLINENOFILL\n"
+"string.text"
+msgid "Object with no fill and no line"
+msgstr "Objekat bez punjenja i bez linije"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHARROW\n"
+"string.text"
+msgid "Object with arrow"
+msgstr "Predmet sa strelicom"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHSHADOW\n"
+"string.text"
+msgid "Object with shadow"
+msgstr "Predmet sa sjenkom"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHOUTFILL\n"
+"string.text"
+msgid "Object without fill"
+msgstr "Predmet bez punjenja"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXT\n"
+"string.text"
+msgid "Text"
+msgstr "Tekst"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY\n"
+"string.text"
+msgid "Text body"
+msgstr "Tijelo teksta"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_JUSTIFY\n"
+"string.text"
+msgid "Text body justified"
+msgstr "Tijelo teksta poravnato"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_INDENT\n"
+"string.text"
+msgid "First line indent"
+msgstr "Uvlačenje prve linije"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "Naslov"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE1\n"
+"string.text"
+msgid "Title1"
+msgstr "Naslov1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE2\n"
+"string.text"
+msgid "Title2"
+msgstr "Naslov2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "Zaglavlje"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "Zaglavlje1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE2\n"
+"string.text"
+msgid "Heading2"
+msgstr "Zaglavlje2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "Naslov"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_SUBTITLE\n"
+"string.text"
+msgid "Subtitle"
+msgstr "Podnaslov"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_OUTLINE\n"
+"string.text"
+msgid "Outline"
+msgstr "Samo tekst"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUNDOBJECTS\n"
+"string.text"
+msgid "Background objects"
+msgstr "Pozadinski predmeti"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUND\n"
+"string.text"
+msgid "Background"
+msgstr "Pozadina"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_NOTES\n"
+"string.text"
+msgid "Notes"
+msgstr "Bilješke"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_BANDED_CELL\n"
+"string.text"
+msgid "Banding cell"
+msgstr "Uvezivajuća ćelija"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "Zaglavlje"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TOTAL\n"
+"string.text"
+msgid "Total line"
+msgstr "Ukupna linija"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_FIRST_COLUMN\n"
+"string.text"
+msgid "First column"
+msgstr "Prva kolona"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_LAST_COLUMN\n"
+"string.text"
+msgid "Last column"
+msgstr "Zadnja kolona"
+
+#: DrawImpressCommands.xcu
+msgid "Layout"
+msgstr "Raspored"
+
+#: strings.src
+msgid "Blank Slide"
+msgstr "Prazan slajd"
+
+#: strings.src
+msgid "Title Only"
+msgstr "Samo naslov"
+
+#: strings.src
+msgid "Centered Text"
+msgstr "Centriran tekst"
+
+#: strings.src
+msgid "Title Slide"
+msgstr "Naslovni slajd"
+
+#: strings.src
+msgid "Title, Content"
+msgstr "Naslov, sadržaj"
+
+#: strings.src
+msgid "Title and 2 Content"
+msgstr "Naslov i dva sadržaja"
+
+#: strings.src
+msgid "Title, Content and 2 Content"
+msgstr "Naslov, sadržaj i dva sadržaja"
+
+#: strings.src
+msgid "Title, 2 Content and Content"
+msgstr "Naslov, dva sadržaja i sadržaj"
+
+#: strings.src
+msgid "Title, Content over 2 Content"
+msgstr "Naslov, sadržaj iznad dva sadržaja"
+
+#: strings.src
+msgid "Title, 2 Content over Content"
+msgstr "Naslov, dva sadržaja iznad sadržaja"
+
+#: strings.src
+msgid "Title, Content over Content"
+msgstr "Naslov, sadržaj iznad sadržaja"
+
+#: strings.src
+msgid "Title, 4 Content"
+msgstr "Naslov, četiri sadržaja"
+
+#: strings.src
+msgid "Title, 6 Content"
+msgstr "Naslov, šest sadržaja"
+
+#: strings.src
+msgid "Title, Vertical Text"
+msgstr "Naslov, vertikalni tekst"
+
+#: strings.src
+msgid "Title, Vertical Text, Clipart"
+msgstr "Naslov, vertikalni tekst, klipart"
+
+#: strings.src
+msgid "Vertical Title, Text, Chart"
+msgstr "Naslov uspravno, tekst, grafik"
+
+#: strings.src
+msgid "Vertical Title, Vertical Text"
+msgstr "Naslov uspravno, tekst uspravno"
+
+#: stbctrls.src
+msgid "Standard selection"
+msgstr "Standardna selekcija"
+
+#: stbctrls.src
+msgid "Extending selection"
+msgstr "Selekcija produženja"
+
+#: stbctrls.src
+msgid "Adding selection"
+msgstr "Selekcija dodavanja"
+
+#: stbctrls.src
+msgid "Block selection"
+msgstr "Blok selekcija"
+
+#: stbctrls.src
+msgid "Overwrite"
+msgstr "Prepiši"
+
+#: globstr.src
+msgid "Insert"
+msgstr "Ubaci"
+
+#: app.src
+msgid "%1 words, %2 characters"
+msgstr "%1 riječi, %2 znakova"
+
+# Translations of Unicode subsets from LibreOffice core
+
+#: ucsubset.src
+msgid "Basic Latin"
+msgstr "Latinica osnovni"
+
+#: ucsubset.src
+msgid "Latin-1"
+msgstr "Latinica-1"
+
+#: ucsubset.src
+msgid "Latin Extended-A"
+msgstr "Latinica proširenje-A"
+
+#: ucsubset.src
+msgid "Latin Extended-B"
+msgstr "Latinica proširenje-B"
+
+#: ucsubset.src
+msgid "IPA Extensions"
+msgstr "IPA proširenja"
+
+#: ucsubset.src
+msgid "Spacing Modifier Letters"
+msgstr "Slova za modifikaciju proreda"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks"
+msgstr "Kombinovani dijakritički znakovi"
+
+#: ucsubset.src
+msgid "Basic Greek"
+msgstr "Grčki osnovni"
+
+#: ucsubset.src
+msgid "Greek Symbols And Coptic"
+msgstr "Grčki simboli i Koptski"
+
+#: ucsubset.src
+msgid "Cyrillic"
+msgstr "Ćirilica"
+
+#: ucsubset.src
+msgid "Armenian"
+msgstr "Armenski"
+
+#: ucsubset.src
+msgid "Basic Hebrew"
+msgstr "Hebrejski osnovni"
+
+#: ucsubset.src
+msgid "Hebrew Extended"
+msgstr "Hebrejski prošireni"
+
+#: ucsubset.src
+msgid "Basic Arabic"
+msgstr "Arapski osnovni"
+
+#: ucsubset.src
+msgid "Arabic Extended"
+msgstr "Arapski prošireni"
+
+#: ucsubset.src
+msgid "Bengali"
+msgstr "Bengalski"
+
+#: ucsubset.src
+msgid "Gujarati"
+msgstr "Gudžarati"
+
+#: ucsubset.src
+msgid "Tamil"
+msgstr "Tamilski"
+
+#: ucsubset.src
+msgid "Kannada"
+msgstr "Kanada"
+
+#: ucsubset.src
+msgid "Malayalam"
+msgstr "Malajamanski"
+
+#: ucsubset.src
+msgid "Thai"
+msgstr "Tajlandski"
+
+#: ucsubset.src
+msgid "Lao"
+msgstr "Laoski"
+
+#: ucsubset.src
+msgid "Basic Georgian"
+msgstr "Gruzijski osnovni"
+
+#: ucsubset.src
+msgid "Georgian Extended"
+msgstr "Gruzijski prošireni"
+
+#: ucsubset.src
+msgid "Latin Extended Additionals"
+msgstr "Latinica prošireni dodaci"
+
+#: ucsubset.src
+msgid "Greek Extended"
+msgstr "Grčki prošireni"
+
+#: ucsubset.src
+msgid "General punctuation"
+msgstr "Opšta punktuacija"
+
+#: ucsubset.src
+msgid "Superscripts and Subscripts"
+msgstr "Eksponenti i indeksi"
+
+#: ucsubset.src
+msgid "Currency Symbols"
+msgstr "Simboli valuta"
+
+#: ucsubset.src
+msgid "Combining Diacritical Symbols"
+msgstr "Kombinovani dijakritički znakovi"
+
+#: ucsubset.src
+msgid "Letterlike Symbols"
+msgstr "Simboli slični slovima"
+
+#: ucsubset.src
+msgid "Number Forms"
+msgstr "Oblici brojeva"
+
+#: ucsubset.src
+msgid "Arrows"
+msgstr "Strelice"
+
+#: ucsubset.src
+msgid "Mathematical Operators"
+msgstr "Matematičke operacije"
+
+#: ucsubset.src
+msgid "Miscellaneous Technical"
+msgstr "Razni tehnički"
+
+#: ucsubset.src
+msgid "Control Pictures"
+msgstr "Kontrolne slike"
+
+#: ucsubset.src
+msgid "Optical Character Recognition"
+msgstr "Optičko prepoznavanje znakova (OCR)"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumerics"
+msgstr "Uključeni alfa-numerici"
+
+#: ucsubset.src
+msgid "Box Drawing"
+msgstr "Crtanje okvira"
+
+#: ucsubset.src
+msgid "Block Elements"
+msgstr "Blokovski elementi"
+
+#: ucsubset.src
+msgid "Geometric Shapes"
+msgstr "Geometrijski oblici"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols"
+msgstr "Razni simboli"
+
+#: ucsubset.src
+msgid "Dingbats"
+msgstr "Grafički simboli"
+
+#: ucsubset.src
+msgid "CJK Symbols And Punctuation"
+msgstr "CJK (Kina-Japan-Koreja) simboli i punktuacija"
+
+#: ucsubset.src
+msgid "Hangul Compatibility Jamo"
+msgstr "Hangul kompatibilnost Jamo"
+
+#: ucsubset.src
+msgid "CJK Miscellaneous"
+msgstr "CJK (Kina-Japan-Koreja) razno"
+
+#: ucsubset.src
+msgid "Enclosed CJK Letters And Months"
+msgstr "Uključena CJK (Kina-Japan-Koreja) slova i mjeseci"
+
+#: ucsubset.src
+msgid "CJK Compatibility"
+msgstr "CJK (Kina-Japan-Koreja) kompatibilnost"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs"
+msgstr "CJK (Kina-Japan-Koreja) unificirani ideogrami"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension A"
+msgstr "CJK prošireni unificirani ideogrami A"
+
+#: ucsubset.src
+msgid "Private Use Area"
+msgstr "Područje privatne upotrebe"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs"
+msgstr "CJK (Kina-Japan-Koreja) kompatibilni ideogrami"
+
+#: ucsubset.src
+msgid "Alphabetic Presentation Forms"
+msgstr "Abecedni prezentacijski oblici"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-A"
+msgstr "Arapski prezentacijski oblici-A"
+
+#: ucsubset.src
+msgid "Combining Half Marks"
+msgstr "Kombinovane polovične oznake"
+
+#: ucsubset.src
+msgid "CJK Compatibility Forms"
+msgstr "CJK (Kina-Japan-Koreja) kompatibilne forme"
+
+#: ucsubset.src
+msgid "Small Form Variants"
+msgstr "Varijante manjih formi"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-B"
+msgstr "Arapske prezentacione forme-B"
+
+#: ucsubset.src
+msgid "Half-width and Full-width Forms"
+msgstr "Forme polovične i pune širine"
+
+#: ucsubset.src
+msgid "Specials"
+msgstr "Posebno"
+
+#: ucsubset.src
+msgid "Yi Syllables"
+msgstr "Ji slogovi"
+
+#: ucsubset.src
+msgid "Yi Radicals"
+msgstr "ji radikali"
+
+#: ucsubset.src
+msgid "Old Italic"
+msgstr "Stari Italika"
+
+#: ucsubset.src
+msgid "Gothic"
+msgstr "Gotička"
+
+#: ucsubset.src
+msgid "Byzantine Musical Symbols"
+msgstr "Bizantijski muzički simboli"
+
+#: ucsubset.src
+msgid "Musical Symbols"
+msgstr "Muzički simboli"
+
+#: ucsubset.src
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "Matematički alfanumerički simboli"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension B"
+msgstr "CJK sjedinjeni ideografi proširenje B"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension C"
+msgstr "Proširenje C CJK ujedinjenih ideograma"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension D"
+msgstr "CJK ujedinjeni ideografi proširenje D"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "CJK saglasnosni ideografi dopunski"
+
+#: ucsubset.src
+msgid "Tags"
+msgstr "Oznake"
+
+#: ucsubset.src
+msgid "Cyrillic Supplement"
+msgstr "Ćirilični dodatak"
+
+#: ucsubset.src
+msgid "Variation Selectors"
+msgstr "Izbori varijacija"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-A"
+msgstr "Dodatno privatno korišteno područje-A"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-B"
+msgstr "Dodatno privatno korišteno područje-B"
+
+#: ucsubset.src
+msgid "Tai Le"
+msgstr "taj‑li"
+
+#: ucsubset.src
+msgid "Khmer Symbols"
+msgstr "Kmerski simboli"
+
+#: ucsubset.src
+msgid "Phonetic Extensions"
+msgstr "Fonetske ekstenzije"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Arrows"
+msgstr "Razni simboli i strijele"
+
+#: ucsubset.src
+msgid "Yijing Hexagram Symbols"
+msgstr "jiđing heksagram simboli"
+
+#: ucsubset.src
+msgid "Linear B Syllabary"
+msgstr "Linearni B slog"
+
+#: ucsubset.src
+msgid "Linear B Ideograms"
+msgstr "Linearni B ideogrami"
+
+#: ucsubset.src
+msgid "Aegean Numbers"
+msgstr "egejski brojevi"
+
+#: ucsubset.src
+msgid "Ugaritic"
+msgstr "Ugarski"
+
+#: ucsubset.src
+msgid "Shavian"
+msgstr "Šavijan"
+
+#: ucsubset.src
+msgid "Osmanya"
+msgstr "Osmanski"
+
+#: ucsubset.src
+msgid "Tibetan"
+msgstr "Tibetski"
+
+#: ucsubset.src
+msgid "Myanmar"
+msgstr "Burma"
+
+#: ucsubset.src
+msgid "Khmer"
+msgstr "Kmerski"
+
+#: ucsubset.src
+msgid "Runic"
+msgstr "Rune"
+
+#: ucsubset.src
+msgid "Syriac"
+msgstr "Sirijska"
+
+#: ucsubset.src
+msgid "Ethiopic"
+msgstr "Etiopski"
+
+#: ucsubset.src
+msgid "Canadan Aboriginal Syllables"
+msgstr "Canadan-ski aboridžinski suglasnici"
+
+#: ucsubset.src
+msgid "Mongolian"
+msgstr "Mongolski"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "Razni matematički simboli-A"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-A"
+msgstr "Dodatne strelice-A"
+
+#: ucsubset.src
+msgid "Braille Patterns"
+msgstr "Brajevi simboli"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-B"
+msgstr "Dodatne strelice-B"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "Razni matematički simboli-B"
+
+#: ucsubset.src
+msgid "CJK Radical Supplement"
+msgstr "CJK radikali dodaci"
+
+#: ucsubset.src
+msgid "Kangxi Radicals"
+msgstr "Kanđi radikali"
+
+#: ucsubset.src
+msgid "Ideographic Description Characters"
+msgstr "Ideografski opisni znakovi"
+
+#: ucsubset.src
+msgid "Bopomofo Extended"
+msgstr "Bopomofo prošireni"
+
+#: ucsubset.src
+msgid "Katakana Phonetics"
+msgstr "Katakana fonetski"
+
+#: ucsubset.src
+msgid "CJK Strokes"
+msgstr "CJK Potezi"
+
+#: ucsubset.src
+msgid "Cypriot Syllabary"
+msgstr "Kiparski slogovi"
+
+#: ucsubset.src
+msgid "Tai Xuan Jing Symbols"
+msgstr "Tai Xuan Jing simboli"
+
+#: ucsubset.src
+msgid "Variation Selectors Supplement"
+msgstr "Dodaci odabira varijacija"
+
+#: ucsubset.src
+msgid "Ancient Greek Musical Notation"
+msgstr "Drevna grčka muzička notacija"
+
+#: ucsubset.src
+msgid "Ancient Greek Numbers"
+msgstr "Starogrčki brojevi"
+
+#: ucsubset.src
+msgid "Arabic Supplement"
+msgstr "Arapski dodatak"
+
+#: ucsubset.src
+msgid "Buginese"
+msgstr "Bugijski"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks Supplement"
+msgstr "Kombinuje dodatke za dijakritičke znake"
+
+#: ucsubset.src
+msgid "Coptic"
+msgstr "Koptski"
+
+#: ucsubset.src
+msgid "Ethiopic Extended"
+msgstr "Etiopski, prosireni"
+
+#: ucsubset.src
+msgid "Ethiopic Supplement"
+msgstr "Etiopski dopunjeno"
+
+#: ucsubset.src
+msgid "Georgian Supplement"
+msgstr "Gruzijski dopunjeno"
+
+#: ucsubset.src
+msgid "Glagolitic"
+msgstr "Glagoljica"
+
+#: ucsubset.src
+msgid "Kharoshthi"
+msgstr "Karošti"
+
+#: ucsubset.src
+msgid "Modifier Tone Letters"
+msgstr "Modifikatori tona"
+
+#: ucsubset.src
+msgid "New Tai Lue"
+msgstr "Novi Tai Le"
+
+#: ucsubset.src
+msgid "Old Persian"
+msgstr "Stari persijski"
+
+#: ucsubset.src
+msgid "Phonetic Extensions Supplement"
+msgstr "Fonetska prosirenja dopuna"
+
+#: ucsubset.src
+msgid "Supplemental Punctuation"
+msgstr "Dodatna interpunkcija"
+
+#: ucsubset.src
+msgid "Tifinagh"
+msgstr "Tifinag"
+
+#: ucsubset.src
+msgid "Vertical Forms"
+msgstr "Vertikalne forme"
+
+#: ucsubset.src
+msgid "Balinese"
+msgstr "Balineze"
+
+#: ucsubset.src
+msgid "Latin Extended-C"
+msgstr "Latinički prošireni‑C"
+
+#: ucsubset.src
+msgid "Latin Extended-D"
+msgstr "Latinički prošireni‑D"
+
+#: ucsubset.src
+msgid "Phoenician"
+msgstr "Feničanski"
+
+#: ucsubset.src
+msgid "Cuneiform"
+msgstr "Klinasto pismo"
+
+#: ucsubset.src
+msgid "Cuneiform Numbers And Punctuation"
+msgstr "Brojevi i interpunkcije klinastog pisma"
+
+#: ucsubset.src
+msgid "Counting Rod Numerals"
+msgstr "Brojanje štapićima"
+
+#: ucsubset.src
+msgid "Sundanese"
+msgstr "Sudanski"
+
+#: ucsubset.src
+msgid "Lepcha"
+msgstr "Lepča"
+
+#: ucsubset.src
+msgid "Ol Chiki"
+msgstr "Ol Čiki"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-A"
+msgstr "Ćirilično proširenje-A"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-B"
+msgstr "Ćirilični proširenje-B"
+
+#: ucsubset.src
+msgid "Kayah Li"
+msgstr "Kaja  Li"
+
+#: ucsubset.src
+msgid "Rejang"
+msgstr "Ređang"
+
+#: ucsubset.src
+msgid "Cham"
+msgstr "Čam"
+
+#: ucsubset.src
+msgid "Ancient Symbols"
+msgstr "Drevni simboli"
+
+#: ucsubset.src
+msgid "Phaistos Disc"
+msgstr "Faistos disk"
+
+#: ucsubset.src
+msgid "Lycian"
+msgstr "Lukijski"
+
+#: ucsubset.src
+msgid "Carian"
+msgstr "Šavijan"
+
+#: ucsubset.src
+msgid "Lydian"
+msgstr "Libijski"
+
+#: ucsubset.src
+msgid "Mahjong Tiles"
+msgstr "Mahdžong pločice"
+
+#: ucsubset.src
+msgid "Domino Tiles"
+msgstr "Domino pločice"
+
+#: ucsubset.src
+msgid "Samaritan"
+msgstr "Samarićanski"
+
+#: ucsubset.src
+msgid "Canadian Aboriginal Syllabics Extended"
+msgstr "Kanadski Aboriginalni Syllabics produžen"
+
+#: ucsubset.src
+msgid "Tai Tham"
+msgstr "Tai tham"
+
+#: ucsubset.src
+msgid "Vedic Extensions"
+msgstr "Vedski prošireni"
+
+#: ucsubset.src
+msgid "Common Indic Number Forms"
+msgstr "Zajednički Indijski Oblici Brojeva"
+
+#: ucsubset.src
+msgid "Devanagari Extended"
+msgstr "Devanagari Prošireno"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-A"
+msgstr "Hangul Džamo proširenje-A"
+
+#: ucsubset.src
+msgid "Javanese"
+msgstr "Javanski"
+
+#: ucsubset.src
+msgid "Myanmar Extended-A"
+msgstr "Mjanmarski prošireni-A"
+
+#: ucsubset.src
+msgid "Tai Viet"
+msgstr "Taj Viet"
+
+#: ucsubset.src
+msgid "Meetei Mayek"
+msgstr "Mitej majek"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-B"
+msgstr "Hangul Džamo proširenje-B"
+
+#: ucsubset.src
+msgid "Imperial Aramaic"
+msgstr "Carski Aramejski"
+
+#: ucsubset.src
+msgid "Old South Arabian"
+msgstr "Stari Južnoarabijski"
+
+#: ucsubset.src
+msgid "Avestan"
+msgstr "Avestanski"
+
+#: ucsubset.src
+msgid "Inscriptional Parthian"
+msgstr "Pisani Parćanski"
+
+#: ucsubset.src
+msgid "Inscriptional Pahlavi"
+msgstr "Inskripcijski Pahlavi"
+
+#: ucsubset.src
+msgid "Old Turkic"
+msgstr "Stari Turski"
+
+#: ucsubset.src
+msgid "Rumi Numeral Symbols"
+msgstr "Rumi Brojni Simboli"
+
+#: ucsubset.src
+msgid "Kaithi"
+msgstr "Kaiti"
+
+#: ucsubset.src
+msgid "Egyptian Hieroglyphs"
+msgstr "Egipatski hijeroglifi"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumeric Supplement"
+msgstr "Zatvoreni Alfanumerički Dodatak"
+
+#: ucsubset.src
+msgid "Enclosed Ideographic Supplement"
+msgstr "Zatvoreni Ideogramski Dodatak"
+
+#: ucsubset.src
+msgid "Mandaic"
+msgstr "Mandejski"
+
+#: ucsubset.src
+msgid "Ethiopic Extended-A"
+msgstr "Etiopski Proširena-A"
+
+#: ucsubset.src
+msgid "Brahmi"
+msgstr "Brajevo pismo"
+
+#: ucsubset.src
+msgid "Bamum Supplement"
+msgstr "Bamum dodatak"
+
+#: ucsubset.src
+msgid "Kana Supplement"
+msgstr "Kana dodatak"
+
+#: ucsubset.src
+msgid "Playing Cards"
+msgstr "Igraće karte"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Pictographs"
+msgstr "Razni simboli i piktogrami"
+
+#: ucsubset.src
+msgid "Emoticons"
+msgstr "Emotikoni"
+
+#: ucsubset.src
+msgid "Transport And Map Symbols"
+msgstr "Saobraćajni i kartografski simboli"
+
+#: ucsubset.src
+msgid "Alchemical Symbols"
+msgstr "Alhemijski simboli"
+
+#: ucsubset.src
+msgid "Arabic Extended-A"
+msgstr "Arapski prošireni-A"
+
+#: ucsubset.src
+msgid "Arabic Mathematical Alphabetic Symbols"
+msgstr "Arapski matematski alfabetski simboli"
+
+#: ucsubset.src
+msgid "Chakma"
+msgstr "Čakma"
+
+#: ucsubset.src
+msgid "Meetei Mayek Extensions"
+msgstr "Mitej Majek proširenja"
+
+#: ucsubset.src
+msgid "Meroitic Cursive"
+msgstr "Meriotski kurzivni"
+
+#: ucsubset.src
+msgid "Meroitic Hieroglyphs"
+msgstr "Meriotski hijeroglifi"
+
+#: ucsubset.src
+msgid "Sharada"
+msgstr "Šarada"
+
+#: ucsubset.src
+msgid "Sundanese Supplement"
+msgstr "Sundanski dodatni"
+
+# Translation of Special Characters dialog from LibreOffice core
+
+#: GenericCommands.xcu
+msgid "Font Name:"
+msgstr "Vrsta slova:"
+
+#: specialcharacters.ui
+msgid "Special Characters"
+msgstr "Posebni znakovi"

@@ -1,0 +1,2832 @@
+# All these style translations are taken from LibreOffice translation submodule
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_STANDARD\n"
+"string.text"
+msgid "Default"
+msgstr "Oletus"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT\n"
+"string.text"
+msgid "Result"
+msgstr "Tulos"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_RESULT1\n"
+"string.text"
+msgid "Result2"
+msgstr "Tulos2"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "Otsikko"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "Otsikko1"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT\n"
+"string.text"
+msgid "Report"
+msgstr "Raportti"
+
+
+#: globstr.src
+msgctxt ""
+"globstr.src\n"
+"RID_GLOBSTR\n"
+"STR_STYLENAME_REPORT1\n"
+"string.text"
+msgid "Report1"
+msgstr "Raportti1"
+
+#: tbcontrl.src
+msgctxt ""
+"tbcontrl.src\n"
+"RID_SVXSTR_CLEARFORM\n"
+"string.text"
+msgid "Clear formatting"
+msgstr "Tyhjennä muotoilu"
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE\n"
+"string.text"
+msgid "Footnote Characters"
+msgstr "Alaviitemerkit"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_PAGENO\n"
+"string.text"
+msgid "Page Number"
+msgstr "Sivunumero"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LABEL\n"
+"string.text"
+msgid "Caption Characters"
+msgstr "Kuvaotsikon merkit"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_DROPCAPS\n"
+"string.text"
+msgid "Drop Caps"
+msgstr "Anfangit"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_NUM_LEVEL\n"
+"string.text"
+msgid "Numbering Symbols"
+msgstr "Numerointisymbolit"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_BUL_LEVEL\n"
+"string.text"
+msgid "Bullets"
+msgstr "Luettelomerkit"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_NORMAL\n"
+"string.text"
+msgid "Internet Link"
+msgstr "Internet-linkki"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_INET_VISIT\n"
+"string.text"
+msgid "Visited Internet Link"
+msgstr "Avattu Internet-linkki"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_JUMPEDIT\n"
+"string.text"
+msgid "Placeholder"
+msgstr "Paikkamerkki"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_TOXJUMP\n"
+"string.text"
+msgid "Index Link"
+msgstr "Hakemistolinkki"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE\n"
+"string.text"
+msgid "Endnote Characters"
+msgstr "Loppuviitemerkit"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LANDSCAPE\n"
+"string.text"
+msgid "Landscape"
+msgstr "Vaakasuunta"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_LINENUM\n"
+"string.text"
+msgid "Line Numbering"
+msgstr "Rivien numerointi"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_IDX_MAIN_ENTRY\n"
+"string.text"
+msgid "Main Index Entry"
+msgstr "Päähakemistomerkintä"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_FOOTNOTE_ANCHOR\n"
+"string.text"
+msgid "Footnote Anchor"
+msgstr "Alaviitteen ankkuri"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_ENDNOTE_ANCHOR\n"
+"string.text"
+msgid "Endnote Anchor"
+msgstr "Loppuviitteen ankkuri"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_EMPHASIS\n"
+"string.text"
+msgid "Emphasis"
+msgstr "Painotus"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CITIATION\n"
+"string.text"
+msgid "Quotation"
+msgstr "Lainaus"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_STRONG\n"
+"string.text"
+msgid "Strong Emphasis"
+msgstr "Vahva painotus"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_CODE\n"
+"string.text"
+msgid "Source Text"
+msgstr "Lähdeteksti"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_SAMPLE\n"
+"string.text"
+msgid "Example"
+msgstr "Esimerkki"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_KEYBOARD\n"
+"string.text"
+msgid "User Entry"
+msgstr "Käyttäjämerkintä"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_VARIABLE\n"
+"string.text"
+msgid "Variable"
+msgstr "Muuttuja"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_DEFINSTANCE\n"
+"string.text"
+msgid "Definition"
+msgstr "Määritys"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_HTML_TELETYPE\n"
+"string.text"
+msgid "Teletype"
+msgstr "Konekirjoitusteksti"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FRAME\n"
+"string.text"
+msgid "Frame"
+msgstr "Kehys"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_GRAPHIC\n"
+"string.text"
+msgid "Graphics"
+msgstr "Kuvat"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_OLE\n"
+"string.text"
+msgid "OLE"
+msgstr "OLE"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_FORMEL\n"
+"string.text"
+msgid "Formula"
+msgstr "Kaava"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "Reunahuomautukset"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_WATERSIGN\n"
+"string.text"
+msgid "Watermark"
+msgstr "Vesileima"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLFRM_LABEL\n"
+"string.text"
+msgid "Labels"
+msgstr "Osoitetarrat"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "Oletustyyli"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT\n"
+"string.text"
+msgid "Text Body"
+msgstr "Leipäteksti"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_IDENT\n"
+"string.text"
+msgid "First Line Indent"
+msgstr "Ensimmäisen rivin sisennys"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_NEGIDENT\n"
+"string.text"
+msgid "Hanging Indent"
+msgstr "Riippuva sisennys"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TEXT_MOVE\n"
+"string.text"
+msgid "Text Body Indent"
+msgstr "Sisennetty leipäteksti"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_GREETING\n"
+"string.text"
+msgid "Complimentary Close"
+msgstr "Tervehdys"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SIGNATURE\n"
+"string.text"
+msgid "Signature"
+msgstr "Allekirjoitus"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE_BASE\n"
+"string.text"
+msgid "Heading"
+msgstr "Otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUMBUL_BASE\n"
+"string.text"
+msgid "List"
+msgstr "Luettelo"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_REGISTER_BASE\n"
+"string.text"
+msgid "Index"
+msgstr "Hakemisto"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_CONFRONTATION\n"
+"string.text"
+msgid "List Indent"
+msgstr "Luettelon sisennys"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_MARGINAL\n"
+"string.text"
+msgid "Marginalia"
+msgstr "Reunahuomautukset"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE1\n"
+"string.text"
+msgid "Heading 1"
+msgstr "Otsikko 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE2\n"
+"string.text"
+msgid "Heading 2"
+msgstr "Otsikko 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE3\n"
+"string.text"
+msgid "Heading 3"
+msgstr "Otsikko 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE4\n"
+"string.text"
+msgid "Heading 4"
+msgstr "Otsikko 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE5\n"
+"string.text"
+msgid "Heading 5"
+msgstr "Otsikko 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE6\n"
+"string.text"
+msgid "Heading 6"
+msgstr "Otsikko 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE7\n"
+"string.text"
+msgid "Heading 7"
+msgstr "Otsikko 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE8\n"
+"string.text"
+msgid "Heading 8"
+msgstr "Otsikko 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE9\n"
+"string.text"
+msgid "Heading 9"
+msgstr "Otsikko 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADLINE10\n"
+"string.text"
+msgid "Heading 10"
+msgstr "Otsikko 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1S\n"
+"string.text"
+msgid "Numbering 1 Start"
+msgstr "Numeroinnin 1 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "Numerointi 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL1E\n"
+"string.text"
+msgid "Numbering 1 End"
+msgstr "Numeroinnin 1 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM1\n"
+"string.text"
+msgid "Numbering 1 Cont."
+msgstr "Numeroinnin 1 jatko."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2S\n"
+"string.text"
+msgid "Numbering 2 Start"
+msgstr "Numeroinnin 2 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "Numerointi 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL2E\n"
+"string.text"
+msgid "Numbering 2 End"
+msgstr "Numeroinnin 2 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM2\n"
+"string.text"
+msgid "Numbering 2 Cont."
+msgstr "Numeroinnin 2 jatko."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3S\n"
+"string.text"
+msgid "Numbering 3 Start"
+msgstr "Numeroinnin 3 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "Numerointi 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL3E\n"
+"string.text"
+msgid "Numbering 3 End"
+msgstr "Numeroinnin 3 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM3\n"
+"string.text"
+msgid "Numbering 3 Cont."
+msgstr "Numeroinnin 3 jatko."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4S\n"
+"string.text"
+msgid "Numbering 4 Start"
+msgstr "Numeroinnin 4 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "Numerointi 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL4E\n"
+"string.text"
+msgid "Numbering 4 End"
+msgstr "Numeroinnin 4 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM4\n"
+"string.text"
+msgid "Numbering 4 Cont."
+msgstr "Numeroinnin 4 jatko."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5S\n"
+"string.text"
+msgid "Numbering 5 Start"
+msgstr "Numeroinnin 5 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "Numerointi 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_LEVEL5E\n"
+"string.text"
+msgid "Numbering 5 End"
+msgstr "Numeroinnin 5 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_NUM_NONUM5\n"
+"string.text"
+msgid "Numbering 5 Cont."
+msgstr "Numeroinnin 5 jatko."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1S\n"
+"string.text"
+msgid "List 1 Start"
+msgstr "Luettelon 1 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1\n"
+"string.text"
+msgid "List 1"
+msgstr "Luettelo 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL1E\n"
+"string.text"
+msgid "List 1 End"
+msgstr "Luettelon 1 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM1\n"
+"string.text"
+msgid "List 1 Cont."
+msgstr "Luettelo 1 jatkuu."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2S\n"
+"string.text"
+msgid "List 2 Start"
+msgstr "Luettelon 2 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2\n"
+"string.text"
+msgid "List 2"
+msgstr "Luettelo 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL2E\n"
+"string.text"
+msgid "List 2 End"
+msgstr "Luettelon 2 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM2\n"
+"string.text"
+msgid "List 2 Cont."
+msgstr "Luettelo 2 jatkuu."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3S\n"
+"string.text"
+msgid "List 3 Start"
+msgstr "Luettelon 3 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3\n"
+"string.text"
+msgid "List 3"
+msgstr "Luettelo 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL3E\n"
+"string.text"
+msgid "List 3 End"
+msgstr "Luettelon 3 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM3\n"
+"string.text"
+msgid "List 3 Cont."
+msgstr "Luettelo 3 jatkuu."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4S\n"
+"string.text"
+msgid "List 4 Start"
+msgstr "Luettelon 4 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4\n"
+"string.text"
+msgid "List 4"
+msgstr "Luettelo 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL4E\n"
+"string.text"
+msgid "List 4 End"
+msgstr "Luettelon 4 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM4\n"
+"string.text"
+msgid "List 4 Cont."
+msgstr "Luettelo 4 jatkuu."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5S\n"
+"string.text"
+msgid "List 5 Start"
+msgstr "Luettelon 5 alku"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5\n"
+"string.text"
+msgid "List 5"
+msgstr "Luettelo 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_LEVEL5E\n"
+"string.text"
+msgid "List 5 End"
+msgstr "Luettelon 5 loppu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_BUL_NONUM5\n"
+"string.text"
+msgid "List 5 Cont."
+msgstr "Luettelo 5 jatkuu."
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "Ylätunniste"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERL\n"
+"string.text"
+msgid "Header Left"
+msgstr "Ylätunniste vasemmalla"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HEADERR\n"
+"string.text"
+msgid "Header Right"
+msgstr "Ylätunniste oikealla"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTER\n"
+"string.text"
+msgid "Footer"
+msgstr "Alatunniste"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERL\n"
+"string.text"
+msgid "Footer Left"
+msgstr "Alatunniste vasemmalla"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTERR\n"
+"string.text"
+msgid "Footer Right"
+msgstr "Alatunniste oikealla"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE\n"
+"string.text"
+msgid "Table Contents"
+msgstr "Taulukon sisältö"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TABLE_HDLN\n"
+"string.text"
+msgid "Table Heading"
+msgstr "Taulukon otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FRAME\n"
+"string.text"
+msgid "Frame Contents"
+msgstr "Kehyksen sisältö"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "Alaviite"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "Loppuviite"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL\n"
+"string.text"
+msgid "Caption"
+msgstr "Kuvaotsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_ABB\n"
+"string.text"
+msgid "Illustration"
+msgstr "Kuva"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_TABLE\n"
+"string.text"
+msgid "Table"
+msgstr "Taulukko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_FRAME\n"
+"string.text"
+msgid "Text"
+msgstr "Teksti"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_LABEL_DRAWING\n"
+"string.text"
+msgid "Drawing"
+msgstr "Piirros"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_JAKETADRESS\n"
+"string.text"
+msgid "Addressee"
+msgstr "Saaja"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_SENDADRESS\n"
+"string.text"
+msgid "Sender"
+msgstr "Lähettäjä"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXH\n"
+"string.text"
+msgid "Index Heading"
+msgstr "Hakemiston otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX1\n"
+"string.text"
+msgid "Index 1"
+msgstr "Hakemisto 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX2\n"
+"string.text"
+msgid "Index 2"
+msgstr "Hakemisto 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDX3\n"
+"string.text"
+msgid "Index 3"
+msgstr "Hakemisto 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_IDXBREAK\n"
+"string.text"
+msgid "Index Separator"
+msgstr "Hakemistoerotin"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNTH\n"
+"string.text"
+msgid "Contents Heading"
+msgstr "Sisällysluettelon otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT1\n"
+"string.text"
+msgid "Contents 1"
+msgstr "Sisällysluettelo 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT2\n"
+"string.text"
+msgid "Contents 2"
+msgstr "Sisällysluettelo 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT3\n"
+"string.text"
+msgid "Contents 3"
+msgstr "Sisällysluettelo 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT4\n"
+"string.text"
+msgid "Contents 4"
+msgstr "Sisällysluettelo 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT5\n"
+"string.text"
+msgid "Contents 5"
+msgstr "Sisällysluettelo 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT6\n"
+"string.text"
+msgid "Contents 6"
+msgstr "Sisällysluettelo 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT7\n"
+"string.text"
+msgid "Contents 7"
+msgstr "Sisällysluettelo 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT8\n"
+"string.text"
+msgid "Contents 8"
+msgstr "Sisällysluettelo 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT9\n"
+"string.text"
+msgid "Contents 9"
+msgstr "Sisällysluettelo 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CNTNT10\n"
+"string.text"
+msgid "Contents 10"
+msgstr "Sisällysluettelo 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USERH\n"
+"string.text"
+msgid "User Index Heading"
+msgstr "Käyttäjän hakemiston otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER1\n"
+"string.text"
+msgid "User Index 1"
+msgstr "Käyttäjän hakemisto 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER2\n"
+"string.text"
+msgid "User Index 2"
+msgstr "Käyttäjän hakemisto 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER3\n"
+"string.text"
+msgid "User Index 3"
+msgstr "Käyttäjän hakemisto 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER4\n"
+"string.text"
+msgid "User Index 4"
+msgstr "Käyttäjän hakemisto 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER5\n"
+"string.text"
+msgid "User Index 5"
+msgstr "Käyttäjän hakemisto 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER6\n"
+"string.text"
+msgid "User Index 6"
+msgstr "Käyttäjän hakemisto 6"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER7\n"
+"string.text"
+msgid "User Index 7"
+msgstr "Käyttäjän hakemisto 7"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER8\n"
+"string.text"
+msgid "User Index 8"
+msgstr "Käyttäjän hakemisto 8"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER9\n"
+"string.text"
+msgid "User Index 9"
+msgstr "Käyttäjän hakemisto 9"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_USER10\n"
+"string.text"
+msgid "User Index 10"
+msgstr "Käyttäjän hakemisto 10"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_CITATION\n"
+"string.text"
+msgid "Citation"
+msgstr "Sitaatti"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUSH\n"
+"string.text"
+msgid "Illustration Index Heading"
+msgstr "Kuvaluettelon otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_ILLUS1\n"
+"string.text"
+msgid "Illustration Index 1"
+msgstr "Kuvaluettelo 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECTH\n"
+"string.text"
+msgid "Object Index Heading"
+msgstr "Objektihakemiston otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_OBJECT1\n"
+"string.text"
+msgid "Object Index 1"
+msgstr "Objektihakemisto 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLESH\n"
+"string.text"
+msgid "Table Index Heading"
+msgstr "Taulukkohakemiston otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_TABLES1\n"
+"string.text"
+msgid "Table Index 1"
+msgstr "Taulukkohakemisto 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIESH\n"
+"string.text"
+msgid "Bibliography Heading"
+msgstr "Lähdeluettelon otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_TOX_AUTHORITIES1\n"
+"string.text"
+msgid "Bibliography 1"
+msgstr "Lähdeluettelo 1"
+
+
+#. Document title style, not to be confused with Heading style
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_DOC_TITEL\n"
+"string.text"
+msgid "Title"
+msgstr "Pääotsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_DOC_SUBTITEL\n"
+"string.text"
+msgid "Subtitle"
+msgstr "Alaotsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_BLOCKQUOTE\n"
+"string.text"
+msgid "Quotations"
+msgstr "Lainaus"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_PRE\n"
+"string.text"
+msgid "Preformatted Text"
+msgstr "Esimuotoiltu teksti"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_HR\n"
+"string.text"
+msgid "Horizontal Line"
+msgstr "Vaakaviiva"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DD\n"
+"string.text"
+msgid "List Contents"
+msgstr "Luettelon sisällys"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCOLL_HTML_DT\n"
+"string.text"
+msgid "List Heading"
+msgstr "Luettelon otsikko"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_STANDARD\n"
+"string.text"
+msgid "Default Style"
+msgstr "Oletustyyli"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FIRST\n"
+"string.text"
+msgid "First Page"
+msgstr "Ensimmäinen sivu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_LEFT\n"
+"string.text"
+msgid "Left Page"
+msgstr "Vasen sivu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_RIGHT\n"
+"string.text"
+msgid "Right Page"
+msgstr "Oikea sivu"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_JAKET\n"
+"string.text"
+msgid "Envelope"
+msgstr "Kirjekuori"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_REGISTER\n"
+"string.text"
+msgid "Index"
+msgstr "Hakemisto"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_HTML\n"
+"string.text"
+msgid "HTML"
+msgstr "HTML"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_FOOTNOTE\n"
+"string.text"
+msgid "Footnote"
+msgstr "Alaviite"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLPAGE_ENDNOTE\n"
+"string.text"
+msgid "Endnote"
+msgstr "Loppuviite"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM1\n"
+"string.text"
+msgid "Numbering 1"
+msgstr "Numerointi 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM2\n"
+"string.text"
+msgid "Numbering 2"
+msgstr "Numerointi 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM3\n"
+"string.text"
+msgid "Numbering 3"
+msgstr "Numerointi 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM4\n"
+"string.text"
+msgid "Numbering 4"
+msgstr "Numerointi 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_NUM5\n"
+"string.text"
+msgid "Numbering 5"
+msgstr "Numerointi 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL1\n"
+"string.text"
+msgid "List 1"
+msgstr "Luettelo 1"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL2\n"
+"string.text"
+msgid "List 2"
+msgstr "Luettelo 2"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL3\n"
+"string.text"
+msgid "List 3"
+msgstr "Luettelo 3"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL4\n"
+"string.text"
+msgid "List 4"
+msgstr "Luettelo 4"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLNUMRULE_BUL5\n"
+"string.text"
+msgid "List 5"
+msgstr "Luettelo 5"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_RUBYTEXT\n"
+"string.text"
+msgid "Rubies"
+msgstr "Ruby-tekstit"
+
+
+#: poolfmt.src
+msgctxt ""
+"poolfmt.src\n"
+"STR_POOLCHR_VERT_NUM\n"
+"string.text"
+msgid "Vertical Numbering Symbols"
+msgstr "Pystysuuntaiset numerointisymbolit"
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_STANDARD_STYLESHEET_NAME\n"
+"string.text"
+msgid "Default"
+msgstr "Oletus"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_MEASURE\n"
+"string.text"
+msgid "Dimension Line"
+msgstr "Mittajana"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJNOLINENOFILL\n"
+"string.text"
+msgid "Object with no fill and no line"
+msgstr "Objekti ilman täyttöä ja viivaa"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHARROW\n"
+"string.text"
+msgid "Object with arrow"
+msgstr "Objekti ja nuoli"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHSHADOW\n"
+"string.text"
+msgid "Object with shadow"
+msgstr "Objekti ja varjostus"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_OBJWITHOUTFILL\n"
+"string.text"
+msgid "Object without fill"
+msgstr "Objekti ilman täyttöä"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXT\n"
+"string.text"
+msgid "Text"
+msgstr "Teksti"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY\n"
+"string.text"
+msgid "Text body"
+msgstr "Leipäteksti"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_JUSTIFY\n"
+"string.text"
+msgid "Text body justified"
+msgstr "Leipäteksti tasattuna"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TEXTBODY_INDENT\n"
+"string.text"
+msgid "First line indent"
+msgstr "Ensimmäisen rivin sisennys"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "Otsikko"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE1\n"
+"string.text"
+msgid "Title1"
+msgstr "Pääotsikko1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TITLE2\n"
+"string.text"
+msgid "Title2"
+msgstr "Pääotsikko2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE\n"
+"string.text"
+msgid "Heading"
+msgstr "Otsikko"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE1\n"
+"string.text"
+msgid "Heading1"
+msgstr "Otsikko1"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADLINE2\n"
+"string.text"
+msgid "Heading2"
+msgstr "Otsikko2"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_TITLE\n"
+"string.text"
+msgid "Title"
+msgstr "Otsikko"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_SUBTITLE\n"
+"string.text"
+msgid "Subtitle"
+msgstr "Alaotsikko"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_OUTLINE\n"
+"string.text"
+msgid "Outline"
+msgstr "Jäsennys"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUNDOBJECTS\n"
+"string.text"
+msgid "Background objects"
+msgstr "Taustaobjektit"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_BACKGROUND\n"
+"string.text"
+msgid "Background"
+msgstr "Tausta"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_PSEUDOSHEET_NOTES\n"
+"string.text"
+msgid "Notes"
+msgstr "Muistiinpanot"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_BANDED_CELL\n"
+"string.text"
+msgid "Banding cell"
+msgstr "Raidoitettu solu"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_HEADER\n"
+"string.text"
+msgid "Header"
+msgstr "Otsikkorivi"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_TOTAL\n"
+"string.text"
+msgid "Total line"
+msgstr "Summarivi"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_FIRST_COLUMN\n"
+"string.text"
+msgid "First column"
+msgstr "Ensimmäinen sarake"
+
+
+#: glob.src
+msgctxt ""
+"glob.src\n"
+"STR_POOLSHEET_LAST_COLUMN\n"
+"string.text"
+msgid "Last column"
+msgstr "Viimeinen sarake"
+
+#: DrawImpressCommands.xcu
+msgid "Layout"
+msgstr "Asettelu"
+
+#: strings.src
+msgid "Blank Slide"
+msgstr "Tyhjä dia"
+
+#: strings.src
+msgid "Title Only"
+msgstr "Vain otsikko"
+
+#: strings.src
+msgid "Centered Text"
+msgstr "Keskitetty teksti"
+
+#: strings.src
+msgid "Title Slide"
+msgstr "Otsikkodia"
+
+#: strings.src
+msgid "Title, Content"
+msgstr "Otsikko, sisältö"
+
+#: strings.src
+msgid "Title and 2 Content"
+msgstr "Otsikko ja 2 saraketta"
+
+#: strings.src
+msgid "Title, Content and 2 Content"
+msgstr "Otsikkoa ja 2 saraketta, toinen jaettu"
+
+#: strings.src
+msgid "Title, 2 Content and Content"
+msgstr "Otsikko ja 2 saraketta, ensimmäinen jaettu"
+
+#: strings.src
+msgid "Title, Content over 2 Content"
+msgstr "Otsikko, keskellä 1, alla 2 saraketta"
+
+#: strings.src
+msgid "Title, 2 Content over Content"
+msgstr "Otsikko, keskellä 2, alla 1 sarake"
+
+#: strings.src
+msgid "Title, Content over Content"
+msgstr "Otsikko, yksi keskeltä jaettu sarake"
+
+#: strings.src
+msgid "Title, 4 Content"
+msgstr "Otsikko, 4 objektia"
+
+#: strings.src
+msgid "Title, 6 Content"
+msgstr "Otsikko, 6 objektia"
+
+#: strings.src
+msgid "Title, Vertical Text"
+msgstr "Otsikko, pystysuuntainen teksti"
+
+#: strings.src
+msgid "Title, Vertical Text, Clipart"
+msgstr "Otsikko, pystysuuntainen teksti, leikekuva"
+
+#: strings.src
+msgid "Vertical Title, Text, Chart"
+msgstr "Pystysuuntainen otsikko, teksti, kaavio"
+
+#: strings.src
+msgid "Vertical Title, Vertical Text"
+msgstr "Pystysuuntainen otsikko, pystysuuntainen teksti"
+
+#: stbctrls.src
+msgid "Standard selection"
+msgstr "Normaali valintatila"
+
+#: stbctrls.src
+msgid "Extending selection"
+msgstr "Valinnan laajennustila"
+
+#: stbctrls.src
+msgid "Adding selection"
+msgstr "Valinnan lisäystila"
+
+#: stbctrls.src
+msgid "Block selection"
+msgstr "Pystylohkon valintatila"
+
+#: stbctrls.src
+msgid "Overwrite"
+msgstr "Päällekirj."
+
+#: globstr.src
+msgid "Insert"
+msgstr "Lisää"
+
+#: globstr.src
+msgid "Sheet %1 of %2"
+msgstr "Taulukko %1 / %2"
+
+#: globstr.src
+msgid "$1 rows, $2 columns selected"
+msgstr "$1 riviä, $2 saraketta valittu"
+
+#: shells.src
+msgid "Page %1 of %2"
+msgstr "Sivu %1 / %2"
+
+#: app.src
+msgid "%1 words, %2 characters"
+msgstr "%1 sanaa, %2 merkkiä"
+
+#: strings.src
+msgid "Slide %1 of %2"
+msgstr "Dia %1 / %2"
+
+# Translations of Unicode subsets from LibreOffice core
+
+#: ucsubset.src
+msgid "Basic Latin"
+msgstr "Latinalaisia (perusosa)"
+
+#: ucsubset.src
+msgid "Latin-1"
+msgstr "Latin-1-täydennysosa"
+
+#: ucsubset.src
+msgid "Latin Extended-A"
+msgstr "Latinalaisia (laajennus A)"
+
+#: ucsubset.src
+msgid "Latin Extended-B"
+msgstr "Latinalaisia (laajennus B)"
+
+#: ucsubset.src
+msgid "IPA Extensions"
+msgstr "IPA-laajennuksia"
+
+#: ucsubset.src
+msgid "Spacing Modifier Letters"
+msgstr "Tarkkeenomaisia merkkejä"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks"
+msgstr "Tarkkeita"
+
+#: ucsubset.src
+msgid "Basic Greek"
+msgstr "Kreikkalaisia (perusosa)"
+
+#: ucsubset.src
+msgid "Greek Symbols And Coptic"
+msgstr "Kreikkalaisia ja koptilaisia merkkejä"
+
+#: ucsubset.src
+msgid "Cyrillic"
+msgstr "Kyrillisiä (perusosa)"
+
+#: ucsubset.src
+msgid "Armenian"
+msgstr "Armenia"
+
+#: ucsubset.src
+msgid "Basic Hebrew"
+msgstr "Heprealaisia (perusosa)"
+
+#: ucsubset.src
+msgid "Hebrew Extended"
+msgstr "Heprealaisia (laajennus)"
+
+#: ucsubset.src
+msgid "Basic Arabic"
+msgstr "Arabialaisia (perusosa)"
+
+#: ucsubset.src
+msgid "Arabic Extended"
+msgstr "Arabialaisia (laajennus)"
+
+#: ucsubset.src
+msgid "Gujarati"
+msgstr "Gudžarati"
+
+#: ucsubset.src
+msgid "Odia"
+msgstr "Orija"
+
+#: ucsubset.src
+msgid "Malayalam"
+msgstr "Malajalam"
+
+#: ucsubset.src
+msgid "Basic Georgian"
+msgstr "Georgialaisia (perusosa)"
+
+#: ucsubset.src
+msgid "Georgian Extended"
+msgstr "Georgialaisia (laajennus)"
+
+#: ucsubset.src
+msgid "Hangul Jamo"
+msgstr "Hangul jamo"
+
+#: ucsubset.src
+msgid "Latin Extended Additionals"
+msgstr "Latinalaisia (lisälaajennus)"
+
+#: ucsubset.src
+msgid "Greek Extended"
+msgstr "Kreikkalaisia (laajennus)"
+
+#: ucsubset.src
+msgid "General punctuation"
+msgstr "Yleisiä välimerkkejä"
+
+#: ucsubset.src
+msgid "Superscripts and Subscripts"
+msgstr "Ylä- ja alaindeksejä"
+
+#: ucsubset.src
+msgid "Currency Symbols"
+msgstr "Valuuttamerkkejä"
+
+#: ucsubset.src
+msgid "Combining Diacritical Symbols"
+msgstr "Symbolien tarkkeita"
+
+#: ucsubset.src
+msgid "Letterlike Symbols"
+msgstr "Kirjainsymboleita"
+
+#: ucsubset.src
+msgid "Number Forms"
+msgstr "Lukuilmaisuja"
+
+#: ucsubset.src
+msgid "Arrows"
+msgstr "Nuolia"
+
+#: ucsubset.src
+msgid "Mathematical Operators"
+msgstr "Matemaattisia operaattoreita"
+
+#: ucsubset.src
+msgid "Miscellaneous Technical"
+msgstr "Sekalaisia teknisiä merkkejä"
+
+#: ucsubset.src
+msgid "Control Pictures"
+msgstr "Ohjausmerkkien symboleita"
+
+#: ucsubset.src
+msgid "Optical Character Recognition"
+msgstr "OCR-merkkejä"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumerics"
+msgstr "Ympäröityjä alfanumeerisia merkkejä"
+
+#: ucsubset.src
+msgid "Box Drawing"
+msgstr "Viivapiirrosmerkkejä"
+
+#: ucsubset.src
+msgid "Block Elements"
+msgstr "Lohko-osia"
+
+#: ucsubset.src
+msgid "Geometric Shapes"
+msgstr "Geometrisia muotoja"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols"
+msgstr "Sekalaisia symboleita"
+
+#: ucsubset.src
+msgid "Dingbats"
+msgstr "Dingbats-leikkeet"
+
+#: ucsubset.src
+msgid "CJK Symbols And Punctuation"
+msgstr "CJK-merkkejä ja -välimerkkejä"
+
+#: ucsubset.src
+msgid "Hangul Compatibility Jamo"
+msgstr "Hangulin jamo-erillismerkkejä"
+
+#: ucsubset.src
+msgid "CJK Miscellaneous"
+msgstr "Sekalaisia CJK-merkkejä"
+
+#: ucsubset.src
+msgid "Enclosed CJK Letters And Months"
+msgstr "Ympäröityjä CJK-kirjaimia ja kuukausimerkkejä"
+
+#: ucsubset.src
+msgid "CJK Compatibility"
+msgstr "CJK-yhteensopivia merkkejä"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs"
+msgstr "CJK-ideogrammeja"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension A"
+msgstr "CJK-ideogrammeja (laajennus A)"
+
+#: ucsubset.src
+msgid "Private Use Area"
+msgstr "Yksityiskäytön lohko"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs"
+msgstr "CJK-yhteensopivuusideogrammeja"
+
+#: ucsubset.src
+msgid "Alphabetic Presentation Forms"
+msgstr "Aakkoselliset esitysmuodot"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-A"
+msgstr "Arabialaisten merkkien esitysmuotoja A"
+
+#: ucsubset.src
+msgid "Combining Half Marks"
+msgstr "Tarkkeiden puolikkaita"
+
+#: ucsubset.src
+msgid "CJK Compatibility Forms"
+msgstr "CJK-yhteensopivia merkkien muotoja"
+
+#: ucsubset.src
+msgid "Small Form Variants"
+msgstr "Pienikokoisia muunnelmia"
+
+#: ucsubset.src
+msgid "Arabic Presentation Forms-B"
+msgstr "Arabialaisten merkkien esitysmuotoja B"
+
+#: ucsubset.src
+msgid "Half-width and Full-width Forms"
+msgstr "Puoli- ja täyslevyisiä esitysmuotoja"
+
+#: ucsubset.src
+msgid "Specials"
+msgstr "Erikoismerkkejä"
+
+#: ucsubset.src
+msgid "Yi Syllables"
+msgstr "Yi-kirjainmerkit"
+
+#: ucsubset.src
+msgid "Yi Radicals"
+msgstr "Yi-radikaaleja"
+
+#: ucsubset.src
+msgid "Old Italic"
+msgstr "Vanhoja italialaisia kirjainmerkkejä"
+
+#: ucsubset.src
+msgid "Gothic"
+msgstr "Goottilaisia merkkejä"
+
+#: ucsubset.src
+msgid "Deseret"
+msgstr "Deseret-merkkejä"
+
+#: ucsubset.src
+msgid "Byzantine Musical Symbols"
+msgstr "Bysanttilaisia musiikkisymboleita"
+
+#: ucsubset.src
+msgid "Musical Symbols"
+msgstr "Musiikkisymboleita"
+
+#: ucsubset.src
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "Matemaattisia alfanumeerisia merkkejä"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension B"
+msgstr "CJK-ideogrammeja (laajennus B)"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension C"
+msgstr "CJK-ideogrammeja (laajennus C)"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension D"
+msgstr "CJK-ideogrammeja (laajennus D)"
+
+#: ucsubset.src
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "Lisää CJK-yhteensopivuusideogrammeja"
+
+#: ucsubset.src
+msgid "Tags"
+msgstr "Tagimerkkejä"
+
+#: ucsubset.src
+msgid "Cyrillic Supplement"
+msgstr "Kyrillisiä (laajennus)"
+
+#: ucsubset.src
+msgid "Variation Selectors"
+msgstr "Variaatiovalitsimia"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-A"
+msgstr "Yksityiskäytön lohko (laajennus A)"
+
+#: ucsubset.src
+msgid "Supplementary Private Use Area-B"
+msgstr "Yksityiskäytön lohko (laajennus B)"
+
+#: ucsubset.src
+msgid "Limbu"
+msgstr "limbu"
+
+#: ucsubset.src
+msgid "Tai Le"
+msgstr "Tai le"
+
+#: ucsubset.src
+msgid "Khmer Symbols"
+msgstr "Khmer-merkkejä"
+
+#: ucsubset.src
+msgid "Phonetic Extensions"
+msgstr "Foneettisia laajennuksia"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Arrows"
+msgstr "Sekalaisia symboleita ja nuolia"
+
+#: ucsubset.src
+msgid "Yijing Hexagram Symbols"
+msgstr "Yijing-heksagrammeja"
+
+#: ucsubset.src
+msgid "Linear B Syllabary"
+msgstr "Lineaari-B-tavumerkkejä"
+
+#: ucsubset.src
+msgid "Linear B Ideograms"
+msgstr "Lineaari-B-logogrammeja"
+
+#: ucsubset.src
+msgid "Aegean Numbers"
+msgstr "Egean numeroita"
+
+#: ucsubset.src
+msgid "Ugaritic"
+msgstr "Ugariti"
+
+#: ucsubset.src
+msgid "Shavian"
+msgstr "Shawilaisia kirjaimia"
+
+#: ucsubset.src
+msgid "Tibetan"
+msgstr "Tiibet"
+
+#: ucsubset.src
+msgid "Runic"
+msgstr "Riimukirjoitus"
+
+#: ucsubset.src
+msgid "Syriac"
+msgstr "Syyria"
+
+#: ucsubset.src
+msgid "Ethiopic"
+msgstr "Etiopia"
+
+#: ucsubset.src
+msgid "Canadan Aboriginal Syllables"
+msgstr "Kanadan alkuperäiskansojen kirjainmerkit"
+
+#: ucsubset.src
+msgid "Mongolian"
+msgstr "Mongoli"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "Sekalaisia matemaattisia symboleita A"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-A"
+msgstr "Lisänuolia A"
+
+#: ucsubset.src
+msgid "Braille Patterns"
+msgstr "Braille-merkkejä"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-B"
+msgstr "Lisänuolia B"
+
+#: ucsubset.src
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "Sekalaisia matemaattisia symboleita B"
+
+#: ucsubset.src
+msgid "CJK Radical Supplement"
+msgstr "CJK-radikaalien lisäosa"
+
+#: ucsubset.src
+msgid "Kangxi Radicals"
+msgstr "Kangxi-radikaaleja"
+
+#: ucsubset.src
+msgid "Ideographic Description Characters"
+msgstr "Ideogrammien kuvailumerkkejä"
+
+#: ucsubset.src
+msgid "Bopomofo Extended"
+msgstr "Bopomofo (laajennus)"
+
+#: ucsubset.src
+msgid "Katakana Phonetics"
+msgstr "Katakana (foneettiset)"
+
+#: ucsubset.src
+msgid "CJK Strokes"
+msgstr "CJK-viivamerkkejä"
+
+#: ucsubset.src
+msgid "Cypriot Syllabary"
+msgstr "Kyproslaisia tavumerkkejä"
+
+#: ucsubset.src
+msgid "Tai Xuan Jing Symbols"
+msgstr "Tai Xuan Jing -symboleita"
+
+#: ucsubset.src
+msgid "Variation Selectors Supplement"
+msgstr "Lisää variaatiovalitsimia"
+
+#: ucsubset.src
+msgid "Ancient Greek Musical Notation"
+msgstr "Muinaiskreikan nuottimerkkejä"
+
+#: ucsubset.src
+msgid "Ancient Greek Numbers"
+msgstr "Muinaiskreikan numeromerkkejä"
+
+#: ucsubset.src
+msgid "Arabic Supplement"
+msgstr "Lisää arabialaisia merkkejä"
+
+#: ucsubset.src
+msgid "Buginese"
+msgstr "Bugi"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks Supplement"
+msgstr "Lisää tarkkeita"
+
+#: ucsubset.src
+msgid "Coptic"
+msgstr "kopti"
+
+#: ucsubset.src
+msgid "Ethiopic Extended"
+msgstr "Etiopia (laajennus)"
+
+#: ucsubset.src
+msgid "Ethiopic Supplement"
+msgstr "Lisää etiopialaisia merkkejä"
+
+#: ucsubset.src
+msgid "Georgian Supplement"
+msgstr "Lisää georgialaisia merkkejä"
+
+#: ucsubset.src
+msgid "Glagolitic"
+msgstr "Glagoliittisia kirjaimia"
+
+#: ucsubset.src
+msgid "Modifier Tone Letters"
+msgstr "Tarkkeenomaisia sävymerkkejä"
+
+#: ucsubset.src
+msgid "New Tai Lue"
+msgstr "Uusi Tai lue"
+
+#: ucsubset.src
+msgid "Old Persian"
+msgstr "Muinaispersia"
+
+#: ucsubset.src
+msgid "Phonetic Extensions Supplement"
+msgstr "Lisää foneettisia laajennuksia"
+
+#: ucsubset.src
+msgid "Supplemental Punctuation"
+msgstr "Lisää välimerkkejä"
+
+#: ucsubset.src
+msgid "Vertical Forms"
+msgstr "Pystysuuntaisia muotoja"
+
+#: ucsubset.src
+msgid "Balinese"
+msgstr "Bali"
+
+#: ucsubset.src
+msgid "Latin Extended-C"
+msgstr "Latinalaisia (laajennus C)"
+
+#: ucsubset.src
+msgid "Latin Extended-D"
+msgstr "Latinalaisia (laajennus D)"
+
+#: ucsubset.src
+msgid "Phags-Pa"
+msgstr "Phags-pa"
+
+#: ucsubset.src
+msgid "Phoenician"
+msgstr "Foinikia"
+
+#: ucsubset.src
+msgid "Cuneiform"
+msgstr "Nuolenpääkirjoitus"
+
+#: ucsubset.src
+msgid "Cuneiform Numbers And Punctuation"
+msgstr "Nuolenpäänumeroita ja -välimerkkejä"
+
+#: ucsubset.src
+msgid "Counting Rod Numerals"
+msgstr "Puikkolaskentanumeroita"
+
+#: ucsubset.src
+msgid "Sundanese"
+msgstr "Sunda"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-A"
+msgstr "Kyrillisiä (laajennus A)"
+
+#: ucsubset.src
+msgid "Cyrillic Extended-B"
+msgstr "Kyrillisiä (laajennus B)"
+
+#: ucsubset.src
+msgid "Ancient Symbols"
+msgstr "Muinaisia merkkejä"
+
+#: ucsubset.src
+msgid "Phaistos Disc"
+msgstr "Faistoksen kiekko"
+
+#: ucsubset.src
+msgid "Lycian"
+msgstr "Lyykia"
+
+#: ucsubset.src
+msgid "Lydian"
+msgstr "Lyydia"
+
+#: ucsubset.src
+msgid "Mahjong Tiles"
+msgstr "Mahjong-palikat"
+
+#: ucsubset.src
+msgid "Domino Tiles"
+msgstr "Dominopalikat"
+
+#: ucsubset.src
+msgid "Canadian Aboriginal Syllabics Extended"
+msgstr "Kanadan alkuperäiskansojen kirjainmerkit (laajennus)"
+
+#: ucsubset.src
+msgid "Vedic Extensions"
+msgstr "Veda-laajennuksia"
+
+#: ucsubset.src
+msgid "Common Indic Number Forms"
+msgstr "Yhteisiä intialaisia numeromerkkejä"
+
+#: ucsubset.src
+msgid "Devanagari Extended"
+msgstr "Devanagari (laajennus)"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-A"
+msgstr "Hangul jamo (laajennus A)"
+
+#: ucsubset.src
+msgid "Javanese"
+msgstr "Jaava"
+
+#: ucsubset.src
+msgid "Myanmar Extended-A"
+msgstr "Myanmar (laajennus A)"
+
+#: ucsubset.src
+msgid "Hangul Jamo Extended-B"
+msgstr "Hangul jamo (laajennus B)"
+
+#: ucsubset.src
+msgid "Imperial Aramaic"
+msgstr "Valtakunnan aramea"
+
+#: ucsubset.src
+msgid "Old South Arabian"
+msgstr "Vanha eteläarabia"
+
+#: ucsubset.src
+msgid "Avestan"
+msgstr "Avesta"
+
+#: ucsubset.src
+msgid "Inscriptional Parthian"
+msgstr "Parthian kaiverrusmerkkejä"
+
+#: ucsubset.src
+msgid "Inscriptional Pahlavi"
+msgstr "Pahlavin kaiverrusmerkkejä"
+
+#: ucsubset.src
+msgid "Old Turkic"
+msgstr "Vanha turkki"
+
+#: ucsubset.src
+msgid "Rumi Numeral Symbols"
+msgstr "Rumi-numeromerkkejä"
+
+#: ucsubset.src
+msgid "Egyptian Hieroglyphs"
+msgstr "Egyptin hieroglyfejä"
+
+#: ucsubset.src
+msgid "Enclosed Alphanumeric Supplement"
+msgstr "Lisää ympäröityjä alfanumeerisia merkkejä"
+
+#: ucsubset.src
+msgid "Enclosed Ideographic Supplement"
+msgstr "Lisää ympyröityjä ideografisia merkkejä"
+
+#: ucsubset.src
+msgid "Ethiopic Extended-A"
+msgstr "Etiopia (laajennus A)"
+
+#: ucsubset.src
+msgid "Bamum Supplement"
+msgstr "Lisää bamum-merkkejä"
+
+#: ucsubset.src
+msgid "Kana Supplement"
+msgstr "Lisää kana-merkkejä"
+
+#: ucsubset.src
+msgid "Playing Cards"
+msgstr "Pelikortit"
+
+#: ucsubset.src
+msgid "Miscellaneous Symbols And Pictographs"
+msgstr "Sekalaisia symboleita ja piktogrammeja"
+
+#: ucsubset.src
+msgid "Emoticons"
+msgstr "Hymiöt"
+
+#: ucsubset.src
+msgid "Transport And Map Symbols"
+msgstr "Liikenne- ja karttamerkkejä"
+
+#: ucsubset.src
+msgid "Alchemical Symbols"
+msgstr "Alkemistisia merkkejä"
+
+#: ucsubset.src
+msgid "Arabic Extended-A"
+msgstr "Arabialaisia (laajennus A)"
+
+#: ucsubset.src
+msgid "Arabic Mathematical Alphabetic Symbols"
+msgstr "Arabialaisia matemaattisia kirjoitusmerkkejä"
+
+#: ucsubset.src
+msgid "Meetei Mayek Extensions"
+msgstr "Meetei Mayek (laajennus)"
+
+#: ucsubset.src
+msgid "Meroitic Cursive"
+msgstr "Meroiittinen kursiivi"
+
+#: ucsubset.src
+msgid "Meroitic Hieroglyphs"
+msgstr "Meroiittisia hieroglyfejä"
+
+#: ucsubset.src
+msgid "Sundanese Supplement"
+msgstr "Lisää sunda-merkkejä"
+
+#: ucsubset.src
+msgid "Bassa Vah"
+msgstr "Bassa vah"
+
+#: ucsubset.src
+msgid "Caucasian Albanian"
+msgstr "Kaukasian albania"
+
+#: ucsubset.src
+msgid "Coptic Epact Numbers"
+msgstr "Koptin epact-numerot"
+
+#: ucsubset.src
+msgid "Combining Diacritical Marks Extended"
+msgstr "Tarkkeita (laajennusosa)"
+
+#: ucsubset.src
+msgid "Duployan"
+msgstr "Duployén pikakirjoitus"
+
+#: ucsubset.src
+msgid "Geometric Shapes Extended"
+msgstr "Geometrisiä muotoja (laajennusosa)"
+
+#: ucsubset.src
+msgid "Latin Extended-E"
+msgstr "Latinalaisia (laajennus E)"
+
+#: ucsubset.src
+msgid "Linear A"
+msgstr "Lineaari-A"
+
+#: ucsubset.src
+msgid "Manichaean"
+msgstr "Manikealainen"
+
+#: ucsubset.src
+msgid "Mende Kikakui"
+msgstr "Mende-kirjoitus"
+
+#: ucsubset.src
+msgid "Myanmar Extended-B"
+msgstr "Myanmar (laajennus B)"
+
+#: ucsubset.src
+msgid "Nabataean"
+msgstr "Nabatealainen"
+
+#: ucsubset.src
+msgid "Old North Arabian"
+msgstr "Vanha pohjoisarabia"
+
+#: ucsubset.src
+msgid "Old Permic"
+msgstr "Vanha permiläinen"
+
+#: ucsubset.src
+msgid "Ornamental Dingbats"
+msgstr "Ornamentaaliset Dingbats-leikkeet"
+
+#: ucsubset.src
+msgid "Palmyrene"
+msgstr "Palmyralainen"
+
+#: ucsubset.src
+msgid "Psalter Pahlavi"
+msgstr "Psalttari-pahlavi"
+
+#: ucsubset.src
+msgid "Shorthand Format Controls"
+msgstr "Muotoilun ohjausmerkkejä (lyhenteitä)"
+
+#: ucsubset.src
+msgid "Sinhala Archaic Numbers"
+msgstr "Sinhalilaisia vanhoja numeromerkkejä"
+
+#: ucsubset.src
+msgid "Supplemental Arrows-C"
+msgstr "Lisänuolia C"
+
+#: ucsubset.src
+msgid "Anatolian Hieroglyphs"
+msgstr "Anatolialaiset hieroglyfit"
+
+#: ucsubset.src
+msgid "Cherokee Supplement"
+msgstr "Cherokee (laajennus)"
+
+#: ucsubset.src
+msgid "CJK Unified Ideographs Extension E"
+msgstr "CJK-ideogrammeja (laajennus E)"
+
+#: ucsubset.src
+msgid "Early Dynastic Cuneiform"
+msgstr "Varhaisdynastinen nuolenpääkirjoitus"
+
+#: ucsubset.src
+msgid "Hatran"
+msgstr "Hatra"
+
+#: ucsubset.src
+msgid "Old Hungarian"
+msgstr "Unkarilaiset riimut"
+
+#: ucsubset.src
+msgid "Supplemental Symbols And Pictographs"
+msgstr "Symboleita ja piktogrammeja (laajennus)"
+
+#: ucsubset.src
+msgid "Sutton Signwriting"
+msgstr "Suttonin viittomakirjoitus"
+
+# Translation of Special Characters dialog from LibreOffice core
+
+#: GenericCommands.xcu
+msgid "Font Name:"
+msgstr "Fontin nimi:"
+
+#: specialcharacters.ui
+msgid "Special Characters"
+msgstr "Lisää erikoismerkki"
+
+#: specialcharacters.ui
+msgid "Hexadecimal:"
+msgstr "Heksadesimaali:"
+
+#: asianphoneticguidedialog.ui
+msgid "Preview:"
+msgstr "Esikatselu:"
