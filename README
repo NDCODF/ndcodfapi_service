@@ -1,20 +1,39 @@
 NDCODFAPI
 
-This project has several components:
+編譯環境建立說明
+---------------
 
-wsd/
-	The Web Services Daemon - which accepts external connections.
+編譯環境：
+Centos 7
 
-kit/
-	The client which lives in its own chroot and renders documents.
+編譯環境需求軟體套件:
+autoconf
+automake
+gcc-c++
+make
+ndcodfsys-core
+libpng-devel
+poco-devel = 1.9.0
+libcap-progs
+openssl-devel
+nodejs
 
-common/
-	Shared code between these processes.
 
-loleaflet/
-	The client side JavaScript component.
+編譯流程
+--------
 
-It is recommended to read these files:
+./autogen.sh
+./configure --enable-slient-rules \
+        --with-lokit-path=bundled/include \
+        --with-lo-path=/opt/libreoffice \
+        --enable-debug --enable-ssl
 
-	wsd/README
-	loleaflet/README
+
+啟動主程式
+----------
+
+建立 cache dir(只須執行一次):
+sudo mkdir -p /usr/local/var/cache/loolwsd
+sudo chown `whoami` /usr/local/var/cache/loolwsd
+
+make run
