@@ -3,15 +3,8 @@ NDCODFAPI
 編譯環境建立說明
 ---------------
 
-編譯環境：
-Centos 7
-
 編譯環境需求軟體套件:
-autoconf
-automake
-gcc-c++
-make
-ndcodfsys-core
+libreoffice
 libpng-devel
 poco-devel = 1.9.0
 libcap-progs
@@ -21,11 +14,35 @@ nodejs
 
 編譯流程
 --------
+編譯 NDCODFAPI 需要安裝 POCO lib 及 nodejs, 以下列出各自編譯的步驟：
+
+
+編譯 POCO lib
+=============
+./configure
+gmake -s
+sudo gmake -s install
+
+
+編譯 nodejs
+===========
+./configure
+make
+make install
+
+
+編譯 NDCODFAPI
+--------------
+
+npm install -g jake
+npm install -g npm
 
 ./autogen.sh
 ./configure --enable-slient-rules \
         --with-lokit-path=bundled/include \
         --with-lo-path=/opt/libreoffice \
+	--with-poco-includes=/usr/local/include \
+	--with-poco-libs=/usr/local/lib \
         --enable-debug --enable-ssl
 
 
