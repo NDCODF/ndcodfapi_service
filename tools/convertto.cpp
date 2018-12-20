@@ -194,7 +194,6 @@ ConvertTo::ConvertTo()
 /// 設定 log 檔路徑後直接 init.
 void ConvertTo::setLogPath(std::string logPath)
 {
-    AutoPtr<Poco::Channel> channel;
     AutoPtr<FileChannel> fileChannel(new FileChannel);
 
     // 以 AsyncChannel 接 filechannel, 就不會 stop oxool 時 double free error
@@ -206,8 +205,6 @@ void ConvertTo::setLogPath(std::string logPath)
     AutoPtr<PatternFormatter> patternFormatter(new PatternFormatter());
     patternFormatter->setProperty("pattern","%Y %m %d %L%H:%M:%S: %t");
     channel = new Poco::FormattingChannel(patternFormatter, fileChannel);
-
-    Application::instance().logger().setChannel(channel);
 }
 
 /// 設定浮水印參數
@@ -862,6 +859,7 @@ bool ConvDB::validateIP(std::string clientAddress)
     if (ConvertTo::isLocalhost(clientAddress))
         return true;
 
+    Log::warn("testPoco::Net::IPAddress(\"" + clientAddress + "\") failed: ");
     Statement select(session);
     int count;
     select << "SELECT COUNT(*) FROM maciplist WHERE macip=? AND ftype='ip'",
@@ -917,6 +915,7 @@ void ConvertTo::handleConvertTo(std::weak_ptr<StreamSocket> _socket,
                              Poco::MemoryInputStream& message)
 {
     auto socket = _socket.lock();
+    Application::instance().logger().setChannel(channel);
 
     HTTPResponse response;
     response.set("Access-Control-Allow-Origin", "*");

@@ -241,6 +241,8 @@ public:
                                Poco::MemoryInputStream&);
 
 private:
+    AutoPtr<Poco::Channel> channel;
+
     std::string loPath;  // soffice program path
 
     std::string mimetype;

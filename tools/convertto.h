@@ -104,6 +104,8 @@ public:
     static bool isLocalhost(const std::string&);
 
 private:
+    AutoPtr<Poco::Channel> channel;
+
     void httpError(std::weak_ptr<StreamSocket>,
                    Poco::Net::HTTPResponse&,
                    Poco::Net::HTTPResponse::HTTPStatus errorCode,
