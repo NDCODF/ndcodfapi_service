@@ -1274,7 +1274,7 @@ std::string Parser::parseEnumValue(std::string type,
         StringTokenizer tokens(enumvar, ",", tokenOpts);
         int enumIdx = ("1" == value ||
                        0 == Poco::icompare(value, "true") ||
-                       0 == Poco::icompare(value, "yes")) ? 1 : 0;
+                       0 == Poco::icompare(value, "yes")) ? 0 : 1;
         //std::cout << enumIdx << std::endl;
         std::cout << "set enum value: " << tokens[enumIdx] << std::endl;
         value = tokens[enumIdx];
@@ -1718,7 +1718,6 @@ MergeODF::MergeODF()
 void MergeODF::setLogPath(std::string logPath)
 {
     std::cout<<"setlogpath"<<std::endl;
-    AutoPtr<Poco::Channel> channel;
     AutoPtr<FileChannel> fileChannel(new FileChannel);
 
     // 以 AsyncChannel 接 filechannel, 就不會 stop oxool 時 double free error
@@ -1731,8 +1730,6 @@ void MergeODF::setLogPath(std::string logPath)
     AutoPtr<PatternFormatter> patternFormatter(new PatternFormatter());
     patternFormatter->setProperty("pattern","%Y %m %d %L%H:%M:%S: %t");
     channel = new Poco::FormattingChannel(patternFormatter, fileChannel);
-
-    Application::instance().logger().setChannel(channel);
 }
 
 /// api help. yaml&json&json sample(another json)
@@ -2205,6 +2202,7 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
                              const Poco::Net::HTTPRequest& request,
                              Poco::MemoryInputStream& message)
 {
+    Application::instance().logger().setChannel(channel);
     HTTPResponse response;
     auto socket = _socket.lock();
 

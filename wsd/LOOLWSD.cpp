@@ -2763,6 +2763,17 @@ int LOOLWSD::innerMain()
     // down-pay all the forkit linking cost once & early.
     Environment::set("LD_BIND_NOW", "1");
 
+    {
+        std::string version, hash;
+        Util::getVersionInfo(version, hash);
+
+        auto verinfoFile = LOOLWSD::FileServerRoot + "/version.txt";
+        //std::cout<<LOOLWSD::FileServerRoot<<"VERSION"<<version<<std::endl;
+        Poco::FileOutputStream fos(verinfoFile, std::ios::binary);
+        fos << "NDCODFAPI " << version << std::endl;
+        fos.close();
+    }
+
     if (DisplayVersion)
     {
         std::string version, hash;
