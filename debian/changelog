@@ -1,25 +1,13 @@
-loolwsd (1.8.2-1) unstable; urgency=medium
+ndcodfapi (1.0.0-3) unstable; urgency=medium
 
-  * Fix crash in Impress.
+  * bump version to ndcodfapi 1.0.0-3
+  * set mergeodf log file to /var/log/mergeodf.log
+  * mergeodf: schemes added for yaml/json. (http/https)
 
- -- Jan Holesovsky <kendy@collabora.com>  Thu, 11 Aug 2016 16:46:00 +0100
+ -- Wind Yan <yc.yan@ossii.com.tw>  Thu, 01 Nov 2018 23:06:33 +0200
 
-loolwsd (1.8.0-1) unstable; urgency=medium
+ndcodfapi (1.0.0-1) unstable; urgency=medium
 
-  [ Tor Lillqvist ]
-  * Back to packaging this for Debian.
+  * init
 
-  [ Jan Holesovsky ]
-  * Update to match Collabora Office 5.1
-
- -- Jan Holesovsky <kendy@collabora.com>  Fri, 05 Aug 2016 16:51:54 +0100
-
-loolwsd (1.0.0-1) unstable; urgency=low
-
-  * Initial release
-
-  * Local Variables:
-  * Mode: fundamental
-  * End:
-
- -- Tor Lillqvist <tml@collabora.com>  Fri, 15 May 2015 11:10:20 +0300
+ -- Wind Yan <yc.yan@ossii.com.tw>  Thu, 01 Nov 2018 22:06:33 +0200
