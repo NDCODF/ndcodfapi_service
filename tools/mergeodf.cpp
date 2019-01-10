@@ -1331,13 +1331,9 @@ void Parser::setSC(std::string grpname,
     {
         auto elm = static_cast<Element*>(listNodes->item(it));
         auto var = elm->innerText();
-        auto desc = elm->getAttribute(TAG_VARDATA_SC);
-        auto type = varKeyValue(desc, "Type");
-        std::string enumvar = varKeyValue(desc, "Items");
-        auto format = varKeyValue(desc, "Format");
 
-        value = parseEnumValue(type, enumvar, value);
-
+        if (!groupNodes && var != varname)
+            continue;
         if (groupNodes)
         {
             var = groupvarsc->prefix(grpname, elm->innerText());
@@ -1346,13 +1342,20 @@ void Parser::setSC(std::string grpname,
         if (var != varname)
             continue;
 
+        auto desc = elm->getAttribute(TAG_VARDATA_SC);
+        auto type = varKeyValue(desc, "Type");
+        std::string enumvar = varKeyValue(desc, "Items");
+        auto format = varKeyValue(desc, "Format");
+
+        value = parseEnumValue(type, enumvar, value);
+
+
         if (type == "auto" && isNumber(value))
         {
             // 設定儲存格資料型態
 //<table:table-cell calcext:value-type="float" office:value="2.2" office:value-type="float">
 //    <text:p>2.2</text:p>
 //</table:table-cell>
-
             type = "float";
             auto meta = static_cast<Element*>(
                 elm->parentNode()->parentNode());
@@ -1387,6 +1390,12 @@ void Parser::setSC(std::string grpname,
             auto pVal = docXML->createTextNode(value);
             elm->parentNode()->replaceChild(pVal, elm);
         }
+        if (!groupNodes)
+        {
+            //std::cout << var << "::::"<<varname<<std::endl;
+        }
+        else
+            break;
     }
 }
 
@@ -1445,6 +1454,12 @@ void Parser::set(std::string grpname,
             }
             node->parentNode()->removeChild(node);
         }
+        if (!groupNodes)
+        {
+            //std::cout << var << "::::"<<varname<<std::endl;
+        }
+        else
+            break;
     }
 }
 
@@ -2073,7 +2088,7 @@ std::string MergeODF::doMergeTo(const Poco::Net::HTTPRequest& request,
     }
 
     mimetype = parser->getMimeType();
-    parser->set(form);  // first set group vars...
+    //parser->set(form);  // first set group vars...
 
     // set form vars
     for ( ; iter != lsts.end(); ++iter)
@@ -2134,6 +2149,8 @@ std::string MergeODF::doMergeTo(const Poco::Net::HTTPRequest& request,
             }
         }
     }
+
+    parser->set(form);  // set group vars...
 
     const auto zip2 = parser->zipback();
     delete parser;
