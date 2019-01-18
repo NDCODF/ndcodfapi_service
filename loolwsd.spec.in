@@ -1,18 +1,8 @@
-%define pkg_ver 1.0.0
-%define pkg_conv_ver 1.0.0
-%define pkg_conv_ver_re 1
-%define pkg_merge_ver 1.0.0
-%define pkg_merge_ver_re 2
-%define pkg_re 3
-%define pkg_oxool ndcodfapi
-%define pkg_merge ndcodfapi-plugin-odfreport
-%define pkg_conv ndcodfapi-plugin-odfconvert
-
 Summary:        NDCODFSYS On-Line WebSocket Daemon
-Name:           %pkg_oxool
+Name:           ndcodfapi
 Conflicts:	oxool
-Version:        %pkg_ver
-Release:        %pkg_re
+Version:        1.0.0
+Release:        7
 License:        MPL
 Source0:        ndcodfapi.tar.gz
 
@@ -45,7 +35,6 @@ Provides:       loleaflet = 1.5.8, loolwsd
 Provides:       loleaflet = 1.5.8
 %endif
 Obsoletes:      loleaflet <= 1.5.8
-Conflicts: oxool-ossii
 
 %description
 NDCODFAPI
@@ -58,8 +47,8 @@ NDCODFAPI
 ./autogen.sh
 %configure --enable-slient-rules \
 	--with-lokit-path=bundled/include \
-	--with-lo-path=/opt/libreoffice \
-	--enable-debug --enable-ssl \
+	--with-lo-path=/opt/ndcodfsys1 \
+	--disable-debug --enable-ssl \
 	--with-max-documents=65535 --with-max-connections=65535
 env BUILDING_FROM_RPMBUILD=yes %{__make} %{?_smp_mflags}
 
@@ -86,14 +75,12 @@ mkdir -p $RPM_BUILD_ROOT/data/oxooldocs
 mkdir -p $RPM_BUILD_ROOT/usr/share/NDCODFAPI/ODFReport/templates
 mkdir -p $RPM_BUILD_ROOT/usr/local/share/loolwsd
 mkdir -p $RPM_BUILD_ROOT/var/log
+touch $RPM_BUILD_ROOT/var/log/loolwsd.log
 touch $RPM_BUILD_ROOT/var/log/mergeodf.log
-%__install tokens.sqlite $RPM_BUILD_ROOT/usr/local/share/loolwsd/
 
 mkdir -p %{buildroot}/etc/cron.d
 echo "#Remove old tiles once every 10 days at midnight" > %{buildroot}/etc/cron.d/loolwsd.cron
 echo "0 0 */1 * * root find /var/cache/loolwsd -name \"*.png\" -a -atime +10 -exec rm {} \;" >> %{buildroot}/etc/cron.d/loolwsd.cron
-
-echo "0 0 */1 * * root /usr/bin/prune_tokens.sh" >> %{buildroot}/etc/cron.d/loolwsd.cron
 
 %pre
 getent group lool >/dev/null || groupadd -r lool
@@ -105,7 +92,7 @@ setcap cap_sys_admin=ep /usr/bin/loolmount
 setcap CAP_NET_BIND_SERVICE=+eip /usr/bin/loolwsd
 
 rm -rf %{_datarootdir}/loolwsd/systemplate
-loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/libreoffice >/dev/null 2>&1
+loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/dev/null 2>&1
 
 %systemd_post ndcodfapi.service
 
@@ -124,7 +111,6 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/libreoffice >
 %{_bindir}/looltool
 %{_bindir}/loolwsd
 %{_bindir}/loolwsd-systemplate-setup
-%{_bindir}/prune_tokens.sh
 %dir %attr(777, root, root) %{_datadir}/loolwsd
 %{_datadir}/loolwsd/*
 %dir %attr(777, root, root) /var/cache/loolwsd
@@ -141,12 +127,13 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/libreoffice >
 %{_docdir}/loolwsd/protocol.txt
 %{_docdir}/loolwsd/reference.txt
 %dir %attr(755, lool, lool) /usr/local/share/loolwsd
+%config(noreplace) %attr(664, lool, lool) /var/log/loolwsd.log
+
+%{_libdir}/libndcmergeodf.so
+%{_libdir}/libndcmergeodf.la
+%{_libdir}/libndcmergeodf.so.?
+%{_libdir}/libndcmergeodf.so.?.?.?
 %dir %attr(777, apache, apache) /usr/share/NDCODFAPI/ODFReport/templates
-%config(noreplace) %attr(600, lool, lool) /var/log/mergeodf.log
-%config(noreplace) %attr(600, lool, lool) /usr/local/share/loolwsd/tokens.sqlite
-%{_libdir}/libmergeodf.so
-%{_libdir}/libmergeodf.la
-%{_libdir}/libmergeodf.so.?
-%{_libdir}/libmergeodf.so.?.?.?
+%config(noreplace) %attr(644, lool, lool) /var/log/mergeodf.log
 
 %changelog
