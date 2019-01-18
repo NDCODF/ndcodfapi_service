@@ -48,6 +48,7 @@ NDCODFAPI
 %configure --enable-slient-rules \
 	--with-lokit-path=bundled/include \
 	--with-lo-path=/opt/ndcodfsys1 \
+	--with-logfile=/var/log/ndcodfapi.log \
 	--disable-debug --enable-ssl \
 	--with-max-documents=65535 --with-max-connections=65535
 env BUILDING_FROM_RPMBUILD=yes %{__make} %{?_smp_mflags}
@@ -75,7 +76,7 @@ mkdir -p $RPM_BUILD_ROOT/data/oxooldocs
 mkdir -p $RPM_BUILD_ROOT/usr/share/NDCODFAPI/ODFReport/templates
 mkdir -p $RPM_BUILD_ROOT/usr/local/share/loolwsd
 mkdir -p $RPM_BUILD_ROOT/var/log
-touch $RPM_BUILD_ROOT/var/log/loolwsd.log
+touch $RPM_BUILD_ROOT/var/log/ndcodfapi.log
 touch $RPM_BUILD_ROOT/var/log/mergeodf.log
 
 mkdir -p %{buildroot}/etc/cron.d
@@ -127,7 +128,7 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/
 %{_docdir}/loolwsd/protocol.txt
 %{_docdir}/loolwsd/reference.txt
 %dir %attr(755, lool, lool) /usr/local/share/loolwsd
-%config(noreplace) %attr(664, lool, lool) /var/log/loolwsd.log
+%config(noreplace) %attr(664, lool, lool) /var/log/ndcodfapi.log
 
 %{_libdir}/libndcmergeodf.so
 %{_libdir}/libndcmergeodf.la
