@@ -4,7 +4,7 @@ export ENABLE_DEBUG
 
 bin_PROGRAMS = loolwsd loolforkit loolmap loolmount looltool loolstress
 
-dist_bin_SCRIPTS = loolwsd-systemplate-setup prune_tokens.sh
+dist_bin_SCRIPTS = loolwsd-systemplate-setup
 
 dist_doc_DATA = wsd/README \
                 wsd/README.vars \
@@ -116,8 +116,8 @@ clientnb_SOURCES = net/clientnb.cpp \
                    common/Log.cpp \
                    common/Util.cpp
 
-lib_LTLIBRARIES = libmergeodf.la
-libmergeodf_la_SOURCES = tools/mergeodf.cpp
+lib_LTLIBRARIES = libndcmergeodf.la
+libndcmergeodf_la_SOURCES = tools/mergeodf.cpp
 
 # build a binary with no caps to help debugging
 loolforkit_nocaps_SOURCES = $(loolforkit_SOURCES)

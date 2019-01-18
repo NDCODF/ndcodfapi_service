@@ -1626,7 +1626,7 @@ private:
     {
         _convertto = 0;
 
-        void* convertto_h = dlopen("libconvertto.so", RTLD_LAZY);
+        void* convertto_h = dlopen("libndcconvertto.so", RTLD_LAZY);
         //std::cout << "load convertto" << std::endl;
         if (convertto_h)
         {
@@ -1644,7 +1644,7 @@ private:
 
         _mergeodf = 0;
 
-        void* mergeodf_h = dlopen("libmergeodf.so", RTLD_LAZY);
+        void* mergeodf_h = dlopen("libndcmergeodf.so", RTLD_LAZY);
         //std::cout << "load mergeodf" << std::endl;
         if (mergeodf_h)
         {
@@ -1660,7 +1660,7 @@ private:
 
         _tbl2sc = 0;
 
-        void* tbl2sc_h = dlopen("libtbl2sc.so", RTLD_LAZY);
+        void* tbl2sc_h = dlopen("libndctbl2sc.so", RTLD_LAZY);
         //std::cout << "load tbl2sc" << std::endl;
         if (tbl2sc_h)
         {
