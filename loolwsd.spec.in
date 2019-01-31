@@ -1,8 +1,8 @@
 Summary:        NDCODFSYS On-Line WebSocket Daemon
 Name:           ndcodfapi
 Conflicts:	oxool
-Version:        1.0.0
-Release:        7
+Version:        1.0.1
+Release:        @LOOLWSD_VERSION_DIST@
 License:        MPL
 Source0:        ndcodfapi.tar.gz
 
@@ -74,10 +74,9 @@ env BUILDING_FROM_RPMBUILD=yes DESTDIR=$RPM_BUILD_ROOT make install
 mkdir -p $RPM_BUILD_ROOT/var/cache/loolwsd
 mkdir -p $RPM_BUILD_ROOT/data/oxooldocs
 mkdir -p $RPM_BUILD_ROOT/usr/share/NDCODFAPI/ODFReport/templates
-mkdir -p $RPM_BUILD_ROOT/usr/local/share/loolwsd
 mkdir -p $RPM_BUILD_ROOT/var/log
+%__install mergeodf.sqlite $RPM_BUILD_ROOT/usr/share/NDCODFAPI/mergeodf.sqlite
 touch $RPM_BUILD_ROOT/var/log/ndcodfapi.log
-touch $RPM_BUILD_ROOT/var/log/mergeodf.log
 
 mkdir -p %{buildroot}/etc/cron.d
 echo "#Remove old tiles once every 10 days at midnight" > %{buildroot}/etc/cron.d/loolwsd.cron
@@ -127,14 +126,14 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/
 %{_docdir}/loolwsd/README.vars
 %{_docdir}/loolwsd/protocol.txt
 %{_docdir}/loolwsd/reference.txt
-%dir %attr(755, lool, lool) /usr/local/share/loolwsd
 %config(noreplace) %attr(664, lool, lool) /var/log/ndcodfapi.log
 
 %{_libdir}/libndcmergeodf.so
 %{_libdir}/libndcmergeodf.la
 %{_libdir}/libndcmergeodf.so.?
 %{_libdir}/libndcmergeodf.so.?.?.?
-%dir %attr(777, apache, apache) /usr/share/NDCODFAPI/ODFReport/templates
-%config(noreplace) %attr(644, lool, lool) /var/log/mergeodf.log
+%dir %attr(777, apache, apache) /usr/share/NDCODFAPI/
+%dir %attr(755, apache, apache) /usr/share/NDCODFAPI/ODFReport/templates
+%config(noreplace) %attr(600, lool, lool) /usr/share/NDCODFAPI/mergeodf.sqlite
 
 %changelog

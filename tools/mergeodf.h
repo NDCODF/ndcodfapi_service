@@ -6,6 +6,7 @@
 #include <Poco/Tuple.h>
 #include <Poco/FileStream.h>
 #include <Poco/Net/HTMLForm.h>
+#include <Poco/Net/HTTPResponse.h>
 #include <Poco/Net/HTTPRequest.h>
 #include <Poco/MemoryStream.h>
 #include <Poco/URI.h>
@@ -33,7 +34,37 @@ using Poco::MemoryInputStream;
 using Poco::Process;
 typedef Poco::Tuple<std::string, std::string> VarData;
 
+
+/*
+ * 紀錄 log 用:
+ * 將 log 紀錄到 sqlite, 可用來查詢呼叫次數
+ */
+class LogDB
+{
+public:
+    LogDB();
+    /*virtual*/ ~LogDB();
+
+    void setDbPath();
+
+    /// set endpoint
+    void setApi(std::string Api)
+    {
+        api = Api;
+    }
+
+    void notice(std::weak_ptr<StreamSocket>,
+                 Poco::Net::HTTPResponse&,
+                 std::string);
+    int getAccessTimes();
+
+private:
+    std::string api;
+    std::string dbfile;
+};
+
 class GroupVar
+
 {
 public:
     GroupVar(AutoPtr<Poco::XML::Document> _docXML) :
@@ -232,6 +263,7 @@ public:
     virtual std::string isMergeToHelpUri(std::string,
                                          bool anotherJson=false,
                                          bool yaml=false);
+    virtual std::string isMergeToQueryAccessTime(std::string);
     virtual std::string makeApiJson(std::string,
                                     bool anotherJson=false,
                                     bool yaml=false,
@@ -239,10 +271,11 @@ public:
     virtual void handleMergeTo(std::weak_ptr<StreamSocket>,
                                const Poco::Net::HTTPRequest&,
                                Poco::MemoryInputStream&);
+    virtual int getApiCallTimes(std::string);
+    virtual void responseAccessTime(std::weak_ptr<StreamSocket>, std::string);
 
 private:
-    AutoPtr<Poco::Channel> channel;
-
+    LogDB *logdb;
     std::string loPath;  // soffice program path
 
     std::string mimetype;
@@ -310,6 +343,28 @@ parameters:
     description: 轉輸出成 PDF 格式)MULTILINE";
 
     const std::string APITEMPL = R"MULTILINE(
+        "/lool/merge-to/%s/accessTime": {
+          "get": {
+            "consumes": [
+              "multipart/form-data",
+              "application/json"
+            ],
+            "responses": {
+              "200": {
+                "description": "傳送成功",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "call_time": {
+                      "type": "integer",
+                      "description": "呼叫次數."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "/lool/merge-to/%s": {
             "post": {
                 "consumes": [
@@ -347,6 +402,19 @@ parameters:
 )MULTILINE";
 
     const std::string YAMLTEMPL = R"MULTILINE(
+  /lool/merge-to/%s/accessTime:
+    get:
+      consumes:
+        - application/json
+      responses:
+        '200':
+          description: 傳送成功
+          schema:
+            type: object
+            properties:
+              call_time:
+                type: integer
+                description: 呼叫次數.
   /lool/merge-to/%s:
     post:
       consumes:

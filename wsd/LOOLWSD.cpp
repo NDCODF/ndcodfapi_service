@@ -689,7 +689,7 @@ void LOOLWSD::initialize(Application& self)
             { "storage.webdav[@allow]", "false" },
             { "logging.file[@enable]", "false" },
             { "logging.file.property[0][@name]", "path" },
-            { "logging.file.property[0]", "loolwsd.log" },
+            { "logging.file.property[0]", "ndcodfapi.log" },
             { "logging.file.property[1][@name]", "rotation" },
             { "logging.file.property[1]", "never" },
             { "logging.file.property[2][@name]", "compress" },
@@ -1807,6 +1807,13 @@ private:
                 bool showConv = request.getURI() == "/lool/convert-to/yaml";
                 bool showMerge = request.getURI() == "/lool/merge-to/yaml";
                 handleAPIHelp(request, showConv, showMerge, "", false, true);
+            }
+            else if (_mergeodf &&
+                     request.getMethod() == HTTPRequest::HTTP_GET &&
+                     !_mergeodf->isMergeToQueryAccessTime(request.getURI()).empty())
+            {  // /lool/merge-to/doc_id/accessTime
+                auto endpoint = _mergeodf->isMergeToQueryAccessTime(request.getURI());
+                _mergeodf->responseAccessTime(_socket, endpoint);
             }
             else if (_mergeodf &&
                      request.getMethod() == HTTPRequest::HTTP_GET &&
