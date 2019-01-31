@@ -2290,7 +2290,7 @@ void MergeODF::responseAccessTime(std::weak_ptr<StreamSocket> _socket, std::stri
         << "Access-Control-Allow-Origin: *" << "\r\n"
         << "User-Agent: " << WOPI_AGENT_STRING << "\r\n"
         << "Content-Length: " << accessTime.size() << "\r\n"
-        << "Content-Type: text/html; charset=utf-8\r\n"
+        << "Content-Type: application/json; charset=utf-8\r\n"
         << "X-Content-Type-Options: nosniff\r\n"
         << "\r\n"
         << accessTime;
@@ -2350,7 +2350,8 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
             std::cout << getpid()<<std::endl;
 
             std::string zip2;
-            auto endpoint = Poco::Path(request.getURI()).getBaseName();
+            auto endpointPath = Poco::URI(request.getURI()).getPath();
+            auto endpoint = Poco::Path(endpointPath).getBaseName();
             logdb->setApi(endpoint);
             logdb->notice(_socket, response, "start");
 
