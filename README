@@ -1,9 +1,9 @@
 NDCODFAPI
 
-編譯環境建立說明
+編譯環境建立說明(Instruction for building compiling environment)
 ---------------
 
-編譯環境需求軟體套件:
+編譯環境需求軟體套件(Dependencies):
 libreoffice
 libpng-devel
 poco-devel = 1.9.0
@@ -12,26 +12,26 @@ openssl-devel
 nodejs
 
 
-編譯流程
+編譯流程(Compiling flow)
 --------
-編譯 NDCODFAPI 需要安裝 POCO lib 及 nodejs, 以下列出各自編譯的步驟：
+編譯 NDCODFAPI 需要安裝 POCO lib 及 nodejs, 以下列出各自編譯的步驟(It requires POCO lib and nodejs to compile NDCODFAPI.  Here are the detail steps):
 
 
-編譯 POCO lib
+編譯(Compiling) POCO lib
 =============
 ./configure
 gmake -s
 sudo gmake -s install
 
 
-編譯 nodejs
+編譯(Compiling) nodejs
 ===========
 ./configure
 make
 make install
 
 
-編譯 NDCODFAPI
+編譯(Compiling) NDCODFAPI
 --------------
 
 npm install -g jake
@@ -46,10 +46,10 @@ npm install -g npm
         --enable-debug --enable-ssl
 
 
-啟動主程式
+啟動主程式(Launch services)
 ----------
 
-建立 cache dir(只須執行一次):
+建立(Create) cache dir(只須執行一次, only once needed):
 sudo mkdir -p /usr/local/var/cache/loolwsd
 sudo chown `whoami` /usr/local/var/cache/loolwsd
 
