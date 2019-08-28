@@ -17,7 +17,9 @@
 #include <Poco/Net/HTTPRequest.h>
 #include <Poco/Net/HTTPResponse.h>
 #include <Poco/StringTokenizer.h>
+#include "Poco/FileStream.h"
 
+#include "LOOLWSD.hpp"
 #include "Admin.hpp"
 #include "AdminModel.hpp"
 #include "Auth.hpp"
@@ -166,6 +168,19 @@ void AdminSocketHandler::handleMessage(bool /* fin */, WSOpCode /* code */,
             << "mem_stats_interval=" << std::to_string(_admin->getMemStatsInterval()) << " "
             << "cpu_stats_size="  << model.query("cpu_stats_size") << " "
             << "cpu_stats_interval=" << std::to_string(_admin->getCpuStatsInterval());
+
+        std::string responseFrame = oss.str();
+        sendTextFrame(responseFrame);
+    }
+    else if (tokens[0] == "macaddr" || tokens[0] == "ipaddr")
+    {
+        // 列表：Mac address or IP address
+        std::ostringstream oss;
+        oss << tokens[0] << " " << "mac_list=";
+        if (tokens[0] == "macaddr")
+            oss << model.query("mac_list");
+        if (tokens[0] == "ipaddr")
+            oss << model.query("ip_list");
 
         std::string responseFrame = oss.str();
         sendTextFrame(responseFrame);

@@ -29,6 +29,7 @@
 #define LOK_USE_UNSTABLE_API
 #include <LibreOfficeKit/LibreOfficeKitEnums.h>
 
+
 namespace Util
 {
     namespace rng

@@ -235,7 +235,6 @@ bool TileCache::getTextFile(const std::string& fileName, std::string& content)
     std::fstream textStream(fullFileName, std::ios::in);
     if (!textStream.is_open())
     {
-        LOG_INF("Could not open " << fullFileName);
         return false;
     }
 

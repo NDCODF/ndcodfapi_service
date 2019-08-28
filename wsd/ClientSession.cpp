@@ -95,7 +95,6 @@ bool ClientSession::_handleInput(const char *buffer, int length)
         std::string versionStr =
             "{ \"Version\":  \"" + version + "\", " +
             "\"Hash\":     \"" + hash + "\", " +
-            "\"Bundle\":     \"of\", " +
             "\"Protocol\": \"" + GetProtocolVersion() + "\" }";
         sendTextFrame("loolserver " + versionStr);
         // Send LOKit version information
@@ -618,7 +617,7 @@ bool ClientSession::handleKitToClientMessage(const char* buffer, const int lengt
                 else  // for convert-to: queue parameter setted.
                 {  // set queue for file download
                     Poco::UUIDGenerator& generator = Poco::UUIDGenerator::defaultGenerator();
-                    const std::string copy2 = "/data/oxooldocs/" + generator.create().toString() + "." + _queueFormat;
+                    const std::string copy2 = "/data/looldocs/" + generator.create().toString() + "." + _queueFormat;
 
                     Path toPath(resultURL.getPath());
                     Poco::File(toPath).copyTo(copy2);

@@ -49,7 +49,6 @@
 #include "Unit.hpp"
 
 #include <dlfcn.h>
-#include "tools/convertto.h"
 
 using namespace LOOLProtocol;
 
@@ -137,6 +136,8 @@ std::string DocumentBroker::getDocKey(const Poco::URI& uri)
     std::string docKey;
     Poco::URI::encode(uri.getPath(), "", docKey);
 
+    /// @TODO: check for """if (param.first != "rdid")""" here
+
     if (docKey == "/")
     {
         Poco::URI newuri(uri);
@@ -145,31 +146,6 @@ std::string DocumentBroker::getDocKey(const Poco::URI& uri)
             if (param.first != "rdid")
                 continue;
 
-            /// 以 rdid 開啟 access_token 代表的文件
-            void* convertto_h = dlopen("libconvertto.so", RTLD_LAZY);
-            //std::cout << "load convertto" << std::endl;
-            if (convertto_h)
-            {
-                ConvDB* (*createConvDB)();
-                createConvDB = (ConvDB* (*)())dlsym(convertto_h,
-                                                "create_object_convdb");
-                ConvDB* cdb = (ConvDB*)createConvDB();
-                cdb->setDbPath();
-                try
-                {
-                    auto dummy = cdb->getFile(param.second);
-                    if (!dummy.empty())
-                        docKey = dummy;
-                    //std::cout<<docKey<<std::endl;
-                }
-                catch (Poco::Exception& e)
-                {
-                    std::cerr << e.displayText() << std::endl;
-                }
-
-                delete cdb;
-                dlclose(convertto_h);
-            }
             break;
         }
     }
@@ -318,7 +294,7 @@ void DocumentBroker::pollThread()
                  std::chrono::duration_cast<std::chrono::seconds>(now - last30SecCheckTime).count() >= savingtime)
         {
             LOG_TRC("Triggering an autosave.");
-            autoSave(false);
+            autoSave(true);  
             last30SecCheckTime = std::chrono::steady_clock::now();
         }
 
@@ -587,14 +563,14 @@ bool DocumentBroker::load(const std::shared_ptr<ClientSession>& session, const s
             LOG_DBG("Setting the session as readonly");
             session->setReadOnly();
         }
-
+#if defined(BUILD_NDC)
         std::string permission = "edit";
         for (const auto& param : session->getPublicUri().getQueryParameters())
             if (param.first == "permission")
                 permission = param.second;
 
         session->sendTextFrame("perm: " + parseAllPermission(permission));
-
+#endif
         // Construct a JSON containing relevant WOPI host properties
         Object::Ptr wopiInfo = new Object();
         if (!wopifileinfo->_postMessageOrigin.empty())
@@ -609,13 +585,6 @@ bool DocumentBroker::load(const std::shared_ptr<ClientSession>& session, const s
 
             wopiInfo->set("PostMessageOrigin", wopifileinfo->_postMessageOrigin);
         }
-
-        // If print, export are disabled, order client to hide these options in the UI
-        if (wopifileinfo->_disablePrint)
-            wopifileinfo->_hidePrintOption = true;
-        if (wopifileinfo->_disableExport)
-            wopifileinfo->_hideExportOption = true;
-
         wopiInfo->set("HidePrintOption", wopifileinfo->_hidePrintOption);
         wopiInfo->set("HideSaveOption", wopifileinfo->_hideSaveOption);
         wopiInfo->set("HideExportOption", wopifileinfo->_hideExportOption);
@@ -652,10 +621,10 @@ bool DocumentBroker::load(const std::shared_ptr<ClientSession>& session, const s
         for (const auto& param : session->getPublicUri().getQueryParameters())
             if (param.first == "rdid")
             {
-                permission = "readonly";
+                permission = "convview";
 
                 // set title
-                const std::string msg = "ossii: " + param.second;
+                const std::string msg =  param.second;
                 LOG_TRC("Sending to Client [" << msg << "].");
                 session->sendTextFrame(msg);
             }
@@ -1163,6 +1132,7 @@ void DocumentBroker::alertAllUsers(const std::string& msg)
         it.second->enqueueSendMessage(payload);
     }
 }
+
 
 /// Handles input from the prisoner / child kit process
 bool DocumentBroker::handleInput(const std::vector<char>& payload)

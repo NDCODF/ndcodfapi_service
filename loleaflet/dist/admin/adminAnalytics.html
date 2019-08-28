@@ -59,6 +59,11 @@
             <li><a href="admin.html"><script>document.write(l10nstrings.strOverview)</script></a></li>
             <li class="active"><a href="adminAnalytics.html"><script>document.write(l10nstrings.strAnalytics)</script> <span class="sr-only"><script>document.write(l10nstrings.strCurrent)</script></span></a></li>
             <li><a href="adminHistory.html"><script>document.write(l10nstrings.strHistory)</script></a></li>
+            <script>
+            if (%HAS_CONVERT%) {
+                document.write('<li><a class="pull-left" href="adminConvert.html">ODF 轉檔模組</a><a class="pull-right">></a></li>');
+            }
+            </script>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">

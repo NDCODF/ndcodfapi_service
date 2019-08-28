@@ -34,6 +34,12 @@ var adminDeps = {
 		src: ['admin/AdminSocketHistory.js'],
 		desc: 'Socket to query document history.',
 		deps: ['AdminCore']
+	},
+
+        AdminConvertLog: {
+		src: ['admin/AdminConvertLog.js'],
+		desc: '...',
+		deps: ['AdminCore']
 	}
 };
 

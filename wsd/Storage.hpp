@@ -254,10 +254,12 @@ public:
     /// Total time taken for making WOPI calls during load
     std::chrono::duration<double> getWopiLoadDuration() const { return _wopiLoadDuration; }
 
+
 private:
     // Time spend in loading the file from storage
     std::chrono::duration<double> _wopiLoadDuration;
 };
+
 
 /// WebDAV protocol backed storage.
 class WebDAVStorage : public StorageBase

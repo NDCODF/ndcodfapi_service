@@ -18,7 +18,7 @@ L.Control.Header = L.Control.extend({
 	},
 
 	select: function (item) {
-		if (map.getDocType() === 'spreadsheet' && map._permission === 'readonly') {
+		if (map.getDocType() === 'spreadsheet' && (map._permission === 'readonly' || map._permission === 'convview')) {
 			return;
 		}
 		if (item && !L.DomUtil.hasClass(item, 'spreadsheet-header-selected')) {
@@ -27,7 +27,7 @@ L.Control.Header = L.Control.extend({
 	},
 
 	unselect: function (item) {
-		if (map.getDocType() === 'spreadsheet' && map._permission == 'readonly') {
+		if (map.getDocType() === 'spreadsheet' && (map._permission == 'readonly' || map._permission === 'convview')) {
 			return;
 		}
 		if (item && L.DomUtil.hasClass(item, 'spreadsheet-header-selected')) {

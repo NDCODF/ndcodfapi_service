@@ -40,6 +40,8 @@
 #include "LOOLWSD.hpp"
 #include "Log.hpp"
 
+#include <dlfcn.h>
+
 using Poco::FileInputStream;
 using Poco::Net::HTMLForm;
 using Poco::Net::HTTPRequest;
@@ -140,7 +142,9 @@ void FileServerRequestHandler::handleRequest(const HTTPRequest& request, Poco::M
         {
             if (endPoint == "admin.html" ||
                 endPoint == "adminSettings.html" ||
-                endPoint == "adminAnalytics.html")
+                endPoint == "adminAnalytics.html" ||
+                endPoint == "adminConvertLog.html" ||
+                endPoint == "adminConvert.html")
             {
                 noCache = true;
 
@@ -206,7 +210,7 @@ void FileServerRequestHandler::handleRequest(const HTTPRequest& request, Poco::M
             response.set("Date", Poco::DateTimeFormatter::format(Poco::Timestamp(), Poco::DateTimeFormat::HTTP_FORMAT));
 
             bool gzip = request.hasToken("Accept-Encoding", "gzip");
-            const std::string *content;
+            std::string content;
 #if ENABLE_DEBUG
             if (std::getenv("LOOL_SERVE_FROM_FS"))
             {
@@ -220,10 +224,10 @@ void FileServerRequestHandler::handleRequest(const HTTPRequest& request, Poco::M
             if (gzip)
             {
                 response.set("Content-Encoding", "gzip");
-                content = getCompressedFile(relPath);
+                content = *getCompressedFile(relPath);
             }
             else
-                content = getUncompressedFile(relPath);
+                content = *getUncompressedFile(relPath);
 
             if (!noCache)
             {
@@ -240,7 +244,7 @@ void FileServerRequestHandler::handleRequest(const HTTPRequest& request, Poco::M
             LOG_TRC("#" << socket->getFD() << ": Sending " <<
                     (!gzip ? "un":"") << "compressed : file [" << relPath << "]: " << header);
             socket->send(header);
-            socket->send(*content);
+            socket->send(content);
         }
     }
     catch (const Poco::Net::NotAuthenticatedException& exc)

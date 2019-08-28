@@ -2,9 +2,9 @@ SUBDIRS = . loleaflet
 
 export ENABLE_DEBUG
 
-bin_PROGRAMS = loolwsd loolforkit loolmap loolmount looltool loolstress
+bin_PROGRAMS = loolwsd loolforkit loolmap loolmount looltool loolstress loolgetuser
 
-dist_bin_SCRIPTS = loolwsd-systemplate-setup
+dist_bin_SCRIPTS = loolwsd-systemplate-setup prune_tokens.sh
 
 dist_doc_DATA = wsd/README \
                 wsd/README.vars \
@@ -19,16 +19,14 @@ loolwsddata_DATA = discovery.xml \
 
 loolwsdconfigdir = @LOOLWSD_CONFIGDIR@
 
-loolwsdconfig_DATA = loolwsd.xml perm.xml \
+loolwsdconfig_DATA = perm.xml \
 		     loolkitconfig.xcu
 
 ACLOCAL_AMFLAGS = -I m4
 
 # quick and easy for now.
-include_paths = -I${top_srcdir}/common -I${top_srcdir}/net -I${top_srcdir}/wsd -I${top_srcdir}/kit ${ZLIB_CFLAGS} $(NEON_CFLAGS)
+include_paths = -I${top_srcdir}/common -I${top_srcdir}/net -I${top_srcdir}/wsd -I${top_srcdir}/kit ${ZLIB_CFLAGS}
 
-NEON_CFLAGS = `neon-config --cflags`
-NEON_LIBS = `neon-config --libs`
 AM_CPPFLAGS = -pthread -DLOOLWSD_DATADIR='"@LOOLWSD_DATADIR@"' \
 	      -DLOOLWSD_CONFIGDIR='"@LOOLWSD_CONFIGDIR@"' \
 	      -DDEBUG_ABSSRCDIR='"@abs_srcdir@"' \
@@ -116,8 +114,9 @@ clientnb_SOURCES = net/clientnb.cpp \
                    common/Log.cpp \
                    common/Util.cpp
 
-lib_LTLIBRARIES = libndcmergeodf.la
-libndcmergeodf_la_SOURCES = tools/mergeodf.cpp
+lib_LTLIBRARIES = libmergeodf.la libtbl2sc.la
+libmergeodf_la_SOURCES = tools/mergeodf.cpp
+libtbl2sc_la_SOURCES = tools/tbl2sc.cpp
 
 # build a binary with no caps to help debugging
 loolforkit_nocaps_SOURCES = $(loolforkit_SOURCES)
@@ -127,6 +126,7 @@ loolmount_SOURCES = tools/mount.cpp
 loolmap_SOURCES = tools/map.cpp
 
 looltool_SOURCES = tools/Tool.cpp
+loolgetuser_SOURCES = tools/UserList.cpp
 
 loolstress_CPPFLAGS = -DTDOC=\"$(abs_top_srcdir)/test/data\" ${include_paths}
 loolstress_SOURCES = tools/Stress.cpp \
@@ -236,6 +236,8 @@ run: all @JAILS_PATH@ @SYSTEMPLATE_PATH@/system_stamp
 	@echo "Launching loolwsd"
 	@fc-cache "@LO_PATH@"/share/fonts/truetype
 	@cp $(abs_top_srcdir)/test/data/hello.odt $(abs_top_srcdir)/test/data/hello-world.odt
+	@cp .libs/libmergeodf.so.0.0.0 libmergeodf.so
+	@cp .libs/libtbl2sc.so.0.0.0 libtbl2sc.so
 	@echo
 	./loolwsd --o:sys_template_path="@SYSTEMPLATE_PATH@" --o:lo_template_path="@LO_PATH@" \
 			  --o:child_root_path="@JAILS_PATH@" --o:storage.filesystem[@allow]=true \

@@ -163,13 +163,13 @@ L.TileLayer = L.GridLayer.extend({
 		this._initContainer();
 		this._getToolbarCommandsValues();
 		this._selections = new L.LayerGroup();
-		if (this.options.permission !== 'readonly') {
+		if (this.options.permission !== 'readonly' && this.options.permission !== 'convview') {
 			map.addLayer(this._selections);
 		}
 
 		// This layergroup contains all the layers corresponding to other's view
 		this._viewLayerGroup = new L.LayerGroup();
-		if (this.options.permission !== 'readonly') {
+		if (this.options.permission !== 'readonly' && this.options.permission !== 'convview') {
 			map.addLayer(this._viewLayerGroup);
 		}
 
@@ -1876,11 +1876,11 @@ L.TileLayer = L.GridLayer.extend({
 	},
 
 	_resize: function () {
-		var _calcTitle = function (maxlen) {
+		var _calcTitle = function (maxlen, permission) {
 			/* 右方文件名稱：長度 > 10 則後三碼換成 ... 加上 .ext
 			 * ex: 01234567.oxt -> 01234....oxt
 			 */
-			var tmp = title;
+			var tmp = $('.docname').find('a').text();
 			var ext = '';
 			var body = tmp;
 			var dotPos = tmp.lastIndexOf('.');
@@ -1893,7 +1893,13 @@ L.TileLayer = L.GridLayer.extend({
 				body = body.substr(0, maxlen) + '...';
 			body = body + ext;
 			tmp = body;
-			$('.docname').html('<a class="">' + tmp + '</a>');
+
+			if (permission !== 'convview') {
+				$('.docname').html('<a class="">' + tmp + '</a>');
+			}
+			else {
+				$('.docname').find('a').text(tmp);
+			}
 		};
 
 		var buf = global.title.split(',');
@@ -1906,20 +1912,20 @@ L.TileLayer = L.GridLayer.extend({
 
 		if ($(window).width() > 900)
 		{
-			_calcTitle(20);
+			_calcTitle(20, map._permission);
 			return;
 		}
 
 		if ($(window).width() > 790)
 		{
-			_calcTitle(10);
+			_calcTitle(10, map._permission);
 			return;
 		}
 
 		/* 右方文件名稱：長度 > 10 則後三碼換成 ... 加上 .ext
 		 * ex: 01234567.oxt -> 01234....oxt
 		 */
-		 _calcTitle(6);
+		 _calcTitle(6, map._permission);
 	},
 
 	_fitWidthZoom: function (e, maxZoom) {

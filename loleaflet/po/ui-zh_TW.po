@@ -16,7 +16,7 @@ msgstr ""
 
 #: admin.strings.js:5
 msgid "Admin console"
-msgstr "管理主控臺"
+msgstr "模組管理主控臺"
 
 #: admin.strings.js:6
 msgid "Toggle navigation"
@@ -24,7 +24,7 @@ msgstr "切換導覽"
 
 #: admin.strings.js:7
 msgid "Settings"
-msgstr "設定"
+msgstr "基礎管理設定"
 
 #: admin.strings.js:8
 msgid "Overview"

@@ -1,7 +1,10 @@
-Summary:        NDCODFSYS On-Line WebSocket Daemon
+%define pkg_ver @PACKAGE_VERSION@
+%define pkg_re @LOOLWSD_VERSION_DIST@%{?dist}
+
+Summary:        NDCODFAPI On-Line WebSocket Daemon
 Name:           ndcodfapi
-Conflicts:	oxool
-Version:        1.0.1
+Conflicts:	lool
+Version:        @LOOLWSD_VERSION@
 Release:        @LOOLWSD_VERSION_DIST@
 License:        MPL
 Source0:        ndcodfapi.tar.gz
@@ -19,12 +22,13 @@ BuildRequires: libtool cppunit-devel
 BuildRequires: libpng-devel
 BuildRequires: openssl-devel
 BuildRequires: libcap-devel
-BuildRequires: nodejs
-#BuildRequires: npm
+# 如果是用 nvm 安裝的  node & nvm 會無法過 BuildRequires 這關, 所以關掉
+#BuildRequires: node
+#BuildRequires: npm   
 BuildRequires: poco-devel >= 1.9.0
-BuildRequires: ndcodfsys-core
 
-Requires: ndcodfsys
+Requires: ndcodfsys-core
+Requires: ndcodfsys >= 6.0.2.1.0
 Requires: expat keyutils-libs krb5-libs libattr libcap libcom_err libgcc libpng libselinux openssl-libs pcre xz-libs zlib
 Requires: poco-crypto >= 1.9.0 poco-foundation >= 1.9.0 poco-json >= 1.9.0 poco-net >= 1.9.0 poco-netssl >= 1.9.0 poco-util >= 1.9.0 poco-xml >= 1.9.0
 Requires: cronie sqlite
@@ -36,11 +40,12 @@ Provides:       loleaflet = 1.5.8
 %endif
 Obsoletes:      loleaflet <= 1.5.8
 
+
 %description
 NDCODFAPI
 
 %prep
-%setup -q -n ndcodfapi
+%setup -q -n ndcodfapi_service
 
 %build
 %if 1
@@ -53,10 +58,7 @@ NDCODFAPI
 	--with-max-documents=65535 --with-max-connections=65535
 env BUILDING_FROM_RPMBUILD=yes %{__make} %{?_smp_mflags}
 
-git checkout -- loleaflet/node_modules/
 pushd loleaflet
-rm dist/bundle.js
-npm install -g jake browserify
 %{__make} %{?_smp_mflags}
 popd
 %endif
@@ -66,21 +68,33 @@ popd
 rm -rf $RPM_BUILD_ROOT
 env BUILDING_FROM_RPMBUILD=yes DESTDIR=$RPM_BUILD_ROOT make install
 %__install -m 444 discovery.xml $RPM_BUILD_ROOT/%{_datadir}/loolwsd/loleaflet/dist/
+%__install -m 444 robots.txt $RPM_BUILD_ROOT/%{_datadir}/loolwsd/
+%__install -m 444 discovery.xml $RPM_BUILD_ROOT/%{_datadir}/loolwsd/
+%__install -m 444 favicon.ico $RPM_BUILD_ROOT/%{_datadir}/loolwsd/
 %__install -m 444 etc/ca-chain.cert.pem $RPM_BUILD_ROOT/etc/loolwsd/ca-chain.cert.pem
 %__install -m 444 etc/cert.pem $RPM_BUILD_ROOT/etc/loolwsd/cert.pem
 %__install -m 444 etc/key.pem $RPM_BUILD_ROOT/etc/loolwsd/key.pem
 %__install -m 444 styles.xml $RPM_BUILD_ROOT/%{_datadir}/loolwsd/loleaflet/dist/
-%__install -D -m 444 loolwsd.service %{buildroot}%{_unitdir}/ndcodfapi.service
+%__install -D -m 444 ndcodfapi.service %{buildroot}%{_unitdir}/ndcodfapi.service
+%__cp loolwsd.xml $RPM_BUILD_ROOT/etc/loolwsd/loolwsd.xml
 mkdir -p $RPM_BUILD_ROOT/var/cache/loolwsd
-mkdir -p $RPM_BUILD_ROOT/data/oxooldocs
-mkdir -p $RPM_BUILD_ROOT/usr/share/NDCODFAPI/ODFReport/templates
+mkdir -p $RPM_BUILD_ROOT/data/looldocs
 mkdir -p $RPM_BUILD_ROOT/var/log
+
+# 2.0 版本和 xoops 聯動的地方
+mkdir -p $RPM_BUILD_ROOT/usr/share/NDCODFAPI/ODFReport/templates
 %__install mergeodf.sqlite $RPM_BUILD_ROOT/usr/share/NDCODFAPI/mergeodf.sqlite
 touch $RPM_BUILD_ROOT/var/log/ndcodfapi.log
+
+
+mkdir -p $RPM_BUILD_ROOT/usr/local/share/loolwsd
+%__install tokens.sqlite $RPM_BUILD_ROOT/usr/local/share/loolwsd/
+
 
 mkdir -p %{buildroot}/etc/cron.d
 echo "#Remove old tiles once every 10 days at midnight" > %{buildroot}/etc/cron.d/loolwsd.cron
 echo "0 0 */1 * * root find /var/cache/loolwsd -name \"*.png\" -a -atime +10 -exec rm {} \;" >> %{buildroot}/etc/cron.d/loolwsd.cron
+echo "0 0 */1 * * root /usr/bin/prune_tokens.sh" >> %{buildroot}/etc/cron.d/loolwsd.cron
 
 %pre
 getent group lool >/dev/null || groupadd -r lool
@@ -100,7 +114,7 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/
 %systemd_preun ndcodfapi.service
 
 %postun
-%systemd_postun ndcpdfapi.service
+%systemd_postun ndcodfapi.service
 
 %files
 %defattr(-,root,root)
@@ -111,6 +125,8 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/
 %{_bindir}/looltool
 %{_bindir}/loolwsd
 %{_bindir}/loolwsd-systemplate-setup
+%{_bindir}/loolgetuser
+%{_bindir}/prune_tokens.sh
 %dir %attr(777, root, root) %{_datadir}/loolwsd
 %{_datadir}/loolwsd/*
 %dir %attr(777, root, root) /var/cache/loolwsd
@@ -126,14 +142,27 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/
 %{_docdir}/loolwsd/README.vars
 %{_docdir}/loolwsd/protocol.txt
 %{_docdir}/loolwsd/reference.txt
+%dir %attr(755, lool, lool) /usr/local/share/loolwsd
 %config(noreplace) %attr(664, lool, lool) /var/log/ndcodfapi.log
+%config(noreplace) %attr(600, lool, lool) /usr/local/share/loolwsd/tokens.sqlite
+%dir %attr(755, lool, lool) /data/looldocs
 
-%{_libdir}/libndcmergeodf.so
-%{_libdir}/libndcmergeodf.la
-%{_libdir}/libndcmergeodf.so.?
-%{_libdir}/libndcmergeodf.so.?.?.?
+# 2.0 版本和 xoops 聯動的地方
 %dir %attr(777, apache, apache) /usr/share/NDCODFAPI/
-%dir %attr(755, apache, apache) /usr/share/NDCODFAPI/ODFReport/templates
+%dir %attr(777, apache, apache) /usr/share/NDCODFAPI/ODFReport/templates
 %config(noreplace) %attr(600, lool, lool) /usr/share/NDCODFAPI/mergeodf.sqlite
+
+#mergeodf
+%{_libdir}/libmergeodf.so
+%{_libdir}/libmergeodf.la
+%{_libdir}/libmergeodf.so.?
+%{_libdir}/libmergeodf.so.?.?.?
+
+# tbl2sc
+%{_libdir}/libtbl2sc.so
+%{_libdir}/libtbl2sc.la
+%{_libdir}/libtbl2sc.so.?
+%{_libdir}/libtbl2sc.so.?.?.?
+
 
 %changelog

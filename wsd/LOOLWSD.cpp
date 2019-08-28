@@ -148,7 +148,6 @@
 #include "common/SigUtil.hpp"
 
 #include <dlfcn.h>
-#include "tools/convertto.h"
 #include "tools/mergeodf.h"
 #include "tools/tbl2sc.h"
 
@@ -481,6 +480,7 @@ std::shared_ptr<ChildProcess> getNewChild_Blocks()
     return nullptr;
 }
 
+
 /// Handles the filename part of the convert-to POST request payload.
 class ConvertToPartHandler : public PartHandler
 {
@@ -661,7 +661,7 @@ void LOOLWSD::initialize(Application& self)
             { "child_root_path", "jails" },
             { "lo_jail_subpath", "lo" },
             { "server_name", "" },
-            { "client_port_number", "9980" },
+            { "client_port_number", "8080" },
             { "file_server_root_path", "loleaflet/.." },
             { "num_prespawn_children", "1" },
             { "per_document.max_concurrency", "4" },
@@ -689,7 +689,7 @@ void LOOLWSD::initialize(Application& self)
             { "storage.webdav[@allow]", "false" },
             { "logging.file[@enable]", "false" },
             { "logging.file.property[0][@name]", "path" },
-            { "logging.file.property[0]", "ndcodfapi.log" },
+            { "logging.file.property[0]", "loolwsd.log" },
             { "logging.file.property[1][@name]", "rotation" },
             { "logging.file.property[1]", "never" },
             { "logging.file.property[2][@name]", "compress" },
@@ -1038,15 +1038,6 @@ void LOOLWSD::handleOption(const std::string& optionName,
     }
     else if (optionName == "config-file")
         ConfigFile = value;
-#if ENABLE_DEBUG
-    else if (optionName == "unitlib")
-        UnitTestLibrary = value;
-#ifndef KIT_IN_PROCESS
-    else if (optionName == "nocaps")
-        NoCapsForKit = true;
-#endif
-    else if (optionName == "careerspan")
-        careerSpanMs = std::stoi(value) * 1000; // Convert second to ms
     else if (optionName == "maxmac")
     {
         std::cout << MAX_MACADDRESS << std::endl;
@@ -1057,6 +1048,15 @@ void LOOLWSD::handleOption(const std::string& optionName,
         std::cout << MAX_IPADDRESS << std::endl;
         std::exit(Application::EXIT_OK);
     }
+#if ENABLE_DEBUG
+    else if (optionName == "unitlib")
+        UnitTestLibrary = value;
+#ifndef KIT_IN_PROCESS
+    else if (optionName == "nocaps")
+        NoCapsForKit = true;
+#endif
+    else if (optionName == "careerspan")
+        careerSpanMs = std::stoi(value) * 1000; // Convert second to ms
 
     static const char* clientPort = std::getenv("LOOL_TEST_CLIENT_PORT");
     if (clientPort)
@@ -1620,34 +1620,20 @@ private:
         _socket = socket;
         LOG_TRC("#" << socket->getFD() << " Connected to ClientRequestDispatcher.");
     }
-
     /// load api *.so
     void initApiModules()
     {
-        _convertto = 0;
-
-        void* convertto_h = dlopen("libndcconvertto.so", RTLD_LAZY);
-        //std::cout << "load convertto" << std::endl;
-        if (convertto_h)
-        {
-            //std::cout << "handle convertto" << std::endl;
-            ConvertTo* (*create)();
-            create = (ConvertTo* (*)())dlsym(convertto_h, "create_object");
-            _convertto = (ConvertTo*)create();
-            Poco::Path logPath = Poco::Path(LogFilePath).
-                makeDirectory().makeParent();
-            _convertto->setXmlPath(LOOLWSD::FileServerRoot);
-            _convertto->setLogPath(logPath.toString());
-            _convertto->setProgPath(LOOLWSD::LoTemplate);
-        }
-        //std::cout << "end load convertto" << std::endl;
-
         _mergeodf = 0;
 
-        void* mergeodf_h = dlopen("libndcmergeodf.so", RTLD_LAZY);
+#if ENABLE_DEBUG
+        void* mergeodf_h = dlopen("./libmergeodf.so", RTLD_LAZY);
+#else
+        void* mergeodf_h = dlopen("libmergeodf.so", RTLD_LAZY);
+#endif
         //std::cout << "load mergeodf" << std::endl;
         if (mergeodf_h)
         {
+            LOG_TRC("[ModuleLib] Load libmergeto.so success");
             //std::cout << "handle mergeodf" << std::endl;
             MergeODF* (*create)();
             Poco::Path logPath = Poco::Path(LogFilePath).
@@ -1657,10 +1643,19 @@ private:
             _mergeodf->setLogPath(logPath.toString());
             _mergeodf->setProgPath(LOOLWSD::LoTemplate);
         }
+        else{
+            LOG_TRC("[ModuleLib]Load libmergeodf.so fail");
+            std::cout << "[ModuleLib] Load libmergeodf.so fail" << std::endl;
+        }
 
         _tbl2sc = 0;
 
-        void* tbl2sc_h = dlopen("libndctbl2sc.so", RTLD_LAZY);
+#if ENABLE_DEBUG
+        void* tbl2sc_h = dlopen("./libtbl2sc.so", RTLD_LAZY);
+#else
+        void* tbl2sc_h = dlopen("libtbl2sc.so", RTLD_LAZY);
+#endif
+
         //std::cout << "load tbl2sc" << std::endl;
         if (tbl2sc_h)
         {
@@ -1670,16 +1665,16 @@ private:
             _tbl2sc = (Tbl2SC*)create();
             _tbl2sc->setProgPath(LOOLWSD::LoTemplate);
         }
-        //std::cout << "end load tbl2sc" << std::endl;
+        else
+        {
+            std::cout << "[ModuleLib] Load libtbl2sc.so fail" << std::endl;
+        }
     }
-
     /// Called after successful socket reads.
     void handleIncomingMessage(SocketDisposition &disposition) override
     {
         auto socket = _socket.lock();
-
         initApiModules();
-
         std::vector<char>& in = socket->_inBuffer;
         LOG_TRC("#" << socket->getFD() << " handling incoming " << in.size() << " bytes.");
 
@@ -1779,7 +1774,7 @@ private:
             else if (request.getMethod() == HTTPRequest::HTTP_GET &&
                      request.getURI() == "/api")
             {
-                if (_convertto || _mergeodf)
+                if (_mergeodf)
                     handleAPIHelp(request);
                 else
                     socket->shutdown();
@@ -1787,30 +1782,26 @@ private:
             else if (request.getMethod() == HTTPRequest::HTTP_GET &&
                      request.getURI() == "/yaml")
             {
-                if (_convertto || _mergeodf)
-                    handleAPIHelp(request, true, true, "", false, true);
+                if (_mergeodf)
+                    handleAPIHelp(request, true, "", false, true);
                 else
                     socket->shutdown();
             }
             else if (request.getMethod() == HTTPRequest::HTTP_GET &&
-                     (request.getURI() == "/lool/convert-to/api" ||
-                      request.getURI() == "/lool/merge-to/api"))
-            {  // /lool/[merge-to|convert-to]/api
-                bool showConv = request.getURI() == "/lool/convert-to/api";
+                      request.getURI() == "/lool/merge-to/api")
+            {  // /lool/[merge-to]/api
                 bool showMerge = request.getURI() == "/lool/merge-to/api";
-                handleAPIHelp(request, showConv, showMerge);
+                handleAPIHelp(request, showMerge);
             }
             else if (request.getMethod() == HTTPRequest::HTTP_GET &&
-                     (request.getURI() == "/lool/convert-to/yaml" ||
-                      request.getURI() == "/lool/merge-to/yaml"))
-            {  // /lool/[merge-to|convert-to]/yaml
-                bool showConv = request.getURI() == "/lool/convert-to/yaml";
+                      request.getURI() == "/lool/merge-to/yaml")
+            {  // /lool/[merge-to]/yaml
                 bool showMerge = request.getURI() == "/lool/merge-to/yaml";
-                handleAPIHelp(request, showConv, showMerge, "", false, true);
+                handleAPIHelp(request, showMerge, "", false, true);
             }
             else if (_mergeodf &&
-                     request.getMethod() == HTTPRequest::HTTP_GET &&
-                     !_mergeodf->isMergeToQueryAccessTime(request.getURI()).empty())
+                    request.getMethod() == HTTPRequest::HTTP_GET &&
+                    !_mergeodf->isMergeToQueryAccessTime(request.getURI()).empty())
             {  // /lool/merge-to/doc_id/accessTime
                 auto endpoint = _mergeodf->isMergeToQueryAccessTime(request.getURI());
                 _mergeodf->responseAccessTime(_socket, endpoint);
@@ -1820,21 +1811,21 @@ private:
                      !_mergeodf->isMergeToHelpUri(request.getURI()).empty())
             {  // /lool/merge-to/doc_id/api
                 auto endpoint = _mergeodf->isMergeToHelpUri(request.getURI());
-                handleAPIHelp(request, false, true, endpoint);
+                handleAPIHelp(request, true, endpoint);
             }
             else if (_mergeodf &&
                      request.getMethod() == HTTPRequest::HTTP_GET &&
                      !_mergeodf->isMergeToHelpUri(request.getURI(), false, true).empty())
             {  // /lool/merge-to/doc_id/yaml
                 auto endpoint = _mergeodf->isMergeToHelpUri(request.getURI(), false, true);
-                handleAPIHelp(request, false, true, endpoint, false, true);
+                handleAPIHelp(request, true, endpoint, false, true);
             }
             else if (_mergeodf &&
                      request.getMethod() == HTTPRequest::HTTP_GET &&
                      !_mergeodf->isMergeToHelpUri(request.getURI(), true).empty())
             {  // for another json help: /lool/merge-to/doc_id/json
                 auto endpoint = _mergeodf->isMergeToHelpUri(request.getURI(), true);
-                handleAPIHelp(request, false, true, endpoint, true);
+                handleAPIHelp(request, true, endpoint, true);
             }
             else if (_mergeodf &&
                      request.getMethod() != HTTPRequest::HTTP_GET &&
@@ -1847,12 +1838,6 @@ private:
                      _tbl2sc->isTbl2SCUri(request.getURI()))
             {  // /lool/table2spreadsheet
                 _tbl2sc->doConvert(request, message, socket);
-            }
-            else if (_convertto &&
-                     request.getMethod() != HTTPRequest::HTTP_GET &&
-                     _convertto->isConvertTo(request.getURI()))
-            {  // /lool/convert-to
-                _convertto->handleConvertTo(socket, request, message);
             }
             else
             {
@@ -1928,8 +1913,6 @@ private:
             << "Content-Type: " << mimeType << "\r\n"
             << "X-Content-Type-Options: nosniff\r\n"
             << "Cache-Control: no-cache,no-store\r\n"
-            //<< "Access-Control-Allow-Origin: https://www.asuswebstorage.com"
-            //<< "Access-Control-Allow-Methods: POST, GET, OPTIONS"
             << "\r\n";
 
         if (request.getMethod() == Poco::Net::HTTPRequest::HTTP_GET)
@@ -2012,7 +1995,6 @@ private:
     }
 
     void handleAPIHelp(const Poco::Net::HTTPRequest& request,
-                       bool showConv=true,
                        bool showMerge=true,
                        std::string mergeEndPoint="",
                        bool anotherJson=false,
@@ -2022,6 +2004,9 @@ private:
 
         const auto& app = Poco::Util::Application::instance();
         const auto ServerName = app.config().getString("server_name");
+#if ENABLE_DEBUG
+        std::cout << "Skip checking the server_name...";
+#else
         // 檢查是否有填 server_name << restful client 依據此作為呼叫之 url
         // url 帶入 TEMPL 之 "host"
         if (app.config().getString("server_name").empty())
@@ -2036,7 +2021,7 @@ private:
             socket->shutdown();
             return;
         }
-
+#endif
     const std::string TEMPL = R"MULTILINE(
 {
     "swagger": "2.0",
@@ -2061,10 +2046,7 @@ host: %s
 paths:%s)MULTILINE";
 
         std::string paths = "";
-        bool showHead = !(_convertto && showConv &&
-                          _mergeodf && showMerge);
-        if (_convertto && showConv)
-            paths += _convertto->makeApiJson(yaml, showHead);
+        bool showHead = !(false && _mergeodf && showMerge);
         if (_mergeodf && showMerge)
         {
             auto merge = _mergeodf->makeApiJson(mergeEndPoint,
@@ -2518,7 +2500,6 @@ private:
     // The socket that owns us (we can't own it).
     std::weak_ptr<StreamSocket> _socket;
     std::string _id;
-    ConvertTo* _convertto;
     MergeODF* _mergeodf;
     Tbl2SC* _tbl2sc;
 };
@@ -2775,12 +2756,12 @@ int LOOLWSD::innerMain()
         Util::getVersionInfo(version, hash);
 
         auto verinfoFile = LOOLWSD::FileServerRoot + "/version.txt";
-        //std::cout<<LOOLWSD::FileServerRoot<<"VERSION"<<version<<std::endl;
+        //std::cout<<LOOLWSD::FileServerRoot<<":VERSION "<<version<<std::endl;
         Poco::FileOutputStream fos(verinfoFile, std::ios::binary);
         fos << "NDCODFAPI " << version << std::endl;
         fos.close();
-    }
 
+    }
     if (DisplayVersion)
     {
         std::string version, hash;

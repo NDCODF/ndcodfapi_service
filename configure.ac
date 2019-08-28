@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.63])
 
-AC_INIT([loolwsd], [1.0.0], [libreoffice@lists.freedesktop.org])
+AC_INIT([loolwsd], [1.1.1], [libreoffice@lists.freedesktop.org])  
 LT_INIT([shared, disable-static, dlopen])
 
 AM_INIT_AUTOMAKE([1.10 subdir-objects tar-pax -Wno-portability])
@@ -14,8 +14,7 @@ LOOLWSD_VERSION_MAJOR=`echo $VERSION | awk -F. '{print $1}'`
 LOOLWSD_VERSION_MINOR=`echo $VERSION | awk -F. '{print $2}'`
 LOOLWSD_VERSION_MICRO=`echo $VERSION | awk -F. '{print $3}'`
 LOOLWSD_VERSION="$LOOLWSD_VERSION_MAJOR.$LOOLWSD_VERSION_MINOR.$LOOLWSD_VERSION_MICRO"
-LOOLWSD_VERSION_DIST=3
-
+LOOLWSD_VERSION_DIST=1 
 AC_SUBST([LOOLWSD_VERSION_MAJOR])
 AC_SUBST([LOOLWSD_VERSION_MINOR])
 AC_SUBST([LOOLWSD_VERSION_MICRO])
@@ -23,7 +22,7 @@ AC_SUBST([LOOLWSD_VERSION])
 AC_SUBST([LOOLWSD_VERSION_DIST])
 
 AC_DEFINE_UNQUOTED([LOOLWSD_VERSION_DIST],[["$LOOLWSD_VERSION_DIST"]],[dist number
- for oxool spec])
+ for lool spec])
 
 AC_DEFINE_UNQUOTED([LOOLWSD_VERSION],[["$LOOLWSD_VERSION"]],[LibreOffice Online WebSocket server version])
 
@@ -118,15 +117,16 @@ AC_ARG_WITH([compiler-plugins],
                 [Experimental! Unlikely to work for anyone except Noel! Enable compiler plugins that will perform additional checks during
                  building.]))
 
+
 # Handle options
 AS_IF([test "$enable_debug" = yes -a -n "$with_poco_libs"],
       [POCO_DEBUG_SUFFIX=d],
       [POCO_DEBUG_SUFFIX=])
 
 ENABLE_DEBUG=
-LOOLWSD_LOGLEVEL="warning"
+LOOLWSD_LOGLEVEL="trace"
 LOOLWSD_LOG_TO_FILE="false"
-LOOLWSD_LOGFILE="/var/log/loolwsd.log"
+LOOLWSD_LOGFILE="/var/log/ndcodfapi.log"
 LOLEAFLET_LOGGING="false"
 debug_msg="secure mode: product build"
 if test "$enable_debug" = "yes"; then
@@ -183,6 +183,7 @@ AS_IF([test "$MAX_IPADDRESS" -lt "1"],
       [MAX_IPADDRESS="1"])
 AC_DEFINE_UNQUOTED([MAX_IPADDRESS],[$MAX_IPADDRESS],[Limit the maximum number of ip address])
 AC_SUBST(MAX_IPADDRESS)
+
 
 # Test for build environment
 
@@ -389,7 +390,7 @@ AC_CONFIG_FILES([Makefile
                  loleaflet/Makefile
                  loolwsd.spec
                  loolwsd.xml
-                 debian/loolwsd.postinst])
+                 ])
 AC_CONFIG_FILES([test/run_unit.sh],[chmod +x test/run_unit.sh])
 
 AC_OUTPUT

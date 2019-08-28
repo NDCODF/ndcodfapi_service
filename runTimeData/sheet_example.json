@@ -1,0 +1,114 @@
+{
+    "datetime": "2019-07-30",
+    "company": "ossii",
+    "manager": "kevin",
+    "address": "Taiwan",
+    "EIN": "123456789",
+    "phone": "09XX99XX99",
+    "faxnumber": "02XXXX222",
+    "email": "ossii@ossii.com.tw",
+    "sum": "",
+    "bTest": false,
+    "listTest":5,
+    "C_Item": [
+        {
+            "C1": "1",
+            "C2": "222",
+            "C3": "333",
+            "C4": "444",
+            "C5": "555",
+            "C6": "666",
+            "C7": "777",
+            "C8": "888"
+        },
+        {
+            "C1": "2",
+            "C2": "222",
+            "C3": "scac333",
+            "C4": "444",
+            "C5": "555",
+            "C6": "666",
+            "C7": "777",
+            "C8": "888"
+        },
+        {
+            "C1": "3",
+            "C2": "222",
+            "C3": "333",
+            "C4": "444",
+            "C5": "555",
+            "C6": "666",
+            "C7": "777",
+            "C8": "888"
+        },
+        {
+            "C1": "4",
+            "C2": "22sacas2",
+            "C3": "333",
+            "C4": "444",
+            "C5": "555",
+            "C6": "666",
+            "C7": "777",
+            "C8": "888"
+        }
+    ],
+    "ItemList": [
+        {
+            "index": "1",
+            "product": "oxoffice",
+            "model": "5.2",
+            "unit": "year",
+            "Quantity": "1",
+            "price": "100000",
+            "total": "100000",
+            "remark": "No comment"
+
+        },
+        {
+            "index": "2",
+            "product": "oxoffice",
+            "model": "5.2",
+            "unit": "year",
+            "Quantity": "1",
+            "price": "1000asda00",
+            "total": "100000",
+            "remark": "No comment"
+
+        },
+        {
+            "index": "3",
+            "product": "oxoffice",
+            "model": "5.2",
+            "unit": "yeaasdar",
+            "Quantity": "1",
+            "price": "100000",
+            "total": "100000",
+            "remark": "Noadasd comment"
+
+        },
+        {
+            "index": "4",
+            "product": "oxoffice",
+            "model": "5.2",
+            "unit": "year",
+            "Quantity": "1",
+            "price": "100000",
+            "total": "100000",
+            "remark": "No sdadscomment"
+
+        },{
+            "index": "5",
+            "product": "oxoffice",
+            "model": "5.2",
+            "unit": "year",
+            "Quantity": "1",
+            "price": "100000",
+            "total": "100asdad000",
+            "remark": "No sdadscomment"
+
+        }
+
+
+    ]
+
+}

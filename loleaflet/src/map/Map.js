@@ -103,13 +103,16 @@ L.Map = L.Evented.extend({
 				this._fireInitComplete('updatepermission');
 			}
 
-			if (e.perm === 'readonly' || e.perm === 'view') {
+			if (e.perm === 'readonly' || e.perm === 'view' || e.perm ==='convview') {
 				L.DomUtil.addClass(this._container.parentElement, 'readonly');
 				L.DomUtil.addClass(L.DomUtil.get('logo'), 'readonly');
 				L.DomUtil.addClass(L.DomUtil.get('toolbar-wrapper'), 'readonly');
 				L.DomUtil.addClass(L.DomUtil.get('main-menu'), 'readonly');
 				L.DomUtil.addClass(L.DomUtil.get('presentation-controls-wrapper'), 'readonly');
 				L.DomUtil.addClass(L.DomUtil.get('spreadsheet-row-column-frame'), 'readonly');
+			}
+			if (e.perm ==='convview') {
+				L.DomUtil.addClass(L.DomUtil.get('presentation-controls-wrapper'), 'convview');
 			}
 		}, this);
 		this.on('doclayerinit', function() {

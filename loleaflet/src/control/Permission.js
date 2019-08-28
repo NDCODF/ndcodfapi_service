@@ -10,7 +10,7 @@ L.Map.include({
 				this.dragging.disable();
 			}
 		}
-		else if (perm === 'view' || perm === 'readonly') {
+		else if (perm === 'view' || perm === 'readonly' || perm === 'convview') {
 			if (map.getDocType() === 'spreadsheet' && map._permission !== 'edit') {
 				this.dragging.disable();
 			}

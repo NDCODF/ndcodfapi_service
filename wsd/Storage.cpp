@@ -51,7 +51,6 @@
 #include "Util.hpp"
 
 #include <dlfcn.h>
-#include "tools/convertto.h"
 
 bool StorageBase::FilesystemEnabled;
 bool StorageBase::WopiEnabled;
@@ -152,37 +151,6 @@ std::unique_ptr<StorageBase> StorageBase::create(const Poco::URI& dummyUri, cons
         //LOG_DBG("get_meta Query param: " << param.first << ", value: " << param.second);
         if (param.first != "rdid")
             continue;
-
-        /// 以 rdid 開啟 access_token 代表的文件
-        void* convertto_h = dlopen("libconvertto.so", RTLD_LAZY);
-        //std::cout << "load convertto" << std::endl;
-        if (convertto_h)
-        {
-            ConvDB* (*createConvDB)();
-            createConvDB = (ConvDB* (*)())dlsym(convertto_h,
-                                                "create_object_convdb");
-            ConvDB* cdb = (ConvDB*)createConvDB();
-            cdb->setDbPath();
-            try
-            {
-                auto docKey = cdb->getFile(param.second);
-                //std::cout<<docKey<<std::endl;
-                if (!docKey.empty())
-                {
-                    Poco::URI uri(docKey);
-                    return std::unique_ptr<StorageBase>(
-                            new LocalStorage(uri, jailRoot, jailPath));
-                    break;
-                }
-            }
-            catch (Poco::Exception& e)
-            {
-                std::cerr << e.displayText() << std::endl;
-            }
-
-            delete cdb;
-            dlclose(convertto_h);
-        }
     }
 
     Poco::URI uri(dummyUri);
@@ -483,7 +451,9 @@ std::unique_ptr<WopiStorage::WOPIFileInfo> WopiStorage::getWOPIFileInfo(const st
         {
             LOG_ERR("WOPI::CheckFileInfo failed with " << response.getStatus() << ' ' << response.getReason());
             throw StorageConnectionException("WOPI::CheckFileInfo failed");
+
         }
+
         Poco::StreamCopier::copyToString(rs, resMsg);
     }
     catch(const Poco::Exception& pexc)
@@ -603,13 +573,13 @@ std::string WopiStorage::loadStorageFileToLocal(const std::string& accessToken)
 
             LOG_END(logger);
         }
-
         if (response.getStatus() != Poco::Net::HTTPResponse::HTTP_OK)
         {
             LOG_ERR("WOPI::GetFile failed with " << response.getStatus() << ' ' << response.getReason());
             throw StorageConnectionException("WOPI::GetFile failed");
+
         }
-        else // Successful
+        else
         {
             _jailedFilePath = Poco::Path(getLocalRootPath(), _fileInfo._filename).toString();
             std::ofstream ofs(_jailedFilePath);
@@ -704,4 +674,5 @@ StorageBase::SaveResult WebDAVStorage::saveLocalFileToStorage(const std::string&
     // TODO: implement webdav PUT.
     return StorageBase::SaveResult::OK;
 }
+
 /* vim:set shiftwidth=4 softtabstop=4 expandtab: */

@@ -129,6 +129,7 @@ if (!getParameterByName('rdid')) {
 }
 else {
     docParams.rdid = getParameterByName('rdid');
+    docURL = 'rdid=' + docParams.rdid;
 }
 
 document.title = title;

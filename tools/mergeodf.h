@@ -20,6 +20,7 @@
 #include <Poco/UUIDGenerator.h>
 #include <Poco/Process.h>
 #include <Poco/Util/LayeredConfiguration.h>
+#include <Poco/JSON/Object.h>
 
 using Poco::Path;
 using Poco::URI;
@@ -32,6 +33,7 @@ using Poco::XML::NodeList;
 using Poco::XML::Element;
 using Poco::MemoryInputStream;
 using Poco::Process;
+using Poco::JSON::Object;
 typedef Poco::Tuple<std::string, std::string> VarData;
 
 
@@ -63,39 +65,6 @@ private:
     std::string dbfile;
 };
 
-class GroupVar
-
-{
-public:
-    GroupVar(AutoPtr<Poco::XML::Document> _docXML) :
-        docXML(_docXML){}
-
-    void remove(Element*);
-    std::string prefix(std::string, std::string);
-    virtual std::list <Element*> baserow();
-    std::list <Node*> elms(Element*);
-    virtual std::list <std::string> vars();
-    bool inVars(std::string);
-    std::string firstVar(std::string);
-
-    AutoPtr<Poco::XML::Document> docXML;
-    std::list<std::string> varnames;
-
-private:
-    std::list<Element*> baseRows;
-};
-
-class GroupVarSC : public GroupVar
-{
-public:
-    GroupVarSC(AutoPtr<Poco::XML::Document> _docXML) :
-        GroupVar(_docXML){}
-
-    void remove();
-    std::list<Element*> baserow();
-    std::list <std::string> vars();
-};
-
 
 class Parser
 {
@@ -107,11 +76,6 @@ public:
         SPREADSHEET
     };
 
-    static const std::string TAG_VAR;
-    static const std::string TAG_VARDATA;
-
-    // @TODO: 怪？設定這個變數值以後，lool stop 就會 double free error!
-    //static const std::string TAG_VARDATA_SC;
 
     Parser(std::string);
     Parser(URI&);
@@ -125,25 +89,20 @@ public:
     std::string jjsonVars();
     std::string yamlVars();
 
-    std::list<VarData> scanVars();
+    std::vector<std::list<Element*>> scanVarPtr();
     std::string zipback();
 
     void updatePic2MetaXml();
 
     bool isValid();
 
-    std::string getFormGroupVarValue(const HTMLForm&, std::string, int);
-    void set(const HTMLForm&);  // group
-    void set(std::string, std::string, std::string, AutoPtr<NodeList>);  // vars
-    void set(std::string, NameValueCollection);  // image
-
-    void appendGroupRow(const HTMLForm&, Element*, int);
-    void appendGroupRowSC(const HTMLForm&, Element*, int);
-    void setSC(const HTMLForm&);  // group
-    void setSC(std::string, std::string, std::string, AutoPtr<NodeList>);  // vars
-
     void setOutputFlags(bool, bool);
-
+    std::string varKeyValue(std::string, std::string);
+    void setSingleVar(Object::Ptr, std::list<Element*> &);
+    void setGroupVar(Object::Ptr, std::list<Element*> &);
+    std::string jsonvars;   // json 說明 - openapi
+    std::string jjsonvars;  // json 範例
+    std::string yamlvars;   // yaml
 private:
     DocType doctype;
     bool success;
@@ -152,22 +111,14 @@ private:
     bool outAnotherJson;
     bool outYaml;
 
-    void intoGroupArray(std::string, std::string, std::string);
-
     std::map < std::string, Path > zipfilepaths;
     AutoPtr<Poco::XML::Document> docXML;
     std::list<Element*> groupAnchorsSc;
-    GroupVar *groupvar;
-    GroupVarSC *groupvarsc;
 
     std::string extra2;
     std::string contentXml;
     std::string contentXmlFileName;
     std::string metaFileName;
-
-    std::string jsonvars;   // json 說明 - openapi
-    std::string jjsonvars;  // json 範例
-    std::string yamlvars;   // yaml
 
     void detectDocType();
     bool isText();
@@ -176,26 +127,8 @@ private:
     std::string replaceMetaMimeType(std::string);
     void updateMetaInfo();
 
-    std::string varKeyValue(std::string, std::string);
-    std::list<VarData> scanVarsIter(AutoPtr<NodeList>,
-                                     std::list<VarData>,
-                                     const std::string,
-                                     bool);
-    std::list<VarData> scanVarsIterSC(AutoPtr<NodeList>,
-                                     std::list<VarData>,
-                                     const std::string,
-                                     bool);
-    void parseJsonGrpVars();
-    void parseJJsonGrpVars();
-    void parseYamlGrpVars();
-
-    std::list <Node*> groupVars();
-    std::map <std::string, std::list <std::string>> jsonGrps;
-
-    bool isVarsDuplicate(std::list<VarData>, std::string);
     std::string parseEnumValue(std::string, std::string, std::string);
     std::string parseJsonVar(std::string, std::string, bool, bool);
-    void cleanUnused();
 
     const std::string PARAMTEMPL = R"MULTILINE(
                     "%s": {
@@ -230,8 +163,6 @@ private:
 )MULTILINE";
 };
 
-const std::string Parser::TAG_VAR = "text:placeholder";
-const std::string Parser::TAG_VARDATA = "text:description";
 
 // @TODO: 怪？設定這個變數值以後，lool stop 就會 double free error!
 //const std::string Parser::TAG_VARDATA_SC = "office:target-frame-name";
@@ -292,7 +223,7 @@ private:
     std::list<std::string> getVarsFromUri(std::string);
     std::string keyword2Lower(std::string, std::string);
     bool parseJson(HTMLForm &);
-    void parseArray2Form(HTMLForm &);
+    Object::Ptr parseArray2Form(HTMLForm &);
 
     std::string outputODF(std::string);
 

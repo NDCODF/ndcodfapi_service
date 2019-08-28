@@ -23,7 +23,7 @@
     </autosave>
 
     <mergeodf>
-	<db_path type="string">/usr/share/NDCODFAPI/mergeodf.sqlite</db_path>
+	    <db_path type="string">/usr/share/NDCODFAPI/mergeodf.sqlite</db_path>
     </mergeodf>
 
     <post_allow desc="Allow, format like 192.168.2.1">
@@ -90,17 +90,22 @@
             <host desc="Regex pattern of hostname to allow or deny." allow="true">192\.168\.[0-9]{1,3}\.[0-9]{1,3}</host>
             <host desc="Regex pattern of hostname to allow or deny." allow="false">192\.168\.1\.1</host>
             <max_file_size desc="Maximum document size in bytes to load. 0 for unlimited." type="uint">0</max_file_size>
+            <tokendb_path type="string">/usr/local/share/loolwsd/tokens.sqlite</tokendb_path>
         </wopi>
         <webdav desc="Allow/deny webdav storage. Mutually exclusive with wopi." allow="false">
             <host desc="Hostname to allow" allow="false">localhost</host>
         </webdav>
+        <other desc="Allow/deny other storage." allow="false">
+            <host desc="Regex pattern of hostname to allow or deny." allow="true">192\.168\.1\..*</host>
+            <host desc="Regex pattern of hostname to allow or deny." allow="true">192\.168\.3\..*</host>
+        </other>
     </storage>
 
     <tile_cache_persistent desc="Should the tiles persist between two editing sessions of the given document?" type="bool" default="true">true</tile_cache_persistent>
 
     <admin_console desc="Web admin console settings.">
-        <username desc="The username of the admin console. Must be set."></username>
-        <password desc="The password of the admin console. Must be set."></password>
+        <username desc="The username of the admin console. Must be set.">admin</username>
+        <password desc="The password of the admin console. Must be set.">ossii2019</password>
     </admin_console>
 
 </config>

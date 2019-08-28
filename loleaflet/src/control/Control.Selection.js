@@ -42,6 +42,10 @@ L.Control.Selection = L.Control.extend({
 			this._checkBox.checked = false;
 			this._checkBox.disabled = false;
 		}
+		else if (e.perm === 'convview') {
+			this._checkBox.checked = false;
+			this._checkBox.disabled = false;
+		}
 	}
 });
 

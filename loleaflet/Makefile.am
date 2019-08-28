@@ -19,6 +19,7 @@ EXTRA_DIST = $(shell git ls-files)
 all-local: node_modules $(L10N_JSON) $(L10N_STYLES_JSON)
 	rm -rf dist/plugins/draw-$(DRAW_VERSION) && mkdir -p dist/plugins/draw-$(DRAW_VERSION)
 	cd plugins/draw-$(DRAW_VERSION) && jake build && cp -ar dist ../../dist/plugins/draw-$(DRAW_VERSION)
+	cat bundle.css > dist/bundle.css; \
 	jake build debug=$(ENABLE_DEBUG) minify=$(MINIFY)
 
 node_modules: npm-shrinkwrap.json

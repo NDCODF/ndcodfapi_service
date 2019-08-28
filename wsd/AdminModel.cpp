@@ -26,6 +26,8 @@
 #include "Unit.hpp"
 #include "Util.hpp"
 
+using Poco::StringTokenizer;
+
 void Document::addView(const std::string& sessionId, const std::string& userName)
 {
     const auto ret = _views.emplace(sessionId, View(sessionId, userName));
@@ -236,6 +238,14 @@ std::string AdminModel::query(const std::string& command)
     else if (token == "cpu_stats_size")
     {
         return std::to_string(_cpuStatsSize);
+    }
+    else if (token == "mac_list")
+    {
+        return getMacList();
+    }
+    else if (token == "ip_list")
+    {
+        return getIPList();
     }
 
     return std::string("");
@@ -510,6 +520,25 @@ unsigned AdminModel::getTotalActiveViews()
     return numTotalViews;
 }
 
+/// 列表：Mac address
+std::string AdminModel::getMacList()
+{
+    assertCorrectThread();
+
+    LOG_ERR("error loading so: convert-to");
+    return "[]";
+}
+
+// 列表：IP address
+std::string AdminModel::getIPList()
+{
+    assertCorrectThread();
+
+    LOG_ERR("error loading so: convert-to");
+    return "[]";
+}
+
+
 std::string AdminModel::getDocuments() const
 {
     assertCorrectThread();
@@ -552,6 +581,7 @@ std::string AdminModel::getDocuments() const
 
     return oss.str();
 }
+
 
 void AdminModel::updateLastActivityTime(const std::string& docKey)
 {

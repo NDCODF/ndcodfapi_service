@@ -290,6 +290,23 @@ L.Control.Menubar = L.Control.extend({
 		]
 	},
 
+	optionsConv: {
+		text:  [
+			{name: '下載&nbsp;' + _('ODF text document (.odt)'), id: 'downloadas-odt', type: 'action'},
+			{name: '下載&nbsp;' + _('PDF Document (.pdf)'), id: 'downloadas-pdf', type: 'action'}
+		],
+
+		presentation: [
+			{name: '下載&nbsp;' + _('ODF presentation (.odp)'), id: 'downloadas-odp', type: 'action'},
+			{name: '下載&nbsp;' + _('PDF Document (.pdf)'), id: 'downloadas-pdf', type: 'action'}
+		],
+
+		spreadsheet: [
+			{name: '下載&nbsp;' + _('ODF spreadsheet (.ods)'), id: 'downloadas-ods', type: 'action'},
+			{name: '下載&nbsp;' + _('PDF Document (.pdf)'), id: 'downloadas-pdf', type: 'action'}
+		],
+	},
+
 	onAdd: function (map) {
 		this._initialized = false;
 		this._menubarCont = L.DomUtil.get('main-menu');
@@ -324,6 +341,9 @@ L.Control.Menubar = L.Control.extend({
 	},
 
 	_onDocLayerInit: function() {
+		if (map._permission === 'convview') {
+			this.options = this.optionsConv;
+		}
 		var docType = this._map.getDocType();
 		if (this._map.allowedViewModeActions) {
 			console.log('set allowedViewModeActions:');
@@ -619,7 +639,7 @@ L.Control.Menubar = L.Control.extend({
 			var liItem = L.DomUtil.create('li', 'item');
 			if (menu[i].id) {
 				liItem.id = 'menu-' + menu[i].id;
-				if (menu[i].id === 'closedocument' && map._permission === 'readonly') {
+				if (menu[i].id === 'closedocument' && (map._permission === 'readonly' || map._permission === 'convview')) {
 					// see corresponding css rule for readonly class usage
 					L.DomUtil.addClass(liItem, 'readonly');
 				}
@@ -671,10 +691,10 @@ L.Control.Menubar = L.Control.extend({
 
 		$('nav.main-nav').prepend('<input id="main-menu-state" type="checkbox" />');
 
-		var liItem = L.DomUtil.create('li', 'menu-usermenu');
-		this._menubarCont.appendChild(liItem);
 
-		if (global.bundle === 'of') {
+		if (global.bundle === 'of' && (map._permission !== 'readonly' && map._permission !== 'convview')) {
+			var liItem = L.DomUtil.create('li', 'menu-usermenu');
+			this._menubarCont.appendChild(liItem);
 			var aItem = L.DomUtil.create('a', 'has-submenu', liItem);
 			var ulItem = L.DomUtil.create('ul', 'ulmenu', liItem);
 
@@ -695,25 +715,38 @@ L.Control.Menubar = L.Control.extend({
 				ul.addClass('ul_long');
 			}
 		});
-		// 右方加上文件名稱, title 顯示 path+文件名稱
-		var liItem = L.DomUtil.create('li', 'docname');
-		var aItem = L.DomUtil.create('a', '', liItem);
 
-		var buf = global.title.split(',');
-		try {
-			aItem.innerHTML = decodeURIComponent(buf.join(''));
-		} catch (e) {
-			aItem.innerHTML = buf.join('');
-		}
-		if (buf.length > 1)
-		{
+		if (map._permission === 'edit' || map._permission === 'view') {
+			// 右方加上文件名稱, title 顯示 path+文件名稱
+			var liItem = L.DomUtil.create('li', 'docname');
+			var aItem = L.DomUtil.create('a', '', liItem);
+
+			var buf = global.title.split(',');
 			try {
-				document.title = decodeURIComponent(buf[1]);
+				aItem.innerHTML = decodeURIComponent(buf.join(''));
 			} catch (e) {
-				document.title = buf[1];
+				aItem.innerHTML = buf.join('');
 			}
+			if (buf.length > 1)
+			{
+				try {
+					document.title = decodeURIComponent(buf[1]);
+				} catch (e) {
+					document.title = buf[1];
+				}
+			}
+			this._menubarCont.appendChild(liItem);
 		}
-		this._menubarCont.appendChild(liItem);
+		else if (map._permission === 'convview') {
+			var aItem = L.DomUtil.create('span', 'docname');
+			L.DomUtil.addClass(aItem, 'convview');
+
+			aItem.innerHTML = '<a href="javascript: map.showLOAboutDialog();">ODF 轉檔預覽</a>';
+			document.title = 'ODF 轉檔預覽';
+			this._menubarCont.appendChild(aItem);
+
+			$('.sm-simple li, .sm-simple > li:first-child').addClass('convview');
+		}
 		map._docLayer._resize();
 	}
 });

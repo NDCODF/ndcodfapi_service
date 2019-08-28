@@ -1,2 +1,0 @@
-misc:Depends=init-system-helpers (>= 1.13~)
-shlibs:Depends=libc6 (>= 2.14), libcap2 (>= 2.10), libgcc1 (>= 1:4.1.1), libpng12-0 (>= 1.2.13-4), libpococrypto60, libpocodata60, libpocodatasqlite60, libpocofoundation60, libpocojson60, libpoconet60, libpoconetssl60, libpocoutil60, libpocoxml60, libpocozip60, libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.8.1), zlib1g (>= 1:1.2.0)

@@ -154,6 +154,8 @@ function resizeToolbar() {
 		var toolbar = w2ui['toolbar-up'];
 		toolbar.uncheck('more');
 	}
+
+	hideToolbarDown();
 }
 
 function _cancelSearch() {
@@ -783,6 +785,25 @@ function sortFontSizes() {
 	$('.fontsizes-select').val(oldVal).trigger('change');
 }
 
+/*
+ * for convert view: 轉檔預覽：開啟後下方狀態列只顯示部份元素
+ */
+function hideToolbarDown() {
+	if (map._permission === 'convview')  {
+		var statusbar = w2ui['toolbar-down'];
+		console.log(statusbar);
+		for (var itemIdx in statusbar.items) {
+			var id = statusbar.items[itemIdx].id;
+			if (id === 'prev' || id === 'next' || id === 'prev' || id === 'zoomreset' || id === 'zoomout' || id === 'zoomlevel' || id === 'zoomin' || id === 'right' || id ==='userlistbreak_' || id === 'prevnextbreak' || id ==='modifiedstatuslabelbreak')
+			{}
+			else {
+				statusbar.hide(id);
+			}
+		}
+		$('#presentation-toolbar').hide();
+	}
+}
+
 function onStyleSelect(e) {
 	var style = e.target.value;
 	if (style.startsWith('.uno:') && style !== '.uno:ResetAttributes') {
@@ -1005,7 +1026,12 @@ map.on('doclayerinit', function () {
 
 	switch (docType) {
 	case 'spreadsheet':
-		$('div#logo').addClass('logo_ods');
+		if (map._permission === 'convview') {
+			$('div#logo').addClass('logo_ods_convview');
+		}
+		else {
+			$('div#logo').addClass('logo_ods');
+		}
 		$('div#logo_wrap').addClass('logo_wrap_ods');
 		$('head').prepend('<link rel="icon" href="'+ $pathIco +'/images/favicon-x.ico" type="image/x-icon" />');
 		toolbarUp.remove('inserttable', 'styles', 'justifypara', 'defaultbullet', 'defaultnumbering', 'break-numbering', 'insertfootnote', 'footnotebreak');
@@ -1046,7 +1072,12 @@ map.on('doclayerinit', function () {
 
 		break;
 	case 'text':
-		$('div#logo').addClass('logo_odt');
+		if (map._permission === 'convview') {
+			$('div#logo').addClass('logo_odt_convview');
+		}
+		else {
+			$('div#logo').addClass('logo_odt');
+		}
 		$('div#logo_wrap').addClass('logo_wrap_odt');
 		$('head').prepend('<link rel="icon" href="'+ $pathIco +'/images/favicon-w.ico" type="image/x-icon" />');
 		toolbarUp.remove('wraptextseparator', 'wraptext', 'togglemergecells', 'break-toggle', 'numberformatcurrency', 'numberformatpercent', 'numberformatdecimal', 'numberformatdate', 'numberformatincdecimals', 'numberformatdecdecimals', 'break-number', 'sortascending', 'sortdescending');
@@ -1073,7 +1104,12 @@ map.on('doclayerinit', function () {
 
 		break;
 	case 'presentation':
-		$('div#logo').addClass('logo_odp');
+		if (map._permission === 'convview') {
+			$('div#logo').addClass('logo_odp_convview');
+		}
+		else {
+			$('div#logo').addClass('logo_odp');
+		}
 		$('div#logo_wrap').addClass('logo_wrap_odp');
 		$('head').prepend('<link rel="icon" href="'+ $pathIco +'/images/favicon-p.ico" type="image/x-icon" />');
 		var presentationToolbar = w2ui['presentation-toolbar'];
@@ -1092,7 +1128,12 @@ map.on('doclayerinit', function () {
 
 		break;
 	case 'drawing':
-		$('div#logo').addClass('logo_odt');
+		if (map._permission === 'convview') {
+			$('div#logo').addClass('logo_odt_convview');
+		}
+		else {
+			$('div#logo').addClass('logo_odt');
+		}
 		$('div#logo_wrap').addClass('logo_wrap_odt');
 		toolbarUp.remove('insertannotation', 'wraptextseparator', 'wraptext', 'togglemergecells', 'break-toggle', 'numberformatcurrency', 'numberformatpercent', 'numberformatdecimal', 'numberformatdate', 'numberformatincdecimals', 'numberformatdecdecimals', 'break-number', 'sortascending', 'sortdescending');
 		toolbarUpMore.remove('insertannotation', 'wraptextseparator', 'wraptext', 'togglemergecells', 'break-toggle', 'numberformatcurrency', 'numberformatpercent', 'numberformatdecimal', 'numberformatdate', 'numberformatincdecimals', 'numberformatdecdecimals', 'break-number', 'sortascending', 'sortdescending');
@@ -1231,7 +1272,7 @@ map.on('commandstatechanged', function (e) {
 	else if (commandName === '.uno:ModifiedStatus') {
 		var modifiedStatus = e.state === 'true';
 		// readonly | view 不須顯示文件儲存狀態
-		if (modifiedStatus || 'readonly' == map._permission || 'view' == map._permission) {
+		if (modifiedStatus || ('readonly' == map._permission || 'view' == map._permission || 'convview' == map._permission)) {
 			$('#modifiedstatuslabel').html('');
 		}
 		else {
@@ -1309,6 +1350,8 @@ map.on('commandstatechanged', function (e) {
 			toolbarUpMore.disable(id);
 		}
 	}
+
+	hideToolbarDown();
 
 	if (id === 'undo' || id === 'redo') {
 		if (!toolbar.get('undo').disabled || !toolbar.get('redo').disabled) {
@@ -1662,6 +1705,9 @@ function getUserItem(viewId, userName, color) {
 }
 
 function updateUserListCount() {
+	if (map.getPermission() === 'convview') {
+		return;
+	}
 	var userlistItem = w2ui['toolbar-down'].get('userlist');
 	var count = $(userlistItem.html).find('#userlist_table tbody tr').length;
 	if (count > 1) {
@@ -1678,6 +1724,10 @@ function updateUserListCount() {
 }
 
 map.on('addview', function(e) {
+	if (map.getPermission() === 'convview') {
+		return;
+	}
+
 	var userlistid = '#tb_toolbar-down_item_userlist';
 	if (e.bundle === 'of') {
 		w2ui['toolbar-down'].hide('userlistbreak');

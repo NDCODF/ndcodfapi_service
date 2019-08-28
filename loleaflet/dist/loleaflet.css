@@ -71,6 +71,10 @@ body {
     z-index: 8;
 }
 
+#presentation-controls-wrapper.convview {
+    bottom: 0px;
+}
+
 @media (max-width: 767px) {
     /* Show slidesorter beyond 768px only */
     #logo_wrap {
@@ -132,7 +136,8 @@ body {
         top: 17px;
     }
 
-     .logo_odt, .logo_ods, .logo_odp{
+     .logo_odt, .logo_ods, .logo_odp,
+     .logo_odt_convview, .logo_odt_convview, .logo_odt_convview {
         min-height: 40px;
         width:40px;
         display: true;

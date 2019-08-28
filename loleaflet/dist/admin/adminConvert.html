@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>LibreOffice Online - Admin console</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="localizations" href="/loleaflet/dist/l10n/admin-localizations.json" type="application/vnd.oftn.l10n+json"/>
+    <link rel="stylesheet" href="/loleaflet/dist/fonts/font-awesome.min.css"/>
+  </head>
+  <body>
+    <script src="/loleaflet/dist/admin-bundle.js"></script>
+    <script src="/loleaflet/dist/branding.js"></script>
+    <script>if (brandProductName) {l10nstrings.strProductName = brandProductName}</script>
+    <script>document.title = l10nstrings.strProductName + ' - ' + l10nstrings.strAdminConsole</script>
+    <script>
+        if (window.location.protocol == "https:") {
+           host = 'wss://' + window.location.host + '/lool/adminws/'
+        }
+        else {
+           host = 'ws://' + window.location.host + '/lool/adminws/'
+        }
+
+        Admin.Settings(host);
+        Admin.ConvertLog(host);
+    </script>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only"><script>document.write(l10nstrings.strToggleNavigation)</script></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><script>document.write(l10nstrings.strProductName + ' - ' + l10nstrings.strAdminConsole)</script></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="adminSettings.html"><script>document.write(l10nstrings.strSettings)</script></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="admin.html"><script>document.write(l10nstrings.strOverview)</script> <span class="sr-only"><script>document.write(l10nstrings.strCurrent)</script></span></a></li>
+            <li><a href="adminAnalytics.html"><script>document.write(l10nstrings.strAnalytics)</script></a></li>
+            <li><a href="adminHistory.html"><script>document.write(l10nstrings.strHistory)</script></a></li>
+	    <script>
+		if (%HAS_CONVERT%) {
+			document.write('<li class="active"><a href="adminConvert.html">ODF 轉檔模組</a></li>');
+		}
+	    </script>
+          </ul>
+          <hr />
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	    <ul class="nav nav-tabs">
+	      <li role="presentation" class="active"><a data-toggle="tab" href="#a1" class="tabctl">轉檔測試</a></li>
+	      <li role="presentation" class=""><a data-toggle="tab" href="#a2" class="tabctl">轉檔紀錄</a></li>
+              <li role="presentation" class=""><a data-toggle="tab" href="#a3" class="tabctl">Mac address 管理</a></li>
+	      <li role="presentation" class=""><a data-toggle="tab" href="#a4" class="tabctl">IP address 管理</a></li>
+	    </ul>
+	    <div class="tab-content">
+<!--******************************轉檔測試******************************-->
+	      <div id="a1" class="tab-pane in active">
+		<form class="form-horizontal" id="aform" method="post" enctype="multipart/form-data">
+		    <div id="convert" class="steps panel panel-primary" style="border-color: #ddd;">
+			<div class="panel-body" style="margin-left: 2em; margin-right: 2em;">
+			    <div class="form-group">
+				<label>文件轉換類型&nbsp;</label>
+				<br />
+				<input type="radio" name="format" value="odt" checked>odt
+				<input type="radio" name="format" value="ods">ods
+				<input type="radio" name="format" value="odp">odp
+				<br />
+				<br />
+				<input type="checkbox" name="useTextWatermark" value=""><label>浮水印&nbsp;</label>
+				<br />
+				浮水印文字<input type="text" name="watermarkTitle" value="核可" size="40" />
+				角度<input type="text" name="watermarkAngle" value="45" size="5" />
+				顏色<input type="text" name="watermarkColor" value="0" size="7" />&lArr;
+				<span class="colorPick" style="background: #FF0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="colorPick" style="background: #FFA500;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="colorPick" style="background: #FFFF00;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="colorPick" style="background: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="colorPick" style="background: #0000FF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="colorPick" style="background: #E5E5E5;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="colorPick" style="background: #800080;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="colorPick" style="background: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="colorPick" style="background: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				透明度<input type="text" name="watermarkOpacity" value="50" size="2" />%
+				<br />
+				<label>上傳文件</label>&nbsp;</label>
+				<div class="input-group" style="width: 30%">
+				    <input type="file" name="afile">
+				    <div class="input-group-btn">
+					<button class="form-control post btn btn-info">轉檔</button>
+				    </div>
+				</div>
+				<hr>
+				<label>轉檔預覽</label>
+				<div class="alert alert-info" role="alert">
+				    選取文件以執行轉檔作業
+				</div>
+				<div id="result" class="alert" role="alert">
+				</div>
+				<div class="progress-bar progress-bar-striped active" role="progressbar" style="width:20%; display: none">
+				    轉檔中...
+				</div>
+				<div class="pbar progress-bar progress-bar-striped active" role="progressbar"
+				aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:0%; display: none"></div>
+			    </div>
+			</div>
+		    </div>
+		</form>
+
+	      </div>
+<!--******************************轉檔紀錄******************************-->
+	      <div id="a2" class="tab-pane">
+		  <h1 class="page-header">&nbsp;
+		      <button class="pull-right" id="refreshHistory">refresh</button>
+		  </h1>
+		    <pre id="json-doc">Logs:<br/><textarea class="form-control" rows="30" cols="130"></textarea></pre>
+	      </div>
+<!--******************************Mac addr******************************-->
+	      <div id="a3" class="tab-pane" style="width: 60%;">
+		  <span>目前筆數： <span class="recordProgress"></span></span>
+		  <hr />
+		  <form id="macForm" role="form" ctype="mac">
+		    <div class="form-group">
+		      <label>Mac address:</label>
+		      <input type="text" class="form-control" name="macip" placeholder="">
+		    </div>
+		    <div class="form-group">
+		      <label>描述:</label>
+		      <input type="text" class="form-control" name="desc" placeholder="">
+		    </div>
+		    <button type="submit" class="btn btn-default">新增</button>
+		    <hr />
+		  </form>
+	      </div>
+<!--******************************Ip addr******************************-->
+	      <div id="a4" class="tab-pane" style="width: 60%;">
+		  <span>目前筆數： <span class="recordProgress"></span></span>
+		  <hr />
+		  <form id="ipForm" role="form" ctype="ip">
+		    <div class="form-group">
+		      <label>IP address:</label>
+		      <input type="text" class="form-control" name="macip" placeholder="">
+		    </div>
+		    <div class="form-group">
+		      <label>描述:</label>
+		      <input type="text" class="form-control" name="desc" placeholder="">
+		    </div>
+		    <button type="submit" class="btn btn-default">新增</button>
+		    <hr />
+		  </form>
+	      </div>
+	    </div>
+	</div>
+      </div>
+      </div>
+    </div>
+    <!-- template for mac/ip address list -->
+    <div class="maciptempl" style="display: none;">
+	<form class="form-inline moddelmacForm" role="form">
+	    <div class="form-group">
+	      <label class="macipno"></label>
+	      <input type="text" class="form-control" name="macip" placeholder="">
+	    </div>
+	    <div class="form-group">
+	      <label>描述</label>
+	      <input type="text" class="form-control" name="desc" placeholder="">
+	    </div>
+	    <input type="hidden" name="rec_id" value="" />
+	    <input type="hidden" name="type" value="" />
+	    <button name="mod_macip" type="submit" class="btn btn-default">修改</button>
+	    <button name="del_macip" type="submit" class="btn btn-default">刪除</button>
+	</form>
+    </div>
+
+<script>
+/*
+ * 產生 mac/ip address 列表
+ */
+function makeMacIpColumns(formId, data, type)
+{
+    var idx = 1;
+    var list = data['list'];
+    var maxinum = data['max'];
+
+    // 超過筆數不能新增
+    if (list.length >= maxinum) {
+	$(formid).find('button[type=submit]').prop('disabled', true);
+    }
+    // 目前筆數/總筆數
+    progress = list.length + '/' + maxinum;
+    $(formid).parent().find('.recordProgress').text(progress);
+    for (var col in list)
+    {
+	var line = $('.maciptempl').children().clone()
+		    .removeClass('maciptempl');
+	// fill data
+	line.find('.macipno').html(idx);
+	line.find('input[name=macip]').val(list[col].macip);
+	line.find('input[name=rec_id]').val(list[col].rec_id);
+	line.find('input[name=desc]').val(list[col].desc);
+	// ctype: mac|ip
+	line.find('button[name=mod_macip]').attr('ctype', type);
+	line.find('button[name=del_macip]').attr('ctype', type);
+	line.show();
+	$(formId).parent().append(line);
+
+	idx ++;
+    }
+}
+/* 記憶選取的 tab　位置: 重開網頁以此為依據 */
+$('.nav-tabs a').click(function() {
+    document.cookie = 'deftab='+this.hash;
+});
+
+// default defines for ajax
+$.ajaxSetup({type: 'POST', async: true, dataType: 'json'});
+
+/*
+ * 顏色色碼轉換:
+ * rgb (xx, yy, zz) -> long
+ *
+ * @param str color
+ * @return long
+ */
+function rgbToHex(color) {
+    color = '' + color;
+    if (!color || color.indexOf('rgb') < 0) {
+        return;
+    }
+
+    if (color.charAt(0) == '#') {
+        return color;
+    }
+
+    var nums = /(.*?)rgb\((\d+),\s*(\d+),\s*(\d+)\)/i.exec(color),
+        r = parseInt(nums[2], 10);
+        g = parseInt(nums[3], 10);
+        b = parseInt(nums[4], 10);
+
+    return b + g * 256 + r * 256 * 256;
+}
+
+/*
+ * 選取調色盤顏色：帶入顏色色碼
+ */
+$('.colorPick').click(function(){
+    $('input[name=watermarkColor]')
+                    .val(rgbToHex(this.style.backgroundColor));
+});
+
+function loolurl()
+{
+    return location.protocol + '//' + location.hostname + ':' + location.port;
+}
+
+$('#aform').submit(function(){
+    return false;
+});
+
+$('.post').click(function(){
+    if ($('input[name=afile]').val() == '')
+    {
+        alert('請選取欲轉換的檔案');
+        return;
+    }
+    upload();
+});
+
+/*
+ * 上傳
+ */
+function upload()
+{
+    $('#result').empty();
+    //$('.progress-bar').clone().appendTo('#result');
+    $('.progress-bar').show();
+    //$('.progress-bar').css({width: 0.3 * 100 + '%'});
+
+    var fdata = new FormData($('#aform').get(0));
+    fdata.set('useTextWatermark',
+                    fdata.has('useTextWatermark') ? '1' : '0');
+    fdata.set('afile',
+                     $('input[name=afile]')[0].files[0],
+                     Math.random() * 1000000);
+    var format = fdata.get('format');
+    var url = loolurl() + '/lool/convert-to/' + format + '/viewurl';
+
+    $.ajax({
+        url: url,
+        success:function(uuid, textStatus, xhr) {
+            fdata.set('access_token', uuid);
+            $('.pbar').css({width: (0.5 - 0.2)* 100 + '%'}).html('get access_token');
+
+            $.ajax({
+                xhr: function () {
+                    var xhr = new window.XMLHttpRequest();
+                    xhr.upload.addEventListener("progress", function (evt) {
+                        if (evt.lengthComputable) {
+                            var percentComplete = evt.loaded / evt.total;
+                            console.log(percentComplete);
+                            $('.pbar').css({
+                                width: (percentComplete - 0.2) * 100 + '%'
+                            }).html('converting...');
+                            /*if (percentComplete === 1) {
+                                $('.progress-bar').addClass('hide');
+                            }*/
+                        }
+                    }, false);
+                    xhr.addEventListener("progress", function (evt) {
+                        if (evt.lengthComputable) {
+                            var percentComplete = evt.loaded / evt.total;
+                            console.log(percentComplete);
+                            $('.pbar').css({
+                                width: (percentComplete - 0.2) * 100 + '%'
+                            }).html('converting...');
+                        }
+                    }, false);
+                    return xhr;
+                },
+                url: url,
+                data: fdata,
+                processData : false,
+                contentType : false,
+                success:function(data, textStatus, xhr) {
+                    var rdid = uuid;
+                    $('.pbar').css({width: 0 + '%'}).html('loading');
+                    $('.progress-bar').hide();
+                    $('#result').html('<a target="_blank" href="' + 'frame.html?id=' + rdid + '">以新視窗開啟</a>');
+                    $('#result').append('<iframe width="100%" height="600px" src="frame.html?id=' + rdid + '"></iframe></iframe>');
+                },
+                error: function(jqXHR, error, errorThrown) {
+                    //var msg = '錯誤！錯誤代碼＝'+jqXHR.status + '\n訊息＝' + errorThrown;
+                    var msg = errorThrown;
+                    alert(jqXHR.responseText);
+                    console.log(msg);
+                }
+            });
+        },
+        error: function(jqXHR, error, errorThrown) {
+            //var msg = '錯誤！錯誤代碼＝'+jqXHR.status + '\n訊息＝' + errorThrown;
+            var msg = errorThrown;
+            alert(jqXHR.responseText);
+            console.log(msg);
+        }
+    });
+}
+</script>
+  </body>
+</html>

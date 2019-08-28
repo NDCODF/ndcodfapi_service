@@ -1,0 +1,1 @@
+oddRowColor=#666666&font=TimesNewRoman&format=ods&title=tbl2scresult&content=<table border="1"><tr><td>這裡可以放表格內容</td><td>這裡可以放表格內容</td></tr></table>

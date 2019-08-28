@@ -42,6 +42,10 @@ L.Control.PermissionSwitch = L.Control.extend({
 			this._checkBox.checked = false;
 			this._checkBox.disabled = true;
 		}
+		else if (e.perm === 'convview') {
+			this._checkBox.checked = false;
+			this._checkBox.disabled = true;
+		}
 	}
 });
 

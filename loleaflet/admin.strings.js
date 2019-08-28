@@ -1,7 +1,7 @@
 /* Stringtable for Admin Console User Interface */
 var l10nstrings = {};
 
-l10nstrings.strProductName = 'LibreOffice Online';
+l10nstrings.strProductName = 'OxOffice Online';
 l10nstrings.strAdminConsole = _('Admin console');
 l10nstrings.strToggleNavigation = _('Toggle navigation');
 l10nstrings.strSettings = _('Settings');

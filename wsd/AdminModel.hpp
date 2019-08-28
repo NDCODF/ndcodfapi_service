@@ -20,6 +20,9 @@
 #include "net/WebSocketHandler.hpp"
 #include "Util.hpp"
 
+#include <dlfcn.h>
+
+
 /// A client view in Admin controller.
 class View
 {
@@ -202,6 +205,11 @@ public:
     void updateLastActivityTime(const std::string& docKey);
     void updateMemoryDirty(const std::string& docKey, int dirty);
 
+    bool setMacIpData(std::string);
+    bool removeMacIpData(std::string);
+    bool appendMacIpData(std::string, std::string);
+
+
 private:
     std::string getMemStats();
 
@@ -210,6 +218,10 @@ private:
     unsigned getTotalActiveViews();
 
     std::string getDocuments() const;
+
+    std::string getMacList();
+
+    std::string getIPList();
 
 private:
     std::map<int, Subscriber> _subscribers;
@@ -225,6 +237,7 @@ private:
 
     /// We check the owner even in the release builds, needs to be always correct.
     std::thread::id _owner;
+
 };
 
 #endif
