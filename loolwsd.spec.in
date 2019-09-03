@@ -85,6 +85,7 @@ mkdir -p $RPM_BUILD_ROOT/var/log
 mkdir -p $RPM_BUILD_ROOT/usr/share/NDCODFAPI/ODFReport/templates
 %__install mergeodf.sqlite $RPM_BUILD_ROOT/usr/share/NDCODFAPI/mergeodf.sqlite
 touch $RPM_BUILD_ROOT/var/log/ndcodfapi.log
+touch $RPM_BUILD_ROOT/var/log/mergeodf.log
 
 
 mkdir -p $RPM_BUILD_ROOT/usr/local/share/loolwsd
@@ -144,6 +145,7 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/
 %{_docdir}/loolwsd/reference.txt
 %dir %attr(755, lool, lool) /usr/local/share/loolwsd
 %config(noreplace) %attr(664, lool, lool) /var/log/ndcodfapi.log
+%config(noreplace) %attr(664, lool, lool) /var/log/mergeodf.log
 %config(noreplace) %attr(600, lool, lool) /usr/local/share/loolwsd/tokens.sqlite
 %dir %attr(755, lool, lool) /data/looldocs
 

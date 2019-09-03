@@ -59,6 +59,8 @@ public:
                  Poco::Net::HTTPResponse&,
                  std::string);
     int getAccessTimes();
+    void changeTable();
+    void updateAccessTimes();
 
 private:
     std::string api;
@@ -171,6 +173,7 @@ class MergeODF
 {
 public:
     MergeODF();
+    virtual ~MergeODF();
 
     enum class MergeStatus
     {
@@ -186,6 +189,7 @@ public:
     }
 
     virtual void setLogPath(std::string);
+    virtual void initSQLDB();
 
     virtual std::string isMergeToUri(std::string,
                                      bool forHelp=false,
@@ -208,6 +212,7 @@ public:
 private:
     LogDB *logdb;
     std::string loPath;  // soffice program path
+    AutoPtr<Poco::Channel> channel;
 
     std::string mimetype;
     MergeStatus mergeStatus;

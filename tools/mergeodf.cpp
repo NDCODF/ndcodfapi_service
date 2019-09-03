@@ -29,8 +29,13 @@
 #include <Poco/Base64Decoder.h>
 #include <Poco/Util/Application.h>
 #include <Poco/DOM/DOMException.h>
-#include <Poco/Util/Application.h>
+#include <Poco/FileChannel.h>
+#include <Poco/AsyncChannel.h>
+#include <Poco/FormattingChannel.h>
+#include <Poco/PatternFormatter.h>
 
+#include <sqlite3.h> 
+#include <Poco/Data/SQLite/Utility.h>
 
 using Poco::Net::HTMLForm;
 using Poco::Net::MessageHeader;
@@ -60,6 +65,10 @@ using namespace Poco::Data::Keywords;
 using Poco::Data::Statement;
 using Poco::Data::RecordSet;
 using Poco::Data::Session;
+using Poco::Data::SQLite::Utility;
+
+using Poco::FileChannel;
+using Poco::PatternFormatter;
 
 const std::string resturl = "/lool/merge-to/";
 const int tokenOpts = StringTokenizer::TOK_IGNORE_EMPTY |
@@ -69,6 +78,17 @@ extern "C" MergeODF* create_object()
 {
     return new MergeODF;
 }
+
+extern "C" void destroy_object(MergeODF* merge_odf)
+{
+    delete merge_odf;
+}
+
+static Poco::Logger& logger()
+{
+    return Application::instance().logger();
+}
+
 
 LogDB::LogDB()
 {
@@ -84,57 +104,137 @@ void LogDB::setDbPath()
     // 如果沒有跑系統，會讀取專案底下的 runTimeData/mergeodf.sqlite 來確保程式執行
 #if ENABLE_DEBUG
     dbfile = "./runTimeData/mergeodf.sqlite";
+    std::cout<<"mergeodf: setDbPath: db: "<<dbfile<<std::endl;
 #else
     const auto& app = Poco::Util::Application::instance();
     dbfile = app.config().getString("mergeodf.db_path", "./runTimeData/mergeodf.sqlite");
+    LOG_TRC("mergeodf: setDbPath: db: "+dbfile);
 #endif
-    std::cout<<"mergeodf: setDbPath: db: "<<dbfile<<std::endl;
 }
 
-/// 寫入 log: api+status+timestamp
-/// status=狀態文字
-/// @return string endpoint
-void LogDB::notice(std::weak_ptr<StreamSocket> _socket,
-        Poco::Net::HTTPResponse& response,
-        std::string status)
+void LogDB::changeTable()
 {
-    try
+    Session session("SQLite", dbfile);
+    Statement select(session);
+    select << "CREATE TABLE IF NOT EXISTS summary (api TEXT PRIMARY KEY NOT NULL UNIQUE, accessTimes INTEGER NOT NULL)";
+    while (!select.done())
     {
-        Session session("SQLite", dbfile);
-        Statement insert(session);
-        insert << "INSERT INTO access (api, status, ts) VALUES (?, ?, strftime('%s', 'now'))",
-               use(api), use(status), now;
-        session.close();
+        select.execute();
+        break;
     }
-    catch (Poco::Exception& e)
-    {
-        std::cerr << e.displayText() << std::endl;
+    select.reset(session);
 
-        auto socket = _socket.lock();
-        response.setStatusAndReason(
-                HTTPResponse::HTTP_INTERNAL_SERVER_ERROR,
-                "cannot log to database. message: " + status);
-        response.setContentLength(0);
-        socket->send(response);
-        socket->shutdown();
-        _exit(Application::EXIT_SOFTWARE);
-        return;
+    // Start transform old table access to summary
+    std::vector<std::string> apiName;
+    Statement select2(session);
+    select2 << "select DISTINCT api FROM access", into(apiName);
+    while (!select2.done())
+    {
+        select2.execute();
+        break;
     }
+    select2.reset(session);
+
+    int access = 0;
+    for(auto it = apiName.begin(); it != apiName.end(); it++)
+    {
+        std::string currentAPI = *it;
+        Statement countStmt(session);
+        countStmt << "select count(*) FROM access where api=? and status='start'", into(access), use(currentAPI);
+        while (!countStmt.done())
+        {
+            countStmt.execute();
+            break;
+        }
+        countStmt.reset(session);
+
+        Statement replaceStmt(session);
+        replaceStmt << "replace into summary (api, accessTimes) values (?, ?)", use(currentAPI), use(access);
+        while (!replaceStmt.done())
+        {
+            replaceStmt.execute();
+            break;
+        }
+        replaceStmt.reset(session);
+
+        Statement delStmt(session);
+        delStmt << "Delete FROM access where api=?", use(currentAPI);
+        while (!delStmt.done())
+        {
+            delStmt.execute();
+            break;
+        }
+        delStmt.reset(session);
+    }
+
+    Statement vacuum(session);
+    vacuum << "vacuum";
+    while (!vacuum.done())
+    {
+        vacuum.execute();
+        break;
+    }
+    vacuum.reset(session);
+
+    session.close();
+}
+
+void LogDB::updateAccessTimes()
+{
+    Session session("sqlite", dbfile);
+
+
+    Statement checkStmt(session);
+    int value=-1;
+    checkStmt << "select accessTimes from summary where api=?", use(api), into(value);
+    while (!checkStmt.done())
+    {
+        checkStmt.execute();
+        break;
+    }
+    checkStmt.reset(session);
+
+    if (value == -1)
+    {
+        Statement addNew(session);
+        addNew << "insert into summary values (?, 1)", use(api);
+        while (!addNew.done())
+        {
+            addNew.execute();
+            break;
+        }
+        addNew.reset(session);
+    }
+    else
+    {
+        Statement updateStmt(session);
+        updateStmt << "Update summary set accessTimes = accessTimes + 1 where api=?", use(api);
+        while (!updateStmt.done())
+        {
+            updateStmt.execute();
+            break;
+        }
+        updateStmt.reset(session);
+        
+    }
+
+    session.close();
 }
 
 /// 傳回某個　api 的呼叫次數
 int LogDB::getAccessTimes()
 {
     int access = 0;
-    Session session("SQLite", dbfile);
+    
+    auto session = Session("SQLite", dbfile);
     Statement select(session);
-    select << "select count(*) FROM access where api=? and status='start'",
-           into(access), use(api);
+    select << "select accesstimes from summary where api=?", into(access), use(api);
     while (!select.done())
     {
         select.execute();
         break;
     }
+    select.reset(session);
     session.close();
     return access;
 }
@@ -613,27 +713,21 @@ std::string Parser::parseEnumValue(std::string type,
 {
     if (type == "enum" && isNumber(value))
     {
-        std::cout<<enumvar<<std::endl;
         Poco::replaceInPlace(enumvar, "\"", "");
         StringTokenizer tokens(enumvar, ",", tokenOpts);
         int enumIdx = std::stoi(value)-1;
-        std::cout << enumIdx << std::endl;
         if (enumIdx >= 0 && (unsigned)enumIdx < tokens.count())
         {
-            std::cout << "set enum value: " << tokens[enumIdx] << std::endl;
             value = tokens[enumIdx];
         }
     }
     if (type == "boolean")  // True、Yes、1
     {
-        std::cout<<enumvar<<std::endl;
         Poco::replaceInPlace(enumvar, "\"", "");
         StringTokenizer tokens(enumvar, ",", tokenOpts);
         int enumIdx = ("1" == value ||
                 0 == Poco::icompare(value, "true") ||
                 0 == Poco::icompare(value, "yes")) ? 0 : 1;
-        //std::cout << enumIdx << std::endl;
-        std::cout << "set enum value: " << tokens[enumIdx] << std::endl;
         value = tokens[enumIdx];
     }
     return value;
@@ -1424,9 +1518,7 @@ void Parser::setSingleVar(Object::Ptr jsonData, std::list<Element*> &singleVar)
                 elm->parentNode()->removeChild(elm);
                 continue;
             }
-            std::cout << "group size : " << lines << std::endl;
             auto newElm = docXML->createElement("table:table-cell");
-            //TODO use method to repalce SUM
             if (method == "總和")
                 method = "SUM";
             if (method == "最大值")
@@ -1638,12 +1730,30 @@ class ConvertToPartHandler2 : public PartHandler
 MergeODF::MergeODF()
 {}
 
+MergeODF::~MergeODF()
+{}
 /// init. logger
-void MergeODF::setLogPath(std::string)
+void MergeODF::setLogPath(std::string logPath)
 {
-    std::cout<<"mergeodf: setlogpath"<<std::endl;
+    AutoPtr<FileChannel> fileChannel(new FileChannel);
+
+    // 以 AsyncChannel 接 filechannel, 就不會 stop oxool 時 double free error
+    // @TODO: 怪異的寫法？要注意若用 poco 其他版本會不會失效
+    AutoPtr<Poco::AsyncChannel> pAsync(new Poco::AsyncChannel(fileChannel));
+
+    fileChannel->setProperty("path", logPath + "/mergeodf.log");
+    fileChannel->setProperty("archive", "timestamp");
+    AutoPtr<PatternFormatter> patternFormatter(new PatternFormatter());
+    patternFormatter->setProperty("pattern","%Y %m %d %L%H:%M:%S: %t");
+    channel = new Poco::FormattingChannel(patternFormatter, fileChannel);
+}
+
+void MergeODF::initSQLDB()
+{
+    //std::cout<<"mergeodf: setlogpath"<<std::endl;
     logdb = new LogDB();
     logdb->setDbPath();
+    logdb->changeTable();
 }
 
 /// api help. yaml&json&json sample(another json)
@@ -1899,7 +2009,9 @@ Object::Ptr MergeODF::parseArray2Form(HTMLForm &form)
 int MergeODF::getApiCallTimes(std::string endpoint)
 {
     logdb->setApi(endpoint);
-    return logdb->getAccessTimes();
+    int accesstimes = logdb->getAccessTimes();
+    delete logdb;
+    return accesstimes;
 }
 
 
@@ -1907,12 +2019,10 @@ int MergeODF::getApiCallTimes(std::string endpoint)
 std::string MergeODF::doMergeTo(const Poco::Net::HTTPRequest& request,
         Poco::MemoryInputStream& message)
 {
-    std::cout << "mergeto--->" << std::endl;
     std::string fromPath;
     auto requestUri = Poco::URI(request.getURI());
 
     Parser *parser = new Parser(requestUri);
-    std::cout << "mergeto--->2" << std::endl;
     if (!parser->isValid())
     {
         mergeStatus = MergeStatus::TEMPLATE_NOT_FOUND;
@@ -2067,6 +2177,9 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
         const Poco::Net::HTTPRequest& request,
         Poco::MemoryInputStream& message)
 {
+    //Logger setting
+    Application::instance().logger().setChannel(channel);
+
     HTTPResponse response;
     auto socket = _socket.lock();
 
@@ -2114,15 +2227,16 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
             auto endpointPath = Poco::URI(request.getURI()).getPath();
             auto endpoint = Poco::Path(endpointPath).getBaseName();
             logdb->setApi(endpoint);
-            logdb->notice(_socket, response, "start");
+            logger().notice(endpoint + ": start process");
+            logdb->updateAccessTimes();
 
             try{
-                logdb->notice(_socket, response, "merging");
+                logger().notice(endpoint + ": start merge");
                 zip2 = doMergeTo(request, message);
             }
             catch (const std::exception & e)
             {
-                logdb->notice(_socket, response, "merge error");
+                logger().notice(endpoint + ": merge error");
 
                 response.setStatusAndReason
                     (HTTPResponse::HTTP_SERVICE_UNAVAILABLE,
@@ -2143,7 +2257,7 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
               }*/
             if (getMergeStatus() == MergeStatus::JSON_PARSE_ERROR)
             {
-                logdb->notice(_socket, response, "Json data error");
+                logger().notice(endpoint + ": Json data error");
 
                 response.setStatusAndReason(HTTPResponse::HTTP_UNAUTHORIZED,
                         "Json data error");
@@ -2153,7 +2267,7 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
                 _exit(Application::EXIT_SOFTWARE);
                 return;
             }
-            logdb->notice(_socket, response, "merging done");
+            logger().notice(endpoint + ": merge ok");
 
             auto mimeType = getMimeType();
 
@@ -2172,14 +2286,14 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
                 return;
             }
 
-            logdb->notice(_socket, response, "start convert to pdf");
+            logger().notice(endpoint + ": start convert to pdf");
 
             auto zip2pdf = outputODF(zip2);
             if (zip2pdf.empty() || !Poco::File(zip2pdf).exists())
             {
                 std::cout<<"zip2pdf.epmty()"<<std::endl;
 
-                logdb->notice(_socket, response, "merging to pdf error");
+                logger().notice(endpoint + ": mergeing to pdf error");
 
                 response.setStatusAndReason
                     (HTTPResponse::HTTP_SERVICE_UNAVAILABLE,
@@ -2191,7 +2305,7 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
                 return;
             }
 
-            logdb->notice(_socket, response, "convert to pdf: done");
+            logger().notice(endpoint + ": convert to pdf: done");
 
             HttpHelper::sendFile(socket, zip2pdf, mimeType, response);
             Poco::File(zip2).remove(true);

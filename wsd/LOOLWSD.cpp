@@ -1626,9 +1626,9 @@ private:
         _mergeodf = 0;
 
 #if ENABLE_DEBUG
-        void* mergeodf_h = dlopen("./libmergeodf.so", RTLD_LAZY);
+        mergeodf_h = dlopen("./libmergeodf.so", RTLD_LAZY);
 #else
-        void* mergeodf_h = dlopen("libmergeodf.so", RTLD_LAZY);
+        mergeodf_h = dlopen("libmergeodf.so", RTLD_LAZY);
 #endif
         //std::cout << "load mergeodf" << std::endl;
         if (mergeodf_h)
@@ -1641,6 +1641,7 @@ private:
             create = (MergeODF* (*)())dlsym(mergeodf_h, "create_object");
             _mergeodf = (MergeODF*)create();
             _mergeodf->setLogPath(logPath.toString());
+            _mergeodf->initSQLDB();
             _mergeodf->setProgPath(LOOLWSD::LoTemplate);
         }
         else{
@@ -1669,6 +1670,19 @@ private:
         {
             std::cout << "[ModuleLib] Load libtbl2sc.so fail" << std::endl;
         }
+    }
+
+    void destroyModules()
+    {
+        if (mergeodf_h)
+        {
+            void (*destroy_merge)(MergeODF *);
+            Poco::Path logPath = Poco::Path(LogFilePath).
+                makeDirectory().makeParent();
+            destroy_merge = (void (*)(MergeODF *))dlsym(mergeodf_h, "destroy_object");
+            destroy_merge(_mergeodf);
+        }
+
     }
     /// Called after successful socket reads.
     void handleIncomingMessage(SocketDisposition &disposition) override
@@ -2089,6 +2103,9 @@ paths:%s)MULTILINE";
         //socket->send(read);
         socket->shutdown();
         LOG_INF("Sent api json successfully.");
+
+        //TODO write correct destroy
+        destroyModules();
     }
 
     static std::string getContentType(const std::string& fileName)
@@ -2502,6 +2519,7 @@ private:
     std::string _id;
     MergeODF* _mergeodf;
     Tbl2SC* _tbl2sc;
+    void* mergeodf_h;
 };
 
 
