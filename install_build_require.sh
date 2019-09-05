@@ -5,4 +5,4 @@ sudo yum install -y epel-release
 sudo yum install -y nodejs
 sudo yum install -y python-pip
 sudo npm install -g jake
-sudo pip install -g polib
+sudo pip install polib
