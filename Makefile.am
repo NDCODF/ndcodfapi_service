@@ -244,6 +244,7 @@ run: all @JAILS_PATH@ @SYSTEMPLATE_PATH@/system_stamp
 			  --o:ssl.cert_file_path="$(abs_top_srcdir)/etc/cert.pem" \
 			  --o:ssl.key_file_path="$(abs_top_srcdir)/etc/key.pem" \
 			  --o:ssl.ca_file_path="$(abs_top_srcdir)/etc/ca-chain.cert.pem" \
+			  --o:tile_cache_path=@TILE_CACHE_PATH@ \
 			  --o:admin_console.username=admin --o:admin_console.password=admin \
 			  --o:logging.file[@enable]=true --o:logging.level=trace
 
