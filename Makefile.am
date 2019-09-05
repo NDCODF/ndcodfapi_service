@@ -238,6 +238,7 @@ run: all @JAILS_PATH@ @SYSTEMPLATE_PATH@/system_stamp
 	@cp $(abs_top_srcdir)/test/data/hello.odt $(abs_top_srcdir)/test/data/hello-world.odt
 	@cp .libs/libmergeodf.so.0.0.0 libmergeodf.so
 	@cp .libs/libtbl2sc.so.0.0.0 libtbl2sc.so
+	@mkdir cache
 	@echo
 	./loolwsd --o:sys_template_path="@SYSTEMPLATE_PATH@" --o:lo_template_path="@LO_PATH@" \
 			  --o:child_root_path="@JAILS_PATH@" --o:storage.filesystem[@allow]=true \
