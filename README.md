@@ -30,8 +30,26 @@ sudo systemctl disable firewalld.service
 
 安裝編譯與程式所需之套件
 ```
-sudo yum install -y sqlite-devel libcurl-devel cppunit-devel libcap-devel libtool libpng-devel
+sudo yum install -y sqlite-devel libcurl-devel cppunit-devel libcap-devel libtool libpng-devel gcc-c++ 
 ```
+
+install node & npm
+```
+sudo yum install -y epel-release
+sudo yum install -y nodejs
+```
+
+install pip & polib
+```
+sudo yum install -y epel-release
+sudo yum install python-pip
+```
+
+install jake
+```
+sudo npm install -g jake
+```
+
 
 安裝專案使用之自編譯套件
 ```
