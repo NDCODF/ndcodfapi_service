@@ -1737,7 +1737,7 @@ void MergeODF::setLogPath(std::string logPath)
 {
     AutoPtr<FileChannel> fileChannel(new FileChannel);
 
-    // 以 AsyncChannel 接 filechannel, 就不會 stop oxool 時 double free error
+    // 以 AsyncChannel 接 filechannel, 就不會 stop lool 時 double free error
     // @TODO: 怪異的寫法？要注意若用 poco 其他版本會不會失效
     AutoPtr<Poco::AsyncChannel> pAsync(new Poco::AsyncChannel(fileChannel));
 

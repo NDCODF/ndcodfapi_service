@@ -1,4 +1,4 @@
-SUBDIRS = . loleaflet
+SUBDIRS = . loleaflet extensions
 
 export ENABLE_DEBUG
 
@@ -223,7 +223,7 @@ SYSTEM_STAMP = @SYSTEMPLATE_PATH@/system_stamp
 
 $(SYSTEM_STAMP) : ${top_srcdir}/loolwsd-systemplate-setup
 	if test "z@SYSTEMPLATE_PATH@" != "z"; then rm -rf "@SYSTEMPLATE_PATH@"; fi
-	${top_srcdir}/loolwsd-systemplate-setup "@SYSTEMPLATE_PATH@" "@LO_PATH@" && touch $@
+	${top_srcdir}/loolwsd-systemplate-setup "@SYSTEMPLATE_PATH@" "@LO_PATH@"  && touch $@
 
 @JAILS_PATH@ :
 	mkdir -p $@

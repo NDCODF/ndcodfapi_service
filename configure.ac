@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.63])
 
-AC_INIT([loolwsd], [1.1.3], [libreoffice@lists.freedesktop.org])  
+AC_INIT([loolwsd], [1.1.4], [libreoffice@lists.freedesktop.org])  
 LT_INIT([shared, disable-static, dlopen])
 
 AM_INIT_AUTOMAKE([1.10 subdir-objects tar-pax -Wno-portability])
@@ -234,6 +234,7 @@ if test -n "$with_lo_path"; then
    LO_PATH="${with_lo_path%/}"
    version_file="$with_lo_path/program/versionrc"
    if test -f $version_file; then
+     EXTENSIONS_PATH="\${abs_top_builddir}/extensions"
      JAILS_PATH="\${abs_top_builddir}/jails"
      SYSTEMPLATE_PATH="\${abs_top_builddir}/systemplate"
      have_lo_path=true
@@ -249,6 +250,7 @@ else
 fi
 AC_SUBST(LO_PATH)
 AC_DEFINE_UNQUOTED([LO_PATH],["$LO_PATH"],[Path to LibreOffice installation])
+AC_SUBST(EXTENSIONS_PATH)
 AC_SUBST(JAILS_PATH)
 AC_SUBST(SYSTEMPLATE_PATH)
 AM_CONDITIONAL(HAVE_LO_PATH,[test "$have_lo_path" = "true"])
@@ -388,6 +390,7 @@ AC_SUBST(LOOLWSD_DATADIR)
 AC_CONFIG_FILES([Makefile
                  test/Makefile
                  loleaflet/Makefile
+                 extensions/Makefile
                  loolwsd.spec
                  loolwsd.xml
                  ])

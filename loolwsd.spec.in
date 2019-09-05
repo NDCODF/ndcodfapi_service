@@ -45,7 +45,7 @@ Obsoletes:      loleaflet <= 1.5.8
 NDCODFAPI
 
 %prep
-%setup -q -n ndcodfapi_service
+%setup -q -n ndcodfapi
 
 %build
 %if 1
@@ -107,7 +107,12 @@ setcap cap_sys_admin=ep /usr/bin/loolmount
 setcap CAP_NET_BIND_SERVICE=+eip /usr/bin/loolwsd
 
 rm -rf %{_datarootdir}/loolwsd/systemplate
-loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/dev/null 2>&1
+loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate @LO_PATH@ >/dev/null 2>&1
+
+find /usr/share/loolwsd/extensions -name "*.oxt" |
+while read oxt ; do
+    su lool -c "@LO_PATH@/program/unopkg add $oxt"
+done
 
 %systemd_post ndcodfapi.service
 
@@ -119,6 +124,7 @@ loolwsd-systemplate-setup %{_datarootdir}/loolwsd/systemplate /opt/ndcodfsys1 >/
 
 %files
 %defattr(-,root,root)
+/usr/share/loolwsd/extensions
 %{_bindir}/loolforkit
 %{_bindir}/loolmap
 %{_bindir}/loolmount

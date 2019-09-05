@@ -86,4 +86,5 @@ if test "z$ENABLE_DEBUG" != "z" -a "z$HOME" != "z"; then
     test -d $HOME/docs && cp -r -p -L $HOME/docs $CHROOT/$HOME
 fi
 
+
 exit 0

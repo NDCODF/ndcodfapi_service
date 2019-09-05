@@ -201,39 +201,8 @@ std::string Tbl2SC::outputODF(const std::string odffile,
         return "";
     }
 
-    /* deprecate
-    std::string command = "uno:GoToCell";
-
-    std::string arguments = "{"
-        "\"ToPoint\":{"
-        "\"type\":\"string\","
-        "\"value\":\"$B$1\""
-        "}}";
-    std::string del_arguments = "{"
-        "\"Flags\":{"
-        "\"type\":\"string\","
-        "\"value\":\"SVDFN\""
-        "}}";
-    std::string col_arguments = "{"
-        "\"aExtraWidth\":{"
-        "\"type\":\"long\","
-        "\"value\":\"200\""
-        "}}";
-    std::string wid_arguments = "{"
-        "\"ColumnWidth\":{"
-        "\"type\":\"float\","
-        "\"value\":\"100\""
-        "}}";
-    //Use PostUnoCommand
-    lodoc->postUnoCommand("uno:GoToCell", arguments.c_str(), false);
-    //lodoc->postUnoCommand("uno:SelectAll");
-    //lodoc->postUnoCommand(".uno:Delete", del_arguments.c_str(),false);
-    lodoc->postUnoCommand(".uno:SetOptimalColumnWidth", col_arguments.c_str());
-    lodoc->postUnoCommand(".uno:ColumnWidth", wid_arguments.c_str(), true);
-    */
-
     //Run Macro
-    lodoc->postUnoCommand("macro:///Library1.Module1.SetOptimalColumn()");
+    lodoc->postUnoCommand("macro:///Tbl2sc.tools.SetOptimalColumn()");
 
     outfile = odffile + ".odf";
     //std::cout << outfile << std::endl;
