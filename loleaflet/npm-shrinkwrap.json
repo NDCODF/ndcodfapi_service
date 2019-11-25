@@ -3240,6 +3240,14 @@
       "requires": {
         "jquery": "~2.2.1",
         "jquery-ui": "~1.10.5"
+      },
+      "dependencies": {
+        "jquery-ui": {
+          "version": "1.10.5",
+          "resolved": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.10.5.tgz",
+          "integrity": "sha1-gmrtPdH4jTKudddN9IZD3EMaWBU=",
+          "dev": true
+        }
       }
     },
     "exorcist": {
@@ -3428,9 +3436,9 @@
       "dev": true
     },
     "jquery-ui": {
-      "version": "1.10.5",
-      "resolved": "/home/tommy/work/oxool2.0/ndcodfapi/loleaflet/node_shrinkwrap/jquery-ui-1.10.5.tgz",
-      "integrity": "sha512-kKjQ57h+BCCgZV+nSm+otW57IJQ/lkL6+a/vHY+Gj9dnDPR9ECQJImtUUHNc9+9ksmghlRZyTqr8aDir3nVwKg==",
+      "version": "1.12.0",
+      "resolved": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.12.0.tgz",
+      "integrity": "sha1-WcYDei2cV+miUhqbeklxFtQbQkY=",
       "dev": true
     },
     "json-js": {
