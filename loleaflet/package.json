@@ -9,7 +9,7 @@
     "browserify": "^13.1.0",
     "browserify-css": "^0.9.1",
     "d3": "3.5.17",
-    "eslint": "^2.8.0",
+    "eslint": "^4.18.2",
     "evol-colorpicker": "3.2.6",
     "exorcist": "0.4.0",
     "jake": "~8.0.10",
