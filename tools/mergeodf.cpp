@@ -2059,7 +2059,7 @@ std::string MergeODF::doMergeTo(const Poco::Net::HTTPRequest& request,
         {
             std::cerr << e.displayText() << std::endl;
             mergeStatus = MergeStatus::JSON_PARSE_ERROR;
-            return false;
+            return "";
         }
     }
     else
@@ -2177,6 +2177,25 @@ void MergeODF::handleMergeTo(std::weak_ptr<StreamSocket> _socket,
         const Poco::Net::HTTPRequest& request,
         Poco::MemoryInputStream& message)
 {
+    /*
+     * Swagger's CORS would send OPTIONS first to check if the server allow CROS, So Check First OPTIONS and allow 
+     */
+    if (request.getMethod() == HTTPRequest::HTTP_OPTIONS)
+    {
+        std::ostringstream oss;
+        oss << "HTTP/1.1 200 OK\r\n"
+            << "Last-Modified: " << Poco::DateTimeFormatter::format(Poco::Timestamp(), Poco::DateTimeFormat::HTTP_FORMAT) << "\r\n"
+            << "Access-Control-Allow-Origin: *" << "\r\n"
+            << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept" << "\r\n"
+            << "User-Agent: " << WOPI_AGENT_STRING << "\r\n"
+            << "Content-Type: application/json; charset=utf-8\r\n"
+            << "X-Content-Type-Options: nosniff\r\n"
+            << "\r\n";
+        auto socket = _socket.lock();
+        socket->send(oss.str());
+        socket->shutdown();
+        return;
+    }
     //Logger setting
     Application::instance().logger().setChannel(channel);
 

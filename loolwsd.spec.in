@@ -83,19 +83,18 @@ mkdir -p $RPM_BUILD_ROOT/var/log
 
 # 2.0 版本和 xoops 聯動的地方
 mkdir -p $RPM_BUILD_ROOT/usr/share/NDCODFAPI/ODFReport/templates
+mkdir -p $RPM_BUILD_ROOT/usr/share/NDCODFAPI/ODFReport/templates/repo
 %__install mergeodf.sqlite $RPM_BUILD_ROOT/usr/share/NDCODFAPI/mergeodf.sqlite
 touch $RPM_BUILD_ROOT/var/log/ndcodfapi.log
 touch $RPM_BUILD_ROOT/var/log/mergeodf.log
 
 
 mkdir -p $RPM_BUILD_ROOT/usr/local/share/loolwsd
-%__install tokens.sqlite $RPM_BUILD_ROOT/usr/local/share/loolwsd/
 
 
 mkdir -p %{buildroot}/etc/cron.d
 echo "#Remove old tiles once every 10 days at midnight" > %{buildroot}/etc/cron.d/loolwsd.cron
 echo "0 0 */1 * * root find /var/cache/loolwsd -name \"*.png\" -a -atime +10 -exec rm {} \;" >> %{buildroot}/etc/cron.d/loolwsd.cron
-echo "0 0 */1 * * root /usr/bin/prune_tokens.sh" >> %{buildroot}/etc/cron.d/loolwsd.cron
 
 %pre
 getent group lool >/dev/null || groupadd -r lool
@@ -133,14 +132,12 @@ done
 %{_bindir}/loolwsd
 %{_bindir}/loolwsd-systemplate-setup
 %{_bindir}/loolgetuser
-%{_bindir}/prune_tokens.sh
 %dir %attr(777, root, root) %{_datadir}/loolwsd
 %{_datadir}/loolwsd/*
 %dir %attr(777, root, root) /var/cache/loolwsd
 %{_unitdir}/ndcodfapi.service
 /etc/cron.d/loolwsd.cron
 %config(noreplace) /etc/loolwsd/loolwsd.xml
-%config(noreplace) /etc/loolwsd/perm.xml
 %config(noreplace) /etc/loolwsd/ca-chain.cert.pem
 %config(noreplace) /etc/loolwsd/cert.pem
 %config(noreplace) /etc/loolwsd/key.pem
@@ -152,12 +149,12 @@ done
 %dir %attr(755, lool, lool) /usr/local/share/loolwsd
 %config(noreplace) %attr(664, lool, lool) /var/log/ndcodfapi.log
 %config(noreplace) %attr(664, lool, lool) /var/log/mergeodf.log
-%config(noreplace) %attr(600, lool, lool) /usr/local/share/loolwsd/tokens.sqlite
 %dir %attr(755, lool, lool) /data/looldocs
 
 # 2.0 版本和 xoops 聯動的地方
 %dir %attr(777, apache, apache) /usr/share/NDCODFAPI/
 %dir %attr(777, apache, apache) /usr/share/NDCODFAPI/ODFReport/templates
+%dir %attr(777, apache, apache) /usr/share/NDCODFAPI/ODFReport/templates/repo
 %config(noreplace) %attr(600, lool, lool) /usr/share/NDCODFAPI/mergeodf.sqlite
 
 #mergeodf
@@ -173,4 +170,9 @@ done
 %{_libdir}/libtbl2sc.so.?.?.?
 
 
+# templaterepo
+%{_libdir}/libtemplaterepo.so
+%{_libdir}/libtemplaterepo.la
+%{_libdir}/libtemplaterepo.so.?
+%{_libdir}/libtemplaterepo.so.?.?.?
 %changelog

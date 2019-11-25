@@ -166,8 +166,8 @@ L.Map.WOPI = L.Handler.extend({
 				'SendTime': Date.now(),
 				'Values': values
 			};
-
-			window.parent.postMessage(JSON.stringify(msg), this.PostMessageOrigin);
+			var myParent = window.parent;
+			myParent.postMessage(JSON.stringify(msg), this.PostMessageOrigin);
 		}
 	}
 });

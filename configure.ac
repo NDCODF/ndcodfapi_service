@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.63])
 
-AC_INIT([loolwsd], [1.1.4], [libreoffice@lists.freedesktop.org])  
+AC_INIT([loolwsd], [1.1.8], [libreoffice@lists.freedesktop.org])  
 LT_INIT([shared, disable-static, dlopen])
 
 AM_INIT_AUTOMAKE([1.10 subdir-objects tar-pax -Wno-portability])
@@ -395,6 +395,7 @@ AC_CONFIG_FILES([Makefile
                  extensions/Makefile
                  loolwsd.spec
                  loolwsd.xml
+                 debian/ndcodfapi.postinst
                  ])
 AC_CONFIG_FILES([test/run_unit.sh],[chmod +x test/run_unit.sh])
 

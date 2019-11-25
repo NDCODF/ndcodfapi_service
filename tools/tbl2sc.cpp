@@ -313,7 +313,7 @@ std::string customizeSC(std::string filepath, std::string font, std::string oddR
     if(font != "Times New Roman" && font!= "微軟正黑體" && font!="標楷體")
         font = "微軟正黑體";
     if(oddRowColor == "")
-        oddRowColor = "#66ffff";
+        oddRowColor = "#9d9d9d";
 
     // load the xml file to program
     std::tuple<std::string, std::string> unzipPath = extract(filepath);

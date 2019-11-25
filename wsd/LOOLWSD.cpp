@@ -151,6 +151,8 @@
 #include "tools/mergeodf.h"
 #include "tools/tbl2sc.h"
 
+#include "tools/templaterepo.h"
+
 using namespace LOOLProtocol;
 
 using Poco::Environment;
@@ -1661,6 +1663,7 @@ private:
         if (tbl2sc_h)
         {
             //std::cout << "handle tbl2sc" << std::endl;
+            LOG_TRC("[ModuleLib] Load libtbl2sc.so success");
             Tbl2SC* (*create)();
             create = (Tbl2SC* (*)())dlsym(tbl2sc_h, "create_object");
             _tbl2sc = (Tbl2SC*)create();
@@ -1668,7 +1671,28 @@ private:
         }
         else
         {
+            LOG_TRC("[ModuleLib]Load libtbl2sc.so fail");
             std::cout << "[ModuleLib] Load libtbl2sc.so fail" << std::endl;
+        }
+
+        _templaterepo = 0;
+#if ENABLE_DEBUG
+        templaterepo_h = dlopen("./libtemplaterepo.so", RTLD_LAZY);
+#else
+        templaterepo_h = dlopen("libtemplaterepo.so", RTLD_LAZY);
+#endif
+
+        if (templaterepo_h)
+        {
+            LOG_TRC("[ModuleLib] Load libtemplaterepo.so success");
+            TemplateRepo* (*create)();
+            create = (TemplateRepo* (*)())dlsym(templaterepo_h, "create_object");
+            _templaterepo = (TemplateRepo*)create();
+        }
+        else
+        {
+            LOG_TRC("[ModuleLib]Load libtemplaterepo.so fail");
+            std::cout << "[ModuleLib] Load libtemplaterepo.so fail" << std::endl;
         }
     }
 
@@ -1842,7 +1866,8 @@ private:
                 handleAPIHelp(request, true, endpoint, true);
             }
             else if (_mergeodf &&
-                     request.getMethod() != HTTPRequest::HTTP_GET &&
+                     (request.getMethod() == HTTPRequest::HTTP_POST ||
+                      request.getMethod() == HTTPRequest::HTTP_OPTIONS) &&
                      !_mergeodf->isMergeToUri(request.getURI()).empty())
             {  // /lool/merge-to/doc_id
                 _mergeodf->handleMergeTo(socket, request, message);
@@ -1853,8 +1878,19 @@ private:
             {  // /lool/table2spreadsheet
                 _tbl2sc->doConvert(request, message, socket);
             }
+            else if (_templaterepo &&
+                    reqPathSegs.size() > 2 &&
+                    reqPathSegs[0] == "lool" && 
+                    reqPathSegs[1]=="templaterepo")
+            {
+                _templaterepo->doTemplateRepo(_socket, request, message);
+            }
             else
             {
+                std::cout << "Else api route" <<std::endl;
+                std::cout << request.getURI() <<std::endl;
+                std::cout << request.getMethod() <<std::endl;
+
                 StringTokenizer reqPathTokens(request.getURI(), "/?", StringTokenizer::TOK_IGNORE_EMPTY | StringTokenizer::TOK_TRIM);
                 if (!(request.find("Upgrade") != request.end() && Poco::icompare(request["Upgrade"], "websocket") == 0) &&
                     reqPathTokens.count() > 0 && reqPathTokens[0] == "lool")
@@ -2517,9 +2553,12 @@ private:
     // The socket that owns us (we can't own it).
     std::weak_ptr<StreamSocket> _socket;
     std::string _id;
+    void* mergeodf_h;
     MergeODF* _mergeodf;
     Tbl2SC* _tbl2sc;
-    void* mergeodf_h;
+
+    void* templaterepo_h;
+    TemplateRepo* _templaterepo;
 };
 
 

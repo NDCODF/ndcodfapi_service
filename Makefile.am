@@ -4,7 +4,7 @@ export ENABLE_DEBUG
 
 bin_PROGRAMS = loolwsd loolforkit loolmap loolmount looltool loolstress loolgetuser
 
-dist_bin_SCRIPTS = loolwsd-systemplate-setup prune_tokens.sh
+dist_bin_SCRIPTS = loolwsd-systemplate-setup 
 
 dist_doc_DATA = wsd/README \
                 wsd/README.vars \
@@ -19,8 +19,8 @@ loolwsddata_DATA = discovery.xml \
 
 loolwsdconfigdir = @LOOLWSD_CONFIGDIR@
 
-loolwsdconfig_DATA = perm.xml \
-		     loolkitconfig.xcu
+loolwsdconfig_DATA = loolkitconfig.xcu
+		     
 
 ACLOCAL_AMFLAGS = -I m4
 
@@ -114,9 +114,10 @@ clientnb_SOURCES = net/clientnb.cpp \
                    common/Log.cpp \
                    common/Util.cpp
 
-lib_LTLIBRARIES = libmergeodf.la libtbl2sc.la
+lib_LTLIBRARIES = libmergeodf.la libtbl2sc.la libtemplaterepo.la
 libmergeodf_la_SOURCES = tools/mergeodf.cpp
 libtbl2sc_la_SOURCES = tools/tbl2sc.cpp
+libtemplaterepo_la_SOURCES = tools/templaterepo.cpp
 
 # build a binary with no caps to help debugging
 loolforkit_nocaps_SOURCES = $(loolforkit_SOURCES)
@@ -238,6 +239,7 @@ run: all @JAILS_PATH@ @SYSTEMPLATE_PATH@/system_stamp
 	@cp $(abs_top_srcdir)/test/data/hello.odt $(abs_top_srcdir)/test/data/hello-world.odt
 	@cp .libs/libmergeodf.so.0.0.0 libmergeodf.so
 	@cp .libs/libtbl2sc.so.0.0.0 libtbl2sc.so
+	@cp .libs/libtemplaterepo.so.0.0.0 libtemplaterepo.so
 	@mkdir -p cache
 	@echo
 	./loolwsd --o:sys_template_path="@SYSTEMPLATE_PATH@" --o:lo_template_path="@LO_PATH@" \
