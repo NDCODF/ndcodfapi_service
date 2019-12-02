@@ -1,0 +1,50 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+    USER="lool"
+
+	setcap cap_fowner,cap_mknod,cap_sys_chroot=ep /usr/bin/loolforkit || true
+	setcap cap_sys_admin=ep /usr/bin/loolmount || true
+	setcap CAP_NET_BIND_SERVICE=+eip /usr/bin/loolwsd || true
+    if ! (id -u $USER > /dev/null 2>&1;) then
+        adduser --quiet --system --group --home /home/lool lool
+    fi
+    if ! (id -u "apache" > /dev/null 2>&1;) then
+        adduser --quiet --system --group apache
+    fi
+      
+	mkdir -p /var/cache/loolwsd && chown root.root /var/cache/loolwsd
+    chmod 777 /var/cache/loolwsd
+	#mkdir -p /data/looldocs && chown lool: /data/looldocs && chmod 755 -R /data/looldocs
+	touch /var/log/ndcodfapi.log && chown lool.lool /var/log/ndcodfapi.log && chmod 664 /var/log/ndcodfapi.log
+	touch /var/log/mergeodf.log && chown lool.lool /var/log/mergeodf.log && chmod 664 /var/log/mergeodf.log
+
+	chown apache.apache /usr/share/NDCODFAPI
+	chown apache.apache -R /usr/share/NDCODFAPI/ODFReport
+	chmod 777  /usr/share/NDCODFAPI
+	chmod 777 /usr/share/loolwsd
+	chown lool.lool /usr/share/NDCODFAPI/tokens.sqlite
+	chmod 600 /usr/share/NDCODFAPI/tokens.sqlite
+	chown lool.lool /usr/share/NDCODFAPI/mergeodf.sqlite
+	chmod 600 /usr/share/NDCODFAPI/mergeodf.sqlite
+
+	chown lool.lool -R /etc/loolwsd/
+	chmod 640 /etc/loolwsd/loolwsd.xml
+
+    rm -rf /var/cache/loolwsd/*
+	# We assume that the LibreOffice to be used is built TDF-style
+	# and installs in /opt/ndcodfsys, and that /opt/lool is
+	# on the same file system
+
+
+	fc-cache /opt/ndcodfsys/share/fonts/truetype
+
+    rm -rf /usr/share/loolwsd/systemplate
+	loolwsd-systemplate-setup /usr/share/loolwsd/systemplate @LO_PATH@ >/dev/null 2>&1
+
+esac
+
+#DEBHELPER#

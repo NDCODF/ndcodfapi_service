@@ -1,0 +1,17 @@
+ndcodfapi (1.1.5) unstable; urgency=medium
+
+  * Build for NDC porject
+
+ -- NIENTSU WU <nientorec@gmail.com>  Thu, 03 Oct 2019 18:40:45 +0800
+
+ndcodfapi (2.0.2-4) unstable; urgency=medium
+
+  * bump version to ndcodfapi 1.0.0-3
+
+ -- Wind Yan <yc.yan@ossii.com.tw>  Thu, 28 Mar 2018 23:06:33 +0200
+
+ndcodfapi (2.0.2-1) unstable; urgency=medium
+
+  * init
+
+ -- Wind Yan <yc.yan@ossii.com.tw>  Thu, 01 Nov 2018 22:06:33 +0200
