@@ -3240,6 +3240,14 @@
       "requires": {
         "jquery": "~2.2.1",
         "jquery-ui": "~1.10.5"
+      },
+      "dependencies": {
+        "jquery": {
+          "version": "2.2.4",
+          "resolved": "https://registry.npmjs.org/jquery/-/jquery-2.2.4.tgz",
+          "integrity": "sha1-LInWiJterFIqfuoywUUhVZxsvwI=",
+          "dev": true
+        }
       }
     },
     "exorcist": {
@@ -3416,9 +3424,9 @@
       }
     },
     "jquery": {
-      "version": "2.2.4",
-      "resolved": "/home/tommy/work/oxool2.0/ndcodfapi/loleaflet/node_shrinkwrap/jquery-2.2.4.tgz",
-      "integrity": "sha512-lBHj60ezci2u1v2FqnZIraShGgEXq35qCzMv4lITyHGppTnA13rwR0MgwyNJh9TnDs3aXUvd1xjAotfraMHX/Q==",
+      "version": "3.5.0",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.5.0.tgz",
+      "integrity": "sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==",
       "dev": true
     },
     "jquery-contextmenu": {
