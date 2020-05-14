@@ -1,7 +1,7 @@
 Source: ndcodfapi
 Section: web
 Priority: optional
-Maintainer: NIEN-TSU WU (nientorec@gmail.com)
+Maintainer: NIEN-TSU WU (tommy.wu@ossii.com.tw)
 Build-Depends: systemd, debhelper (>= 9), libcap-dev, libcap2-bin, libpcre3-dev, libpng-dev, libpoco-dev (<=1.9.1)
 Standards-Version: 3.9.7
 
