@@ -8,12 +8,12 @@ Before talking about how to setup this project, something you should know:
 
 ## Pre-required System Environment Setup
 
-Dependecy Package: http://free.nchc.org.tw/ndc.odf/ndcodfapi/ndcodfapi-server-20190422.zip
+Dependecy Package: https://free.nchc.org.tw/ndc.odf/ndcodfapi/ndcodfapi-server-20191114.zip
 
 ```
-wget http://free.nchc.org.tw/ndc.odf/ndcodfapi/ndcodfapi-server-20190422.zip
-unzip ndcodfapi-server-20190422.zip
-cd ndcodfapi-server-20190422
+wget https://free.nchc.org.tw/ndc.odf/ndcodfapi/ndcodfapi-server-20191114.zip
+unzip ndcodfapi-server-20191114.zip
+cd ndcodfapi-server-20191114
 cd poco
 sudo yum localinstall -y *.rpm
 cd ..
@@ -26,7 +26,7 @@ Then do not install ndcodfapi-server, which is the old version.
 
 ## How-to Use this Project
 
-Assume you have already install the dependency RPM,then let's move on.
+Assume you have already install the dependency RPM and a webserver (we recommend Apache httpd), then let's move on.
 
 There are two way to experience this project:
 1. Directly install the released RPM
@@ -35,9 +35,11 @@ There are two way to experience this project:
 ### Install released RPM 
 
 
-First, download the newest RPM
+First, install the latest RPM
 ```
-sudo yum localinstall -y ndcodfapi-1.1.4-1.x86_64.rpm
+cd ..
+cd ndcodfapi
+sudo yum localinstall -y *.rpm
 ```
 
 Second, look around the config file: /etc/loolwsd/loolwsd.xml
