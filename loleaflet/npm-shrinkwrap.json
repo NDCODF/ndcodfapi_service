@@ -3240,6 +3240,14 @@
       "requires": {
         "jquery": "~2.2.1",
         "jquery-ui": "~1.10.5"
+      },
+      "dependencies": {
+        "jquery-ui": {
+          "version": "1.10.5",
+          "resolved": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.10.5.tgz",
+          "integrity": "sha512-kKjQ57h+BCCgZV+nSm+otW57IJQ/lkL6+a/vHY+Gj9dnDPR9ECQJImtUUHNc9+9ksmghlRZyTqr8aDir3nVwKg==",
+          "dev": true
+        }
       }
     },
     "exorcist": {
@@ -3428,10 +3436,13 @@
       "dev": true
     },
     "jquery-ui": {
-      "version": "1.10.5",
-      "resolved": "/home/tommy/work/oxool2.0/ndcodfapi/loleaflet/node_shrinkwrap/jquery-ui-1.10.5.tgz",
-      "integrity": "sha512-kKjQ57h+BCCgZV+nSm+otW57IJQ/lkL6+a/vHY+Gj9dnDPR9ECQJImtUUHNc9+9ksmghlRZyTqr8aDir3nVwKg==",
-      "dev": true
+      "version": "1.13.2",
+      "resolved": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.13.2.tgz",
+      "integrity": "sha512-wBZPnqWs5GaYJmo1Jj0k/mrSkzdQzKDwhXNtHKcBdAcKVxMM3KNYFq+iJ2i1rwiG53Z8M4mTn3Qxrm17uH1D4Q==",
+      "dev": true,
+      "requires": {
+        "jquery": ">=1.8.0 <4.0.0"
+      }
     },
     "json-js": {
       "version": "1.1.2",
